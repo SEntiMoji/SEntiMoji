@@ -1,7 +1,7 @@
 # README
 This repository contains the data, code, pre-trained models and experiment results for the paper: **[Emoji-Powered Sentiment Analysis for Software Development]** (Anonymous authors for blind review).
 
-## Overview
+## SentiMoji
 This study proposes SentiMoji, which leverages the texts containing emoji from both Github and Twitter to improve the sentiment analysis task in software engineering (SE) domain. SentiMoji is demonstrated to be able to significantly outperform the exisiting SE-customized sentiment analysis methods on representative benchmark datasets.
 
 ## Overview
