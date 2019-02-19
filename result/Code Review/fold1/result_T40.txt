@@ -1,0 +1,320 @@
+Can this actually happen? Wouldn't revision have to have _number 0, so the previous comparison would be false?	0.0	0.0
+I suggest to add a wrapper class like \F3\FLOW3\Persistence\ObjectStorage and keep the API attach() and detach() stable.	0.0	0.0
+This is more like an invalid option, not out of memory.	0.0	-1.0
+You might even want to change (de)allocations in this source to use gf_*() routines (as a part of this patch or separately).	0.0	0.0
+This || breaks -e. If you need this information you need to reimplement -e yourself.  if ! go build -a std; then     failed=true     if $sete; then         exit 1     fi fi	0.0	0.0
+This comment doesn't sound right.  This if statement should be removed as lapd_handle should already be populated.	-1.0	-1.0
+I keep finding myself wanting to click on the link that says "Click image to edit". Can we make that part of the link?	0.0	0.0
+The Slerp I was thinking of, http://en.wikipedia.org/wiki/Slerp doesn't seem to be in all caps - is this something else? It does say somewhere to avoid acronyms but there are exceptions (this may be one of them).	-1.0	0.0
+For the current situation: core plugins are developed by core team, experimental - developed by PI and Mos-Engineering teams.  In the future: core plugins - certified by Mirantis, experimental - verified by Mirantis, and thirdparty - other plugins.	0.0	0.0
+I suppose this is readable, but it's a lot of boilerplate compared to having a single callback each for comments/drafts with the if in the body.	0.0	0.0
+Not all build tools use -j. Thus the simpler approach of directly setting build_cmd="make -j2"/"jom -j4" might be better.	0.0	0.0
+as noted in patch set 2, message should be: CANNOT REMOVE STORAGE POOL WITH NON MASTER DOMAINS or something.	0.0	0.0
+I think the cleanest style here would be to make this: class_linker->IsCompiledImageMethod(m) and then embed MayBe... into ClassLinker as IsCompiledImageMethod. It'd be nice to avoid exposing the debugger to inner notions of oat files.	0.0	0.0
+Instead of putting everything in the collector and then looping through later when outputFormat==JSON why not switch here on outputFormat and thus allow results to be printed immediately for JSON and collected only for JSON_SINGLE?	0.0	0.0
+This condition is always true. I assume the condition you meant was n != ptrSize. Though I see you removed this condition altogether in CL 9704 (rebase failure?).	-1.0	0.0
+unrelated, but 'children and whose children' ain't english ;)	0.0	-1.0
+actually I don't know why it is like this in the login but not in the logout.. I would assume it should be the same in both places, and that this one is the more robust one..	-1.0	-1.0
+OK. I agree there's a sense that the state of the machine is not const.	0.0	0.0
+same as above, aStr += m_sFormula.copy(nFml, nStt-nFml)	0.0	0.0
+we might want to support Z here, since that's coming in a day or two	0.0	0.0
+Just a question: Does ant use ; as a path separator on all platforms, or should you use File.pathSeparator (which will be : on Windows) ?	0.0	0.0
+I think should this be translated(m_xOffset, m_yOffset) instead, because adjusted(x1,y1,x2,y2) will make the rectangle grow	0.0	0.0
+Is this just a bad formatting here (or is clang-format to blame)? I would prefer to put the name and type on a single line in that case. Separating the * seems wrong in a lot of ways.	-1.0	-1.0
+Nope, forgot to cherry-pick that one. Thanks for noticing, fixed.	0.0	0.0
+Do you need to check $result['edit']['result'] === 'Success'?	0.0	0.0
+I do not like (long) very much, but that is something in the inode_ctx API :-/  Maybe I find the courage one day to make it a (void*) instead.	0.0	-1.0
+It's in the debug code below, but I'd add a comment here saying something like      // n = (p - base) / s.elemsize, using division by modular multiplication	0.0	0.0
+From what I can gather, AsciiDoc should be camel-case http://en.wikipedia.org/wiki/AsciiDoc	0.0	0.0
+I suggested to add aliases = {"-#tag"} in this comment:    https://gerrit-review.googlesource.com/#/c/60106/8/gerrit-server/   src/main/java/com/google/gerrit/server/git/ReceiveCommits.java@1155	0.0	0.0
+Your memory is too smalll. Consider buying a RAM. :D	0.0	0.0
+This is what I figured even if we define a column type as integer it is still allowed by sqlalchemy to have strings! This allowed user_id to be stored as string regardless of its definition.Things would fail when we have LDAP and a regular DB like postgres. However this is present in other models like tokens where user_id is defined as Integer.So this all together should be a separate issue.	0.0	0.0
+could this moved to config.h instead of having it on the command line?	0.0	0.0
+change this to /srv/deployment/mathoid/mathoid  the duplicate mathoid is so if you have any other repos (eventually) or a temp dir, or an output dir, it can all be in the same place	0.0	0.0
+yes, I know see you have fixed almost all places. thanks.	0.0	0.0
+s/Test/test/  keep all lowercase (or make it a real sentence and end in period).	0.0	0.0
+Nit: While assimulating is a word that seem to exist, my only association was that it was a misspelling of assimilate. This leads me to believe that it's a word that non-native English readers might have trouble interpreting the right nuance of. This is the commit message however, so in this case it isn't the end of the world, not many will read it compared to the actual guide. :)	0.0	0.0
+It is a core class, why should it be independent from core usage?  "If you just assign an end date you have to jump in the source code to become an idea how the start date is resolved."  This can be written into the function comment, so if we may change $GLOBALS['EXEC_TIME'] we do not need to change so much calls.	0.0	-1.0
+We need refresh freq_demote = defrag->tier_demote_frequency; here, otherwise we won't be able to change the frequency from the CLI.	0.0	0.0
+This causes a warning about missing UID in Eclipse.  Fixed with:  https://gerrit-review.googlesource.com/#/c/59929/	0.0	0.0
+Yeah -- I just left a related question on the rename CL :) Lets discuss this IRL.	0.0	0.0
+Yeah, but this is usual wording we are using:   $ git grep "member of the privileged 'Administrators' group"  | wc -l  20	0.0	0.0
+OK, thanks.  The approach here and in my patch work fine if the user controls everything they way they want.   When auto-detecting everything, this patch is better on non-AVX hardware that happens to have RDTSCP. Otherwise, they effectively work the same.  When compiling on a new build host for old compute nodes, this patch will sometimes require the user to make two active settings to make a functional mdrun. That might mean they go hunting for docs twice, unless they find the new install guide section. At least we don't fail mysteriously any more!  When compiling on an old build host for new compute nodes, both patches will sometimes make an mdrun that could be better in up to two ways. We could add a nag message for the double negation of the new code in gmx_detect_hardware.c "You, too, could be using RDTSCP!". AFAIK the proposition that using RDTSCP is good in user space is just educated guesswork, though.  I was slightly concerned about one of the latter cases (build host is old, user knows they have AVX on the compute nodes, so they know to set SIMD and don't know RDTSCP exists / is relevant), but if we add the new nag then this case is solved well enough.  So I'm happy to adopt this solution. Thanks! Shall I abandon my patch, send reviewers here, and one of us work on Erik's feedback and/or the new nag? If we add the nag, commit message needs updating.	0.0	0.0
+Yes they are. Most of the shorter methods are from Media Foundation SDK example.	0.0	0.0
+1. This seems like a hack to work around a bug -- why are we reading from the pty after it is closed? 2. This hack also looks too broad -- if any error occurs we close the pipe and stop reading, while squelching the error. This seems bad.  Same comments below.	-1.0	-1.0
+Hrm, I'm not sure how best to handle this.  StackOverflow has a 'Display Name' attribute, does anything similar exist for LDAP & OpenID?  I'd prefer to just show the firstname to save on space.  If we end up showing the full name, I wonder if we could put the name to the left of the search bar and have the search bar expand over it when active, to save on horizontal space.	0.0	0.0
+The type would be TestNamespace::PtrSecCertificateGetData vs PtrSecCertificateGetData though.  I suggest moving the typedefs below the QT_BEGIN_NAMESPACE at line 94. Feel free to ignore this suggestion though since it's valid C++ either way.	0.0	0.0
+I would remove the setter, and have a public getter you could always spy.	0.0	0.0
+Is this the same thing as CRAMTMP?  can we use that to make it more obvious it's a tmp directory?	-1.0	0.0
+The built search tree of mdds::flat_segment_tree is not preserved on copy/assignment. You have to call build_tree() here. Or do it just before use (and use is_tree_valid() to check if it is necessary, as every line is used more than once).	0.0	0.0
+Field length expected here is 2, but field below is FT_INT32. Is this an unsigned short (FT_UINT16) ?	0.0	0.0
+[error] Got an exception - expecting EOF, found 'registered'	0.0	0.0
+Done, added QT_DEPRECATED_SINCE check, and changed to QT_DEPRECATED	0.0	0.0
+I believe Greg thinks there may be a performance difference depending on SSL termination in the pipeline - but I think he's wrong for our APIs and clients - we could test, or we can review after we get something working and revisit it later if there is problems.	0.0	-1.0
+Do you mean "will be removed from the group"? If so, I'd add the "From the group" to avoid confusion. Some might think that the user is going to be removed from the system, i.e. deleted.  There are a couple of minor white spaces here (shown in red).	0.0	0.0
+It seems to me that the above helpers would be better suited in a different file to keep this file a purely generator one. Does that make sense? is there any good reason to keep it here?	-1.0	0.0
+The general way to do this is $(TOP)/src/southbridge etc. etc.	0.0	0.0
+I guess this change (New) will be handled in a separate patch...	0.0	0.0
+Either we have MetaDataUpdate that is batch-oriented or we don't. It doesn't make any sense to change the batch behavior for the same instance after it was created. Ever. So, drop that setter and add second assisted inject constructor that accepts BatchRefUpdate parameter instead (and make the batch field final as pointed out above).	0.0	-1.0
+well, since we're doing this, might as well do this instead, since it's cleaner and looks better (and sanitized).          elements = getattr(self._conn, class_name)(ElementName=element_name)         data = self._get_first_item(elements)  And before you dismiss the usage of getattr, That's actually how wmi namespaces work: the __getattr__ method is overriden and it will lookup and cache that class_name and return it, as it does not have it defined. This way it is more flexible, same wmi module works for any namespace.	0.0	0.0
+s/start/e/ would be consistent with the methods above.	0.0	0.0
+refs/users/ is sufficient prefix. No need for refs/meta. We should be plural like changes heads and tags.	0.0	0.0
+Instead of malloc() maybe you can use stack: gchar tmpname[41]; 41 is enough? Cannot be greater?	-1.0	0.0
+I could put the finalizeForCommandLine after processExceptionAtExit. Then it doesn't change anything for LIB_MPI and that wouldn't work anyhow as you point out.	0.0	0.0
+It probably is, but what happens when somebody upgrades the libvirt? Do we require vdsm restart as well? Or will it suddenly start working?	0.0	0.0
+absolute is still wrong.	-1.0	-1.0
+That's impossible to say until somebody invests the time and effort to try lots of different function approximations on that architecture to see if they can come up with something better. For now it is the fastest approach.	0.0	0.0
+Yes, assuming the modelService works :)  This private method does not rely on other services.  Also, model service may have issues with elements that have the same ID.  In theory I could put the same element with the same id multiple times in a menu.  I don't know if modelService would be able to resolve that.  At least here we can count and validate if need be.  I will make the other changes and await response on this.	0.0	0.0
+Ai, we missed a use-case here. I'm affraid that I know why this wasn't implemented yet. This doesn't check if the files inside the deleted folder have active references like is done above. See also https://review.typo3.org/#/c/33562/	0.0	-1.0
+s/should the callee read/should the callee expect me to read/, I mean.	-1.0	0.0
+On second sought: actually you don't need this file (endpoint) at all. We have already POST /changes that creates a change and what are you doing here is to delegate to its apply() method, after translating your own Input to ChangeInfo. The only reason to have this class is to get the UiAction for granted (Guice DynamicItem binding and discovery).  But you could solve this in different way: just construct UiAction on you own in ProjectJson and add it to actions map manually. See an example how it's done in InlineEdit series: [1]. Now, on the client side, from your custom UiAction you can invoke the original REST endpoint: POST /changes. The only difference to current solution: you would need to pass project name too, obviously.  This also raises the question do we want to have this button on project info screen at all? We could add it to main page (or may be just add a keyboard shortcut), in wich case we are not in project context any more and the dialog must be extended to provide project name (with suggestion oracle for project, like it already does for branches).  I don't have strong preference for one of these solutions. So, you can let it as is for now and wait for opinion of other reveiwers.   [1] https://gerrit-review.googlesource.com/#/c/58991/14/  gerrit-server/src/main/java/com/google/gerrit/server/edit/ChangeEditJson.java	0.0	0.0
+sizeof("") includes the trailing '\0'. Couple more of this	0.0	0.0
+These calls don't do the same thing.  As a result, lockNow() must be called unconditionally.	-1.0	-1.0
+Sorry, this is still unacceptable. ImplEESdrWriter::ImplWriteShape() is used by both the binary export and the OOXML filter, you need to set the OOXML flag in the OOXML filter. Jut put a breakpoint on this line in the debugger, see its backtrace, and set the flag in the first method that is already OOXML-specific, and pass the bool around till this line.	0.0	-1.0
+Yikes, we are starting an RPC for every row in the table?  My concern with this is the browser can only issue 4 requests at a time to the server.  If a user has 50 items in their dashboard, which many do, this will take quite a few round-trips (13!) to completely load the status codes.  Worse, if the user navigates away before they are completely done loading, they will continue to load, as there is no way to cancel the queued RPCs.  I would prefer having myApprovals and strongestApprovals take a Set<Change.Id> and return a Map<Change.Id, Whatever>, and make only one call to each method for the dashboard.	0.0	0.0
+This should only be added if the RGBZ view plugin is going to be built. Maybe the proper place to add this test is in that plugin.	0.0	0.0
+Ho yes, perhaps I should change the commit message ?  It's because the policy was set to NEW, so it will do nothing anyway, as we are already using cmake > 2.6.0	0.0	0.0
+https://gerrit-review.googlesource.com/Documentation/dev-contributing.html#_tests	0.0	0.0
+Rename objectCollapsibleButton to objectCollapsibleBox or objectCollapsibleGroupBox ?	0.0	0.0
+i'm very concerned that this is done at non-obvious place. it will be hard to observe that RPCs are found "replied" late in our context. we don't have any tests for this. if something is changed, then when we'll notice?	0.0	-1.0
+If you dig into the code, at some point you will reach a very strange statement (a couple of calls from setCacheSize), qMax(qMin(.....), 25). The size reported by that might differ from the size specified by the caller, in which case the caller should be informed of that. If you query cacheSize() you will get the value of the variable, not the value that was adjusted after the qMax(qMin...) calls.	0.0	0.0
+possible way to remove this constant and use information from setup.cfg:      import os     # Read setup.cfg of OSProfiler     open(os.path.join(os.path.dirname(os.path.dirname(__file__))), 'setup.cfg') as setup_file:         setup_lines = setup_file.readlines()      #Parse version     for line in setup_lines:         if line.startswith('version'):             version = line.split()[-1]	0.0	0.0
+Function call for single line that removes from dict?	0.0	0.0
+s/VURTI/Host Monitoring It is about to change soon.	0.0	0.0
+According to https://wiki.eclipse.org/Version_Numbering#Plug-ins_with_no_API, its bundle version should be evolved along with its host plug-in i.e. org.eclipse.jdt.ui, which will become 3.11.2 now. Hence, I updated the same for the test bundle. I will upload a new patch set with 3.10.101.	0.0	0.0
+why are you going to manager function if glusterd_svc_check_volfile_identical function will failed ???  you should simply return error.	-1.0	-1.0
+All the names we've thought of for this suck, unfortunately. :(	-1.0	-1.0
+For a collection to be searchable, there has to be explicit Backend support (it's not generic, you don't get it 'for free'). So unless *you* implemented search for Gluster Volumes in the Backend, the user will not be able to search. So, unless you did indeed implement this in Backend - please remove this url parameter	0.0	-1.0
+// We should use deltaPos here, because the actual movements of the point may be changed according to the logic above	0.0	0.0
+this parameter doesnt currently exist in compat; I dont know why it is being introduced here.	-1.0	-1.0
+Sure, I can switch over to a white-list. I just killed the ones I really didn't like (e.g. MD5 :).	0.0	0.0
+Release after main inode is what patchset 2 has done I think.	0.0	0.0
+Use spaces, rather than tabs, here, for consistency.	0.0	0.0
+Maybe this could be outputWriter instead of writer2.	0.0	0.0
+Should this include also the LJ PME contribution, either summed our as a separate line? I know that this functionality may change in the future, but for now would be better to keep up-to-date.	0.0	0.0
+So, is it safe to use it in production? Or should we add a warning that it should be disabled before putting your app in prod?  If it's safe to use it in production, how about enabling it by default? Or do we push it to GWT 3.0?	0.0	0.0
+Please use one of the test helper methods which includes a timeout.  Combining the takeResults() into this method does not seem like enough of a reason to add a new wait method. We need to be able to adjust the timeouts in auto testing, so minimizing the number of helper methods is rather important.	0.0	0.0
+There's no actual need to have this routine similar to how it's done in bit-rot-scrub.c since there just one (1) option to reconfigure.  Keep it simple and just do a GF_OPTION_{INIT,RECONF} in the appropriate function.	0.0	0.0
+what means "error_expected" = "create". It's means there are nor error? then it's better to use None by default for self.input.param("error-expected", None)  and you set string in error_expected by default value is boolean. python allows it but it's not good to change the type of variable	0.0	-1.0
+This xdata is the response dict, I think you need to use xdata which is received in marker_rename	0.0	0.0
+Adding {{delete}} is because that was previously in this script: http://git.wikimedia.org/blobdiff/pywikibot%2Fcompat.git/d5a3b0349e0264a298d909d03455283f3f154fb2/casechecker.py	0.0	0.0
+No, this is not sufficient. You also need to call checkXvgFile() using this second data instance. And please create a separate scope for this, so that the previous TestReferenceData object is destructed before this one is created; otherwise, it's difficult to reason that things work as expected , since there is (a bit unfortunately) a lot of logic in the destructor.	-1.0	-1.0
+The use of 'count' confuses me. Would this be cleaner?      self.assertIn('Unexpected method call', unicode(e))	-1.0	-1.0
+Should this just be func Run() { etc } and have callers explicitly call Register beforehand?	0.0	0.0
+You could eventually create 1 hf entry per size. For sizes <=32 bits, you can use the same filter name. But for those above 32 bits, you need another filter name (as seen in README.dissector chapter 1.5.1)	0.0	0.0
+Omit the err at the end.  Its the result of the last possible test making it probably meaningless and possibly misleading.	-1.0	-1.0
+I think this should say Alias for 'gerrit remove plugin' (see line 150)?	0.0	0.0
+This second key is not needed, this array contains a list of regex group names pointing to a (pre-)master key.	0.0	0.0
+The toolchain file should stop here. It should be about description and setting compilers. Period. See http://www.cmake.org/Wiki/CMake_Cross_Compiling. I figure the principle is that the toolchain files are somewhat transferable between projects.	0.0	0.0
+Then shared_pointer is probably the way to go (if you're happy with the cost of refcounting them).	0.0	0.0
+using ANY_DIFF has a huge impact on performance, typically there are many thousands of unchanged objects and only a few changed, with ANY_DIFF filter you will only traverse the changed objects otherwise all of them	0.0	0.0
+There is no putComment method. Shorten this and just put it on one line:    checkState(psId != null, "setPatchSetId must be called first");  Developers debugging a failure can look at the Java stack trace to see how they got into this situation. What matters to them more is the call site where the object was misused, not which entry point into the object the error was discovered by.	0.0	-1.0
+We shouldn't need ${ITK_EXECUTABLE_PATH} at all.  Just naming the executable target will work because add_test(NAME) knows to translate a target name appearing just after COMMAND into the right path.  This is already done for the other tests.	0.0	0.0
+need to assumeTrue(cygProfile.exists()); when the trace is not present	0.0	0.0
+I think this $userid parameter is unnecessary, because having a User object instance implies that you're checking things for that one particular user account.  Plus it doesn't really seem to be used.	-1.0	-1.0
+My point is that div_fsys1 is probably a fixed size as defined by the data sheet, and an unsigned int is not. So if it's a 32 bit value, as suggested by the fact that you're reading it with readl below, you should use uint32_t to ensure it's the right size. That struct might need to be fixed up too.	0.0	0.0
+While we're changing the names of these triggers, let's fix the spelling of the word "exceed" as well. I think "unmark_quota_exceed_upd_set" should still be short enough.	0.0	0.0
+as you suggested (in person) that probably should go into a template	0.0	0.0
+Suppose I am an administrator,  I will look into the log file to find what is happening in VDSM.  You can not suppose administrator to check the console or the code to know this.  IMO, every faulty path should have a log in the log file.  You can argue that many places in VDSM are not doing these,  but it is a good practice for system service program.	0.0	-1.0
+Already sitting in $configdata, so no need to repeat this.	-1.0	0.0
+I think it is better to pass AccessScanner reference to the constructor instead of checking NULL here.	0.0	0.0
+this will never be true if it's of type unsigned int.	-1.0	-1.0
+Good point. I think it is related to the change as the new message is introduced here.	0.0	0.0
+This was directly copied by Special:Random, but you are right.	-1.0	0.0
+Patch Set 2: Looks good to me, approved  I concur with jrbarnette@.  It sounds like we can do a separate issue/CL for removing the pragma.  To that end, I think a TODO() referring to that issue could be useful if added to this CL.	0.0	0.0
+Done (hopefully the text is also otherwise a bit clearer).	0.0	0.0
+does that make sense? why not just leave the reservation?	-1.0	-1.0
+Next few paragraphs look more like they should be code comments than change description. If there isn't a good place to put them in the code, maybe we should start an engine-internals.qdoc file (which is one big /*! \internal */ block)	0.0	0.0
+Not sure about this method. It seems to make sense to me the way Dan explained it but I'm not comfortable giving this change a +2 since I didn't write any of the original code and may not be aware of all of the issues.	-1.0	-1.0
+Can't we club these two cases something like :  case GF_SNAP_OPTION_TYPE_ACTIVATE:         GF_SNAP_OPTION_TYPE_DEACTIVATE:	0.0	0.0
+To address the previous concerns about constructing a massive QByteArray in the case of no terminating character: I set pos2 to pos so that the QByteArray is empty in that case.	0.0	0.0
+Need to use: with self.assertRaises(ex.NotSingleNameNodeException):     validator.validate(cluster)	0.0	0.0
+Don't encode the value right away.  Instead we should lazily encode the value only when the serialization stream needs it.  Thus the constructor is just:    this.object = object;   this.codec = codec;   this.hash = object.hashCode();	0.0	-1.0
+Patch Set 1: I would prefer that you didn't submit this  (1 inline comment)  LGTM after a small bug fix.	-1.0	-1.0
+This should probably be moved above the goos=="openbsd" check so that unknown options on OpenBSD also force cgo lookups.	0.0	0.0
+Wondering whether ret needs to be initialised to -ENOMEM here because its caller is expecting it to contain -errno.	0.0	0.0
+the propvalue parameter type is not quite idiomatic ;)  In general - since this method gets called multiple times, prolly worth buffering the xml ...	0.0	0.0
+I have added the modulo because if int is actually 64 bits then the snprintf would mangle the string for values >= 2^32. OTOH it is quite unlikely that we ever see such high numbers(?), but you are right it is not really a good solution. I'll push a version that will work with 64 bits ints and the refined error message. Thanks a lot for taking the time to write the review!	0.0	0.0
+It appears the requisite form is "elseif," so I left this one as-is.    "...TYPO3 code must not use the else if construct."(http://docs.typo3.org/typo3cms/CodingGuidelinesReference/PhpFileFormatting/PhpSyntaxFormatting/Index.html)	0.0	0.0
+Change to:  $string['pendingsince'] = 'pending since %s';	0.0	0.0
+nit: this sentence has six commas and two separate alternations ('or's). Maybe it could be split up?	0.0	0.0
+needs to be space around the =>  eg   $postid => $post	0.0	0.0
+Patch Set 1: Looks good to me, but someone else must approve  Looks fine though agree with Chris's comment that exported strings should be defined in a header file that can be shared.	0.0	0.0
+I think we use spaces instead of tabs after variable name (all  @foo above).	0.0	0.0
+I think he's looking for the exact string "h", the 2 is to count the terminating 0 at the end.	0.0	0.0
+Suggestion:  Your account or email address does not exist.	0.0	0.0
+action == 0 is Press and action==1 is SetFocus Do you plan to move this to QAccessibleWidget?? I guess that makes sense	0.0	0.0
+Patch Set 5: Looks good to me, but someone else must approve  Rebased with current master  Took comments into account. Using 4.3 in deprecation log as it is like that in config_default but using @deprecated with 4.6 and remove in 4.8 to stick to our rules.	0.0	0.0
+Since this script will go in ITK's tree and not the hooks, it should be licensed as the rest of ITK (which will soon be Apache but is not yet AFAIK).  Besides, the rest of the Apache license infrastructure (LICENSE and NOTICE) is not present yet.  Also, we should assign the copyright to the Insight Software Consortium for code going in ITK proper.	0.0	0.0
+Make these transient and lets just handle the serialization entirely ourselves.  That way we don't have to actually hold onto buf when we have the object form already on hand.	0.0	0.0
+(improvement) It should be possible to test this with only 2 OSTs.  With a two-stripe file it would be missing stripe index 0.	0.0	0.0
+That means we'll have to add an extra boolean field to every member. It'll make serialization size bigger as well as resident AST memory go up.   I'm happy to change it, but it seems like it trades off memory for readability.  You'd still have to handle "", because that's the way Java annotations work, you cannot have a default value of 'null'	0.0	0.0
+Me neither, i am just writing functional tests for this ... gimme a sec.	0.0	0.0
+So this is a kind of helper method? I'd suggest then making it "private":      def _benchmark(self, flavor, ...):	0.0	0.0
+The mode of both files was changed to 755, that means the executable bit was added.	0.0	0.0
+Done  P.S: I was confused between EBADF and EBADFD. Then I tried to be consistent as I see libgfapi returning EBADFD in several other glfs_* methods when glfs_resolve_fd() fails.	0.0	0.0
+Thanks Martin, I will do it. It will look much better.	0.0	0.0
+That is intended. We are already making sure that multiple events are okay for us (see onHashChanged). So I think this is the most practical way.	0.0	0.0
+The main thing about "Dev Mode Off" is that it works even when the code server isn't running. Perhaps it's less useful with this change, but I don't want to remove it yet.	-1.0	0.0
+not sure why we need this since it's a read.	-1.0	-1.0
+It's now streaming the progress to the client.  Done	0.0	0.0
+frame := getcallersp(unsafe.Pointer(&siz)) Delete next three lines.  Also, given that now it's just the callersp, s/frame/sp/ everywhere, including in the defer struct field name.	0.0	0.0
+Isn't this a dict_get failed rather than a dict_set?	-1.0	-1.0
+This should probably be dlfcn, but I'm not sure.  It might be better to split this into another file, and call it something like pthread_dlfcn_test.cpp to indicate this is really a test that is also testing dl related functionality.	0.0	-1.0
+Why not level 1?  We don't care about warnings in third-party code.  Using level 3 could actually *increase* the level depending on the actual build flags.	0.0	-1.0
+We do realize that the given glfd pointer, could now have been reallocated and hence pass all these checks still and crash, right? just checking :)  Ideally if we want to validate that this is a good pointer, which we sort of cannot unless we have  a table of valid pointers and check against that etc. or hand out numbers and map that into a table.	0.0	0.0
+except doesn't this failure mean "i couldn't read the command file"? for which "no command" doesn't seem like a bad error.	-1.0	-1.0
+My point is that let's maintain our own configs even fi they are the same as the default ones, and change them soon by considering various factors including perf results.	0.0	0.0
+I just noticed this: please change god_mode to override_state as in this change: https://review.openstack.org/#/c/156203/8/nailgun/nailgun/test/integration/test_capacity_handler.py	0.0	0.0
+i did some refactoring and missed changing this name. thanks for catching it	0.0	0.0
+Check if the number of neighbors integer type can be obtained as a trait from the KdTree class.  Move body to .hxx  use  this->m_NumberOfNeighbors	0.0	0.0
+Namespacing is weird here too... "imageId" is a Property but "provider" is a top-level attribute of a resource. It's also being used here with a different meaning to what has been understood to date (see above).	-1.0	-1.0
+I don't believe that typename is needed here since there is a template present.	-1.0	-1.0
+Patch Set 12: Code-Review+2  currently our enums reflect the super-set of the devices which are supported. yeah - we are not allow flexibility at this stage.	0.0	0.0
+please add tests for fopen, we should test the different modes	0.0	0.0
+I assume this is not a memmap version of 16550/8250?	-1.0	0.0
+Not sure why this one is confusing. It returns the list of files, so it has to be immediate, and it returns the files in that directory, not ones in sub directories.	-1.0	-1.0
+In code this will read "mgr.Mgr". If move to svc package, it would read "svc.Mgr". Also, Let's just name in Manager so: "svc.Manager".	0.0	0.0
+I prefer the increased type safety of enum classes.	0.0	0.0
+It would be helpful if the returned structure were described more fully, just for clarity.	0.0	0.0
+On 2008/11/11 10:23:37, David Turner wrote: > hmm, this is a bit hard to understand. May I suggest you to replace it with the > following: > """ > XXX: the !/bin/bash invocation on the first line has been >      commented out because it doesn't work on FreeBSD >      (which uses /usr/local/bin/bash, instead of /bin/bash) >  >      note that, with this comment, this script is invoked >      with the right bash shell from build/core/main.mk > """ >   Well, your version is more easy to understand. I'll replace comment in ammended commit.	0.0	0.0
+It's an excellent day when there's more documentation than the core developers can remember having!	0.0	0.0
+This should be alright to change as if it wasn't updated in the last install this one will run. Both work as upgrade paths as it tests with no salt set if nessecary	0.0	0.0
+http://en.wikipedia.beta.wmflabs.org/wiki/Hurricane_Celeste_(1972)	0.0	0.0
+You cannot design an API for logging. We should take out the "command" argument and have generic errors. It's easy looking at vdsm.log to discover what was the command executed before this failure.	-1.0	-1.0
+flan  I don't think we used such rules for comments though. Maybe NOTE(flan) or XXX(flan) ?	-1.0	-1.0
+All the msgs above have significance that they are trying to modify PGFID. Create one message id say 'P_MSG_PGFID_OP' and log errors there.	-1.0	0.0
+You don't need to put this xml or a new test class.  That means in a previous test case you can just do following:  @WithProperties({     @Property(name = "webApiUsage", value = "resistance")   }) public void testAnimationImpInResistanceMode() {   // your test code here }	0.0	0.0
+if so there will be some problems here - i mean, to authorise we need password/token - token is really not supported in that version of nova_client. dunno what password to use here - where we're using ctx from trust. Using service user creds here is not really a good idea.	-1.0	-1.0
+Mind putting text documenting what's happening here? We shuould start documenting non-obvious stuff	0.0	-1.0
+Would it be worth putting `-ex` here to get the echoed output and exit status?	0.0	0.0
+Here too, you can access maBaseCell.mfValue directly, since we know ahead of time that both cells are of value type.	0.0	0.0
+Can we get this from CPUID instead of hard coding it?	0.0	0.0
+why are you going to manager function if glusterd_svc_check_volfile_identical function will failed ??? you should simply return error. same comments apply for all reconfigure function if you have done same things.	-1.0	-1.0
+please explain what part of mdd_object_create() you need to reuse() (except mdo_create())	-1.0	-1.0
+Also explain in this file why the compiler was failing, and dx's smart/dumb behavior.	-1.0	-1.0
+I think somebody just chose to put the AllTests class in a separate package from the other test classes.  I don't know why.  But they aren't integration-style tests; they seem to be closer to unit-style.	0.0	-1.0
+> Ugh, really?  That's how I read http://0pointer.de/lennart/projects/nss-mdns/ at least.   > So do we need an mdns.allow parser too?  Even nss-mdns discourages using the file ("Please note that usually mDNS is not used for anything but .local, hence you usually don't want to touch this file.") so you can probably just fall back to cgo if you detect its existence.	-1.0	-1.0
+Will the servicename have other characters at this point?	0.0	0.0
+The previous one says "server assigned".  Is the difference intentional?	0.0	0.0
+possibly add a commented out example of packet-foo.src	0.0	0.0
+I think that this class makes more sense than the Branch class because there are several places in Gerrit where refs strings are manipulated without using Branch objects.  Jgit does define some of those constants, but we cannot use jgit everywhere, particularly in GWT, which I suspect is why this class is here in the first place.  We need a good place in Gerrit for these constants, and the Branch object itself is a much higher level object than this simple class (it isn't only about refs, but rather refs and projects).  These constants feel  more appropriate here to me than in the Branch class.  I have some more changes, which I will push, which move them out of the Branch class completely.  I am willing to update the comment here if need be, but this class feels appropriate to me (based on its name and location) and I don't think that "naive" comment should get in the way of that.	0.0	0.0
+Maybe TestChanges?   *I prefer FooBar over BarForFoo *"Util" is redundant with the package name *TestFoo says "implementation (e.g. fake) of Foo for tests" while TestFoos says "static methods for dealing with Foos"  It's not super compelling, but hey, at least it's shorter.	0.0	0.0
+Instead of having "%s" of "%s"  I'm thinking it should be "%s" belonging to "%s"  I feel that both "Page 1 belonging to Group 1" and "Page A belonging to Robert Lyon" make more sense than "Page 1 of Group 1" and "Page A of Robert Lyon"	0.0	0.0
+Let's avoid having commented out code.  Delete the DCHECK (which looks wrong to me anyway - you certainly could have a const index, but backends are under no obligation to take advantage of that information.	0.0	-1.0
+line wrap before throws so the line isn't over 80 columns	0.0	0.0
+Not related, but may be better to move to constructPorperty(String suffix) or something like that.	0.0	0.0
+Just a pre-emptive note, I put these TODO's in the code, because they are separate refactoring issues, which would be better handled in a separate bug.	0.0	0.0
+OH, I forgot your that CL :-) However STLPORT_WHITELIST isn't defined yet at this point. In config.mk it loads envsetup.mk (which eventually loads the product makefiles) before it defines STLPORT_WHITELIST. On the other hand, we can remove libstlport from this file, and add it to specific device's makefile, such as device/asus/flo/device-common.mk. I'd really like to keep the device names out of the build project.	0.0	0.0
+It seems like calling Window.Location.replace() would reload the page? If it doesn't in this case, is that portable?	0.0	0.0
+if that's a uintptr_t, then you again don't need this double cast.	-1.0	-1.0
+Perhaps I misunderstood Martins comment.  But yes. I create a new change-id in ChangeUtil, so this is expected (and by design), but it has nothing to do with the footers.  I do not change the change-id in the commit message - since that is not expected (git would never do it). I personally do not want the new change to have the same change-id (internally) as the old change. Is that something you really want?	-1.0	0.0
+nit: this import is not needed anymore and can be removed	0.0	0.0
+Well, this is still a parameter, so you should probably leave the line.	0.0	0.0
+ip6_addr.bytes is no more initialized with this change.	0.0	0.0
+Optional nit: this could go on the same line as excludes	0.0	0.0
+Same here. Please, use empty lines instead of the ugly separators in this file. It is too compact and hard to read after your change.	-1.0	-1.0
+Method descriptions in VTK must always start with this:   // Description: If this line is missing, then the automatic document generation will not work.	0.0	0.0
+The main points are hat we avoid to repeat the code block below twice (or three when merging the JRE task), and reading each task is easier to know exactly what the diferences ares	0.0	0.0
+warn: lov_unpackmd():variable dereferenced before check 'lmm' (see line 392)	0.0	0.0
+Actually this is tricky to use an enum because this is going to be mostly dynamic based on the content of the images folder.	0.0	0.0
+indent is not right: Use space and not TAB	-1.0	-1.0
+Flow control keywords must be followed by a single space	0.0	0.0
+I'd add a guard to prevent surprises   if (db.isBare()) {      return null;  }	0.0	0.0
+If it's not set, there's no way to get FSP failure data out.  I agree that it's not an absolute requirement, but without it, if there's a failure, you're going to be pretty lost.  We could move it from here and put this below, surrounding the #if statements and not actually fail, but my opinion was this was the best option...	0.0	0.0
+nit: wording.  the sentence doesn't make sense. perhaps:  Support creating a request for authentication of a remote...	-1.0	-1.0
+Why not use:  if ($limit > 0) {  } elseif ($limit < 0) {  }	-1.0	-1.0
+I don't think there is an easy way to do this, but it feels like these error messages should be shared with the ones from the WUI (ApprovalTable).	-1.0	-1.0
+By definition, nothing is required when we have macros telling whether it is present or not. To avoid having to update this file every time something in one of the implementation files changes, I would move that documentation there. This file is simply about SIMD and defining SIMD properties, not about what SIMD instructions are used in different kernels. Specific comments about verlet kernels belong in the verlet kernel code, not here.	0.0	0.0
+actually, if we get rid of nIndex, we would have to change a lot of code, because in this one, the Insert method returns the index of the inserted/already existing element.	0.0	0.0
+the comment is a lie ;).  it has almost entirely bit rotted at this point.  i'll push an update upstream.  we def support executing `emake` via other tools as we use it that way in other places.  wrt PATH, unless dbus itself resets the PATH, it should inherit the active one which will include that.  i don't consider this a leakage.	0.0	-1.0
+ERROR: TRUE, FALSE and NULL must be uppercase; expected "FALSE" but found "false"	-1.0	-1.0
+Minor code style thing: please remove the extraneous parentheses around (empty($USER->accountprefs) && empty($i->theme)).	0.0	0.0
+If this is never called - then we need to remove the method, it's signature in the header, and all call-sites for it (right?).	0.0	0.0
+Now that I'm really looking at the code, would not the right fix be to change toknext to be signed instead of unsigned (so that the for loop stops immediately), or to check that it is > 0? if tokens = NULL, then parser->toknext will always be set to 0.  That said, your change is somehow equivalent so we could keep it as-is.	0.0	0.0
+Good point.  I'll move to the other block of ITKDeprecatedTestDriver.	0.0	0.0
+please don't do that keep the  if (condition)    stmt  structure	-1.0	0.0
+Long line. Either break into multiple lines or add a static import.	0.0	0.0
+personally, i prefer to have only with space after comma	0.0	0.0
+I will take my share of the blame here. We don't need equals or hashCode at all, they come for free from StringKey, and I added them for no reason way back in I5df6f0c5.  And nothing personal, Sven, you know how it is when you've spent all afternoon debugging such a mysterious bug in production.	0.0	-1.0
+Don't think this is really needed. See comments in PartialStateSystem.  Also, protected fields, no no!	-1.0	-1.0
+So much repetition :(  Can you pull this out as some kind of utility function setup_loopback_mode?  Perhaps create an MBIMTestCase subclass call MBIMDataTestCase	0.0	-1.0
+As remember filtering name can be related to expert information - this give you more filtering options. For example "btle.crc.incorrect" and "Incorrect CRC"	0.0	0.0
+Hmm I see what you mean. Yeah it might be possible to do what you describe.	0.0	0.0
+C++ style comments and I guess includ pcap.h *should* be garded with #ifdef HAVE_LIBPCAP	0.0	0.0
+this should be done (if any) when first connection is established.  and I do think that it is a mistake to do so.  please move all the engine variables into engine side, do not modify options, there is no technical need to do so.  this includes the destination address and destination port.  let's makes lives easier for us.  if you call the variable the same, you can even have same file symlinked at /etc/ovirt-engine/engine.conf.d and /etc/ovirt-engine/fence....conf.d/ to provide the same options.  So you can even consider putting it at engine local config.  But please avoid complexity result from database updates, and move the variables to the component that actually use them.	0.0	-1.0
+I think the per stream flow control won't be implemented. Please double check with Mike and remove this code in case it won't be implemented (and update/get the spec updated).	0.0	0.0
+What about setting tv->arg = arg and remove g_free(arg)?	0.0	0.0
+This patch evelvate context to fix tempest exeption unauthorized	0.0	0.0
+Patch Set 1: Fails  this CL is breaking the CQ.  please try running it against a 32bit x86 board (like x86-alex or x86-generic) before re-submitting.   make -j32 BUILD=/build/butterfly/tmp/portage/chromeos-base/vboot_reference-1.0-r811/work/vboot_reference-1.0/build-main ARCH=x86 MINIMAL=minimal runtests   Using qemu for testing.     Copying qemu binary.  cp: cannot stat '/usr/bin/qemu-x86': No such file or directory  make: *** [qemu_install] Error 1   * ERROR: chromeos-base/vboot_reference-1.0-r811 failed (test phase):	0.0	-1.0
+Please place functions in <code></code> tags throughout.	0.0	0.0
+Unfortunately, I don't think so, since it probably contains the version of the metamodel which varies over time...	-1.0	-1.0
+I don't see this as needing more prominence here, so much as the increase in docs is *an entire second proposal* wedged into this one. I'd vote for merging as is, and making the docs process a standalone follow-up.	0.0	-1.0
+I do not understand... I am not trying to fix the world now...  all I need is to ask vdsm what is its id without having to deal with handling the /etc/vdsm/vdsm.id  are the above valid to this task?  the new code of vdsm-reg will call vdsm-tool vdsm-id --force and get id no matter if it is uuid or generated from anywhere else, this id is required for registration.  if you then want to improve how it is 'generated' you are welcome to do so, it will not break the interface.	-1.0	-1.0
+If we converted helper code to Groovy, we would have the Elvis operator. And closures to handle the try+finally+close idiom. Just sayin' ;)	0.0	0.0
+you could use `self.patchobject` from HeatTestCase, that does all the boilerplate for you. Or use @mock.patch.object as class decorator, as you seem to use this mock in all tests.	0.0	0.0
+This should really check self.client.can_send_version() and send the primitive of the object with the old version if you can't send the new one. You can find examples of this in compute/rpcapi.	0.0	0.0
+If it sounds funny, I should fix it.  Your explanation is a good approximation of what's happening.  We are limiting traffic...  Any suggestion for how to improve?  Hmm, I think I see what you mean.  We are not changing the amount of traffic, just the proportion of that traffic which is "going" to the campaign.  What about, "Throttle impressions"?	-1.0	0.0
+Does this change apply to all uses of this rule?  I suggest making this plural form optional so people can transition to using it over time rather than flooding them with warnings.	0.0	0.0
+Do we really need a separate header for two trivial definitions?	0.0	-1.0
+Why did you make this change? I think it makes sense to have the assertion.	-1.0	-1.0
+Just use 10px. I also rebased on latest master and adjusted look and feel of buttons here to match the changes made in context of [1].   [1] https://gerrit-review.googlesource.com/62460.	0.0	0.0
+We probably want tvb_reported_length_remaining() here	0.0	0.0
+Add spaces to relation name to match those in type definition	0.0	0.0
+We certainly can use the errno here as we are invoking'fork'	0.0	0.0
+This code, RefreshLabelImageJob and PermissionAuthoritySessionManagerListener could be encapsulated in a single class whose responsability is to manage lock decorations update. And this class could be named LockDecorationUpdater, like that this class could be reused for potential others views.	0.0	0.0
+What's the error message? and is that with the latest transform change?	-1.0	0.0
+I was being consistent with the hybrid pdf tooltip which used 'makes'.	0.0	0.0
+i think we're better off just taking the auto-generated stub like we did in the original patch. it doesn't hurt anyone that there's dead code at the end because the syscall never returns, and it's arguably more confusing to be insisting on supplying our own stub.	-1.0	-1.0
+* "@return void" is redundant, leave it out  * but do add a line "@since LibreOffice 4.4"	0.0	0.0
+For readability I prefer an inverted condition as guard clause.	0.0	0.0
+Should be renamed together with the class it tests.	0.0	0.0
+It's one less file to update for anyone adding an extcap executable. I was hoping to migrate the Windows buildbots to CMake this week, which would make this less critical.	0.0	0.0
+This switches on distinct locales only, not on a primary language value where the secondary value may be different. This should instead be   switch (ctl & LANGUAGE_MASK_PRIMARY)  and ...	0.0	0.0
+You're right. The issue is that the onSampleSelected() callback uses the Combo index to fetch the sample from mSamplePath, so the way you have it they don't match (if you try, selecting a sample will load a different one). The trivial solution is to sort mSamplePaths alphabetically like it should have been done in the first place anyway (my fault for forgetting that).	0.0	0.0
+There is more information https://code.google.com/p/address-sanitizer/wiki/AddressSanitizer#ulimit_-v about alternative	0.0	0.0
+I think this switch statement is getting big enough that this dissector should create a dissector table and have these dissectors register with it, not the other way around.	0.0	0.0
+I must I disagree, but it's a matter of style. Consider though documenting the fact that the other method's days are numbered.	-1.0	-1.0
+add a space after CMS so it read TYPO3 CMS 7 same for CMS8	0.0	0.0
+I took out the cast. That was causing the warning I think.	0.0	0.0
+That is great - it also means you can move that line outside of the if/else.  You also need another in6_addr: you have to have both dest and gateway (though for default and host you only use one or the other).  Same is needed in the v4 case.	0.0	0.0
+I think there's a function for doing this. Maybe display_name()? I think you pass it a whole "usr" record and viewer and it figures out how to display it.	0.0	0.0
+We can go back and change this to the char* version if it gets too difficult to figure out what's going on.	0.0	0.0
+ServiceImpl? (To match the interface.)  Or else rename all of them: DashboardServiceImpl, DashboardService, DashboardServiceAsync	0.0	0.0
+OK.  I'll check if [1] still works with asiidoctor before pursuing it any further then.  [1] https://gerrit-review.googlesource.com/#/c/49451/	0.0	0.0
+Woops! Sorry. I'll fix this in the upstream (well, it's my upstream after all) and add a patch to the queue to update the library.	0.0	0.0
+bad define.  This is the .h file.  Please run KWStyle.	0.0	-1.0
+We only move bonds to the same place or back. So bond j is always tested. In the extreme case there are no H-bonds and the loop is simply a copy from i to j=i. Also note that this code has been tested in the nbnxn_hybrid_acc branch.	0.0	0.0
+Again, you must continue the original numbering and then update LAST_STR_HERE.	0.0	0.0
+False is the default, so I suggest we remove it.  I've never seen it used before and it just made me scratch my head as to what it was for.	0.0	-1.0
+Good catch.  Debugging needs to be removed.  Will remove in next patch set.	0.0	0.0
+tabs instead of whitespaces as in the rest of the file	0.0	0.0
+Removing onboard devices instead of setting them to off can break the chipset configuration. This is the entire reason for this stuff to be in a devicetree.cb and to make the static.c to point to the correct setup functions. These devices are always on the board and the chip configuration will enable and disable (and hide) them based on the platform configuration and the device tree.  Without this, everything would be a normal pci device enumeration and coreboot would be much much simpler...   I also agree with Martin that, as a reference design, it is important to show the configuration as clearly as possible.	0.0	0.0
+There is no VDSM action here, only database - just make the command transactive, and save yourself all this hassle.	-1.0	-1.0
+Please use double quotes for EGL/egldefs.h and log/log.h. These headers are now local. Same comment for other files including them.	0.0	0.0
+This is a mis-rendering in Gerrit. The actual code is properly indented.	0.0	0.0
+use functionDecl->getLocation() instead of functionDecl->getSourceRange().getBegin(), so the caret is nicely positioned under the start of the function name	0.0	0.0
+Well - these files are still generated by autogen.sh, if no autogen.input is present. And when I asked on IRC, people told me they are still used.  Actually I was told to keep the minimized info message to move config from autogen.lastrun.bak to autogen.input, instead of some more prominent header.  I actually don't see a reason to deprecate the configuration via autogen.sh commandline arguments. For me autogen.input is just an other way to configure stuff.	0.0	0.0
+Alternative? The ret pointer will be free'd outside of this function, therefore I need to return a pointer here. and *ret is assigned NULL above (instead of the g_new as before).  If I'd return just NULL, it would add complexity to code outside.	0.0	-1.0
+Yhis could be removed and use as parameter of the reset method.	0.0	0.0
+Then this one can use SHA1 and another patch could change the existing instances.	0.0	0.0
+:-/ no really there is a mix on indent (and it is tab by majority (i will fix rest of file) and add modelines...	0.0	-1.0
+Just cleaning, this regex remove  empty string concatenation:  + ("")  This can happen when we start a new group of concatenation (see appendConcatOperation()) and there is nothing to print afterwards. In this case the string ends with a concatenation of an empty string	0.0	0.0
+no need for this change this, you are not using the "e"	-1.0	-1.0
+That commit mentions that a GCC 5 change motivates forbidding -fPIE, but I haven't seen any reason to also forbid it for GCC 4. That configuration has been "not broken" since Qt 5.0.  Maybe some rationale for that can be put into the changelog too, because it would seem easy to check __GNUC__ before deciding to #error.   There *are* also people using boost build and other non-qmake, non-cmake buildsystems too, so limiting the #error could have been wise.	0.0	0.0
+[info] Unable to get class information for @throws tag 'UnableToCompleteException'.	0.0	0.0
+These methods should also probably go in the anonymous namespace.	0.0	0.0
+missing a comma here, can you help adding it back? ;)	-1.0	0.0
+instead of this simply add "creation_date_time=creation_date_time" to __init__ method bellow	0.0	0.0
+This should be safe because this string isn't really used in the GUI - it's used as one of the arguments in a later format string, so it's copied. In fact I could (and probably should) just use NULL instead of packet_scope().	0.0	0.0
+while you're at it, would it make sense to fill in the remaining cases? Desktop, Music, Movies, Pictures, etc...  the implementations which can be supported using a virtual file system (i.e. media types, as long as the permission is set in the manifest) can be added later, but having the cases here already seems reasonable	0.0	0.0
+You may want to check for NULL because cbmem allocations can fail.	0.0	0.0
+Make sure the smbus code is compiled and linked in.	0.0	0.0
+presentation::AnimationEffect aEffect = presentation::AnimationEffect_NONE;	0.0	0.0
+Sounds like it should be disabled. It is reasonable to run a whole multi-sim workflow (em, equil phases, simulate) in the same set of multi-dirs, so being able to use   mdrun_mpi -multidir the-dirs* -deffnm equil-npt  would be a nice thing. I haven't tried -multidir with a non-default equil-npt that I remember though.  Should we be looking at doing the directory change for -multidir earlier than we do?	0.0	0.0
+Note that these can be usually written simpler as just "" instead of OUString().	0.0	0.0
+I guess this must be an unsigned integer because of the way we shift bits in the next file. However, in that case the width too is likely important, and I would suggest using gmx_uint32_t for clarity.	0.0	0.0
+You're right. Ivan,tenant_id is non-admin tenant need to change to admin tennt id here. will fix it in next patch.	0.0	0.0
+change the error message to reflect that key size is big.	0.0	0.0
+Why are we allowing calls to non-existent functions?	-1.0	-1.0
+setPageTitle() takes a Message, so no need to change anything here.	0.0	0.0
