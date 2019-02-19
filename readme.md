@@ -29,12 +29,12 @@ This study proposes SentiMoji, which leverages the texts containing emoji from b
  - [text-unidecode](https://github.com/kmike/text-unidecode)
  - [emoji](https://github.com/carpedm20/emoji)
  - [argparse](https://docs.python.org/3/library/argparse.html)
+
 If you lack some of the above dependencies, you can install it with pip.
 
 2. In order to train a sentiment classifer based on SentiMoji (or the variants of SentiMoji) model, you can run the scripts in the code/SentiMoji_scripts directory. 
 For example, if you want to train and evaluate the classifier on the Jira dataset using the SentiMoji representation model, navigate to code/SentiMoji_scripts/ directory and run:
 `python pipeline.py -model=SentiMoji -dataset=Jira`
-
 If you want to try another model or dataset, just change the argument of the command line.
 
 ## Declaration
