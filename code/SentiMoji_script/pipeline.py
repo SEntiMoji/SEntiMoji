@@ -83,8 +83,8 @@ if __name__ == '__main__':
         test_text = [p[0] for p in item[1]]
         test_label = [p[1] for p in item[1]]
 
-        train_X, _, _, _ = st.tokenize_sentences(train_text)
-        test_X, _, _, _ = st.tokenize_sentences(train_text)
+        train_X, _, _ = st.tokenize_sentences(train_text)
+        test_X, _, _ = st.tokenize_sentences(train_text)
         train_y = [label2index[l] for l in train_label]
         test_y = [label2index[l] for l in test_label]
 
