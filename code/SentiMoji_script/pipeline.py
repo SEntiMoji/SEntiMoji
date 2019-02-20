@@ -54,8 +54,9 @@ if __name__ == '__main__':
     model_path = "../../model/representation_model/%s.hdf5" % args.model
     vocab_path = "vocabulary/vocabulary_%s.json" % args.model
 
-    data_path = "../../data/benchmark_dataset/%s.txt" % args.dataset
-    label2index_path = "label2index/label2index_%s.json" % args.dataset
+    dataset_name =args.dataset.replace(' ','')
+    data_path = "../../data/benchmark_dataset/%s.txt" % dataset_name
+    label2index_path = "label2index/label2index_%s.json" % dataset_name
 
     # load data
     data_pair = load_data(data_path)
