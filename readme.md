@@ -22,7 +22,7 @@ This study proposes SEntiMoji, which leverages the texts containing emoji from b
 
 
 
-## Running SentiMoji
+## Running SEntiMoji
 1. We assume that you're using Python 3.6 with pip installed. As a backend you need to install either Theano (version 0.9+) or Tensorflow (version 1.3+). To run the code, you need the following dependencies:
  - [Keras](https://github.com/fchollet/keras) (above 2.0.0)
  - [scikit-learn](https://github.com/scikit-learn/scikit-learn)
