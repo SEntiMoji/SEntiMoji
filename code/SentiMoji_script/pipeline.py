@@ -46,7 +46,7 @@ def prepare_5fold(data_pair):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("-model", type=str, default="SentiMoji", help="name of representation model")
+    parser.add_argument("-model", type=str, default="SEntiMoji", help="name of representation model")
     parser.add_argument("-dataset", type=str, default="Jira", help="name of dataset")
     args = parser.parse_args()
 
@@ -83,8 +83,8 @@ if __name__ == '__main__':
         test_text = [p[0] for p in item[1]]
         test_label = [p[1] for p in item[1]]
 
-        train_X, _, _, _ = st.tokenize_sentences(train_text)
-        test_X, _, _, _ = st.tokenize_sentences(train_text)
+        train_X, _, _ = st.tokenize_sentences(train_text)
+        test_X, _, _ = st.tokenize_sentences(train_text)
         train_y = [label2index[l] for l in train_label]
         test_y = [label2index[l] for l in test_label]
 

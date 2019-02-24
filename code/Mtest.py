@@ -2,9 +2,9 @@
 code for mcnemar's test
 
 Specify the method name and dataset name in the command line argument.
-For example, if you want to do mcnemar's test for the result of SentiMoji and SentiMoji-T
+For example, if you want to do mcnemar's test for the result of SEntiMoji and SEntiMoji-T
 on Jira dataset, run:
-python Mtest.py -methodA=SentiMoji -methodB=SentiMoji-T -dataset=Jira
+python Mtest.py -methodA=SEntiMoji -methodB=SEntiMoji-T -dataset=Jira
 '''
 
 import codecs
@@ -62,8 +62,8 @@ def mcnemar_test(methodA_res, methodB_res):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-methodA', type=str, default='SentiMoji', help='name of method A')
-    parser.add_argument('-methodB', type=str, default='SentiMoji-T', help='name of method B')
+    parser.add_argument('-methodA', type=str, default='SEntiMoji', help='name of method A')
+    parser.add_argument('-methodB', type=str, default='SEntiMoji-T', help='name of method B')
     parser.add_argument('-dataset', type=str, default='Jira', help='name of dataset')
     args = parser.parse_args()
     
