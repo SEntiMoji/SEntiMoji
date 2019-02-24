@@ -10,7 +10,7 @@ import sys
 import json
 import argparse
 
-sys.path.append('DeepMoji/deepmoji')
+sys.path.append('DeepMoji/deepmoji/')
 
 from sentence_tokenizer import SentenceTokenizer
 from model_def import deepmoji_architecture, load_specific_weights
