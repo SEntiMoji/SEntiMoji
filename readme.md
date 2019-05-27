@@ -32,7 +32,7 @@ This study proposes SEntiMoji, which leverages the texts containing emoji from b
 
 If you lack some of the above dependencies, you can install it with pip.
 
-2. In order to train a sentiment classifer based on SEntiMoji (or the variants of SEntiMoji) model, you can run the scripts in the code/SEntiMoji_scripts directory. 
+2. In order to train a sentiment classifer based on SEntiMoji (or the variants of SEntiMoji) model, you can run the scripts in the code/SEntiMoji_script directory. 
 For example, if you want to train and evaluate the classifier on the Jira dataset using the SEntiMoji representation model, navigate to code/SEntiMoji_scripts/ directory and run:
 `python pipeline.py -model=SEntiMoji -dataset=Jira`.
 
