@@ -44,7 +44,9 @@ on Jira dataset, run: `python Mtest.py -methodA=SEntiMoji -methodB=SEntiMoji-T -
 
 ## Declaration
 1. We upload all the benchmark datasets to this repository for convenience. As they were not generated and released by us, we do not claim any rights on them. If you use any of them, please make sure you fulfill the licenses that they were released with and consider citing the original papers. The scripts of baseline methods ([SentiStrength](http://sentistrength.wlv.ac.uk/), [SentiStrength-SE](http://laser.cs.uno.edu/resources/ProjectData/SentiStrength-SE_v1.5.zip), [SentiCR](https://github.com/senticr/SentiCR), [Senti4SD](https://github.com/collab-uniba/Senti4SD))  are not included in this repository. You can turn to their homepage for downloading.
+
 2. The large-scale Tweets used to train DeepMoji are not released by [Felbo et al.](https://arxiv.org/abs/1708.00524) due to licensing restrictions. Therefore, we include the pre-trained DeepMoji released rather than the raw Tweet corpus in this repository.
+
 3. The large-scale GitHub data are collected by [Lu et al.](https://arxiv.org/pdf/1812.04863.pdf) and not released publicly. After obtain their consent, in this repository, we release only the processed emoji-texts used to train our model, to increase reproducibility and replicability.
 
 ## License
