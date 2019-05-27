@@ -35,9 +35,12 @@ If you lack some of the above dependencies, you can install it with pip.
 
 2. In order to train a sentiment classifer based on SEntiMoji (or the variants of SEntiMoji) model, you can run the scripts in the code/SEntiMoji_scripts directory. 
 For example, if you want to train and evaluate the classifier on the Jira dataset using the SEntiMoji representation model, navigate to code/SEntiMoji_scripts/ directory and run:
-`python pipeline.py -model=SEntiMoji -dataset=Jira`
+`python pipeline.py -model=SEntiMoji -dataset=Jira`.
 
 If you want to try another model or dataset, just change the argument of the command line. (`-model=[SEntiMoji, SEntiMoji-T, SEntiMoji-G], -dataset=[StackOverflow, Jira, CodeReview, JavaLib]`)
+
+3. If you want to perform McNemar’s Test to compare the results of two classifiers, you can run Mtest.py in code/ directory. You have to specify the method name and dataset name in the command line argument. For example, if you want to do mcnemar's test for the result of SEntiMoji and SEntiMoji-T
+on Jira dataset, run: `python Mtest.py -methodA=SEntiMoji -methodB=SEntiMoji-T -dataset=Jira`.
 
 ## Declaration
 1. We upload all the benchmark datasets to this repository for convenience. As they were not generated and released by us, we do not claim any rights on them. If you use any of them, please make sure you fulfill the licenses that they were released with and consider citing the original papers. The scripts of baseline methods ([SentiStrength](http://sentistrength.wlv.ac.uk/), [SentiStrength-SE](http://laser.cs.uno.edu/resources/ProjectData/SentiStrength-SE_v1.5.zip), [SentiCR](https://github.com/senticr/SentiCR), [Senti4SD](https://github.com/collab-uniba/Senti4SD))  are not included in this repository. You can turn to their homepage for downloading.
