@@ -6,7 +6,7 @@ For example, if you want to do mcnemar's test for the result of SEntiMoji and SE
 on Jira dataset, run:
 python Mtest.py -methodA=SEntiMoji -methodB=SEntiMoji-T -dataset=Jira
 '''
-
+import argparse
 import codecs
 from statsmodels.sandbox.stats.runs import mcnemar
 
