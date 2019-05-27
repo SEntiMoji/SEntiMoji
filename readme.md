@@ -20,7 +20,6 @@ This study proposes SEntiMoji, which leverages the texts containing emoji from b
 * result/ contains the detailed results of five-fold cross-validation (summarized in the sheets of result_5fold.xlsx) instead of the mean performance shown in the paper. In addition, for each dataset, we show the predicted labels for all folds. In each result file, the first column is the text, the second column is the predicted label, and the third column is the ground truth label.
 
 
-
 ## Running SEntiMoji
 1. We assume that you're using Python 3.6 with pip installed. As a backend you need to install either Theano (version 0.9+) or Tensorflow (version 1.3+). To run the code, you need the following dependencies:
  - [Keras](https://github.com/fchollet/keras) (above 2.0.0)
