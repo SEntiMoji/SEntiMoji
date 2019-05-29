@@ -53,9 +53,11 @@ This code and the pretrained model is licensed under the MIT license (https://mi
 
 ## Citation
 Please consider citing the following paper when using our code or pretrained models for your application.
-`@inproceedings{chencao2019,
+```
+@inproceedings{chencao2019,
   title={SEntiMoji: An Emoji-Powered Learning Approach for Sentiment Analysis in Software Engineering},
-  author={Zhenpeng Chen, Yanbin Cao, Xuan Lu, Qiaozhu Mei, Xuanzhe Liu},
+  author={Zhenpeng Chen and Yanbin Cao and Xuan Lu and Qiaozhu Mei and Xuanzhe Liu},
   booktitle={Proceedings of the 2019 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, ESEC/FSE'19},
   year={2019}
-}`
+}
+```
