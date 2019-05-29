@@ -1,5 +1,5 @@
-# README
-This repository contains the data, code, pre-trained models and experiment results for the paper: **[SEntiMoji: An Emoji-Powered Learning Approach for Sentiment Analysis in Software Engineering]** (Anonymous authors for blind review).
+# ReadMe
+This repository contains the data, code, pre-trained models and experiment results for the paper: **[SEntiMoji: An Emoji-Powered Learning Approach for Sentiment Analysis in Software Engineering]** .
 
 ## SEntiMoji
 This study proposes SEntiMoji, which leverages the texts containing emoji from both Github and Twitter to improve the sentiment analysis task in software engineering (SE) domain. SEntiMoji is demonstrated to be able to significantly outperform the exisiting SE-customized sentiment analysis methods on representative benchmark datasets.
@@ -50,3 +50,12 @@ on Jira dataset, run: `python Mtest.py -methodA=SEntiMoji -methodB=SEntiMoji-T -
 
 ## License
 This code and the pretrained model is licensed under the MIT license (https://mit-license.org).
+
+## Citation
+Please consider citing the following paper when using our code or pretrained models for your application.
+`@inproceedings{chencao2019,
+  title={SEntiMoji: An Emoji-Powered Learning Approach for Sentiment Analysis in Software Engineering},
+  author={Zhenpeng Chen, Yanbin Cao, Xuan Lu, Qiaozhu Mei, Xuanzhe Liu},
+  booktitle={Proceedings of the 2019 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, ESEC/FSE'19},
+  year={2019}
+}`
