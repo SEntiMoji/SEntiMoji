@@ -17,7 +17,7 @@ This study proposes SEntiMoji, which leverages the texts containing emoji from b
   - word_embeddings/ contains the word embeddings trained on GitHub posts. 
   - representation_model/ contains the pre-trained representation models used for SEntiMoji (i.e., model_SEntiMoji.hdf5), SEntiMoji-G (i.e., model_SEntiMoji-G.hdf5), and SEntiMoji-T (i.e., model_SEntiMoji-T.hdf5). 
 
-  ⚠️ Since the size of model and embedding exceeds the Github file size limit, we use [git lfs](https://git-lfs.github.com/) to manage these large files. If you use ```git clone``` to download the whole project, these large files are not included so you will get error when you load them. You have to download it through two ways:  
+  ⚠️ Since the size of model and embedding exceeds the Github file size limit, we use [git lfs](https://git-lfs.github.com/) to manage these large files. If you use ```git clone``` to download the whole project, these large files are not included so you will get error when you load them. You have to download them through two ways:  
   1. Install [git lfs](https://git-lfs.github.com/) first and use command ```git lfs pull``` to download the large files.
   2. Open the file in github website and click the download button directly. 
 
