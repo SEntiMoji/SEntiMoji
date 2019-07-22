@@ -51,7 +51,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # parse arguments
-    model_path = "../../model/representation_model/%s.hdf5" % args.model
+    model_path = "../../model/representation_model/model_%s.hdf5" % args.model
     vocab_path = "vocabulary/vocabulary_%s.json" % args.model
 
     dataset_name =args.dataset.replace(' ','')
