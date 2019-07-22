@@ -13,7 +13,7 @@ import numpy as np
 from copy import deepcopy
 from os.path import exists
 import h5py
-
+import gc
 
 def deepmoji_feature_encoding(maxlen, weight_path, return_attention=False):
     """ Loads the pretrained DeepMoji model for extracting features
