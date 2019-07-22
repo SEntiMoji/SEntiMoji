@@ -106,7 +106,7 @@ if __name__ == '__main__':
 
         # train model
         model, acc = finetune(model, [train_X, val_X, test_X], [train_y, val_y, test_y], nb_classes, 100,
-                              method='chain-thaw')
+                              method='chain-thaw', verbose=2)
 
         pred_y_prob = model.predict(test_X)
 
@@ -130,7 +130,7 @@ if __name__ == '__main__':
         print('*****************************************')
 
         # save predict result
-        with open('result_%d.txt' % fold, 'r') as f:
+        with open('result_%d.txt' % fold, 'w') as f:
             for i in range(0, len(test_text)):
                 f.write("%s\t%s\t%s\r\n" % (test_text[i], index2label[pred_y[i]], test_label[i]))
 
