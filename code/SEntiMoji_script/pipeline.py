@@ -153,6 +153,7 @@ if __name__ == "__main__":
             save_name = "result_%s_%s_fold%d.txt" % (args.model, args.dataset, fold)
         elif args.task == "emotion":
             save_name = "result_%s_%s_%s_fold%d.txt" % (args.model, args.dataset, args.emotion_type, fold)
+            
         with open(save_name, "w") as f:
             for i in range(0, len(test_text)):
                 f.write("%s\t%s\t%s\r\n" % (test_text[i], index2label[pred_y[i]], test_label[i]))
