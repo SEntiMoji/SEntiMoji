@@ -1,0 +1,200 @@
+Yeah classloading in JBoss is a bit tricky :)	1	0
+Clocked asyncs are fixed in r19148.	0	0
+TestMultiColumnScanner has been committed to trunk.	0	0
+Not sure when it was added.	0	0
+But maybe you have a use for an index with key order ( sequenceName, schemaID ) which I'm not seeing.	0	0
+Thanks Ram,That seems like a definite improvement.	0	1
+Should be fixed with DOXIA-390, I added your test case.	0	0
+As of the new log4j DSL this is not an issue	0	0
+Fixed the MAPREDUCE-3028 commit which broke MR1.	0	0
+Patch now applies cleanly against latest version of trunk.	0	0
+And many thanks to you Olivier for applying this so quickly!	0	0
+Have you been able to work on that ?	0	0
+The absolut portion of the path *is always prepended*.	0	0
+Vadim you're keeping us busy :).	0	0
+thanks Tomas!	0	1
+Then we need pseudo-fields and we likely  want to hook in a per request function cache (maybe)	0	0
+Ah, ok ... thanks for the heads up.	0	0
+This one fixes the end-date issue in the comment bean classes:URL: http://svn.apache.org/viewvc?rev=782269&view=revAnd that resolves this issue in the trunk.	0	0
+Such a class does not really need an {{apply}} method.	0	0
+This will speed up the check in DataDictionaryImpl.isSchemaEmpty().	0	0
+I will be working to integrate this when I am back in CA.	0	0
+Here are my thoughts about how it can be approached.	0	0
+I just committed this.	0	0
+Oh, and that wiki page for the shell is slightly formatted wrong by the looks, it changes to cursive/italics and stays until the end.	0	0
+Vinicus patch only includes a single file (the failing junit), all Uwe need to do is to apply the patch to the moved file, is that correct?	0	0
+I think your logic is right.	0	0
+Awesome speedup! Finally all this work shows great results!!	1	1
+v1 fixes the nit	0	0
+Contributed by Hitesh Shah.	0	0
+For _ExternalSpecifications there is already an issue in the JIRA: MYFACES-2582	0	0
+Thanks Amar!	0	0
+Hello, I see Uwe has commented on SOLR-1657 that he would help convert tokenstreams to the new api, but he needs this patch (the tests) applied first.	0	0
+Your explanation sounds reasonable and  the patch looks safe to me.	0	0
+Thanks Uwe!	0	1
+updating, minor errors in pdf doc	0	0
+This will reduce object creation.	0	0
+If so, then I would recommend adding a third index.	0	0
+Corrected error in comment - please use this one.	0	0
+I just committed this to trunk and branch-0.23.	0	0
+I've introduced a decorator framework for relationships so we can draw the service triangles (or package names).	0	0
+Applied patch with thanks to Scott.	0	1
+I know this hasn't been looked at in quite a while.	0	0
+This looks good to me.	1	1
+It will need another round or two of adjusting but it is definitely looking solid.	0	0
+I think I even tried with pig-0.11 to confirm the problem.	0	0
+Btw, I only get this error in LDAP Studio.	0	0
+In any case, the code for the toBytes method is written now, so it should be a simple thing to move it to the PType implementation classes.	0	0
+Nice, I did not think about using the system tables.	0	1
+o I have reservations about the second constructor for this class (the one which is used to create a key descriptor rather than a full-fledged permissions descriptor).	0	0
+Cool feature!Performance: - It looks like scripts are read from the resource loader and parsed again (eval) for every update request.	0	1
+Please review.	0	0
+Also see issues like SOLR-2608 that are ignored, i've been running lucene tests in a loop on and off for periods, and basically gave up on solr tests aswel, they randomly fail all the time	0	0
+Awesome co-op. Thanks, Robert & Mike, for picking this up.	1	1
+Cool. sounds good to me.	1	1
+Oracle 7u40 runs just fine on Debian, I can't imagine it wouldn't work on Ubuntu.	0	0
+It is not in the requirement.	0	0
+The service handling will need to be updated slightly once we're not working from the DummyInfoProvider.	0	0
+However, as a tactical decision imposed by the implementation of the typechecker, we will require a matching {{apply}} method for every {{set}} method, and will reassess this issue later in the context of a possible typechecker redesign.	0	0
+You can do this for info messages too for more performance when that is off.	0	0
+is it essue still open?	0	0
+OK to close?	0	0
+I just committed this.	0	0
+Thanks, Dhruba!	0	1
+When did 1.8 RC 9 get upgraded and where is it tracked/documented?	0	0
+So, I also can say "this is not yield keyword specific problem".	0	0
+Thank you.	0	0
+This is awesome - works in a one-liner. 	1	1
+Awesome! This tool is cool.	1	1
+This patch has been improved a lot.	0	0
+Could you give me more comments?	0	0
++1 thanks Ivan.	0	0
+committed.	0	0
+Fixed it's foot.	0	0
+Patch is committed to trunk.	0	0
+Thanks Daryn for the review.	0	0
+I did a review and I found the problem is not on tomahawk.	0	0
+[~saturnism] agreed.	0	0
+Rolled over to 0.5.5 to get a stable JavaOne release out	0	0
+Please tell me if you'd like me to help.	0	0
+Fixed in r1146573	0	0
+* it is impossible to name a column 1* it is impossible to name a column alias 1If order by supports this I do not see group by can't?	0	0
+Please submit new issues for the other aspects of this that remain unfixed.	0	0
+we cannot find a problem in our implementation anymore, perhaps there is a problem in he ACF implementation that force a other resultat.	0	0
+Many thanks for your help.	0	1
+Change the summary to match the real issue.	0	0
+See attached patch.	0	0
+Was unable to run the unit test I wrote (because my setup is being a jerk), but I'm more looking for input on the design.	0	0
+Fixed; trunk r910567	0	0
+Issue has been resolved.	0	0
+An awesome feature of Hive is the rich type system with excellent support for complex data-structures.	0	0
+Will upgrade to 1.0.10 and check it.	0	0
+This obsoletes ~/.m2/maven.properties	0	0
+Verified.	0	0
+This is fixed in V2 and an automated regression case has been created.	0	0
+Yeah, this was a word which somebody had looked up in Dacco.	0	0
+It seems to work fine for me when i test locally, the markup is only created once per fixed location and then access throughcachekey -> locationstring -> markupSo if locationString doesn't work we get this:cachekey -> cachekey -> markupBut i guess that is a very small percentage if there is even 1 on this planet...should we include this into 1.3.2?	0	0
+This annoys my suppliers a bit.	0	0
+Thanks Sanjay for the review.	0	0
+It looks like the problem originates in PDFBOX-11.	0	0
+Sorry, I realise now that "does not work" was insufficiently specific.	0	0
+TestSkewedJoin finishes when you give it enough time (a mere 49 minutes) and the other tests I ran passed as well.	0	0
+- This fix works if I run a "mahout" from command line against a Hadoop cluster.	0	0
+Looking forward to using it.	0	0
+Thanks for the reviews, committed the patch to trunk	0	0
+Awesome. Thats great to hear!	1	0
+I added the PDType1CFont patch in revision 1425301	0	0
+Deleted spurious 'Added: svn:executable' from the patch.	0	0
+But it does not work when I try it using maven integration plugin for eclipse.	0	0
+Hey Chris,you just moved the files right?!	0	0
+Although the older patch applied fine for me (patch -p1).	0	0
+Applied Patch..	0	0
+Calling them queryRequestLatency and mutateRequestLatency in RegionServerMetrics.	0	0
+But yeah, that's for another JIRA.	0	0
+patch applied with slight changesthanks for the report and thanks for the patch	0	0
+Awesome work: this is a great first cut!	1	1
+Thank you.	0	0
+plans to have a multi- version of the atomicMutation?	0	0
+Cheers!	1	1
+Marek Novotny <mnovotny@redhat.com> made a comment on [bug 883918|https://bugzilla.redhat.com/show_bug.cgi?id=883918]This will be fixed/upgraded to GWT 2.5 in WFK 2.3.	0	0
+Also #3 seems to be fairly simple with a single "around" advice in aspectj and a couple of lines for ajc target in build.xml.	0	0
+Would you have a test that we can use to reproduce?	0	0
+We have an HTTP discovery agent in activemq-http no other activity on this issue so closing for now.	0	0
+1	0	0
+I'm envisioning something like `hdfs dfsadmin -fetchimage <local path>' which would use the existing GetImageServlet to download the fsimage over HTTP, saving it at <local path>.	0	0
+As long as the change is applied at build time, I don't see any real drawback.	0	0
+Mladen, any progress please?	0	0
+OK thanks for the review guys!	1	0
+Patch submitted.	0	0
+Code looks cool.	1	1
+Could you open a ticket for this (last comment)Tnx micha	0	0
+# Javadoc in InterDatanodeProtocolServersideTranslator refers to JournalProtocl.	0	0
+IMHO not, as we can quite quickly implement this, right ?	0	0
+Applied the patch into trunk.	0	0
+Wow, thanks Raghu, that's awesome and will save me a ton of time. 	1	1
+David,I completely agree that providing more intelligence in the PO creation process would be very helpful, especially for larger businesses.	0	0
+[~lfryc], [~bleathem], [~ppitonak]Do you think guys that those page fragments methods which depend on JSON parsing - aka various {{setupFromWidget}} should throw {{UnsupportedOperationException}} till this issue is resolved ?	0	0
+I'll make those changes as soon as I can.	0	0
+Not in LDAP Browser 2.8.2 or MS AD Explorer.	0	0
+Did you manage to create a test program?	0	0
+The -branch-18 patch does not apply to Hadoop 0.18.3.	0	0
+Version 2.2.0RC3 is fine.	0	1
+Verified on my vmware setup, extract volume is working fine now.	0	0
+Are these already-existingconcepts in the client?	0	0
+It's also easier then to tell a wildcard-based config from a normal one.	0	0
+Patch applied in trunk.	0	0
+Raghu, am I correct here?	0	0
+Thanks, Kristian.	0	0
+I think the HttpClients service interface must be exported for it to be used.	0	0
+I too have been busy on other projects.	0	0
+On trunk apparently all use of the "get", "put", and "delete" histograms have already been removed from the regionserver, except for the Jamon templates.	0	0
+it belongs to faces 1.2 :)	0	1
+Great! Awesome work, Nick, and thanks for the clarification, Bill. 	1	1
+I have added some buttons to help put variables and patterns.	0	0
+add LOCALE.US to toLowerCase in SecurityUtil.replacePattern.	0	0
+Ok, thanks.	0	0
+Thanks!	0	0
+I just committed this.	0	0
+Is that true?	0	0
+Missfire	0	0
+For the CAMEL-3787, I think the key should be on the ftp client configure to find out right charset that the server is using.	0	0
+At this point I'd suggest  peppering the docs with references to @Resource wherever it discusses autowiring things or about collections.	0	0
+Hi Carlos, This looks awesome! Lots of cool stuff.	1	1
+Because that seems like the natural level of granularity for this to me.	0	0
+Solomon,That is very slick.	0	0
+Thanks!	0	0
+Thanks for the reviews..	0	1
+Thanks, Scott!	0	0
+Applied the same fix as in issue 25001http://cvs.apache.org/viewcvs.cgi/jakarta-commons/dbcp/src/java/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java?r1=1.10&r2=1.11&diff_format=h	0	0
+Otherwise, the WindowsFileStat structure looks ok, apart from the st_blocks and st_blksize fields at the end, which are not part of the windows stat64 struct, so will probably be filled with either zero, or garbage.	0	0
+I'm not convinced making GrailsApplication serializable is a good idea.	0	0
+Thank you.	0	0
+Awesome!	1	1
+I've also moved RelationshipElement to the elements namespace.	0	0
+Committed with rv800094	0	0
+It seems that using {{BufferedOutputStream}} is a better solution since it will also help other operations.	0	0
+hbase org.apache.hadoop.hbase.PerformanceEvaluation --nomapred --rows=250000 randomRead 1610k regions, 5 RS.	0	0
+APIs doc is outdated - thanks	0	0
+http://svn.apache.org/viewvc?view=rev&revision=468444Deepal,Thanks!	0	1
+Marco,I've fixed some minor issues in your patch (including the one you have pointed out) and I've committed it.	0	0
+It is good to know that pluto has a problem here, but I realy need servlets integrated pluto.	0	0
+Misty,  Can you move JBPAPP-7480 to bz and then cross reference the bz number in this Jira and close this one?	0	0
+Please check that the patch was applied as you expected and close the issue if everything is OK for you.	0	0
+The rpc changes look good to me in the patch (smile)	1	0
+Thanks, Sanjay!	0	1
+I think I'm ready for commit soon.	0	0
+Bounce to Doug as this is a SOA issue.	0	0
+On 2008-04-04 13:31:57.627 jimurphy commented:fixed rev.	0	0
+I have not verified that it works and hope someone would confirm that it's correct.	0	0
+Hi Matt,Encrypting the serialized component tree will not solve the problem of stale view state.	0	0
+I didn't see anything in subversion?	0	0
+It might have meant to create a DB schema, but perhaps you can just use it to do whatever migration activity that you are looking for?	0	0
+Running patch through hudson.	0	0
+On the other hand the BundleActivator should not be exported and can as well be moved to the osgi.impl package.	0	0
+seen from my chair, this is a very elegant solution, until we can really split our distribution into smaller files (exe + langauge packs) and have a meta installer that combines what the user want.	0	0
+Contributed by Todd Lipcon.	0	0
+Thanks for fixing it so quickly!	0	1
+This patch should do the trick.	0	0
+It looks like there is an unencodable character.	0	0
+Carl, can you review?	0	0
+Thanks for doing that Uma.	0	1

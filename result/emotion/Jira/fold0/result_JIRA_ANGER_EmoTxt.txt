@@ -1,0 +1,197 @@
+Using technical tricks like automatically appending parameters to create unique JobInstance makes alarm bell ring - we should not be trying to do clever arbitrary things in classes that form the foundation of the framework.	0	0
+Otherwise the HTable and the HConnection will get very confused.	0	0
+Hi Vincent,I wasn't aware of that.	0	0
+You really shouldn't call one without the other.	0	0
+Turning off hints is basically intended as a "oh shit, something is broken with hints, let's turn it off" switch.	0	1
+@filipe I forgot the case where includes are in include/js (or mozjs).	0	0
+I'm reopening the issue, and Graeme will attach a new key which should be an OpenSSH SSH2-DSA key hopefully.	0	0
+Doug, you defined:+public interface NamenodeProtocols+  extends ClientProtocol,+          DatanodeProtocol,+          NamenodeProtocol,+          RefreshAuthorizationPolicyProtocol,+          RefreshUserToGroupMappingsProtocol { ...}Will this prevent us from putting the DatanodeProtocol in a different port?	0	0
+My bad.	1	1
+Not ideal, but not too bad ;)	0	0
+My bad.	1	1
+The Cenqua licensing section doesn't have a license like this, but the Clover licensing section does have a link to one.	0	0
+I fixed some bad markup in r1392857 but I can see the error afterwards on the neko stuff.	0	0
+Ah, that was my bad.	1	1
+Sun RI sucks, why the hell is saveState() and restoreState() not called with with javax.faces.STATE_SAVING_METHOD = server???	0	1
+The squeeky wheel gets oiled!	0	0
+First, there are some backwards compatibility concerns.	0	0
+once this error occurs, the route cannot be used any more.	0	0
+True enough....	0	0
+If I am not wrong, the follower that is stuck never accepts the leadership of the Leader in the ensemble, because it is an established ensemble and it sees no quorum in it.	0	0
+The latest  patch for SimpleURIResolver and resolver framework.	0	0
+However, given the factored out code is pretty trivial I decided to duplicate it in favour of not adding another set of classes along with the additional complexity introduced (e.g.	0	0
+Until there is a general mechanism Hbase should do something.	0	0
+If it's a regression, please open a new ticket.	0	0
+We won't find the same group in a different segment.	0	0
+Aaarrggh, how stupid of mine  to have a System.out, again!	0	1
+Patrick,I can't manage to reproduce this error.	0	0
+In my case, I wrote a custom filter, fucked around with the configuration getting it to work, which means you really have to get into it.	0	0
+This was a very bad bug, introduced by me being an idiot.	1	1
+#NAME?	0	1
+By passing in the section name {{null}} the content of the global section can be retrieved.	0	0
+Note that I wouldn't be totally opposed on adding additional support for the dot notation on inserts (provided all fields are indeed given) for symmetry/convenience.	0	0
+Thanks for reviewing the patch Mamta!	0	0
+In English sentence there exists space between words andthat space tells where the line can be breaked.	0	0
+Because of that the default parent is the same loader as the loader that loaded the class GroovyShell - this loader knows the groovy classes.	0	0
+And it also will add a lot of complexity to the framework development/maintenance. 	0	0
+How about a slightly different take?	0	0
+html/ext/HtmlInputHiddenTag.java is pretty simple, all of the functionality is in its base class. 	0	0
+Hmm, that sucks.	1	1
+The rest are *totally* unrelated.	0	1
+The Calculator sample now works with SimpleAxisServer.	0	0
+volatile prevents the variables from being cached in the registers and creates a memory barrier, so that's not that surprising to see an impact on the performances.	1	0
+But, even if it wasn't it would be totally worthless where it is at.	0	1
+once per every bad disk).	1	1
+I'm not sure this can't be achieved without messing with IR/W guts so much.	0	0
+(Do nothing): Are you serious about that?	0	1
+Unrelated, should the PBImpls be moved from yarn-api to yarn-common (They're private anyway).	0	0
+I am an idiot - this was a dupe of GUVNOR-84	0	1
+What the hell?!	1	1
+If I put my hands in the code to fix stuff myself I will probably introduce something that is illogical for you (e.g.	0	0
+Damn...	1	1
+Indeed that would be VERY bad design.	0	1
+On rerun I let it go for 20 mins, but apart from the database getting booted (derby.log) nothing at all showed up in any of the output files (i.e.	0	0
+I'll take a look at where the framework should call it.	0	0
+Of course, StrFieldSource is a private classNo it's not.	0	1
+In other words, using the setGenerateImportedSchemas() setter or not obviously makes a difference, and given the fact that your main XML schema imports/includes the other one, I'd suggest that you change your code generation strategy.	0	0
+It just depends upon how smart the plug in framework and the actual plug in is.	0	0
+durrrh, that sucks.	1	1
+Also, I find the name "stillGoodJournals" confusing, because when a journal was found to be bad, in the "// do the sync" block, it isn't removed from the "stillGoodJournals" list.	1	0
+You can close this out.	0	0
+We're adding endpoint as a new datatype?	0	0
+Is there a way to stop the hbase with the regionserver dead?	0	0
+There may perhaps be some way to use Windows file-locking as a signalling mechanism here.	0	0
+I've been running with -Xmx1024M -Xms1024M before and that worked in the past...Not sure what's going on now.	0	0
+What if you want to change this binary format?	0	0
+Is there a way to fetch a pull request?	0	0
+@PaulForget the previous patch, it added unneeded complexity for parsing and dealing with multivalue (line) ini file  config parameters.	0	0
+Any ideas? 	0	0
+It seems to be adding new 'functionality' to coprocessors.	0	0
+The evil NPE strik back !!	0	1
+Of course, that would be a separate bug...	0	0
+The reason the tests weren't failing is because i was an idiot and hadn't configured the queryResultCache properly in the test configs.	0	0
+Damn.	1	1
+Moreover, there must be something going wrong in relation to the SPO index, an exception is thrown:ERROR **** Not the root: 11264com.hp.hpl.jena.tdb.index.bplustree.BPTreeExceptionat com.hp.hpl.jena.tdb.index.bplustree.BPlusTreeRewriter.packIntoBPlusTree(BPlusTreeRewriter.java:78)at com.hp.hpl.jena.tdb.store.bulkloader2.CmdTDBLoader2.createBPlusTreeIndex(CmdTDBLoader2.java:224)at com.hp.hpl.jena.tdb.store.bulkloader2.CmdTDBLoader2.exec(CmdTDBLoader2.java:166)at arq.cmdline.CmdMain.mainMethod(CmdMain.java:85)at arq.cmdline.CmdMain.mainRun(CmdMain.java:47)at arq.cmdline.CmdMain.mainRun(CmdMain.java:34)at com.hp.hpl.jena.tdb.store.bulkloader2.CmdTDBLoader2.main(CmdTDBLoader2.java:95)I don't see why, at the moment.	0	0
+Clearly, one Visitor interface just can't satisfy everyone.	0	0
+I think the rename should follow the same pattern.	0	0
+That's pretty unlikely.	0	1
+I'm confused.	0	1
+My bad, I screwed up the assertion -> RuntimeException transition.	1	1
+The name for all of them was thus pretty obvious, except for engine.evaluate(...) and #evaluate(...).	0	0
+ConstantScoreQuery and FilterQuery need to AND the filters  together.	0	0
+To be quite blunt guys, your log4net logger methods smell bad.	1	0
+{quote}searcher.getAtomicReader().getSortedDocValues(uniqueKey);{quote}This is a performance killer.	0	1
+Like skip.jar.loading= trueonce ---> Proposed behaviour.	0	0
+This is weird.	1	1
+Currently, we just assume it might be a laggard and thus isSlowTracker() will return true.	0	0
+Just to clarify... you made the DTPE handle exceptions the same way as CassandraDaemon by updating it to use NBHS instead of CSLS... Did you just tell me to go fuck myself?	0	1
+Nothing gets broken, but we have one more step towards framework independence.	0	0
+But I still try and police it because I think its important.	0	0
+This will impact two parts :- searchResultEntry- all the response that contains a LdapResult and which returns a MatchedDN.	0	0
+Yes, that's true.	0	0
+And PayloadTermQuery lost an "if (includeSpanScore)"?	0	0
+Weird.	1	1
+Closest example that I can recall were questions about "The Software shall be used for Good, not Evil" clause from the JSON License.	0	0
+You mixing fd and HostComparator confused me.	0	0
+Here is quite bad.	1	1
+Negative, I am against fetch groups in principle.	0	1
+Forgot to close	0	0
+This is part of making Oak OSGi-friendly	0	0
+(There are other requirements for these types of damages also, all described in 17 USC 401 et seq.) OTOH, if you want to waste your time proving *actual infringement damages* for free software, don't bother with a notice, but also don't bother trying to find an attorney to argue your case.  	0	0
+It also happens at the very startup after he has loaded only 3 sstables (hence DataTracker likely have 3 sstables, not a shit load).	0	1
+On 2009-06-08 19:22:40.967 kjian commented:Localization issue.	0	0
+Heh, that's one hell of a bug, 275 bytes exactly, eh?	0	1
+In TestCliDriver, create_view.q and udaf_percentile_approx.q are two weird queries.	0	0
+Ugh, well that sucks.	1	1
+I think we should distinguish between the two	0	0
+Pretty much every deserialization error shows up as an IOException.	0	0
+With balancer initialy at true:{code}hbase@node3:~/hbase-0.94.3$ bin/graceful_stop.sh --restart --reload --debug node6Disabling balancer!	0	0
+The first step is of course selling us through our site.	0	0
+So, it is stuck somewhere.	0	1
+We can use a BlockingQueue to make the patch simpler	0	0
+I pretty much have this working.	0	0
+e.g.	0	0
+br,Matt	0	0
+-1 to jar hell.	1	1
+If so, a test that succeeds with errors is confusing as hell...	1	1
+I disagree.	0	0
+That would take care of most cases.	0	0
++1 For this new design.	0	0
+I will make the change.	0	0
+Definitely true!	0	0
+I'll have to bisect the revision since when it is broken and this could take some time.	0	0
+If I get a chance I may even roll it into our dev environment but I am currently in the middle of mem leak hell.	1	1
+It must be lost somewhere.	0	1
+My bad.	1	1
+Please use git diff to generate patch, because I can't easily apply git patch on a svn tree.	0	0
+Will close this as a dup.	0	0
+the logical solution to me was to add the methods to the interface) so I guess I did the right thing opening this bug and asking for your opinion and I can't accept your "for the sake of sweet Jesus" in reply.	0	0
+James, I think it is time to do some of the tasks that you have outlined and I'm willing to do the work.	0	0
+I don't know what Lucene'sposition is on Maven, but am interested pursuing whatever makessense.	0	0
+Hmm ... this is quite bad.	1	1
+Sounds reasonable.	0	0
+Though it is still a possibility, it is pretty corner-case.	0	0
+is anybody taking care of this?	0	0
+I'm against such heavy committing myself, without some consensus to do so.	0	1
+Throw an exception?	0	0
+Of course, there is no NotNullException.	0	0
+[rvollmar 3/27/07] There are two bugs that are causing backwards compatibility issues, and I think the emails we've been exchanging have confused them.	0	0
+Okay, "unfortunately" nothing  abnormal there.	0	0
+This is bad.	1	1
+Also we would need to handle Serialisation which is _only_ implementable in a performant way if you know the underlying logging framework.	0	0
+if you want to make these optimizations, fix the APIs so its intuitive, otherwise, no way.	0	1
+Hell, UnaryFunction might even be faster than all of these calls in a row.	0	1
+I'm confused.	0	1
+Converted from a single FlatFileItemWriter to a database and flatfileitemwriter and didn't register the flatfile one as a stream.	0	0
+now that i've made the tests fail, i can finally start trying to figure out why the tests fail.	0	0
+guys... this is so stupid...	1	1
+My bad.	1	1
+Ah of course.	0	0
+How should integer division work for decimals and floating point?	0	0
+Is the -put command returning non-0 to indicate failure?	0	0
+If I can give you one advice on this one, I'd say this: fuck Derby, use H2 instead as the default embedded database.	0	1
+However, I doubt that the same is true for MapContext because it is just a wrapper around a HashMap.	0	0
+Will commit in a few days (to the heavy committing branch) if no one objects.	0	0
+It really *did* happen in an earlier version though....	0	0
+@Matt... I'm an idiot, I used the wrong patch. Sigh.	1	1
+Can this be closed?	0	0
+It seems pretty reliable.	0	0
+That being said, I'm not totally opposed to making the limit configurable.	0	1
+Not too bad though, since clearing out commitlog segments is easily done.	0	1
+Hell, this is gonna take me a lot of work to raise.	0	1
+So, who should create mail lists, bug databases, etc.	0	0
+I didn't know we needed to retain backwards config capability across 3.x to 4.x  :-(  That sucks and it'll make old code stick around longer.	0	1
+and close this issue ?	0	0
+I am planning on doing a round-robin assignment for each partition.	0	0
+It was a pretty stupid idea to use a static array of instances for QuorumOpMonitor.	1	1
+Stupid Maven	1	1
+who the fuck is asking for scores, but not the max score, and why does their insanely specialized use case justify all these booleans on a central lucene class.	0	1
+Sucks to rush a commit when an issue is under discussion.	0	1
+We've been passing builds pretty regular now so if this a problem it should start showing prominently.	0	0
+Committing shortly.	0	0
+I have stupidly deleted the original test dir, but judging from the suite's output files, no output was created after 3 1/2 hours.	0	1
+Imo all this just doesn't make sense from a pure performance aspect.	0	1
+But I didn't get any memory errors.	0	0
+Therefore Visa.matches() will nowreturn "true" for Mastercards, too.	0	0
+The Felix framework does not support exporting/importing the default package.	0	0
+But on the other hand I also think, if the processor has to do this initialization activity (i.e.	0	0
+Yeah it helps, though I was more questioning whether there's not already aboolean that keeps track of this, but apparently not.	0	0
+umm ... call me crazy, but why are we making this public?	0	1
+My Bad.	1	1
+Beware all ye who venture here: the sea of XSLT is deep and wide and unforgiving.	0	0
+i suck.	1	1
+I almost forgot, as I received the email notification on the weekend.	0	0
+I know this is a closed issue but here goes anyway.	0	0
+Weird.	1	1
+Will pull that into the 2.0.4-alpha branch.	0	0
+Secondly, most point-release upgrades people do are ones in which the config stays the same.	0	0
+Fixed by updating to the new frameworks bridge 1.0.1-dev.	0	0
+This is bad.	1	1
+However, the NPE in the framework is still an issue even if it happens when there is a "user error".	0	0
+Well, your static analysis seems pretty persuasive to me.	0	0
+If the different segments are somewhat homogeneous then these stats should pretty much be very close anyway.	0	1
+Ah, too bad.	0	1
+Are you planning on doing this (or already have done this), or would you like me to do it?  	0	0
+I've reverted this for the moment.	0	0
+The patch also removes FreqProxMergeState, because we don't have to interleave posting lists from different threads anymore of course.	0	0
+Of course, in the end, I'm not the one you need to convince, as I'm not a maintainer :)	0	0

@@ -1,7 +1,7 @@
-'''
+"""
 Pipeline code for training and evaluating the sentiment classifier.
 We use the Deepmoji architecture here, see https://github.com/bfelbo/DeepMoji for detail.
-'''
+"""
 import re
 import codecs
 import random
@@ -10,23 +10,23 @@ import sys
 import json
 import argparse
 
-sys.path.append('DeepMoji/deepmoji/')
+sys.path.append("DeepMoji/deepmoji/")
 
 from sentence_tokenizer import SentenceTokenizer
 from model_def import deepmoji_architecture, load_specific_weights
 from finetuning import load_benchmark, finetune
 
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 
 MAX_LEN = 150
 
 
 def load_data(filename):
-    f = codecs.open(filename, 'r', 'utf-8')
+    f = codecs.open(filename, "r", "utf-8")
     data_pair = []
     for line in f:
-        line = line.strip().split('\t')
+        line = line.strip().split("\t")
         data_pair.append((line[0], line[1]))
     return data_pair
 
@@ -44,19 +44,38 @@ def prepare_5fold(data_pair):
         yield (train_pair, test_pair)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-model", type=str, default="SEntiMoji", help="name of representation model")
-    parser.add_argument("-dataset", type=str, default="Jira", help="name of dataset")
+    parser.add_argument("--model", type=str, required=True, choices=["SEntiMoji", "SEntiMoji-T", "SEntiMoji-G"], help="name of representation model")
+    parser.add_argument("--task", type=str.lower, required=True, choices=["sentiment", "emotion"], help="specify task (sentiment or emotion)")
+    parser.add_argument("--dataset", type=str, required=True, choices=["Jira", "StackOverflow", "CodeReview", "JavaLib"], help="name of dataset")
+    parser.add_argument("--emotion_type", type=str.lower, required=False, default=None, choices=["anger", "love", "deva", "joy", "sad"], help="specify emotion dataset")
     args = parser.parse_args()
+
+    print("args:")
+    d = args.__dict__
+    for key,value in d.items():
+        print("%s = %s"%(key,value))
 
     # parse arguments
     model_path = "../../model/representation_model/model_%s.hdf5" % args.model
     vocab_path = "vocabulary/vocabulary_%s.json" % args.model
 
-    dataset_name =args.dataset.replace(' ','')
-    data_path = "../../data/benchmark_dataset/%s.txt" % dataset_name
-    label2index_path = "label2index/label2index_%s.json" % dataset_name
+    if args.task == "sentiment":
+        data_path = "../../data/benchmark_dataset/sentiment/%s.txt" % args.dataset 
+        label2index_path = "label2index/sentiment/label2index_%s.json" % args.dataset 
+
+    elif args.task == "emotion":
+        trans_dict = {"Jira" : "JIRA", "StackOverflow" : "SO"}
+        assert(args.dataset in trans_dict)
+        data_file_name = "%s_%s" % (trans_dict[args.dataset ], args.emotion_type.upper())
+        data_path = "../../data/benchmark_dataset/emotion/%s/%s.txt" % (args.dataset , data_file_name)
+
+        if args.emotion_type == 'deva':
+            assert(args.dataset == "Jira")
+            label2index_path = "label2index/emotion/label2index_5class.json" 
+        else:
+            label2index_path = "label2index/emotion/label2index_2class.json"
 
     # load data
     data_pair = load_data(data_path)
@@ -65,9 +84,9 @@ if __name__ == '__main__':
     data_5fold = prepare_5fold(data_pair)
 
     # load vocabulary and label2index dict
-    with open(vocab_path, 'r') as f_vocab:
+    with open(vocab_path, "r") as f_vocab:
         vocabulary = json.load(f_vocab)
-    with open(label2index_path, 'r') as f_label:
+    with open(label2index_path, "r") as f_label:
         label2index = json.load(f_label)
     index2label = {i: l for (l, i) in label2index.items()}
 
@@ -85,8 +104,8 @@ if __name__ == '__main__':
 
         train_X, _, _ = st.tokenize_sentences(train_text)
         test_X, _, _ = st.tokenize_sentences(test_text)
-        train_y = [label2index[l] for l in train_label]
-        test_y = [label2index[l] for l in test_label]
+        train_y = np.array([label2index[l] for l in train_label])
+        test_y = np.array([label2index[l] for l in test_label])
 
         nb_classes = len(label2index)
         nb_tokens = len(vocabulary)
@@ -102,12 +121,12 @@ if __name__ == '__main__':
 
         # load pretrained representation model
         load_specific_weights(model, model_path, nb_tokens, MAX_LEN,
-                              exclude_names=['softmax'])
-
+                              exclude_names=["softmax"])
+        
         # train model
         model, acc = finetune(model, [train_X, val_X, test_X], [train_y, val_y, test_y], nb_classes, 100,
-                              method='chain-thaw', verbose=2)
-
+                              method="chain-thaw", verbose=2)
+        
         pred_y_prob = model.predict(test_X)
 
         if nb_classes == 2:
@@ -116,7 +135,7 @@ if __name__ == '__main__':
             pred_y = np.argmax(pred_y_prob, axis=1)
 
         # evaluation
-        print('*****************************************')
+        print("*****************************************")
         print("Fold %d" % fold)
         accuracy = accuracy_score(test_y, pred_y)
         print("Accuracy: %.3f" % accuracy)
@@ -127,10 +146,14 @@ if __name__ == '__main__':
         for index in range(0, nb_classes):
             print("label: %s" % index2label[index])
             print("Precision: %.3f, Recall: %.3f, F1 score: %.3f" % (precision[index], recall[index], f1score[index]))
-        print('*****************************************')
+        print("*****************************************")
 
         # save predict result
-        with open('result_%d.txt' % fold, 'w') as f:
+        if args.task == "sentiment":
+            save_name = "result_%s_%s_fold%d.txt" % (args.model, args.dataset, fold)
+        elif args.task == "emotion":
+            save_name = "result_%s_%s_%s_fold%d.txt" % (args.model, args.dataset, args.emotion_type, fold)
+        with open(save_name, "w") as f:
             for i in range(0, len(test_text)):
                 f.write("%s\t%s\t%s\r\n" % (test_text[i], index2label[pred_y[i]], test_label[i]))
 

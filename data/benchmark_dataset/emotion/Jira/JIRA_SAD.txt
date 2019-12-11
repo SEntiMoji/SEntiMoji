@@ -1,0 +1,1000 @@
+To me this is intersection.	0
+See the below exampleEmployee1Employee2Employee3Dept1.employess=Employee1Dept1.employess=Employee3Dept2.employess=Employee2Intersection Employee1 x Dept1.employess=Employee1Employee3 x Dept1.employess=Employee3Employee2 x Dept2.employess=Employee2I don't like this sintax since it changes an obvious behaviour, IMO.	0
+I would prefer to write it asSELECT intersect(employee,this.employees).manager.lastname FROM org.apache.jdo.tck.pc.company.Department VARIABLES Employee employee Now it's up to up to clearify 	0
+JUnit test and Patch provided	0
+Patch framework src/java and src/test to include JNDI adapters and unit tests.	0
+> we have to do it for each call.	0
+I meant for each newly added/deleted ones.	0
+If someone wants to take this over, that's cool - I'm unlikely to have time in the next week and a half, though.	1
+It is a nasty bug that I've seen in real life, though.	1
+Here's another crack at this:1) The default behavior for Derby is the current behavior with all of its security holes for java routines.	0
+2) To get secure behavior for java routines, the customer has to explicitly opt-in.	0
+Let's be vague about what that entails right now.	0
+3) If you do opt-in, then you get the SQL standard behavior:   3a) Jar ids are mandatory.	0
+Instead, to access methods in the JRE you have to include little wrapper methods in your jar files that you loaded into the database.	0
+3c) The search order for customer-written routines is SQL standard: First we look in the jar file where the routine lives.	0
+Then we look in the other jar files in the order specified by SQLJ.ALTER_JAVA_PATH.	0
+Then we defer to the system class loader.	0
+3d) At runtime, when we invoke the routine, we make sure that it actually lives in the declared jar file.	0
+MR's fix (similar to HDFS one).	0
+Note also that an implementation goal is to not spawn threads to do writes to the underlying transport (like TFileTransport does now).	0
+Sample implementation of CREATE DATABASE and DROP DATABASE for MySQL 5.0.2+.	0
+Thanks.	0
+In the wiki next to each one of these parameters it explicitly says that reducing this parameter will decrease memory usage, this is why we reduced these parameters (it did not mention the filterCache at all).	0
+They will save RAM to a certain extent for certain situations.	0
+But not very helpful at the sizes you are working with (and not settings I would use to save RAM anyway, unless the amount I need to save was pretty small).	0
+Also, the savings are largely index side - not likely a huge part of your RAM concerns, which are search side.	0
+My filterCache stats are great- you know it's set to 64K but right now, with almost all the RAM used up (we're at 71.9% now), but it's only using 36290 entries at the moment and it's holding pretty steady there(even as RAM usage increased by 10%).	0
+None of the other caches have gone up much either.	0
+We have no cache evictions, at all, but a 99% hit ratio.	0
+The sizes may be higher than you need then.	0
+They should be adjusted to the best settings based on the wiki info.	0
+I was originally suggesting you might sacrifice speed with the caches for RAM - but, its always best to use the best settings and have the necessary RAM.	0
+Yes exactly -- sorry to be so unclear.	1
+Just really wondering/hoping you'd be interested in working on these ??	0
+I'd like to get them cleaned up because there are now so many that other more important and/or meaningful warnings are likely to be ignored.	0
+Here's what got renamed: .../{hadoop-hbase.postinst => hadoop.postinst}  .../deb/hbase/{hadoop-hbase-doc.dirs => hbase-doc.dirs}.../deb/hbase/{hadoop-hbase-doc.install => hbase-doc.install} .../deb/hbase/{hadoop-hbase.dirs => hbase.dirs}     .../hbase/{hadoop-hbase.install => hbase.install}   .../{hadoop-hbase.manpages => hbase.manpages}       .../hbase/{hadoop-hbase.preinst => hbase.preinst}   .../hbase/SOURCES/{hadoop-hbase.sh => hbase.sh}     .../{hadoop-hbase.sh.suse => hbase.sh.suse}   	0
+HADOOP-5679 changed this function to return int instead of void.	0
+Some amount of searching later...	0
+I can't come up with a pure-CSS, in-place change for this.	0
+Another alternative might be to make a little icon + onhover that displays the non-comma'ed value and change the default display to comma'ed?	0
+The icon may be unnecessary; maybe just onhover on the text itself?	0
+Commited a fix for this into trunk using revision 610846.	0
+I will work on merging this into 10.3 codeline and writing a test case.	0
+The tests ran fine on my Windows XP machine with Sun jdk1.4 The commit comments are as followsDERBY-3302 The user was running into null pointer exception at the time of database recoverybecause Derby was trying to get the Collator object through database context.	0
+But the Collator object is already available in the territory sensitive character classes and wedo not have to go to database context to get it.	0
+I changed the code to use that collator object rather than look into database context.	0
+The reason for null pointer exception was that database context was not loaded yet during database recovery.	0
+I would like to close this issue.	0
+Redirect handling has undergone significant changes since this issue was opened and we still need to take a hard look at redirects and possibly how scores are represented.	0
+However, the newer scoring and indexing frameworks do work around this issue.	0
+Pushed to master.	0
+I have changed the title and description of this JIRA to fit our current idea.	0
+I love this.	0
+Currently the user passwords are too insecure.	0
+A slow hash algorithm makes offline cracking harder.	0
+It would require changes to the API to have crypto only run on the server, but it might be simpler.	0
+dc36d49eb3e240b3d8fd8b89ab178a7b1ec17d8b TS-1513: SPDY plugin crashes on connection closeThanks for testing!	0
+Fixed the crash in this bug; let's open a new one for the SPDY connection issues.	0
+Could you attach a test case (Junit preferrably) that shows the unexpected behaviour?	0
+I'm not sure what the problem is, but the behavior (at least in 0.1.4) is that the _isClosed AtomicBoolean is not being set to closed in a timely manner.	1
+This may only be related to the BlurIndexReader and may not be an issue in the BlurIndexNRT.	0
+marking Fixed in 1.3(I believe Ryan left this open to track any potential issues ...  if nothing else this way we'll remember to resolve it before releasing)	0
+Thanks for looking into this Allan.	0
+I was thinking more of what happens on a Unix shell when you hit "clear".	0
+With your patch, the cursor might still be at the end of the grunt window after 14 new lines.	0
+Thank you Babak!	0
+I will be the sponsor for your beer the next time we meet.	0
+Claus, I think I'm busy the next two weeks with [CAMEL-3468|https://issues.apache.org/jira/browse/CAMEL-3468], [CAMEL-3472|https://issues.apache.org/jira/browse/CAMEL-3472], [CAMEL-3471|https://issues.apache.org/jira/browse/CAMEL-3471], [CAMEL-3470|https://issues.apache.org/jira/browse/CAMEL-3470] and [CAMEL-3311|https://issues.apache.org/activemq/browse/CAMEL-3311].	0
+Depending of the release date for Camel 2.6 and the priority of the other issues (may be I can reschedule [CAMEL-3471|https://issues.apache.org/jira/browse/CAMEL-3471] and/or other issues), I can do it in the remaining time.	0
+But I'm probably not an JMX expert... ;-)	0
+Adds a new class of Exception.	0
+Now TestBatchUpdate takes 50 sec instead of 250.	0
+Please review.	0
+Sorry for the delay and thanks for the good work, works like a charm!	1
+I tested a couple of projects with IDEA 7 and 8 and some more with IDEA 7, and everything is working.	0
+Obviously I was testing artifacts:sources as well.	0
+buildr idea still produces the "old" format files (IDEA 6 maybe?)	0
+but both IDEA 7 and IDEA 8 seem to handle them just fine.	0
+At some moments it could be upgraded to do IDEA 8 format, but it's not important for now.	0
+Is the bug really in NGramTokenFilter?	0
+This seems to be a larger problem that would affect all tokenfilters that break larger tokensinto smaller ones and recalculate offsets, right?	0
+For example: EdgeNGramTokenFilter, ThaiWordFilter, SmartChineseAnalyzer's WordTokenFilter, etc?	0
+I think WordDelimiterFilter has special code that might avoid the problem (line 352), so it mightbe ok.Is there any better way we could solve this: for example maybe instead of the tokenizer callingcorrectOffset() it gets called somewhere else?	0
+This seems to be what is causing the problem.	0
+Uploading another patch for fixing the maven pattern to add the classifier.	0
+I don't see the connection to .tmp files.	0
+(Also: have you verified that the channel will actually infinite-loop returning 0?	0
+Kind of odd behavior, although I guess it's technically within-spec.)	0
+IncomingStreamReader does clean the tmp file when there is an expection (there's an enclosing 'try catch').	0
+The problem is that no exception is raised if the other side of the connection dies.	0
+What will happen then is the read will infinitely read 0 bytes.	0
+So this actually avoid the infinite loop returning 0 (and so I think answered your second question, so it wasn't very clear).	0
+Note that without this patch, there is an infinite loop that will hold a socket open forever (and consume cpu, though very few probably in that case).	0
+So this is not just merely a fix of deleting the tmp files.	0
+But it does as a consequence of correctly raising an exception when should be.	0
+<joes4> lists will be available in 1 hour from now.	0
+Andrew, are you familiar with this code?	0
+I've got a patch, figured I'd have someone take a quick look-see before pushing it to Apache.	0
+Sorry I thought submit patch was the way to attach a patch.	1
+Patch providing Comparable for "api2" project.	0
+Patch does the following1.	0
+IntIdentity, ShortIdentity, LongIdentity, CharIdentity, ByteIdentity, StringIdentity provide implementation of compareTo() allowing comparison with other identity *of the same type*.	0
+2	0
+ObjectIdentity disallows comparison	0
+The insert_between.patch fixes the following:1.	0
+Changes the implementation of insertBetween in OperatorPlan.java so that the ordering of the predecessors is not changed2.	0
+Changed log.info in LOForeach getSchema() to log.debug.	0
+One of my earlier patches had the log.info3.	0
+Removed a printPlan use in TestLogicalPlanBuilder.javaThe unit tests that still fail are:    [junit] Running org.apache.pig.test.TestEvalPipeline    [junit] Tests run: 8, Failures: 0, Errors: 1, Time elapsed: 141.926 sec    [junit] Test org.apache.pig.test.TestEvalPipeline FAILED    [junit] Running org.apache.pig.test.TestFilterOpNumeric    [junit] Tests run: 8, Failures: 0, Errors: 1, Time elapsed: 56.446 sec    [junit] Test org.apache.pig.test.TestFilterOpNumeric FAILED    [junit] Running org.apache.pig.test.TestStoreOld    [junit] Tests run: 3, Failures: 0, Errors: 2, Time elapsed: 39.782 sec    [junit] Test org.apache.pig.test.TestStoreOld FAILED	0
+It's kind of annoying to have to use 4GB of temporary spaceNope, it only writes the compressed file to disk; {{gzip -1}} compresses 4GB of zeros to 18 MiB.	0
+Could you please port it to branch-1 that that we could integrate it to branch-1-winSlavik, thanks for the review!	0
+I don't have very much experience on branch-1, would you like to take a shot at the port?	1
+Especially I don't know very much about the test framework differences.	1
+I will figure out the details and do the port later this week if you don't get to it first.	1
+xerces.apache.org has been added to DNS.	0
+I am going to wait until it propagates before continuing.	0
+ISOLatinAccentFilter.java again, now with Unicode Latin Extended B as well.	0
+Hi Sebb,In these cases 'this' and 'connectionPool' refer to the same object.	0
+It just depends if the code is inside the connectionPool (uses this) or inside MTHCM (uses connectionPool).	0
+Mike	0
+Stopping SQL routines accessing the privileged blocks is through DERBY-2331 and DERBY-2330	0
+sorry, unassigning myself from this backport.	1
+Another backport (for a different jira) of mine is failing and I want to see if I can figure out what might be wrong there before doing a new backport.	1
+Thanks Ashish,For committing the patch.	0
+If I see more occurrence of Lookup or search for find forms then shortly upload the patch for this fixes .	0
+ThanksChandan Khandelwal	0
+To upgrade to a recent version of Jackrabbit, see http://wiki.apache.org/jackrabbit/BackupAndMigrationI'm afraid I can't say much about the risk.	1
+Can you just apply this patch file over top of the other one?	0
+Uploading rebased patch for sathish	0
+Maybe we should purge the Reader+queuing step and just have Handlers do the read (Nicolas Liochon what you think?)	0
+I've tried something similar (I removed the handlers and kept the readers), but the performance was not visible.	1
+The responder seemed to be a bottleneck.	1
+But it was not the only issue: we also want to manage priorities between the tasks, but we need to read them to get enough information to make the right priorities.	1
+I just committed this.	0
+Thanks, Aaron!	0
+I knew they were missing and just forgot to do it before I committed it.	0
+Cancelling current patch to upload new patch	0
+To answer your questions in order:This problem only happens with the embedded driver because the Database is created inside the JVM and locked to prevent other processes to connect to it.	0
+With the client, you can connect to the same database many times.	0
+I'll attach a zip with a small test project where you can reproduce the problem.	0
+(all you need to add is your derby.jar)I'm testing the DerbyTest from Eclipse.	0
+I'm starting the 2nd version of DerbyTest from Eclipse as well.	0
+When debugging it in Eclipse you can see the number of daemons grow very fast.	0
+While creating the DerbyTest I did notice that this problem is caused by the Database pool because it tries to connect to the database in the background.	1
+Still using a connection pool is pretty common.	0
+Please let me know if you need something else.	0
+Regards,Leon	0
+Hey Uma, I've elected not to revert the patch as-committed, since it does indeed fix the bug at hand.	0
+But, in reviewing the patch, I've come up with a number of ideas for how LeaseManager#changeLease and FSNamesystem#unprotectedChangeLease can be improved.	0
+I've filed them in this JIRA: HDFS-2875.	0
+If you would like to take up this work, that'd be great.	0
+Otherwise, hopefully someone else will improve this code when they've got some time.	0
+Sorry [~fiberlijun] - havent had a chance to look at it yet.	1
+Will try and do so within the next couple of days unless [~bikassaha] or [~sseth] beat me to it.	0
+As KeywordTokenizer does the same thing, I'll close this issue.	0
+(I could not get what KEYWORD means.)	1
+Some folks on the mailing list had something like this happening to them.	0
+I am checking out the dojo fixes and patching them in, sorry for the delay, it has been a long time	1
+Added Maven Remote Resources Plugin version 1.0-alpha-5.	0
+> then we don't save IO by limiting the buffer size to 1 KBI'm confused by this.	1
+My assumption is that, when you make a request to read 1k from a disk file, that the OS reads substantially more than 1k from the disk and places it in the buffer cache.	0
+(The cost of randomly reading 1k is nearly the same as randomly reading 100k--both are dominated by seek.)	0
+So, if you make another request to read 1k shortly thereafter you'll get it from the buffer cache and the incremental cost will be that of making a system call.	0
+In general, one should thus rely on the buffer cache and read-ahead, and make input buffers only big enough so that system call overhead is insignificant.	0
+An alternate strategy is to not trust the buffer cache and read-ahead, but rather to make your buffers large enough so that transfer time dominates seeks.	0
+This can require 1MB or larger buffers, so isn't always practical.	0
+So, back to your statement, a 1k buffer doesn't save physical i/o, but nor should it incur extra physical i/o.	0
+It does incur extra system calls, but uses less memory, which is a tradeoff.	0
+Is that what you meant?	0
+[~lhofhansl], thank you so much.	0
+I will upload another patch (V5) in a couple minutes.	0
+There are some changes about ServerName in the past few weeks, so v5.patch changed this one-line{code}      return ServerName.valueOf(hostname, 1234, 1L);{code}	0
+Seems to be failing for a different reason nowtestContainerLaunch(org.apache.hadoop.yarn.server.nodemanager.TestLinuxContainerExecutorWithMocks)  Time elapsed: 0.523 sec  <<< FAILURE!	1
+Patch uploaded.	0
+Have passed all the local unit tests.	0
+Sorry, for all the issue mails, I forgot to mention the second:2) There is commented source in the test, should it be enabled or removed?	1
+//OdfDocument embedDoc = doc.getEmbeddedDocument("Object 7");//embedDoc.save(ResourceUtilities.newTestOutputFile(TEST_FILE_EMBEDDED_SAVE_OUT));//embedDoc = OdfDocument.loadDocument(ResourceUtilities.getTestResourceAsStream(TEST_FILE_EMBEDDED_SAVE_OUT));//Assert.assertEquals(embedDoc.getMediaType(), OdfMediaType.TEXT.toString());Svante	0
+I'm very sorry.	1
+If you want to work on it or assign it to someone else, please do.	0
+Otherwise, I will try to look at it when I return to some JSF development at work later this month.	0
+If there's a problem with items being in the cache when they shouldn't be, adding a check around the Add method isn't a solution to that problem.	0
+We should be Remove()ing items from the cache...not just overwriting them.	0
+I applied an addendum for HBASE-3904 v6 to TRUNK.	0
+NPE is fixed.	0
+However, HBASE-4087 is required for the new unit test to pass.	0
+Sample client, server and broker configuration.	0
+Watch out for "Got InvalidDestinationException" messages.	0
+Kiran - I think this is a setup issue than anything else.	0
+Hugo - if you couldnt reproduce it please close it	0
+A quick and simple fix.	0
+How to handle the problem with LUCENE_29 setting and the posIncr of stopwords together with QueryParser that has a default setting of ignoring posIncr?	0
+How about adding required Version to QP ctor?	0
+Thanks Mark for taking care of this issue!	0
+this class, funny coincidence :)What are you thoughts about QueryParser being able to know about custom Query implementations?	0
+if I were to write a MyQuery class and implemen the toString method a certain way, how would QueryParser know about MyQuery?	0
+Is it possible to extend QueryParser?	0
+Sorry guys... :(I was the reason for this trouble.	1
+I should have been very careful before doing this.	1
+Hi,could you add the following lineform.getDictionary().setItem(COSName.getPDFName("NeedAppearances"),COSBoolean.TRUE);right afterPDAcroForm form = docCatalog.getAcroForm();and try again?	0
+BRMaruan	0
+Still about 2 hours worth of work left on this.	0
+My bad, forgot to include the test file in the patch... Resubmitting in a second. 	1
+I changed the issue title, because this issue includes the implementation of non-standard math functions.	0
+Make scheduler heartbeat interval configurable (bikas)	0
+*sorry*	1
+Damn.	1
+Git is tricky that way.	1
+:)  Will have a look.	0
+great idea, those are lost to the ages but I'll try to reproduce.	0
++1 for making test behaves predictable.	0
+Tests are meant to raise potential issues not to add variation of the issue.	0
+I can see leaning toward to selects from the FLUSHER table with explicit checkpoints is a good balance for this case.	0
+However, the goal of the test was very good.	0
+I am not aware of whether we have test to fill the page cache with new data, evicting all pages currently in the cache so the row count changes are written at a known point in time.	0
+And, it will be a good test to have in turn of code coverage point of view. 	0
+This patch fixes bug for ia32.	0
+Breakpoint handler frame is detected and processed specifically by unwinding algorithm.	0
+Ran for almost an hour this time.	0
+Dump looks similar to previous one.	0
+Here's another whack at splitting the patch.	0
+I addressed Shravan's request to add in the MRStreaming stuff into LocalLauncher, and put in the jc.stop() calls after failed jobs in both Local and MapReduceLauncher.	0
+...and it seems like having 2 APIs, KV and Cell, for every method other than those that take Cell-types params...	0
+Which methods we talking about here?	0
+There a list?	0
+Thanks Pat.	0
+Patch looks good to me.	0
+Ill go ahead and push it.	0
+I like this title.	0
+It is specific to what it is describing.	0
+Thanks.	0
+Couldn't the NodeState implementations in question (StoreNodeAsState AFAICS) just use their id to implement hashCode()?	0
+indeed, good catch!	0
+<joes4> This is a bug in FreeBSD's ldap support- sorry there's nothing we can do about it.	0
+In pom.xml of tajo root, you forget to change the tajo version to 0.8 at Line 76.	0
+Aaron,Go ahead.	0
+Patch that adds the fix to WebResponse	0
+Thanks for patch v2.	0
+Some comments:20.	0
+Log.truncateTo(): The following code seems to be used just for getting the first segment.	0
+22	0
+ReplicaManager:22.1 recordLeaderLogUpdate(): Could we rename it to recordLeaderLogEndOffset()?	0
+22.2 close(): Could we rename it to shutdown to map startup()?	0
+22.3 readCheckpointedHighWatermark(): We should just read the HW from memory.	0
+The on-disk version is only useful on broker startup when we populate the in-memory HW using the on disk version.	0
+23	0
+HighwaterMarkCheckpoint: Is it better to name the file ".highwaterMark" so that it's hidden?	0
+I applied the patch at revision: 599008.	0
+Still, why do we hardcode these numbers, e.g.	0
+port/src/lil/em64t/pim/m2n_em64t_internal.h:#ifdef _WIN64const unsigned m2n_sizeof_m2n_frame = 120;#elseconst unsigned m2n_sizeof_m2n_frame = 104;#endifvmcore/src/util/em64t/base/compile_em64t.cpp:// Stack size should be (% 8 == 0) but shouldn't be (% 16 == 0)const int ALIGNMENT = 0;Doesn't it worth to let compiler calculate such values? 	0
+It would be good if folks can use standard Java i/o idioms with Hadoop.	0
+http://www.ibm.com/developerworks/java/library/j-jtp03216.html{noformat}OutputStream out = fs.open(...);try {  out.write(...);} finally {  out.close();}{noformat}When multiple files are involved the best thing is to nest the try blocks.	0
+Shouldn't we try to make this idiom work well with HDFS?	0
+This looks good, but I wish there was a good way to set up a test case.	0
+I guess the best way would be to create a JobTracker and call the heartbeat method and observe the requested heartbeat interval.	0
+I included the gen stamp and length in the {{cacheReport}} to handle caching newly appended data.	0
+I guess the gen stamp is unnecessary, but the DN isn't going to automatically mlock newly appended data, so the NN needs to somehow realize that the cached length is shorter than the new length and ask the DN to recache at the new length.	0
+Alternatively, I guess the DN could automatically mlock appended data, but there are quota implications there.	0
+On startup, I agree that we can skip cache reports until the cache is populated.	0
+I also agree that jittering doesn't matter as much if it's ticking on such a short time scale.	0
+I guess I could have cleaned this up rather than just changing the default cache report period like Colin asked.	0
+However, since we want to eventually have both incremental and full reports, let's just ape how block reports work; don't jitter the incremental reports, but do jitter the start time for the full reports and afterwards tick at a regular interval.	0
+Let's clean up all these issues in the incremental cache report JIRA (HDFS-5092); if this sounds good, I'll edit the JIRA description with these todo items.	0
+Uploaded a patch that fixes the comments and includes the test	0
+Thanks for the review.	0
+We used to do 'stopping'.	0
+Smile.	0
+Stopping' gets us closer to classic Lifecycle.	0
+I think just needed for this at mo.	0
+That's a good point; we should make sure that it doesn't decrease performance for one of the database types, even if it increases it for Oracle (in which case, making it configurable in oozie-site.xml would be a good idea too).  	0
+Sigh, I don't like this overall if can't reuse everywhere.	1
+Sorry to let you lose a wild goose chase.	1
+You are going to kill me when I say this, but it seems like we should just commit your first patch.	1
+Because this neither-here-nor-there code-reuse seems not much useful.	0
+The original reason why i asked this is so that clients can seamlessly cross over like in MR between RM and AHS.	0
+But it seems like clients have to know which protocol they are talking to.	0
+This half-reuse is more confusing for new devs who see this code for the first time.	1
+fully agree Christian!	0
+Sorry, probably a misunderstanding from my side....	1
+I refereed to the [^v1-enable-wall-werror.patch] which contains {{-Wall -Werror}} and I thought it sould be {{-Wall -Wextra}}However, just add {{-Wall}}  to that patch makes absolutely sense and could be committed.	0
+Hi Nicholas, did you solve the issue?	0
+I meet the same problem on Eclipse recently but haven't figured out how to get through.	1
+Sorry Chris,I missed it, done !	1
+I don't think there is any sense in this, who cares?	0
+We reported this crash to Oracle in plenty of time, and the *worse* wrong-results bug has been open since May 13: http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=7044738, but Oracle decided not to fix that, too.	0
+(@ddlatham: thats kinda funny that you wrote the linked-to article -- it was a random google search)	0
+Thank you for the patch Shawn, can you also tell us what behavior you are seeing that is wrong?	0
+Maybe you can paste a SOAP query example request and explain the wrong behavior and what it is you are expecting?	0
+Commit cf6045f1aa37674f0225144ae0a1f662f955f153 in branch refs/heads/pvlan from [~jessicawang][ https://git-wip-us.apache.org/repos/asf?p=cloudstack.git;h=cf6045f ]CLOUDSTACK-747: internalLb in VPC - UI - create network offering - system offering dropdown is for router only.	0
+Change its variable name to be more intuitive.	0
+you need to create system offering for system vms (ssvm,cpvm,router vm) and then you can upgrade to new system offerings, it is only supported in vmware	0
+Marking as dup of HBASE-5861 (You saw it first Andrew but Jon is going to work on this over in 5861..)	0
+Patch applied, Thank to Clay Leeds.	0
+(BTW - The Idea to retrieve the Document Title is the best solution on my opinion.)	0
+[~smarthi] When I apply this patch, the source code cannot be compiled.	0
+One of the error is that hiddenActivations cannot be resolved.	1
+Another error is that the class Functions.NEGATE is misspelled as Function.NEGATE.	0
+If you have the opportunity to do it, go ahead.	0
+I'm very busy for the moment so I didn't know when I 'd be able to the change myself, so if you can, your contribution would be one more time really appreciated.	1
+Oh, I didn't consider one flow like after the edit log conversion, immediately #store failed.	1
+Now again in the next trip of finalization, it will throw NodeExistsException, here it is really required to do the #store.	0
+I misunderstood the case and sorry for the confusion.	1
+Patch looks good to me.	0
+I'm fine w/ not naming it Consumer - I agree it does not really consume it.	0
+But if we go with PayloadMergeProcessor, we'll need PayloadMergeProcessorProvider and they become quite long names :).	0
+I was thinking PayloadProcessor and PayloadProcessorProvider (have cool acronyms to PP and PPP), but then people might get confused that it processes all payloads (maybe before they are even written the first time), while it is actually invoked only during segment merges.I was following the *Consumer pattern I saw all over the place w/ SegmentMerger, and thought that if someone ever reads SM code, it will swallow easily another *Consumer one ...	0
+So between PC, PMP and PP - I prefer PP - the documentation should clarify what it does.	0
+But I'm open for suggestions.	0
+setting  set hive.script.auto.progress=true;seems to have no effect.	0
+Aside from the job succeeding (it doesn't), what effect should I be able to measure (in order to see if this is doing anything)?	1
+Abhinav, can you also attach cloud_usage db dump.	0
+Need it to test the fix.	0
+I changed the ubuntu version too.	0
+By the way, getCanonicalPath() performs actual file access, may take long if drive is slow (e. g. Samba), may fail with exception if path is inaccessible at the moment (e. g. on network drive) etc.	0
+On the other hand, getAbsolutePath() is purely logical and doesn't need file system access.	0
+You misunderstood the response: StopFilter indeed did not change.	1
+The change is now that in Lucene 4.0 all Analyzers are required to reuse TokenStream instances, so the StopFilter is only produced only once in your application (when the Analyzer is created).	0
+You would need to implement session resume; thats a whole new can of worms.	1
+Only the first of these is a failure.	0
+This test pukes all over the place when the first test fails.	0
+Some of the other test cases in this class failed because that constraint error occurred?	0
+There were most definitely 21 test case failures.	0
+<danielsh> Yes, any23.zones.apache.org is the jail's hostname, so use the IP it resolves to.	0
+ill upload a patch for 3.1 and 3.2 branch as soon as ZOOKEEPER-597 gets committed to those branches.	0
+Yeah, seems safe.	0
+And the current behavior is irritating.	0
+Will commit a bit later unless somebody beats me to it.	0
+Hi Zeid,I'll go ahead and commit your changes, but this one doesn't look right...I think it's a hold over from the Mac files.	0
+This symbol is not used for the Windows Netaccessor.	0
+Yeah?	0
+Please watch the source tree over the next several weeks before our next release.	0
+There will probably be some additional file checks, so you'll need to patch the projects yet again.	0
+This is the bridge code minus the redundant bit.	0
+I would like that add that the problem is highly reproducible.	0
+Looks great to me.	0
+Thanks Doug.	0
+Sorry for a mess in uploaded files, my connection got broken during first upload.	1
+These file describes my change:derby1434-try2.diff (attached multiple times, should have the same content)derby1434-try2.stat	0
+And it's somehow connected to https://issues.apache.org/jira/browse/DIRAPI-137	0
+The reason of such big number of "ByteArrayOutputStream;.write" invokes is signed ext/bcprov.jar - it's manifest is read by byte.	0
+If we put this jar to bootclasspath we'll have at least 5% performance boost on HWA application .	0
+btw: maybe we should add this Jira's as subtasks to HARMONY-5277 ?	0
+As they're startup related.	0
+Ok, all donehttps://issues.apache.org/jira/browse/KATOI found sgoyal jira username to be shubham so hope thats right, if so good to go!	0
+comments on phabricator	0
+Here are 2 patches ... one for adjustExamplePaths.bat & .shand the other a new file holding 2 User Libraries ... UIMA_LIB & UIMA_AS_LIBNot sure where this should go ...	1
+I guessed UIMA_HOME/config but could be /lib	0
+The only thing that the convention plugin does at request time, happens in org.apache.struts2.convention.ConventionUnknownHandler, the rest is just configuration loading on start up, you might want to put a breakpoint in handleUnknownAction, and see what is going on.	0
+So either new-style hints are being written without versionColumn by RowMutation.hintFor, or old style hints did not get cleaned out properly by SystemTable.purgeIncompatibleHints.	0
+But both of those look fine to me.	0
+Hi,I have changed the rsync to rsync.eu.apache.org.	0
+Please check it now.	0
+Regards,Softaculous Team	0
+i found the class - so there is no bug - sorry	1
+> Stage 2, btw, will involve documentation.	0
+I'm not forgetting it :) Did you forget it, or did I miss it somewhere?	0
+I was not aware of being required to call that method.	1
+Is it possible to do this when closing the input/outputstream aswell?	0
+Thanks Mathias.	0
+This is a silly one.	1
+Bringing into 0.90.0.	0
+Marking as critical.	0
+Seems we didn't enforce an exec for sh, but we did for fs.	1
+@JonThanks for committing it.	0
+Anoop reminded me about this.	0
+The failure of GdiplusStartup happened to because this function was called from a native method with RSP not aligned to 16 bytes.	0
+It is not well documented in MSDN, but it looks like RSP has to be always aligned to 16 bytes.	0
+Some functions don't require it, but some do.	0
+A patch was made to the interpreter to fix this in assembly code, so if a native method has an odd number of arguments, additional 8 bytes are skilled by RSP to align it to 16 bytes.	0
+Patch applied at 514264.	0
+So I am likely going to work on this soon.	0
+What is the exact problem?	0
+If it would as simple as just recreating ReplicationZookeeper or using RecoverableZookeeper J-D would have probably just done it :)	0
+You forgot to mention the part where I said that I have absolutely no idea if MinSize is important for some other part of the code ;)Also, it looks like if we add a check in couch_db:doc_flush_binaries/2 to see if we're not streaming an attachment of unknown length, and then pass that information to couch_stream:ensure_buffer/2 so that couch_stream can decide if it wants to allocate exactly the requested amount or some extra it'd solve the issue.	0
+The patch should be relatively trivial, but like I said, I have no idea if there is other important stuff going on there or not.	1
+The two issues mentioned by Tom has been fixed.	0
+The new patch is the whirr-168-3.patch file.	0
+32 bit ubuntu 12.10	0
+Marking this for 0.18.4 and above since it's a deadlock.	0
+The patch should work on all fair scheduler versions.	0
+This blocker/ critcal was created before July please review and resolve, we are approaching 4.2 code freeze in 7 days 	0
+Was fixed to behave as it used to.	0
+Igor, sorry it took me so long to get back to this.	1
+Thanks for the patch.	0
+It works for me, both in container and in testing with WicketTester.	0
+Hey, sorry I did not get back to you sooner.	1
+I found the (sad) attempt at a script you asked about and uploaded it to MAPREDUCE-4282.	1
+As I said on that thread, I'm in a compilers class right now and I thought I might make a more "enlightened" attempt using lex/yacc soon and see where that gets me, if no one else gets this done first.	0
+Sorry for the delay.	1
+anyway, if someone is brave enough to fix the "attempt one" script, i wish them well ;)	0
+I added a rm -rf /tmp/h* to hadoopqa... and ran this again.... seems to be working:https://builds.apache.org/view/H-L/view/HBase/job/PreCommit-HBASE-Build/7253/consoleWe'll see.	0
+by the way, the only open impl of this algorithm i could find is at http://rrette.com/moman.html (ZSpell) in python.	0
+I recently stumbled upon a C++ey STLey impl -> http://code.google.com/p/patl/bq.	0
+I might be on the trail of a java impl - get out the hounds!	0
+If you do take hold of it, do not hesitate to share :) The original paper and C++ code likewise melt my brain, and I needed the algo in some other place.	0
+Go ahead commit Nitay.	0
+We can file issues with it as we find them.	0
+I don't have resources to hand to test this at mo.	1
+Yes it is a dup, thanks Mike for taking care of this (I planned to do this yesterday but didn't make it)	1
+Hi Deepa, I looked at the transaction logs, afaict this is not a bug, rather the znode you mention is not deleted on session expiration because it was already explicitly deleted by another session.	0
+I dumped the txnlog from zookeeper2, here is the section of interest.	0
+afaict things are working properly, at least on the ZK side of things.	0
+Fixed a typo in the oritinal patch.	0
+toString() method added.	0
+FWIW: this issue is a regression of JCR-890, i.e.	0
+the refactoring involved (r982520).	0
+there might be more hidden issues like this.	0
++1, let's rip it out and redo it if we need it.	0
+Forgot to add that I also tried this with and without HBASE-5864	1
+but app developers should always explicitly set it based on their applicationMy guess is that a large enough group of people take the defaults that it matters.	1
+App developers never do what they should :)	1
+problem - the bit to sign the source-release is being called when the source-release isn't being built because the source-release is only built at the "executionroot".  	1
+I wasn't talking about the perment schedule.	0
+I was talking that the first three months of becoming a TLP we have to report monthly.	0
+Kevin, we already have that -- the jobs are named after the file (if you run pig myfile.pig), but you can override the name with "set job.name myname"With this ticket, that job name would essentially become a prefix.	0
+Excuse me for stolen assignement.	1
+I've saw this after completed the issue.	0
+I've rework almost all needed messages in Preconditions.checkArgument.	0
+And I did it according the style of each class.	0
+I think it will be useful to standardize all the messages.	0
+In current version the same error cause different messages because there are many commiters.	1
+Example, for case: Preconditions.checkArgument(size >= 0, "size must be at least 0"); we can do like Preconditions.checkArgument(size >= 0, "Wrong size: " + size + ".	0
+Must be: size >= 0!	0
+Marking this an incompatible change, so that it gets attention.	0
+Also, setting webinterface.private.actions has other effects like enabling the 'kill job' and 'kill task' links on the Job web UI.	0
+@Joy: I agree that not losing heartbeats is the best scenario.	0
+In the case I mentioned in my above comment, we would not lose datanode heartbeats if we implement HDFS-1392.	0
+On the other hand, if there is a true network partition, then NN will "lose heartbeats" from datanodes, because the datanodes cannot send messages to the NN.	0
+In that case, the NN should delay creating a replication-storm in the hope that the network partition gets resolved soon.	0
+So, the heuristic that I listed above to detect a network partition should still be applicable, isn't it?	0
+#NAME?	0
+Yep i am actually using just Pax Runner/Exam to start Ace stuff.. but i am not 100% sure about what the MuliFrameworkStarter is about.. what is it good for ?	0
+Sorry for the missing class src/java/org/apache/jdo/tck/lifecycle/StateTransitionsReturnedObjects.java.	1
+Checked in with revision 388211.	0
+After applied patch, the output format just like this :[root@infra1 bin]# ./hdfs dfs -count -header /DIR_COUNT FILE_COUNT CONTENT_SIZE FILE_NAME           7        10002           10292583 /[root@infra1 bin]# ./hdfs dfs -count -q -header /QUOTA REMAINING_QUATA SPACE_QUOTA REMAINING_SPACE_QUOTA DIR_COUNT FILE_COUNT CONTENT_SIZE FILE_NAME  2147483647      2147473638            none             inf            7        10002           10292583 /	0
+Sorry if this was not clear, and yes, by <blank> I meant an empty string.	1
+The unit test code is for a sleep job where splits need not be different since they are empty.	0
+Qianshi is working on the SSL session reuse, but this buggy Bug system does not allow him assign this ticket, sigh	1
+Hi Guillaume,I did not have an answer right away, so I sent you question to Leonard Rosenthol.	1
+Here is his response:"There is no reason to change the version in the header as the version can be anything (ISO 19005-2:2005, 6.1.2).	0
+As for the OutputIntent, that is not necessary if all colors in the PDF are in a device independent colorspace (ISO 19005-1:2005, 6.2.3.1).	0
+In this case, they are all in ICCBased Gray.	0
+Leonard" BR, Bill Fausser 	0
+Sorry, should have commented on this much sooner.	1
+That seems to work for me - thanks!	0
+The preliminary patch is attached.	0
+It is not yet tested - I ran into strange build problems with APR.	1
+Done, sorry for all the mess on a simple patch.	1
+David,I've done a little digging and have a question around:  OrderReadHelper.getOrderItemQuantityBd()Firstly going back a while now this log:    http://svn.ofbiz.org/viewcvs/trunk/components/order/src/org/ofbiz/order/order/OrderReadHelper.java?rev=4367&r1=4281&r2=4367shows a change to the strings that seems to make the first if statement redundant?!	0
+I presume either that statement can now be removed or the original intention of the statement needs reimplementing?	0
+Secondly reading this code I can see why this bug is happening, after completing stage 2 above when adding the new item the code does "ordered - cancelled = quantity" which equates to "1 - 1 = 0".	1
+Keep repeating this and the problem just gets worse.	1
+scheduleAtFixedRate "Creates and executes a periodic action that becomes enabled first after the given initial delay, and subsequently with the given period; that is executions will commence after initialDelay then initialDelay+period, then initialDelay + 2 * period, and so on.	0
+If any execution of the task encounters an exception, subsequent executions are suppressed..."so get() shouldn't be causing a cancel, but if an exception is found then we need to re-schedule it manually.	0
+(If you cast the Runnable in afterExecute to ScheduledFutureTask you can get access to the scheduling info.)	0
+if get is causing the cancel even w/o any exceptions being involved then I guess you'll need to source dive in ScheduledThreadPoolExecutor to see what is going on.	0
+Here are two thread dumps:sling6.thread_dump.01.txt was taken about 10 seconds after a shutdown of Sling was attempted.	0
+sling6.thread_dump.02.txt was taken a couple minutes later.	0
+I include it because quite a few of the threads from the first dump have stopped by this point.	0
+thx todd, missed the ant/ivy stuff, update patch takes care of it (hopefully mavenized gridmix goes in soon and ant/ivy will go away)	0
+Please ignore attachment (id=6938).	1
+It was attached to the wrong bug.	1
+According to https://issues.apache.org/jira/browse/INFRA-6336 we can't use git for websites.	0
+Thanks for the reference, I'll look into it.	0
+[~egli] - can you reproduce?	0
+If you do, you'd stand a better chance of making a proper fix...	0
+(back from holidays, so a bit delayed, but) I confirm Andrzej's suggestion -- a plain-text only summarized is ideal for clustering for example.	1
+HTML is quite uncomfortable to work with.	1
+I don't have the cycles today.	0
+It would be great, if you could work on it.	0
+Thus assigning the issue to you.	0
+Thanks.	0
+Hi Marco,I changed the name of patch because it was made in Java earliar, sorry for inconvenience.	1
+I have uploaded the modified patch "PartyCommunication.patch" and it is ready for testing.	0
+This is the reverse side of ARIES 399, which dealt with a deadlock in ServiceRecipe.	0
+As mentioned there to fix the issues blueprint code that calls out to any kind of client code (reference listeners, service listeners, initialiser methods) should not hold the full BlueprintRepository lock, which allows deadlocks like the two observed.	0
+Or at least the locks need to be much more fine-grained than locking the whole container.	0
+I hope the first approach as the more general solution will work though :)	0
+Yeah I had a hunch it was a shutdown hook, kicking in at the same time.	0
+i modified the test class from HADOOP-6148 (bigger is better)the result is:||bytes||PureJava MB/sec||Native MB/sec||Random PureJava MB/sec||Native MB/sec||| 1|40.525 |12.118 || 2|151.706 |23.046 || 4|202.082 |46.778 || 8|309.846 |88.030 || 16|330.308 |152.373 || 32|384.488 |247.181 || 64|413.354 |350.407 || PureJava|0-64|260.692 MB/sec|| Native|0-64|198.142 MB/sec|| 128|429.670 |450.514 || PureJava|0-128|323.232 MB/sec|| Native|0-128|299.766 MB/sec|| 256|437.959 |521.985 || PureJava|0-256|376.471 MB/sec|| Native|0-256|405.063 MB/sec|| 512|439.036 |564.909 || PureJava|0-512|410.257 MB/sec|| Native|0-512|490.422 MB/sec|| 1024|441.101 |587.137 || PureJava|0-1024|426.669 MB/sec|| Native|0-1024|549.357 MB/sec|| 2048|443.893 |601.072 || PureJava|0-2048|436.865 MB/sec|| Native|0-2048|579.190 MB/sec|| 4096|444.964 |608.434 || PureJava|0-4096|441.389 MB/sec|| Native|0-4096|600.953 MB/sec|| 8192|445.737 |610.422 || PureJava|0-8192|444.453 MB/sec|| Native|0-8192|609.527 MB/sec|| 16384|447.157 |615.396 || PureJava|0-16384|447.575 MB/sec|| Native|0-16384|615.407 MB/sec|| 32768|446.494 |615.482 || PureJava|0-32768|446.071 MB/sec|| Native|0-32768|615.393 MB/sec|| 65536|446.550 |616.318 || PureJava|0-65536|446.011 MB/sec|| Native|0-65536|615.462 MB/sec|| 131072|446.603 |616.220 || PureJava|0-131072|446.256 MB/sec|| Native|0-131072|615.432 MB/sec|| 262144|445.461 |613.127 || PureJava|0-262144|446.049 MB/sec|| Native|0-262144|616.090 MB/sec|| 524288|445.208 |612.968 || PureJava|0-524288|445.257 MB/sec|| Native|0-524288|610.429 MB/sec|| 1048576|438.190 |607.029 || PureJava|0-1048576|434.039 MB/sec|| Native|0-1048576|603.446 MB/sec|| 2097152|428.816 |603.694 || PureJava|0-2097152|423.804 MB/sec|| Native|0-2097152|607.624 MB/sec|| 4194304|421.485 |606.262 || PureJava|0-4194304|439.061 MB/sec|| Native|0-4194304|609.371 MB/sec|| 8388608|424.566 |598.640 || PureJava|0-8388608|426.544 MB/sec|| Native|0-8388608|608.484 MB/sec|| 16777216|433.218 |602.733 || PureJava|0-16777216|434.810 MB/sec|| Native|0-16777216|601.179 MB/sec|	0
+I fixed the build failures on 4.1 this morning.	0
+I'm doing an automated test as well.	0
+Will close this ticket if there are no issues.	0
+FAILURE: Integrated in Hadoop-Yarn-trunk #344 (See [https://builds.apache.org/job/Hadoop-Yarn-trunk/344/])HDFS-5041.	0
+Add the time of last heartbeat to dead server Web UI.	0
+The patch should be licensed to ASF for inclusion in ASF works.	0
+Sorry for the mistake.	1
+Not sure I want the transient inability to clean up some local log or other trivial task to kill a whole pig job?	1
+First guess: something's getting confused about reversed-ness.	1
+Is that part of the test in question?	0
+lifecycle management up to a separate containerAgreed, and my patch also contains a TODO for that.	0
+Similar to all other plugins, the life cycle hook should be pluggable in a sense that you can deploy them e.g.	0
+in an OSGi container as a separate bundle.	0
+Instead of hardcoding the hooks we could introduce a LifeCycleHookProvider similar to ValidatorProvider we already have.	0
+Subject.doAs tricksGood point.	0
+Though, we have to review that usage in general.	0
+I'll try the approach you suggested.	0
+api_key and secret_key are not required.	0
+data sync is external to cloudstack	0
+Thank you Ole!	0
+Committed v2 patch to trunk with revision 508383.	0
+Committed to HDFS-3042 branch.	0
+Thanks for the reviews, Bikas and Aaron.	0
+I said above that the earlier patches were lost, but nope, there they are.	0
+Sorry, I took Martin's comment to mean the patch was committed and issue closed, which certainly discarded all the patches the first time around.	1
+Anyway, the "-2" patches include all the changes in the first patch files.	0
+What platform?	0
+Have you tried the standard maven untangling tricks like deleting ~/.m2?	0
+We need to make this configurable before we can apply this patch to the trunk (unless i have misunderstood the effect).	0
+The demo looks like it will be very useful.	0
+Thanks Cyriaque.	0
+Form#maxSize is ignored now too.	0
+I don't know what just happened.	1
+The patch went to the wrong bug.	1
+Sorry again!	1
+> Another thing: is the try ... catch good or bad?	0
+Our caller may not notice what happend right now.	1
+I guess will be better not catch since until now was not being catched and will be good to propagate upwards.	0
+Sorry for my poor review, didn't notice try/catch :(	1
+v2 removes some dross included by misstack.	0
+You could easily test if it is due to felix by switching to equinox, if the effects are still there blame it on pax web or dosgi.	0
+This jira is unassigned but contains a patch that needs to be reviewed for inclusion in 1.1.1.	0
+Would a new configuration boolean 'fs.manual.shutdown' be adequate for your needs?	0
+You could programatically set this before getting your filesystems, and when set true, the shutdown hook would not be added.	0
+Vinay, thanks for working on this.	0
+Some comments:The new method added to Namesystem is better to# pass BlockInfoUnderConstruction,# call it as isInSnapshot, and# do not throw IOException.	0
+{code}//Namesystem.javapublic boolean isInSnapshot(BlockInfoUnderConstruction block);{code}In the implementation in FSNamesystem, it should try-catch the UnresolvedLinkException and log it as an error since the full path obtained from a file should not have unresolved link.	0
+Second question: Why adding DFSTestUtil.abortStream(..)?	0
+It does not look very useful.	1
+I appended the information to the end of the file.	0
+Oh, I'm sorry, I was unclear.	1
+You have the ability to add users to the mina group in svn, not to the group on people.a.o.	0
+To grant new users commit access, check out https://svn.apache.org/repos/asf/infrastructure/trunk/subversion/authorization and add the appropriate usernames to the mina= line in the [groups] section of the asf-authorization file.	0
+Sorry Jacques, I'll upload another file.	1
+I did it wrong this time.	1
+No idea about the issue resolution/if it's still active, but I'm afraid that by no stretch of the imagination can it be termed a "Critical" issue.	0
+shifted as agreed during the IRC release preparation meeting	0
+thx to Cristi Toth  for his patch	0
+Pull out the RopeTransport stuff, fix the bug, and add in the graceful degradation and I'm happy to see it pushed :)	0
+Sorry, I had attached an older version... let's try this one.	1
+I guess it's OK to put it in trunk.	0
+I did not write it in a way that fits in with the rest of the implementations though.	0
+No unit tests either yet.	0
+However, I figured it was better to get it in the public domain sooner and let the iterative process do it's work.	1
+This is only a problem with exceptions from java.	1
+*, regular business exceptions work.	0
+1	0
+Incidentally if we all nag Joe Walnes enough we might be able to persuade him to release a new qdox which can ignore annotations etc (though it will still struggle with generics I think)	1
+Everything timed out.	0
+Resubmitting and making it a blocker for 0.22	0
+Sorry, I kind of forget about this one.	1
+I'm good with the last version of the patch of just adding a dclocal read repair chance.	0
+Do you mind rebasing Vijay?	0
+I don't have strong opinions about it either way.	1
+So I went ahead and made the change.	0
+It's uploaded here and on review board.	0
+Removed version-infomation znode.	0
+More like can't fix.	0
+Bugs like this make me sad.	1
+Integrated in Hadoop-Mapreduce-0.23-Build #9 (See [https://builds.apache.org/job/Hadoop-Mapreduce-0.23-Build/9/])    HADOOP-7608.	0
+SnappyCodec check for Hadoop native lib is wrong.	1
+Contributed by Alejandro Abdelnur.	0
+@Matthew If you can contribute a section on SPNEGO authentication to the HttpClient tutorial, I'll commit your code to the official 4.1 branch of HttpClienthttp://wiki.apache.org/HttpComponents/HttpClientTutorialOleg	0
+Sorry for the delay, I'm recreating the mirror now.	1
+Note that I was seeing the dreaded "Delta source ended unexpectedly" error at around revision 733924 [1], so I had to set the mirror to start the mirrored version history from after that.	0
+[1] https://svn.apache.org/viewvc?view=revision&revision=733924	0
+Wouldn't it make sense if getFile() always checked whether the passed in fileName is an absolute file, no matter of the protocol?	0
+If this is the case, this file must be returned.	0
+Tom, no problem, please see WHIRR-634 and WHIRR-635.	0
+Thanks, Graham	0
+populated, see r2083	0
+Here is the Review Board for local.py.	0
+trivial change to make the minSize be 1 byte.	0
+I think this should be fine for all of the cases I could find where we use this function.	0
+If we need to specify a different minSize later, we can add a {{setMinSize}} function.	0
+The precommit failures are unrelated to the issue at hand.	0
+[~thejas], could you please have a look at this patch?	0
+Commit 7a977b5eaffb411cb3f1409336cdf42f6b46b18c in branch refs/heads/1.6.x from [~zack-s][ https://git-wip-us.apache.org/repos/asf?p=incubator-jclouds.git;h=7a977b5 ]Reauthenticate on Keystone HTTP 401 (JCLOUDS-178)The number of retries here is not the same as for 500 errors; expectedbehavior is a quick fail while retaining some robustness.	0
+commons.net 3.0.1Thsi application is too big RMI is in Jconsole.I myself dont use.I just use ftp.listfiles.	0
+here i have read that it is because of active passive mode.i will try maybe it can solve my problem but i afraid that it will produce problem with multithread application	0
+Test case and fix.	0
+Also adding some extra tests for newline splitting - currently this coverage is lacking.	0
+Brandon, sorry.	1
+I misread.	1
+Ignore comment.	1
+Nothing out of the ordinary here:% host -t mx laguna-industries.comlaguna-industries.com mail is handled by 20 mail.phnx.uswest.net.	0
+laguna-industries.com mail is handled by 10 mail.laguna-industries.com.	0
+% host  mail.phnx.uswest.net.	0
+mail.phnx.uswest.net has address 63.231.195.31host -t ptr 31.195.231.63.in-addr.arpa.	0
+31.195.231.63.in-addr.arpa domain name pointer mpls-pop.inet.qwest.net.	0
+qmail chose the secondary MX (which is the mpls-pop.inet.qwest.net), probably because it could not reach the primary MX.	0
+Nothing wrong, everything is cool.	0
+Seems to be a faulty mailserver setup at laguna-industries.com.	1
+Unfortunately, in these days where everyone that can put a CDthe right way up in a drive is a Linux/Unix/Windows/Internet Expert, this has become pretty common.	1
+And with a network thattolerates almost everything to get a mail somehow in the right place, it is only seldom noticed (or when it is, it is blamed onMicrosoft.	1
++1 great job pat.	0
++1 on intent from looking at what the patch fixes.	0
+Haven't explicitly tested it myself.	0
+getUserInSystemGraph usisng a priviledged block to access the system graph, I don't think this should be done here as the result is no of you if the caller has no access to the system graph.	0
+On 2008-03-06 08:00:48.178 bendalton commented:FLV video of the bug in question with SnitterOn 2008-03-06 08:01:57.860 bendalton commented:This bug was first discovered in an application I'm working on.	0
+I reproduced the bug using Snitter.	0
+(ie, this is an AIR bug, not a Snitter bug)	0
+yes, they should all be using RWLock, absolutely.	0
+Where is the 'Grant license to ASF for inclusion in ASF works' for the patch	0
+Thanks Willem.	0
+I will update the docs (probably this weekend when I find some time)	0
+Updated patch with new file.	0
+Forget git add, get sad...	0
+Mac, looks like the tests are failing (especially TestHarFileSystem).	1
+The patch looks good to me.	0
+Is there any particular reason on using an _ in front of the following variables?	0
+{noformat}_harMetaCache{noformat}Also, this is meant for trunk only?	0
+@Roger: huh, this is bad, as a partial integration will seg fault, see BoostMonitor.cpp which does a cast of a boost::mutex.	0
+It would be *highly* preferable instead to *not* include the BoostMonitor.cpp change, as both are inter-dependent.	0
+Alternatively, I don't know what is the compiler error on Debian, but it may very well be missing the include inside BoostMutex.cpp:{code}#include <boost/thread/mutex.hpp>{code}Thanks!	0
+That's a very promising idea !	0
+Will take a closer look.	0
+Nice work [~stepinto] !	0
+Can this ticket me marked as resolved as implementation done for portabl IP	0
+@Luke, Sorry for the late, attaching latest version patch	1
+Is the null check necessary?	0
+the underlying protobuf handles the null properly.	0
+{code}          ByteBuffer appAttemptTokens = attemptState.getAppAttemptTokens();          if(appAttemptTokens != null){            attemptStateData.setAppAttemptTokens(appAttemptTokens);          }{code}New public method necessary?	0
+RMAppAttemptImpl.recoverAppAttemptTokens()Looks like all changes in RMAppImpl are unnecessary.	1
+Bug in existing testDelegationTokenRestoredOnRMrestart().	1
+The assert check should be made for rm1 and also for rm2.	0
+{code}    // start new RM    MockRM rm2 = new TestSecurityMockRM(conf, memStore);    rm2.start();    // verify tokens are properly populated back to DelegationTokenRenewer    Assert.assertEquals(tokenSet, rm1.getRMContext()      .getDelegationTokenRenewer().getDelegationTokens());{code}	0
+try the commands{code}git checkout cassandra-1.2patch -p1 < 5234-3-1.2branch.txt {code}	0
+Fixed by making the url absolute before passing it to the web container.	0
+Looks great Todd.	0
+Could we keep this DataOutputBuffer for reuse?	0
+{code}+      DataOutputBuffer buf = new DataOutputBuffer(size);{code}	0
+Sorry, we are no longer using Xerces.	1
+If I'll come across Xerces again, I'll try it.	0
+Thanks, Vijay.	0
+I can see why, the test case just checks that the error string includes the exception text "foo".	0
+That is a bit too lax I think.	1
+The problem is not that the exception text is lost completely, it does come through, just that it is wrapped in an AvroRuntimeException("Unknown datum type: "+datum) error.	0
+So instead of the expected "java.lang.RuntimeException: foo" text being sent you get "org.apache.avro.AvroRuntimeException: Unknown datum type: java.lang.RuntimeException: foo".	0
+The cause is that the call to SpecificResponder.writeError in Responder.respond ultimately calls GenericData.resolveUnion which in turn calls GenericData.getSchemaName before the line where the UnresolvedUnionException gets thrown.	1
+GenericData.getSchemaName instead throws an AvroRuntimeException so the special handling of UnresolvedUnionException in Responder.respond is skipped and the nested exception text is the result.	0
+Another option is to create a new type for HdfsLocatedFileStatus as{code}HdfsLocatedFileStatusProto {  HdfsFileStatusProto fs = 1;  LocatedBlocksProto locations = 2;}{code}  	0
+I am new to Mina and the whole environment.	1
+Anyway, I am creating a project that began with 2.0.0-M3 and is now using 2.0.0-M4.	0
+I have this issue, where my server and client is creating a lot of loopback threads, that I believe must be related to this issue.	1
+Any word on whether it will be fixed?	1
+that it's a huge patch is exactly why I don't want to take a "let's just commit it and clean it up later" approach.	0
+Good idea especially if you have a use case for that.	0
+You might also want to consider the induced latency though, depending on the checkpoint size and frequency.	0
+Make sure to use the hsync api for persistency guarantees.	0
+Do you mean you checked your proposition or mine?	0
+Mine is not thourougly thought, it's just a suspenders AND belt solution.	0
+Also by "working" do you mean that you checked also for (undesired) side effects?	0
+> I don't see where this is limited to user-facing pages.	0
+I need to list out all the jsp/servlet paths and check whether they are user facing or not.	0
+I did not have time to do it yesterday.	1
+I would like to show new API design first.	0
+That's why I have posted my last patch.	0
+Sorry for being confusing.	1
+Attaching patch file AVRO-957.patch:We (Hitwise Pty Ltd) hereby assign all rights to the code contained within this patch over to the Apache Software Foundation (ASF) under the Apache Licence.	0
+I worked with this on Danushka, and the following fix worked for us.	0
+We have done pretty intensive testing and believe this fixes the problem.	0
+Here I am removing the subscription list impl and implementing it using ConcurrentLinkedQueue while keeping the interface intact as much as possible.	0
+the java concurrent implementation of the queue.	0
+QPID-3319.patch has the fix and QPID-3319.patch.2 and QPID-3319.patch.3 fix two other classes that cause a compilation error when the QPID-3319.path is applied. 	0
+Hi Carl, I've made the changes JAVA_HOME and README.txt suggested by you.	0
+I tested the JAVA_HOME change in Linux and it doesn't seem to work (unset JAVA_HOME and launch Eclipse for debugging).	0
+Can you try it on Mac and see if it works?	0
+Thanks Thomas, committed to 3.4.0.	0
+Another interesting message from the log258766 (http-0.0.0.0-8443-Processor2) [                Log.java:103:WARN ] Create Payment Application: Amount to apply [36.76] is greater than the outstanding amount [0.0] of the invoice [10030].	0
+Creating Payment Application for outstanding amount [0.0] instead.	0
+I am not really sure what does the receive payment do before the shipment, it doesn't sound as if it is doing what we expect it to do.	1
+There are a few considerations to be careful about:1) The hostname in service could be a vip name.	0
+The token selector is used in ipc.Client, which has InetSocketAddress of the remote server.	0
+How do we make sure we are matching the right hostnames?	0
+One way to address it is to get the ip address from the hostname service and use that for matching, but that needs a dns lookup.	0
+2) Dns lookup in token selector would be invoked for every connection using token authentication.	0
+Incomplete example.	0
+Unable to reproduce issue.	1
+Sounds good Claudio.	0
+I used to have the subset of in-memory partitions maintained as a sliding window (i.e.	0
+most recently computed K partitions), but I switched to the model with K-1 partitions always in memory and 1 slot for loading out-of-core partitions, because it made the logic slightly simpler.	0
+We can go back to something like that if we want to manage that subset more intelligently (2).	0
+I would keep the hasActive field in memory (in the PartitionStore).	0
+We start with any K in-memory partitions, skip on-disk partitions that have no active vertices or incoming messages, and prioritize spilling partitions that have no active vertices.	0
+As I explained the XSL files have nothing to do with FOP, so its impossible for FOP to tell you which file/line number in XSL stylesheet(s) the problem lies at.	0
+FOP can only tell you which line in the single FO file the error occurred at.	0
+Oh, ok.	1
+I'll focus my efforts on the compile targets then.	0
+We'll have plenty of time to go through the bundles later.	0
+gora-cassandra is patched to work with this prove of concept (It's just a one-liner in CassandraStore).	0
+I meant if someone eventually uses CassandraClient directly, this will break.	0
+And it will break ugly, everything seems to work, but data is never streamed to cassandra.	0
+Yes, I will open a new jira for this sometimes :)	0
+#NAME?	0
+(HDFS-2468)- throw IllegalArgumentException if setOwner with both owner and group empty.	0
+(HDFS-2438)- throw FileNotFoundException if getFileStatus on non-existing file.	0
+(HDFS-2426)- fixed bugs in getBlockLocations.	0
+(HDFS-2508)- changed file checksum json response root from "MD5MD5CRC32FileChecksum" to "FileChecksum".	0
+(Thanks Arpit for the suggestion.)	0
+Seems to work reliably now.	0
+I would prefer to get rid of the sleep again though.	0
+Is it possible to signal from the ServiceTracker to the test that the servlet is installed?	0
+I believe [~bikassaha] meant to resolve YARN-1068 and not this JIRA.	0
+Sorry, this affects 0.9.3 version too.	1
+Phabricator is being a little buggy.	1
+Working with Marek to diagnose the problem.	0
+Tests no longer sleep	1
+v5 uses a small batch size and eagerly sends out "incomplete" batches if the reducer falls behind	0
+yep, +1 to close.	0
+I took care of this already.	0
+Santiago and I  have removed the readExternal(), writeExternal() methods (frominterfaceExternizable) and instead rely on readObject(), writeObject().	0
+We stillimplement the Serializable interface.	0
+We marked the TransformerFactoryImplfield in the TemplatesImpl class as transient, to make sure it does not getserialized.	0
+We overrode readObject(ObjectInputStream) so that we could create a new TransformerFactory in the case of reading in a serialized translet.	0
+Here is a JAXP program that I wrote that shows how this fix was tested:import javax.xml.transform.stream.StreamSource;import javax.xml.transform.stream.StreamResult;import javax.xml.transform.Transformer;import javax.xml.transform.Templates;import javax.xml.transform.TransformerFactory;import java.io.FileOutputStream;import java.io.ObjectOutput;import java.io.ObjectOutputStream;import java.io.FileInputStream;import java.io.ObjectInput;import java.io.ObjectInputStream;import org.apache.xalan.xsltc.trax.TemplatesImpl;public class ProtoTemplates {   public static void main(String[] args){        ProtoTemplates app = new ProtoTemplates();        app.run(args);   }   public void run(String[] args){        if (args.length != 2) {            usage();        }        String inputFilename    = args[0];        String stylesheet       = args[1];        Transformer transformer;        TransformerFactory factory = TransformerFactory.newInstance();        try {            FileOutputStream fout = new FileOutputStream("MyTemplates.ser");            ObjectOutput out = new ObjectOutputStream(fout);            Templates templates = factory.newTemplates(                new StreamSource(stylesheet));            out.writeObject(templates);            out.flush();            out.close();            // try to use the serialized  templates object, this will            // create a new Transformer Factory, see TemplatesImpl.java,            // readObject(...) method.	0
+FileInputStream fin  = new FileInputStream("MyTemplates.ser");            ObjectInput in = new ObjectInputStream(fin);            Templates templates2 = (Templates)in.readObject();            in.close();            transformer = templates2.newTransformer();            transformer.transform(new StreamSource(inputFilename),                                  new StreamResult(System.out));        }        catch (ClassCastException e) {            System.err.println("CAST EXC: " + e);            e.printStackTrace();        }        catch (Exception e) {            System.err.println("ERROR: " + e);            e.printStackTrace();        }        System.exit(0);   }   public void usage() {        System.err.println(            "Usage: run <xml_file> <xsl_file>");        System.exit(1);   }}	0
+This problen is there in the tests below as wellIHeaderBlockTest1IHeaderBlockTest2IHeaderBlockTest3IHeaderBlockTest4IHeaderBlockTest5IHeaderBlockTest6IHeaderBlockTest7IHeaderBlockTest8INamespaceTest1 	0
+Robin is fixing some other things w/ NB, so he's going to take this.	0
+Sorry, this should be YARN JIRA - filed YARN-350 instead	1
+ant tests passed on my box.	0
+Integrated in Cassandra #446 (See [http://hudson.zones.apache.org/hudson/job/Cassandra/446/])    use cfid instead of name in CBL.	0
+patch by gdusbabek, reviewed by jbellis.	0
+Could we remove the setProperty() implementation in HierarchicalConfigurationand use the default implementation in AbstractConfiguration ?	0
+ThusfetchInsertIterator could be made private.	0
+This will always work, irrespectively of the combination of various underlying technologies and it will be a thread-safe solution :public class GroupsResource {    private UriInfo uriInfo;    private GroupResource gr1 = new GroupResource();    @Context    public void setUriInfo(UriInfo ui) {        uriInfo = ui;        gr1.setUriInfo(uriInfo);     }    @Path("group1")    public GroupResource group1() {        return gr1;    }    @Path("group2")    public GroupResource group2() {        GroupResource gr2 = new GroupResource();        gr2.setUriInfo(uriInfo);         return gr2;    }}It will also work well in cases when users try to do proxy-based client invocations, as client proxies do not support @Context parameters on resource methods.	0
+In meantime I will see what I can do with respect to the context injection into subresources... Perhaps in some cases modifying the subresource classes with extra methods might not be an option.	0
+that we have an overridable method is not by accidentWe want that so that we dont keep the state in the component.	0
+But that state is only in the class not in the object	0
+Sorry if this spam's things, however it's unlikely that I'll work on these.	1
+Forgot about these, sorry.	1
+Maurice I don't have such option or maybe I don't know where it is.	1
+:)Sorry about that.	1
+I'll upload example once again in 2 hours.	0
+Sorry about the noise, was trying out the precommit job.	1
+I've just seen that you attached a patch to this issue.	0
+Sorry about that...	1
+Grumble, grumble...	1
+I was in too much of a hurry, sorry hold on a sec.	1
+I'll get it right this time :)	0
+Sorry, I see that you say the same, Mike :)	1
+Sorry for the huge delay Fabio.	1
+I think it's a borderline class - architectuallygood for Lang, but the Math guys are going to have a better idea about thecomplexities to be found.	0
+Will nudge to see what people think.	0
+yup sorry just fixed.	1
+I screwed up the encoding of the stopwords file (sorry).	1
+So I also changed a test to test a non-ascii stopword :)	1
+> now this is really kewl ;) Very 'kewl'.	0
+I was somehow under the impression you were writing an Eclipse plugin.	0
+Sorry about the confusion before	1
+Sorry.	1
+Sorry folks, the full fix was committed in rather a messy manner due to some platform specific issues.	1
+The full list of commits is:http://svn.apache.org/r1477236 http://svn.apache.org/r1477366http://svn.apache.org/r1477698http://svn.apache.org/r1477771http://svn.apache.org/r1477784	0
+Sorry, didn't look at the code until commit...Can you test making it hash to a Long or a 8-byte ByteBuffer?	1
+16-byte BigInteger is overkill, all we need is a reasonable distribution (now that Tokens don't need to be unique) and 64 or even 32 bits is plenty for that.	0
+Sorry - the above comes across as terse.	1
+I really don't know how to solve this problem.	1
+If you know of a way, please describe it.	1
+just uploaded.	0
+Sorry.	1
+Ha sorry Varun, thanks for the reminder, I will have a look at it soon...	1
+Sorry.	1
+MAPREDUCE-1813 has fixed the NPE problem.	0
+They met the same bug with us.	0
+You're right, looks like this is already the desired behavior.	0
+Sorry for the wild goose chase!	1
+Sorry, db name is TPCDB, user name TPC, pwd whatever...	1
+Sorry, my code base is a little old, looks like HADOOP-9147 add some new test in TestFileStatus. 	1
+I'm sorry.	1
+Did you forget to commit {{InvertibleRealLinearOperator}} ?	0
+Sorry; I hit close by accident.	1
+Sorry I've been MIA on this issue.	1
+I haven't had any time to try re-upgrading after having to back out 2.0.8, but I will be sure to let you know how it works out as soon as I get the opportunity.	1
+Sorry for that.	1
+Here is the new file.	0
+Sorry, missed that select-box.	1
+1	0
+Sorry for letting you guys wait.	1
+[~shazron]Sorry, that was weird.	1
+Missed 2 new files - sorry !	1
+Sorry, no longer working on this	1
+Sorry, patch is attached 	1
+On 2008-10-20 11:43:52.354 woflexair commented:Joan,sorry for the noise in the bugbase but it's not a bug.	1
+The background image is a 2000x2000 gif image with transparency, and then the bitmap is very big.	0
+2000*2000*4 = 16 Megas.	0
+I change the way to draw the bacground with code like this one :ui = new UIComponent();bmpBackgroundClass = new backgroundClass().bitmapData;bmpd = new BitmapData(bmpBackgroundClass.width, bmpBackgroundClass.height,true,null); bmpd.draw(bmpBackgroundClass);ui.graphics.beginBitmapFill(bmpd);ui.graphics.drawRect(0,0, this.width, this.height);ui.graphics.endFill();addChildAt(ui, 0 ); wtih a gif image of 4x4 pixels i'm able to achieve the same goal, without eating 16Mg in memory.	0
+Sorry once again for the wrong report,Stephane	1
+Sorry, I forgot to change the priority of this one.	1
+It's not a major one, but it would be a "nice to have" especially with the popularity of web services growing like it is.	0
+sorry.	1
+Sorry, that should have said fixed via HADOOP-4980, not 6980.	1
+Sorry about the report.	1
+Turns out that upgrading git (from 1.6.4 to 1.8.1) fixed this.	0
+In the 1410e patch here are test cases that have not made into the bulkpostings branch.	0
+I'll try and revive these first.	0
+Ugh, sorry :(  Thanks!	1
+Sorry about that.	1
+Uploaded new patch with no compilation errors.	0
+Sorry I didn't use your patch, but I think you'll like the end result.	1
+Some file were missing in the last patch, sorry.	1
+Trove's licensing won't be changing.	0
+The biggest problem is that we've had too many committers over the years and we'd have to get all of their permission to change it.	1
+So, sorry I can't be more obliging.	1
+Last try.	1
+Sorry.	1
+sorry.. redeploy patch	1
+Since the change is already included in HIVE-5741 I will mark this one resolved.	0
+Sorry for the trouble Vikram!	1
+Sorry for the misspelling ;)	1
+(sorry if that was confusing)	1
+sorry for your time.	1
+I must have looked at this before my morning coffee..	1
+Sorry ;-) +1	1
+Wow, that was some bad copy/paste work.	1
+sorry.	1
+Redoing the before/after code below:Before:       if (!msg.isPersistent() || connection.isUseAsyncSend() || txid!=null)) {            this.connection.asyncSendPacket(msg);        } else {            this.connection.syncSendPacket(msg);        }After:      if(!msg.isResponseRequired() && (!msg.isPersistent() || connection.isUseAsyncSend() || txid!=null)) {            this.connection.asyncSendPacket(msg);        } else {            this.connection.syncSendPacket(msg);        }	0
+sorry....	1
+Here is a url with a frame.	0
+Sorry about that...http://bit.ly/12UiaS	1
+Sorry, Thiru, I hope you haven't already started working on this!	1
+huh ... i thought i did resolve this.	1
+sorry.	1
+Sorry, misunderstood the issue!	1
+Sorry for the delay.	1
+sorry for delay	1
+[~lhofhansl] Yea....	0
+Sorry for the delay, was away.	1
+Sorry.	1
+This was my bad.	1
+Sorry, it seems I forgot a few references to 2.0.2 in ./deps/cxf-allI'm attaching a new patch to fix these references.	1
+Thanks Jukka for fixing this :) (sorry)	1
+Stroooong ++++++1I wanted to do that long time, but some tests were made me afraid.	0
+Sorry, that should beFileChannel inputChannel = input.getChannel();FileChannel outputChannel = output.getChannel();in the try block.	1
+Sorry [~svenkat], I just committed this.	1
+[~shwethags], Can you please fix this right away ?	0
+No sorry.	1
+Didn't got the time to try it yet.	1
+Thanks Rashko,I have committed your patch in trunk revision 664697.	0
+Sorry to have not spotted this one, and thanks for your care.	1
+Sorry I missed the "overwrite" keyword.	1
+This might be a bug indeed.	1
+I'll take a closer look.	0
+Killed it with fire.	0
+Sorry everyone.	1
+sorry, last patch was missing new files	1
+sorry for misleading attachment name.	1
+Sorry Avdhesh, I forgot to add these two files to the patch, here is the new patch containing the missing files	1
+Hey Vikram-- sorry about that, I haven't paid much attention to this issue.	1
+Sorry, should ask first.	1
+Mike, I can take this one if you want...	0
+Thanks to Mathias Werlitz - sorry for the delay.	1
+Sorry.	1
+The problems I was talking about are mostly fixed by [HADOOP-3575] and [HADOOP-3480].	1
+I opened [HADOOP-3607] to fix a wrong URL, but appart from that I don't there's still references to the old structure.	1
+no, sorry - priorities have been shifted around...	1
+Um sorry, i thought this ticket was about something else - patch attached, David would you give a try?	1
+Sorry for the noise.	1
+Thanks!	0
+Sorry about that.	1
+As expected, thanks.	0
+Sorry I missed some of this the first time.	1
+Sorry , fixed.	1
+Sorry GavDONECommitted @revision 2487.	1
+Sorry, but look at mapSubtract and further down in the source you will find plenty.	1
+Sorry ;-)	1
+Thanks for the report, and sorry its taken so long to fix it.	1
+well sorry, i didn't upload the right files	1
+Whoops, sorry.	1
+I'll look into it.	0
+Sorry about the trouble.	1
+Committed Ron's patch.	0
+Sorry, in rushing to commit I forgot to add author during the commit.	1
+Actually that's what this change did, sorry for the noise.	1
+Sorry for the noise..	1
+Completely missed issue 614..	1
+Sorry typo:  "our part" in place of  "one part" above.	1
+Sorry, I thought issue (and provided patch) were about cocoon-servlet-service-impl, used by either C2.2 and C3 but only now I see that instead they are related to cocoon-servlet-service-components (C2.2 only).	1
+I'm sorry Mark,I came back here to remove my comment as after building the app from scratch I have found that by default it used WhenExhaustedAction = GROW and not BLOCK!	1
+Sorry  about that, tiredness.	1
+It works fine now!	0
+Sorry about the error guys.	1
+Yes, sorry.	1
+It was meant to be "super.initialize(context); line in its initialize(UimaContext)" :) 	0
+sorry, this bug is *not* fixed.	1
+The patch in FOP-1099 fixes it, though.	0
+Sorry.	1
+I just saw that you commited Code that you did not write about here....	0
+Resolving again....	1
+Sorry, yes I believe this has been resolved.	1
+The problem here was simply that an EJBs class may not be one of its BeanTypes.	0
+Just picking a type from one of the types was a simple enough solution.	0
+Sorry for the spam - but which test method - can't find any related to the SnapPuller on trunk.	1
+But may is better to have no test method than the one with 10 aspects.	0
+[~ashutoshc] Yeah you are right.	0
+Sorry about that.	1
+[~appodictic] Sounds good and thanks!	0
+Yes, the patch is badly named - sorry!	1
+Sorry, attached the file to the wrong issue.	1
+Sorry about that.	1
+I have a really bad habit of not reading thru all the bug comments before asking questions.	1
+Sorry,I tought I could commit this patch but I did not realize that one of the files is in the framework (and I have not access to it).	1
+Sorry, on holiday last week and just catching up.	1
+Thanks so much, sorry that this isn't in the appropriate place.	1
+Sorry guys, I've been pretty busy @ work but I have been watching this.	1
+I'll try to test out the patch this weekend and let you know how it goes.	0
+Yes, just made the same observation.	0
+Sorry for the confusion :)	1
+Sorry, https://bugzilla.mozilla.org/show_bug.cgi?id=514760 is related but not same.	1
+Sorry,I haven't tried you patch.	1
+Sorry for the noise.	1
+I will try to do more research on it.	1
+Thanks.	0
+Sorry, I meant to have this patch in sooner but got quite busy, I expect to have it soon.	1
+Oh, sorry.	1
+I missed the context.	1
+Patch in gzipped form.	0
+For some reason, I couldn't upload the straight patch.	1
+Sorry guys	1
+Oh, signed shift!	1
+of course!	0
+sorry :)	1
+Sorry - the federated build is still working out kinks...	1
+The problem is that it builds awt, and that requires some dependencies.	1
+Please read the README.txt in depends/libs/buildIt should work after that.	0
+I'll add a README	0
+This is is my todo list still, but hasn't risen to the top.	0
+if someone wants to work on this please go ahead, I still plan to, just no time yet.	1
+Sorry.	1
+Yeah we can do it in 0.8.1 which should happen fairly quickly after 0.8 but we are really trying to lock down 0.8 to critical fixes and this is more of a new feature (though obviously desirable).	0
+Sorry for the hassle.	1
+WOW....you are right...I'm deeply sorry to bother you guys (and I'm also a bit embarrassed).	1
+Looks like there's a code freeze for 2.1.8 happening right about now, but thisstill hasn't been committed.	0
+Is there a chance to get it in?	0
+Sorry to nag.	1
+sorry, should have been getDataModel not getDataTable.	1
+Sorry I'm wrong about #2.	1
+Brain fart.	1
+No unit test, sorry (but there's not much deltaQuery coverage anyway).	1
+Here is a fixed patch.	0
+Sorry for that.	1
+Ah, sorry I misunderstood you.	1
+Fixed then :)	0
+I think this was a dud.	0
+Sorry for the noise.	1
+Aaron, sorry about this.	1
+The guy on our team that was going to do this was swamped, so I re-assigned this to you.	1
+Sorry, missed this.	1
+Will take a look at it.	0
+I didn't 'svn up' before I looked at the code :).	0
+Sorry for the noise.	1
+My patch wouldn't compile.	1
+Here is addendum to fix (Sorry about build breakage)	1
+Sorry, you're right.	1
+Line 1664 (sorry, the 0.94 codeline)	1
+Sorry - I just didn't read the issues carefull enough.	1
+It's the ObjectMessage that could alternatively be sent as an XStream message, right?	0
+Sorry about that, fixed now.	1
+sorry about this.	1
+i committed GIRAPH-90 with wrong reference in commit message.	0
+My error.	1
+Tried some more stuff and realized I was doing it wrong.	1
+Sorry.	1
+Sorry, here's the test that reproduces the issue.	1
+Sorry if this spam's things, however it's unlikely that I'll work on these.	1
+Verified this with trunk.	0
+Sorry for the trouble.	1
+sorry old xml here is the used one:<?xml version="1.0" encoding="UTF-8"?><root><value>?陇?露?录 und ??????	1
+This has been riding in 0.94 for too long.	0
+Sorry [~kumarr], let's just do this in 0.96.	1
+1	0
+Sorry for the super-slow uptake on this, the new job is using up all of my limited brain resources. 	1
+Well it's me that didn't get the whole point, now i got more, sorry for the noise.	1
+One question, if you need to override the decorated service why you need it?	0
+Thanks, Willem.	0
+Sorry, I was trying to get to the wiki but it's been a busy week.	1
+s/[~apurtell]/[~lhofhansl]/Sorry guys.	1
+Sorry, grabbed the wrong ticket.	1
+Switched to @GeneratedValue(strategy = GenerationType.TABLE) for all entitiesrave-portal was using GenerationType.SEQUENCE (incompatible with MySQL) while rave-shindig was using GenerationType.IDENTITY (incompatible with Oracle)	0
+Eventually I decided to include just one patch file (instead of code and test) since it was simpler after all.	0
+Please be sure to review the following:# Collector class and documentation.	0
+# Methods deprecation.	0
+# New TestTopDocsCollector as well as test cases in TestSort.	0
+One underlying cause of this issue is QPID-4731	0
+Sorry that I think I missed some discussion in the mailing list.	1
+The implementation and test and BreakIterator is attached.	0
+sync'ed to trunk	0
+I saw this behavior in a stress test just now as well on tip of 20.	0
+Since we know meta splitting doesn't work, can we put in some code that allows META's one region to grow without bound regardless of its size?	0
+New patch, removing "preserve holes" option from AnalyzingCompletionLookup: you can simply tell your StopFilter whether or not holes are meaningful.	0
+Cheers,Mick	0
+This code is generated.	0
+Unless we switch to Antlr 3.0 ( and even though, I'm not sure this would fix the problem), there is nothing we can do.	1
+Supplemental patch committed.	0
+I'm leaving this issue open for further discussion.	0
+Committed to trunk.	0
+3.x does not have a mechanism to pass state across core reloads, and that's a change I'd rather leave to 4.x.	0
+Might simply be best to track all directories and close them on shutdown.	0
+Shazron,I am using alert to visually notify myself.	0
+Inferring that it might make a difference, based on your comment, I tried using 'console.log()' and the unexpected behavior was no longer present.	0
+Attached is the patch, running derbyall right now.	0
+Reviews appreciated.	0

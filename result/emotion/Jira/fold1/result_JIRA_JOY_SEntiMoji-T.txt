@@ -1,0 +1,200 @@
++1 for the patch.	0	0
+Please check that it was applied as expected.	0	0
+Ok cool, this is just a matter of adding strings to the various [NotFound()|https://github.com/apache/mesos/blob/0.15.0-rc4/src/files/files.cpp#L160] returns in files.cppThere are a number of error cases in the [browse|https://github.com/apache/mesos/blob/0.15.0-rc4/src/files/files.cpp#L204] and [read|https://github.com/apache/mesos/blob/0.15.0-rc4/src/files/files.cpp#L204] endpoints, I'd imagine one could change the javascript to generate bad requests which should be sufficient to test this :)	0	1
+What % of clients do think were stuck like this?	0	0
+Would your use case be covered by adding a TTL to CF?	0	0
+Zhenxiao I left comments on Phabricator.	0	0
+I resolved the issue via Spring.	0	0
+Interesting, I just replaced my src with the latest in the trunk and did a compleatly clean build and the problem seems to have gone away.	0	1
+Hi guys,I agree 100% on this.	0	0
+And then MarkupCache uses that interface to checkout what the actual file isI dont think we will get IResourceStream implementation that are not File or URL and if we do then we fallback on the cachekey only approache.	0	0
+I am not mandating to use DistributedHashtable directly by plugging it intoCastor as it is, but as the base for 'distributable' TimeLimited, CountLimitedet alias cache implementations.	0	0
+If you feel like adding this to the showcase than go on.	0	0
+I would advise that a good thing to do once you have fixed this issue is to then perform a similar test modification for setting a valid value and using batching.	0	0
+2	0	0
+Did we decide to not recommend NATIVE here or should this be adjusted to include it beside the other safe schemes?	0	0
+The .md extension is used for the readme because it's in MarkDown format, used by GitHub.	0	0
+I believe in relativity :-)	0	1
+I did translate some Labels to german language.	0	0
+Thanks, Jothi!	0	0
+Horia Chiorean <hchiorea@redhat.com> made a comment on [bug 1014709|https://bugzilla.redhat.com/show_bug.cgi?id=1014709]https://github.com/jboss-integration/modeshape/commit/d1d97180c957491bee3654743ebd4a6860314ad3	0	0
+I'm using jruby.bat from jruby 0.9 and it works fine.	0	0
+#NAME?	0	0
+Abandoned; no longer necessary.	0	0
+In the same pc I have a outlook client and It work fine, the problem is with xplanner, how can I  configurate xplanner for send mails ?	0	0
+Thanks,Raymond	0	0
+196883On 2008-04-08 08:38:58.599 wichan commented:Still couldn't find the swfUtils.jar in the webtier.war ad flex-for-cf.zipOn 2008-04-09 07:51:01.799 ccreanga commented:Fixed - swfutils.jar was not included in the war	0	0
+Thanks for moving so quickly on this guys.	0	1
+latest from RB	0	0
+Hi Robbie,Please could you review this patch?	0	0
+But we should put a sticky note on our brains to remind ourselves to clean up this pattern in the future--partially initialized data is brittle.	0	0
+@Subbu:Glad I was able to help.	0	1
+Committed to 0.8 after reverting the change in system_test/ (the consumer property file there is used for an 0.7 consumer).	0	0
+worth investigating.	0	0
+Thanks, Amar - this was a long-drawn affair!	0	0
+There are no extra lines of code or maintenance; it is the simplest solution.	0	0
+I'm sorry for the confusion.	0	0
+Monitor no longer based on protobuf.	0	0
+Latest commits now include filemgr and workflowmgr integration.	0	0
+Committed to Trunk.	0	0
+I tripped across one puzzling sentence, but it wasn't something that you changed: In the second, longer paragraph of the BUILTIN bullet, we recommend LDAP and user-supplied schemes as alternatives to BUILTIN, but we don't recommend NATIVE.	0	0
+I suggest making a tooltip with the title of the context help article (a popup)  when the user hovers the question mark icon.	0	0
+Thanks very much for the contribution.	0	0
+Thanks!	0	0
+Please close this bug, if this is ok for you.	0	0
+Marcus we need a fix for this - if you can check in we will test itthanks/sudha	0	0
+If you think they are critical for CR1, please re-schedule them.	0	0
+Thanks!	0	0
+bq. OK w/ the latest patch all tests pass for me! Great Awesome! :)	1	1
+Awesome discussion.	1	1
+Please review.	0	0
+Thanks for the patch.	0	0
+We just need a possible mentor here... volunteers...?	0	0
+This issue has been fixed by the Harmony-5834.	0	0
+Might want to correct the misspelling: *remvoed* AllFromInodesFromMap :)	0	0
+I can just about cope with the amount of manual intervention required, but in the not too distant future I can see the need for some of the rules you suggest.	0	0
+Thanks for the patch Gustavo.	0	0
+fixed style	0	0
+Until there will be _real_ need of adding new Monoid implementations, I would suggest to postpone the problem and keep *your* version of the patch.	0	0
+The work in progress archetype is now committed in the trunk (http://svn.apache.org/repos/asf/oodt/trunk/mvn/archetypes/radix/).	0	0
+I'll see if I can arrange for the manifest to contain bundle-manifestVersion.	0	0
+I would rather not have specific vendor JDK names listed in there if can be avoided anyway.	0	0
+You're results are awesome Paul. Great work :)Looking forward to see your new JSON parser in trunk whenever you think is ready.	0	1
+A potentially legitimate use case of a {{set}} without an {{apply}} is a builder class that should not be accessed until the building is complete, at which point the internal state will be accessed directly to produce the final result of some type.	0	0
+This causes pretty big data structures as many of our CMaps cover 65k possible mappings!	0	0
+The fixing is available in all builds after r658561.	0	0
+This is not a Camel issue but a CXF.	0	0
+Thanks Ashutosh and Gunther for your help!	0	1
+I drafted a small benchmark (so far only for android) to demonstrate the issue.	0	0
+Added support for the QueryElevationComponent and test case.	0	0
+Done at revision 1582 - 1585	0	0
+Reopen if I'm mistaken.	0	0
+closed with no testing, Ian says this is a code-level change.	0	0
+No issue found after noting how it's invoked.	0	0
+I also tried to resolve merge conflicts and ended up with pretty much the same patch as yours.	0	0
+Patch for 0.96 corresponding to latest trunk patch.	0	0
+Anyway, for this file it's not really important I think - a very simple and tiny file, w/ no history to preserve?	0	0
+Committed to trunk.	0	0
+Whoops, yeah, sorry.	0	0
+Very cool.	1	1
+This looks safe also	0	1
+It is good to have the test.	0	1
+Cool cool - thanks stack!	1	1
+fancy applying this patch before 1.3.0?	0	0
+I just committed this.	0	0
+[~maxandersen] please review	0	0
+The last bug I see mentioning a HSQL upgrade was JBAS-1618 which ended up with 1.8 RC9.	0	0
+Thanks!	0	0
+Committed to trunk (0.12).	0	0
+Thanks Sijie.	0	0
+So very cool, and so very committed-- thanks Matthias, this is awesome.	1	1
+Dupe of CASSANDRA-4042 (we'll include the BF fp change there)	0	0
+Alexey, please verify.	0	0
+Done except for pages.xml imports.	0	0
+Robbie,Could you please review and commit the patch?	0	0
+I presume so.	0	0
+This should have been fixed by commit 26a5b76ee6b77909a7b8d5b00924f12e1671373d.	0	0
+fPIC rings a bell on amd64.	0	0
+For my larger suppliers, I will often have a 100 or more requirements built up.	0	0
+Since we will have another RC, we decided to include this change in 1.5.2.	0	0
+Sounds good.	1	1
+So the constructor for this class should call setUUID( permUUID ) rather than stuffing the shadowing field via "this.permUUID = permUUID".	0	0
+Long Life MyFacesssssssssss!	0	1
+Attached patch for Myfaces.	0	0
+In that case, caching will be at the FileSystemView level (not at FileObject level).	0	0
+Thanks	0	0
+(looks like these were introduced in CASSANDRA-1714, fwiw, so i'm going to tag affects-version to 0.7.1)	0	0
+Nice feature, lars!!	1	1
+Jacques,Why concatenate the patches?	0	0
+Committed the patch with thanks to Christian.	0	0
+I only needed to let MarkupResourceStream also implement it.	0	0
++1 on patch.	0	0
+Changes applied in revision 1369338.	0	0
+I don't see the issue on trunk.	0	0
+Thanks Matt, Todd and Cos!	0	0
+Contributed by He Yongqiang	0	0
+Patch checked in.	0	0
+See the following page for an example:https://github.com/seam/examples/tree/master/booking	0	0
+hence closing the ticket.	0	0
+The Sun JSF-RI team have implemented a fix for this issue.	0	0
+> - FOUserAgent.getStream() is cool and very easy to use (now that it's properly> documented).	0	1
+Thanks,Mike	0	0
+The file has Unix line endings though ...@Lukas: scpexe works for me with M2 despite the fact that it insists on a key even if an agent is running (WAGON-27).	0	0
+Note that if you swap the key order, then you will need to make a corresponding change to DataDictionaryImpl.getSequenceDescriptor(String, SchemaDescriptor)o I think that buildColumnList() should return an array of 10 column descriptors, one for each column in the table.	0	0
+# SOLR-1297: sort by function query just needs review and then can be committed.	0	0
+It looks pretty bad.	0	0
+> DistributedHashTable is a good solution but then how are we planning > to acheive let say a Distributed LRU Cache or Distributed Time-limited > or a Distributed Count-Limited Cache.	0	0
+Let's fight with the right weapons when we need, I wouldn't use a katana to kill a fly (unless I am Bruce Willis and I'm in Pulp Fiction :P)best and thanks!	0	0
+Thank you for your contribution.	0	0
+groovy.bat don't have this problem, so the problem is from the native launcher.	0	0
+Thanks to both of you, and to Deepesh for the initiative.	0	1
+Oversight?	0	0
+Resolved in 1.0.1-SNAPSHOT.	0	0
+This is what I understand.	0	0
+Seems to be working just fine.	0	0
+fixed.	0	0
+Will leave open until merged to 10.2	0	0
+This appears to have been fixed	0	0
+Dona, Thiru: can one of you (or anyone else) please review this?	0	0
+[~maysamyabandeh] Got time to look at this today.	0	0
+After talking with Steve B. we decided that the DAS should insist that datagraph root is passed to the ApplyChanges command.	0	0
+In my experience, this kind of shadowing always causes bugs in the future because it is so easy to lose track of which copy of the redundant field is being used.	0	0
+Thanks, Daryn!	0	1
+resolved in r950171	0	0
+PR https://github.com/SpringSource/spring-integration/pull/621	0	0
+Cool.	1	1
+Thanks very much!	0	0
++1  Patch looks nice.	1	0
+Ping?	0	0
+Violated again in r960471.	0	0
+I will rewrite that part.	0	0
+Agreed, wildcards (*, ?)	0	0
+Contributed by Junping Du (szetszwo: http://svn.apache.org/viewcvs.cgi/?root=Apache-SVN&view=rev&rev=1532932)* /hadoop/common/trunk/hadoop-hdfs-project/hadoop-hdfs/CHANGES.txt* /hadoop/common/trunk/hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/balancer/Balancer.java	0	0
+I'll take a look at this for the next release (after 1.5.11).	0	0
+Yes, this was fixed through Yecht.	0	0
+SYSROLESRowFactoryo As with SYSSEQUENCESRowFactory, I think that buildColumnList() should return a larger array, one cell for each column in the table.	0	0
+Great work...this is awesome stuff.	1	1
+SYSSEQUENCESRowFactoryo I think that you should flip the order of the keys in the second index.	0	0
+The pb is not in ApacheDS, but in the startup delay.	0	0
+You are absolutely right.	0	0
+I've added a Theme class and a ComponentAppearance class which takes defaults from the theme and allows them to be over-ridden.	0	0
+Hi Thomas, it's here:https://svn.jboss.org/repos/common/common-old/branches/Branch_1_0/	0	0
+Committed in r14473 on trunk and r14474 on 2.0.x.	0	0
+I found the note in the manual about @Resource and that fixes it.	0	0
+Or do we act like we always had it?	0	0
+Excellent, the performance is much better.	1	0
+the configuration in the POM works fine with 2.4.3.	0	0
+Issue is also present at JPP 6.0 ER02	0	0
+Should we close this one now that we went a different route (zero javadoc warnings?)	0	0
+Apply the changes in patch16583.	0	0
+We should use a more efficient in-memory representation for such range mappings.	0	0
+Added to portletswap, but not the distro until we have themed groupings.	0	0
+Do you need any help?	0	0
+Or at least has some relation to above problem?	0	0
+I'm gonna review it and apply.	0	0
+canceling	0	0
+What classes were changed for this fix?	0	0
+The idea of consolidating POs (or SOs, I guess) came mainly because I end up having multiple small POs for some of my suppliers.	0	0
+Thanks Claus.	0	0
+An error is now thrown if this is not the case.	0	0
+Thanks Greg!	0	0
+I will use it when it will be included in a future release.	0	0
+cool man it looks good. we need a changes entry but from my side this looks good. we can tackle the todos on trunk	0	1
+Thank you for reviewing.	0	0
+Issue is reproducible at least on Debian 32bit and SLES 10 64bit.	0	0
+05 was committed in r613384	0	0
+Patch committed.	0	0
+boisvert@sixtine:~/svn/buildr-trunk$ svn commit -m "BUILDR-283: Misleading documentation on env.	0	0
+The API need to be checked and those errors (ie PDU has been fully decoded ...) have to be fixed.	0	0
+Hi Jaikiran, Didn't you already fix this one?	0	0
+for taking a look.	0	0
+I have made a new patch, derby-2108-v4.diff, which have incorporated (most of) your commets.	0	0
+or someother version?	0	0
+This reviewable, and I think also committable.	0	0
+[~bmahler], it looks like this can be closed since the Python UI is gone.	0	0
+Edison can you check on this issue looks like the fix is not working	0	0
+Looks good.	1	1
+Untar this to populate the position_hints table.	0	0
+Dyre, thanks for your comments.	0	0
+Hullo?	0	0
+Please follow up on the forum: http://www.jboss.com/index.html?module=bb&op=viewtopic&p=4178893#4178893	0	0

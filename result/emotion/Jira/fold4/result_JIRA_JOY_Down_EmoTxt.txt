@@ -1,0 +1,200 @@
+we improved hash handling in Railo, but we get not the same result with non ascii characters as ACF (with ascii characters everything is fine).	0	0
+{quote}Yes, was an oversight.	0	0
+However, I cannot see errors in lucli, can you make a patch for those cases, too?	0	0
+Thanks,-Rick	0	0
+JMX support will be implemented with the remoting project.	0	0
+I'll add docs in Confluence if the example is integrated in Camel's codebase.	0	0
+I can't see the current GOP and GKOP being completely replaced but there may well be some areas where your code could be incorporated.	0	0
+Steve, can you clarify?	0	0
+Add CRC32C as another DataChecksum implementation.	0	0
+Fair enough.	0	0
+Any other opinions about the patch?	0	0
+Atlassian 3.2 is in Central.	0	0
+Thanks!	1	0
+Hey, you're right, that idea was probably not the best approach to the problem - 0.6 looks really nice, looking forward to it :)	0	1
+the  repairment to BlueSky official website Downloads.html and MailingLists.htmlthebluesky group an use the patch freely	0	0
+Cool, looks good.	1	1
+Please also see Glassfish issue 13111: https://glassfish.dev.java.net/issues/show_bug.cgi?id=13111	0	0
+Some property which points to a "DDL file".	0	0
+Patch applied on 2.1.x, 2.2.x and trunk	0	0
+It would probably also be worth having optimized versions for primitive values, instead of writing them to an Avro/Writable first to get the bytes representation.	0	0
+Patch looks good to me.	1	1
+Bozhidar: I agree with your assessment.	0	0
+solved in subversion repository as of r818942.	0	0
+I'll close the ticket as it looks like a non-issue.	1	0
+The patch looks good.	1	1
+I just committed this.	0	0
+It applies, thanks.	0	0
+Thanks Jacopo.	0	0
+Chris,This might be a useful technique to add to the documentation or to a HOWTO on the SJC wiki (when / if there is one)Thanks all.	0	0
+EAR project case is fixed.	0	0
+Add the new file modules\java2wsdl\src\test\java\org\apache\tuscany\tools\java2wsdl\generate\ExampleService.java2.	0	0
+An example patch.	0	0
+Regenerated patch with trunk and with an indentation change.	0	0
+committed r1296706.	0	0
+Review board: https://reviews.apache.org/r/15335/	0	0
+Probably worth adding a third case in testDataDirectories for a URI that includes an authority (file://localhost/path).	0	0
+Thanks for the patch.	0	0
+The only definitions of "OutputStream baseStream" are in run(), copyBlock(), and readBlock().	0	0
+added fixVersion	0	0
+After several retries seems we are unable to proceed with releng team to get supported solution.	0	0
+A test case is needed too	0	0
+Hope that should be fine.	0	0
+I'm closing this for the time being, as we've reopened SPR-368.	0	0
+I just committed this.	0	0
+One minor correction to configure without sqlite3.	0	0
+Per Do臒acan's comment, we need to reopen this and test out his new patch for it.	0	0
+I have committed this.	0	0
+Added as a subtask [HBASE-6157] to this parent jira.	0	0
+patch applied.	0	0
+I applied to 0.95 and trunk.	0	0
+I should have tested with trunk before creating this jira.	0	0
+3	0	0
+Thanks, Amar!	0	0
+[~ashutoshc] Thanks.	0	0
+Done in Weld and TCK	0	0
+If possible can you make sure the patch is checkstyle compliant?	0	0
+Unit test: org.jboss.test.remoting.transport.rmi.timeout.RMIPerInvocationTimeoutTestCase.	0	0
+This patch looks pretty good.	1	0
+I seem to be having trouble applying the patches, though, and I'd hate for all these corrections and improvements to be lost.	0	0
+And the .irbrc sample output has no line breaks and makes it difficult to read it.	0	0
++1 for the patch.	0	0
+commit fixhttp://svn.apache.org/viewvc?rev=729857&view=rev to nmr projecthttp://svn.apache.org/viewvc?rev=729894&view=rev to features project	0	0
+Look in WindowsLibCFunctionMapper.java for the fstat mapping - it may all magically work if you change fstat to map to _fstat64 (note: no 'i' in the name - uses stat64 struct instead of stati64 ... they have different sized atime, ctime, mtime fields).	0	0
+applies to trunk, too	0	0
+applied patch (thanks) in r1055887	0	0
+I've also started to add cascading configuration.	0	0
+I'll commit soon.	0	0
+cool stuff! a good candidate to put on myfaces-commons-utils, so the user can just add the resource handler on its webapp faces-config.	1	1
+we just used it with CBR (content based routing).	0	0
+jBPM already works this way.	0	0
+It is completely expected an updatesite.zip for all of devstudio is *bigger* than the installer.jar	0	0
+I think this looks like the same issue as  [MFINDBUGS-55|http://jira.codehaus.org/browse/MFINDBUGS-55]Garvin 	1	0
+Would like to pick up this fix with the stable release if possible.	1	0
+Thanks for the quick response Colm.	0	0
+Hi Suran,The new catalogs_b.patch looks very good.	1	1
+Can you provide a little more context on this please... 1.	0	0
+Since an approach to put back two such HRegionInterface level measurements with a query/mutate distinction has been +1ed on this issue I'm going to put them back on trunk and port back the changes to 0.94.	0	0
+Now the JBossESB changed to SwitchYard and we need to ensure it works.	0	0
+I'll commit this soon unless there are objections.	0	0
+Feature verification is completed including Upgrade.	0	0
+Changed contributed by from Arpit Agarwal to Arpit Gupta.	0	0
+OK, will open the issue with Solr/Lucene.	0	0
+Thanks for looking after this.	0	0
+However, this bug mentions that we were upgrading from 1.8.0.2 to 1.8.0.7.	0	0
+It also includes a corresponding change in java2wsdl to handle the two-way void return case correctly.	0	0
+Would anyone have time to put together a pull request?	0	0
+all history lost?	0	0
+Patch applied.	0	0
+Released with GEP 221, so I close this JIRA.	0	0
+If possible, let's schedule to 0.4	0	0
+Looks like Forge isn't used at companies having a firewall.	1	0
+applied.	0	0
+Here's a patch that adds in support for SGD.	0	0
+Without an explanation of what the issue is, this issue is likely to remain dormant or just be closed as won't fix.	0	0
+Please take a look at the patch and let me know if it fixes the problem for you.	0	0
+I suggest, that you have a closer look at the exception.	0	0
+Patch for aggressive GC test	0	0
+Changes to the test look good, and your method for finding which are right/wrong is correct.	1	0
+This is Awesome Stefan - thanks a million!	0	1
+There are tests in Mahout-integration that are using DummyRecordWriter  -  TestConcatenateVectorsJob and RegexMapperTest, and are failing with this patch.	0	0
+Jacques, if you create separate issues for the erros (icluding the logs) I can take a look them.	0	0
+This appears to be a issue with Hibernate (the default JPA implementation in JBoss AS) rather than a EJB3 issue.	0	0
+periodic bulk close of resolved issues.	0	0
+Thanks guys,Bharat your patch is in trunk at revision: 754834 .	0	0
+Daryn, the current patch looks good.	1	1
+Are there any (future?)	0	0
+The patch needs to be regenerated against the current trunk, but otherwise looks good.	1	0
+(Revision 1450575)HADOOP-8917.	0	0
+Thanks for your vote.	0	0
+Okay reviewed and tested patch with sqlite3 and bdb on trunk.	0	0
+It has been applied to the trunk.	0	0
+Never mind, found it.	0	0
+Hi, very cool!	1	1
+Closing, works like charm now.	1	0
+Hi Preben,I just applied the your patch with a minor modification on FtpConsumerWithCharsetTest.testConsumerWithCharset to use UTF_8 charset by default.	0	0
+Could you please verify and/or adapt your patch against the current version at http://svn.apache.org/repos/asf/commons/proper/jcs/branches/generics-interface I was not able to apply your patch there.	0	0
+One of the things I changed in jnr-posix, was to make stat and fstat use stati64 and fstati64 respectively, instead of stat64 and fstat - the last may be why its breaking with jna-posix.	0	0
+Thanks, Jeff!	0	1
+its only tests, no source code changes.	0	0
+So if necessary we can add another FileSystemManager implementation which will support caching.	0	0
+We'll go with this for now, thanks for the fix!	0	0
+I committed this.	0	0
+thanks to Ernst Fastl for adding this.	0	1
+Seems fine to me.	0	0
+The behaviour still occurs in the last snapshot using both Mojarra 2.1 or MyFaces.	1	0
+Added org.jboss.test.ejb3.war.deployment.unit.Ejb3WarDeploymentTestCase in r99656.	0	0
+Thanks for reporting, solved!	0	1
+> MultipartEntity entity = new MultipartEntity(HttpMultipartMode.BROWSER_COMPATIBLE); Use strict mode instead of browser compatibility.	0	0
+Thanks for the patch, Kim.	0	0
+Committed after fixing the typo.	0	0
+Scratch that, this fails horribly after the change to unparsing negative numbers as hex.	0	0
+Thank you!	0	1
+Until the patch gets applied, you might want to use Emma as coverage engine with the Sonar Emma Plugin (or Clover, but it is free only for a month)	0	0
+And also on the difference between aConnection and a Logical Connection?	0	0
+patch looks good.	1	0
+Committed to trunk.	0	0
+Sigh ....Do you think that is something that can be fixed in Wicket or some kind of IE8 madness that i should look to solve on my side?	0	0
+Just an update:# SOLR-1131: aka poly fields is almost ready to go.	0	0
+Stefan: are you sure you had a clean build with my patch applied?	0	0
+great, thanks Joel.	1	1
+I have committed this.	0	0
+Committed the addendum in revision 1414868.	0	0
+That is, the key order should be ( schemaID, sequenceName ) rather than ( sequenceName, schemaID ).	0	0
+I did that first, but then remembered that when I did that in the past, people were unable to apply my patches, w/o doing the svn move themselves.	1	0
+Rest of Ender's patch was applied.	0	0
+Is that ok for this file (b/c I have no idea how to do the svn move now ... after I've made all the changes already) :)	1	1
+Nobody has complained about it yet, but I don't think it should be ported to older versions at this time.	0	0
+Thanks Koji!	0	1
+FileSystemView can have user object to indicate whose file system view it is representing.	0	0
+E.g., "note: if you're trying to auto wire a collection with annotations you'll need to use @Resource instead of @Autowired".	0	0
+Have a look at hibernate.common.xml	0	0
+#1 and #2 are incorrect.	0	0
+Indeed this saved some time.	0	0
+fixed by Shane.	0	0
+patch by johano; reviewed by jbellis for 	0	0
+Did I make any mistake?	0	0
+From https://builds.apache.org/job/PreCommit-HBASE-Build/2581/console, it is not clear which test hung.	0	0
+Fine with me.	0	0
+Fixed in next savara release.	0	0
+Awesome, you rock, Drew!	0	1
+Also thanks Matt for the review.	0	0
+Thanks, I just committed the patch.	0	0
+Thanks Tatyana - the third patch was applied to BTI branch 2.0 at r552655.	0	0
+Applied Rodrigo's suggestions	0	0
+quick patch.	0	0
+Thanks!	1	0
+Yeah, it looks like there are conflicts with RenderingContentRewriter and one of the guice modules.	1	0
+Ran some benchmarks.	0	0
+Resolving this issue as it is covered by JBQA-5191 and JBQA-5192.	0	0
+both patches applied, looks good.	1	0
+FileSystemView is the user file system view so it can have canDelete() and canRead() methods ..... this is fine.	0	0
+Hi Drew,I have upgraded Postage to James3 (see POSTAGE-23) and used your patch at this occasion.	0	0
+89 and 90 look fine.	0	0
+Awesome - great stuff Maria.  Thanks!	1	1
+And interestingly suddenly this is moved from MAPREDUCE to OOZIE.	0	0
+:)I've renamed ComponentColorProperty to be ComponentColorElement and RelationshipAggregation to TwistieAggregation.	0	1
+This one... Really.	0	0
+One minor point - can you make result a member variable of GenericUDFArrayContains?	0	0
+Committed to branch-2.1-beta, branch-2, and trunk.	0	0
+Apply isn't the best name but we're already using update(), so suggestions welcome.	0	0
+Thanks Daryn!	0	0
+Tested by submitter.	0	0
+{quote}Hmm, looks like the backport blew away scrubtest on 1.2 as well.	1	0
+yeah, I think so.	0	0
+The 0.23 patch looks fine.	0	0
+cheers Keith.	0	0
+Attaching patch for review.	0	0
+Jonathan: over to you :)	0	1
+Looks like we have already taken care of this.	1	0
+Automatic location selection is very cool.	1	1
+The code should work.	0	0
+Sounds like a good idea. 	1	1
+Please review and close out if appropriate.	0	0
+Can you expand on the difference between a Prepared Statement anda Logical Prepared Statement?	0	0
+Cool - good information to have.  Thanks Lance!	1	1
+Hi OlegWould you be able to review this one?	0	0
+We are restructuring the trunk now from jboss as 4.2 and it's unstable.	0	0
+Thanks!	1	1
+#NAME?	0	0
+I have committed a fix for this, please close if you are satisfied.	0	0

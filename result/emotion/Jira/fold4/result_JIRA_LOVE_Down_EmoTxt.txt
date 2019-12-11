@@ -1,0 +1,200 @@
+Do more modern version of the Flash player work 11.3- 11.6?	1	0
+Yes, it seems that in some cases the exceptions are swallowed and e.printStackTrace() is heavily used.	0	0
+Hi Jeremias.	1	0
+Personally, I'm +1 to commit.	0	0
+Thanks Adrien for looking into this, nice explanation!	1	1
+my xsltmark tests now run the docbook test without a problem.	0	0
+Added comment before "Path getPath()" to address Todd's comment.	0	0
+Sounds good.	0	0
+I love a solution that's simpler and easier to understand than the original.	1	1
+@Matt It would if I submitted the patch... Ugh  Lets see.	0	0
+Sorry that this patch seems to have slipped through the cracks.	0	0
+Solution looks as follows: when doing a cluster sync, whether it is for reading or writing, always acquire the version manager's read lock first.	1	0
+Murray, that is exactly what I am proposing - having a separate org.apache.jspwiki.api -package, and placing a number of existing manager classes into it as interfaces.	0	0
+We are using this pattern "${ivy.dir.pattern}/[revision]/[artifact].	0	0
+verified by Paulex	1	0
+It seems strange to me that we are retrying something that throws a DoNotRetyIOException.	0	0
+can we apply the jarjar solution only to commons-csv?	0	0
+Hi EdwardThanks for spotting it.	1	1
+Best regards,Richard	1	1
+Too bad :(What ff we could check C-heap lock state before forking and possibly switch to an alternative way?	0	0
+Thank Morris.	1	0
+1	0	0
+Leaks file handles via IW.getReader()	0	0
+bq. First of welcome :) Thank you. 	1	1
+directly into Zookeeper to reduce this.	0	0
+thanks,dims	1	0
+I just committed this.	0	0
+Everything is ok.	0	0
+I want to integrate the sweet sweet logo Andrew crafted.	1	1
+Thanks +1	1	0
+897392Thanks Sharan !	1	1
+Here are the results of testing the latest attachment   http://issues.apache.org/jira/secure/attachment/12605661/MAPREDUCE-5538.6.patch  against trunk revision .	0	0
+Is this sufficient?	1	0
+When versioning is in play, the above regex wouldn't pick up all the patches.	0	0
+Verified at revision 473588.	1	0
+This is also known as "how it is stored in the SQL engine" [JDBC].	0	0
+This issue is fixed.	0	0
+I'll have a deeper look this evening.	1	0
+Do you want me to tweak the patch to rename the alternate body header tag andif  move it to the MailConstants?	1	0
+Thanks Oliver.	1	1
+Hello,Thanks a lot!It works.Lisa	1	1
+Fix for the gererate-id() problem seems to be correct.	1	0
+If we want to generate similar variable (for ex.	0	0
+Thanks Areek, new patch looks great; I'll commit shortly.	1	1
+Thanks.	1	0
+The patch looks good and the tests pass +1.	0	0
+Please justify why no new tests are needed for this patch.	1	0
+Sending to IRB.	0	0
+Thanks [~cnauroth] & [~tomwhite] for the reviews!	1	1
+Looks we all ran into the same issue with TCK.	0	0
+PIG-1912-3.patch address Santhosh's review comments	1	0
+They cannot afford to do it frequently.	0	0
+It works perfectly with the latest 2.7.8-SNAPSHOT, thanks !	1	0
+Typo:  surfix -> suffix	1	0
+Historically that's been Writable and SequenceFile.	0	0
+Please provide your suggestions	0	0
+1	0	0
+Hi,Would you please try my patch?	1	0
+Thanks Sandy.	1	1
+No - unfortunately I do not have enough knowledge to digg into OpenJPA's code	0	0
+For the second issue:Consider long tailed distribution as shown on http://en.wikipedia.org/wiki/Long_tail  (In case of network traffic.	1	0
+The applied patch does not increase the total number of javac compiler warnings.	0	0
+Regex is your friend.	1	1
+I'm almost done w/ a conversion.	0	0
+Applied patch in r637925	0	0
+The expected behavior would be to see the following messages on stdout.	0	0
++1Looks good to me.	0	0
+As soon as I remove wicket enclosure or add some text node inside - the navigation toolbar starts properly counting pages (it was showing 0 of 0 before because it thinks it is not visible in hierarchy).	0	0
+that what WebRenederendingServices are for, not sure WebDescriptionProvider could be declared to be a WebRenderingService.	0	0
+Thanks a lot Subin.	1	1
+Thanks Hairong!	1	1
+Thanks Richard,Patch applied to NIO_CHAR module java.nio.CharsetEncoder at repo revision 389784.	1	1
+As far as I understand the specification, [/jcr:system/jcr:versionStorage/17/66/ea/1766eaef-f0f5-4cf6-95ef-a1d7290257f9] is not a legal name:http://www.day.com/specs/jcr/2.0/6_Query.html#6.7.4 NameName ::= '[' quotedName ']' | '[' simpleName ']' |simpleName ::= /* A JCR Name that is also a legal SQL identifier 10 */10 See the SQL:92 rules for <regular identifier> (in ISO/IEC 9075:1992 搂5.2 <token> and <separator>).	0	0
+The shadow maven build knows...	0	0
+Fixed in http://svn.eu.apache.org/viewvc?view=rev&revision=702423	0	0
+Patch to address the issue.	0	0
+-1 tests included.	0	0
+Wow, that was quick!	1	0
+Executing /stop on a running EC2 instance will terminate the instance.	0	0
+Problem ensuing from source files inconsistency	0	0
+It looks like HLog main has support to invoke --split.	1	0
+Thanks for your comments, Konstantin.	1	1
+The latest patch looks good to me.	0	0
+Patch applied in SVN revision 743258	0	0
+(will commit after Hudson +1s, that is)	0	0
+At the very least the exception could explain what the problem is rather than what the state of an obscure private variable is.	0	0
+But, we still might want to sort it to ensure (better) progress (no livelock).	0	0
+I'll post a patch that makes 10.9 compile the test against 1.5 instead of 1.4.	0	0
+It will come eiither today or tomorrow.	0	0
+My assertion is that the username passed into these routines (without any modification) is equivalent to value of an username identifier in the SQL language after it has been parsed by the SQL engine.	0	0
+My suspicion is that it will be resolved.	0	0
+The following had serialVersionUID set for the 2.2 release.	1	0
+Taking it overThanks,Mayank	1	1
+This makes the test do the same where it matters.	0	0
+the current command is modeled after the export shell command.	0	0
+Thanks Stepan.	1	1
+Committing now..	0	0
+Hi Claus,Please find the attached patch and zip files containing the changes you recommended.	0	0
+Applied patch with thanks to Christian.	1	0
+Thanks for the solutionhints.	1	0
+The patch passed unit tests in .	0	0
+Verified.	1	0
+I don't agree to including the javadoc sources in the release.	0	0
+Patch d1544-patch2-v2.diff committed revision 429036 - Thanks Deepa	1	0
+blindly changing the oak security provider to private SecurityProvider securityProvider = new SecurityProviderImpl();gives Tests run: 706, Failures: 0, Errors: 122, Skipped: 13	0	0
+Thanks Andi.	1	1
+looks fine, thank you.	1	1
+Thanks for updating the dependency.	1	0
+Deleting an entry now flushes the main page cache.	0	0
+Probably makes sense to do these like HDFS-4014, sensitive changes get their own patch and the general new classes of warning can be handled in bulk in a small set of patches.	0	0
+Fixed at revision 936652.	1	0
+I wouldappreciate if any commiter review the patch.	1	0
+XW-172 already talked about number conversion and localization.	0	0
++1 for commit.	1	0
+Attaching a new patch.	0	0
+Hi AndrusI cleaned up for one of our projects successfully the comments and could import it into CayenneModeler - great!	1	0
+Thanks senaka for the patch.	1	1
+Thanks for the clarification.	1	0
+If attempt id 1 was speculative, the framework would not have killed it as the original attempt was a failure.	0	0
+Igor suggested moving the call to Component#onBeforeRenderChildren() inside Component#onBeforeRender(), but if I do that, I get an NPE in the ListView#renderItem() method even for basic code.	0	0
+Removed.	1	0
+If the developer wants to know whether he is using any possibly unstable components, all he needs to do is to glance at the set of import statements on the top - if he's using other classes than org.apache.jspwiki.api.	0	0
+Hi Sandy,Thanks so much to give me such comments, that's really helpful, I will update this later.	1	1
+Committed to master.	0	0
+I have applied it in Rev.	0	0
+Thanks for Confluence update Francis	1	0
+I will investigate this issue and update the patch.	0	0
+However, it may leads to significant performance degradation	0	0
+Hi Uma, thanks for taking a look.	1	0
+Can you verify with other hypervsisors and update .	0	0
+Thanks,	1	0
+Youcan choose to ignore or modify it.	0	0
+Please prepare patch for trunk.	0	0
+Our APIs should be of course be general enough that it's possible to incorporate different serialization systems and different file formats, but we needn't provide implementations of all combinations of these, but should rather direct folks towards a primary implementation.	0	0
+thanks,dims	1	0
+Committed to trunk.	0	0
+created: 2006-11-08 15:55:12.000resolved: 2007-06-04 10:08:36.132updated: 2011-05-10 16:12:23.000	1	0
+Regarding Doug's points...> But perhaps the preferred import should instead be 'import static SchemaBuilder.*'?	0	0
+Thanks for looking into this Suresh.	1	1
+Thanks Andrew - the patch was applied to SQL module at r525019.	1	1
+Created an attachment (id=12292)corrresponding patch for LocalStrings.properties - will provide more as I encounter them	0	0
+@Jon, +1 the patch looks good.	0	0
+if we want to create a jspwiki-api.jar, we only need to jar up the contents of a particular subdirectory.	0	0
+Thanks, Joseph!	1	1
+The curious thing is that with a c#.net client i can connect with that webservice, but not with a java generated client.	0	0
+FilterExprWalker.detach() calls  DescendantIterator.detach() and setDescendantIterator.m_traverser to null for $exceptions[1]/@name.	0	0
+Fxied and regression test written	0	0
+(2) HDFS-4979 introduced RetryCache in the NameNode.	0	0
+Lets see if someone else votes that they want it and if so, then we'll commit?	0	0
+A workaround for this issue is to use entity resolver.	0	0
+Only the cache is a local filesystem resolver.	0	0
+Can you please submit a patch?	0	0
+Fixed in LUNI module at repo revision r598681.	0	0
+But it'd still be nice to get the actual hotspot bug fixed.	0	0
+Patch integrated to trunk.	0	0
+Does it looks like if I call that on the log that it will put split it and put the data into the right place?	1	0
+Up to this, the randomid component of a region name has been the timestamp of region creation.	1	0
+The mvn site goal succeeds with this patch.	1	0
+Thanks for your patience.	1	1
+That sounds like a plan. I love peer-reviews... :-)	1	1
+New patch that includes those changes.	0	0
+Todd:I suppose it comes down to whether hadoop should favor posix or gnu extensions?	1	0
+Thank you Jing for the review.	1	1
+fixed in revision 413841Boris, please check that it was applied as expected	0	0
+Thanks for the patch Erik (and Jon)	1	1
+Committed revision 642996.	0	0
+Thanks for review and test case, Knut.	1	1
+It will be great if you could confirm it either way first.	1	1
+Created an attachment (id=10304)test.xml	0	0
+You've knocked out a really ambitious bit of work here.	1	0
+Leo, patch applied at revision r438040, thanks a lot for this enhancement, please verify that the problem is fully fixed as you expected.	1	0
+Has anyone opened an issue at http://bugs.sun.com yet?	0	0
+So returning an empty string in such case.	0	0
+Also adds the tests to the _Suite class.	0	0
+Er, sorry, paste didn't work -- here's the full bug text:=====The following dependency relies on the sun.	1	0
++1I committed this.	0	0
+Are there snapshots of the volumes belonging to the VM?	0	0
+Thanks!	0	0
+But if one more ledger is created, then on next gc call, all ledgers deleted ( which are having lesser ledgerId than latest created) will be gc'ed.	0	0
+Shawn committed the fix in  rev 1159269 & rev 1164330	1	0
+Thank you Jing.	1	1
+Committed r1463555.	0	0
+Thanks	1	0
+Thanks Ravi.	1	1
+Junit test.	0	0
+Thus, i quite agree that we put the .META.	1	0
+This looks simple and sweet to me.	0	1
+Hi Daniel, thanks in advance for your support.	1	1
+I've modified the patch to name the function rep.normalizeIf you think that my proposal is actually not enough ambitious for being called "normalization", do you prefer something like rep:toASCII, which may seem less universal ?	1	0
+Patch applied in r710027.	0	0
+[ext]" so we should fullfil the requirements for the atomic operation.	1	0
+> We can convert from Java object to JsonNode by parsing the output of GenericData.toString(Object).	0	0
+Ashu,Please take a look at http://cvs.apache.org/viewcvs.cgi/xml-xerces/java/src/org/apache/xerces/dom/DeepNodeListImpl.java (mentioned by jongjin)-- dims	0	0
+The patch looks fine.	1	0
+Sorry I didn't see that before creating this issue.	0	0
+That method, which inverts a single document, was replaced with new code starting with 2.3, so it's possible you can workaround the bug by upgrading to 2.3 or 2.4.	0	0
+Thanks.	1	0
+Thanks Laura.	1	1
+It only breaks if j14lib is not set.	0	0
+I'm not very familiar with ant but i'd think it's just a wildcard for a classpath.	0	0

@@ -1,0 +1,200 @@
+Patch committed.	0	0
++1 Committed.	0	0
+Hi,Thanks for your comments.	1	0
+Simon, I'm going to get deletes working, tests passing using maps in the RT branch, then we can integrate.	0	0
+This behaviour is correct, as this is a test for pluto and not a generic JSR 168test.	0	0
+Thanks!	0	0
+Sweet, I will review and apply.	0	1
+Patch applied, thanks	0	0
+Please can you provide an updated patch?	0	0
+Two small nits, though:  * the count variable in requireAtLeastOneProperty() is never used  * couldntSetProperty() reinvents Property.toString() (or actually Hashtable.toString() which is inherited by Property)	0	0
+Using maven you can easily generate the docs yourself.	0	0
+Modified YarnRemoteException to be not backed by PB and introduced a separate SerializedException record.	0	0
+Ah and I am running 10.2 SVN 540841, as this fixes DERBY-2549.	0	0
+Hi Andreas,as we are a bank, we can't provide you with the normal documents as they are internal documents.	0	0
+Or even better, do you have a patch?	0	0
+The javadoc tool did not generate any warning messages.	0	0
+This is quality work.	0	1
+Please look at this patch (d962_javadoc.2.diff.txt) I ran javadoc and  did clobber and ant all ok.	0	0
+@Ivan, could you please add your comments?	0	0
+I hope you can figure out how to upgrade, and if you have any questions or need help, feel free to reach out to us.	0	0
+Hi Atul,that looks good at a first glace.	0	1
++1, thanks Tom!	1	1
+Could you supply also a webapp sample?	0	0
+Attaching the 10 findbugs reports for common and the various hadoop-tools projects and hadoop-auth.	0	0
+Fixing this issue led to the next issue.	0	0
+So we are sure how to parse it no matter how hadoop/platform changes.	0	0
+HBASE-2531 "32-bit encoding of regionnames waaaaaaayyyyy too susceptible to hash clashes" proposes changing the randomid so that it contains actual name of the directory in the filesystem that hosts the region.	0	0
+Sorry about your signal :-(	0	0
+Committed patch with workaround in revisions 1054027 and 1054030	0	0
+created: 2005-09-18 23:36:49.000resolved: 2007-06-04 10:08:18.657updated: 2011-05-10 16:51:30.000	0	0
+Applied patch from Keheliya Gallaba.	0	0
+svn rev 503448	0	0
+Thanks Todd, glad to be on board!	1	1
+Hi, did you check the snapshot?	0	0
+We now need to migrate from these to a more expressive, language-independent serialization system and container file.	0	0
+Updated MR App to reflect YarnRemoteException changes after YARN-634.	0	0
++1 on patch.	0	0
+Done at rev.	0	0
+[~sershe], please bear with me - (1) could you please upload a rebased patch.	0	0
+Svetlana,Fixed in LUNI java.net.DatagramPacket at repo revision 376009.	0	0
+Hi James,This patch has been applied by chirino in the revision 576522  at Sep 17.	0	1
+@AndyI have some thing which is similar to this and sorry if am diverting the current JIRA title.	0	0
+combined patch against 1.0	0	0
+why do we need normalmappedsegment as well as native?	0	0
+On 2009-11-18 04:47:59.970 dloverin commented:Revision 11926.	0	0
+There is something mysterious going on here.	0	0
++1, the latest patch looks good to me.	0	0
+The two machines do not share the filesystem.	0	0
+updated patch submitted at:https://reviews.facebook.net/D4455	0	0
+I don't this its specific to HyperV, as the mgmt server has to take care of reservation of IP address.	0	0
+I will have a look at this.	0	0
+Google benefits tremendously by having a single standard serialization system and container file format.	0	0
+The patch does not contain any @author tags.	0	0
+Sounds like JavaScript samples are now being done in TUSCANY-287	0	0
+Hi Mario Ivankovits   Pls give some suggestion on above comment	0	0
+Thanks for spotting this, fixed at r487519	1	1
+lets use a new one to track the integration.	0	0
+If you're ok with that, I think another jira should switch the parser.	0	0
+export with no args prints all the current settings.	0	0
+Without having a mathematical prove, I nevertheless suppose it could disturb parameters of generation if we have non Gaussian empirical data.	0	0
+I agree there's a bug, I just want to ensure any change still works correctly when CURRENT_USER name is passed in.	0	0
+Thanks Ilya.	1	1
+I don't however see that it follows that we should provide implementations of file formats with a large number of different serialization systems, as that invites multiplicative long-term support issues.	0	0
+I still find the difference puzzling -- I can't justify your version being 3x faster.	0	0
+i suggest that we commit this ASAP and then do the work to fix the build once the code is in subversion.	0	0
+If no other objections, let's commit Clint's patch since it works for him.	0	0
+Yes, but even for Java 5 a relative path to a directory with flattened dependencies would be shorter, wouldn't it?	0	0
+to the end of the message.	0	0
+Apache Karaf 2.1.1 is now available for download :)	0	0
+I would just need to retrieve the backgroundAlpha style before calling drawRect in its updateDisplayList.	0	0
+So when 2.3 is released, you shouldn't get the problems you've had from 2.1 to 2.2 for these files.	0	0
+we are missing an equivalent of export -n (to unset stuff).	0	0
+Fixed in 1.2 branch as well.	0	0
+I agree.	0	0
+Better to have the samples run on the fly :-) .	0	0
+Applied, thanks!	0	0
+Thanks Edward	1	0
+I send you a simple eclipse CXF webservice project using spring, and a simple eclipse CXF client project.	0	0
+This file demonstrates the problem described in this bug.	0	0
+Hope am not missing anything?	0	0
+But it would be better if you could provide a patch ;-) Thanks again.	0	0
+Great investigations Doron!	1	1
+"eVe".	0	0
+Tony, in native codes, I think the hymem_allocate/free_memory is preferred than malloc/free?	0	0
+Thanks for the patch Ferdy.	1	0
+I will look at applying this later today.	0	0
++1, committed, thanks	0	0
+Please take a look and see what else needs to be fixed.	0	0
+Right now it will proxy to port 80 of the httpd instance running on the current VM.	0	0
+However, on 10.8 it is correct to compile the test against 1.4, so that's not a problem.	0	0
+I've updated the patch to do this, but it still needs tests for this part.	0	0
+What is the right process to deprecate this behavior in 3.x?	0	0
+I've ran the tests are both seems to be running fine now.	0	0
+cases the values in a derby.	0	0
+@mahadev - I would love to help test a patch :) I'm currently using 3.3.1 + ZOOKEEPER-744 + ZOOKEEPER-790, applied in that order.	0	1
+Please check that it was applied as expected.	0	0
+belongs to cactus project?	0	0
+If I commit it as-is, we could miss some help.	0	0
+org/apache/xml/serialize/EncodingInfo.java:0: error: cannot find file for class sun.io.CharToByteConverter	0	0
+Do you mean more test cases?	0	0
+do we really need this?	0	0
+Hi Knut I am interested in taking up this task.. Is that fine and kindly direct me on where to start off here.	0	0
+I'll re-run the whole suite on branch-20-security for sanity before committing.	0	0
+Please, verify.	0	0
+Looks good.	0	0
+The patch does not contain any @author tags.	0	0
++1, patch looks good to me.	0	0
++1 javadoc.	0	0
+Thanks a lot, Kiran for the patch.	1	1
+Yes please - pull request away, my friend!	0	1
++1 I just committed this.	0	0
+some tests are still problematic, at least on windows...	0	0
+martin-g :i think do this in 6.0 and do 4327 in 1.5.x as its very easy to do 4327,if you do 4327,there will not be any need to mock AjaxRequestTarget but if you do do 4327 also add getters for prependscripts and appendscripts in ART ;)	0	0
+and how can I verify the history is not lost?	0	0
+thanks to Christian Kaltepoth for provide this patch	1	0
+Thanks Kathey.	1	1
+Thanks, is that everyone has to create an account and then you will link them to Pig Confluence?	0	0
+Jason,I checked...you have karma as you are in the "jira-administrators" group.	0	0
+I added a "."	0	0
+They are created by setting properties and are thus not "stored in the SQL engine".	0	0
+Patch applied in revision 885311.	0	0
+Fixed in http://svn.eu.apache.org/viewvc?view=rev&revision=707319Many thanks to Ulhas for providing the patch!	1	0
+Yeah, I know.	0	0
+The patch that broke the build on 10.9, was also backported to 10.8.	0	0
+Looks fine to me.	0	0
+I'd prefer that we instead direct users towards a single preferred high-level serialization system and a single preferred container.	0	0
+:)Best regards,Fabian.	1	1
+Note that the Derby builtin users are not created through a SQL identifier in the SQL language, e.g.	0	0
+Does nexus check for https connections for anything?	0	0
+Attach patch v2.	0	0
+Patch d2087_try2.diff  Committed revision 499100 - Thanks Julius	0	0
+Applied combined patch from Shiva and BJ at r692233.	0	0
+I polished and fixed CS as well.	0	0
+The source files appear to have various licenses, including GPL.	0	0
+Please let me know if any further changes are needed.	0	0
+Nowhere in the spec 'circular redirects'are mentioned.	0	0
+Committed to 0.92 and trunk.	0	0
+We have so many people contributing in the code that API incompatibilities can creep in without anyone noticing.	0	0
+I've just committed this to trunk and branch-2.	0	0
+It make sense, I am attaching the updated patch.	0	0
+I deleted the local hbase directory and the problem went away.	0	0
+I was sure It's in CVS already.	0	0
+This issue is about changing the way we name regions.	0	0
+But we know a lot about docids, and extra hashing should just lead to an average-case slowdown.	0	0
+The piece of cake was bigger than my mouth...Postponed.	0	0
+(There is no PageManager at all; there is a ContentManager, which will have a very similar API, but it will manage both pages and attachments.	0	0
+All the changes are correct.	0	0
+Jacopo & Anil,Here is the patch for this issue.	0	0
+Setting fix version for 3.0 - ie) won't be looking at applying this until after 2.3 gets released.	0	0
+Note: also change the use/effect of network connector dynamicOnly  - this flag had little effect but is now re-commissioned to indicate whether durable subs should be auto bridged (default) or whether they should be dynamic only.	0	0
+We are re-using the prepared statement after table t1 is dropped.	0	0
+Changes looks good.	0	0
+I think this issue had a clear target to factor out the hash table out of TermsHashPerField and we should close it.	0	0
+We have equalsIgnoreCase, so having that ability for EqualsBuilder (and therefore HashCodeBuilder) seems apt.	0	0
+[bulk update] Close all resolved issues that haven't been updated for more than one year.	0	0
+Thanks for looking.	1	0
+Patch with the fixes.	0	0
+I have found the source of the problem - yet I completely don't understand why such an unrelated thing breaks navigation.	0	0
+(We are retrying once and if we fail twice we give up).	0	0
+We could also try to detect the behavior and log a warning... but i'm not sure that is worth much.	0	0
+oh, I looked closely to see if you flipped args or did a compare w/ a presumption that hadn't been testing a statement or two earlier and it all looks right to me.	0	0
+Is this possible?	0	0
+(for ex.	0	0
+Ilene Seeleman has agreed to review patch.	0	0
+As i wrote to the list, it does not work for me.	0	0
+I've pinged PMC group to have another eyes look around to be sure that everything is fine.	0	0
+I think perhaps some of the crazier ones like DiskFull, TestCrash, anything that has to disable MockDirectoryWrappers's checks because they must create corrupt indexes or other scary things.	0	0
+Actually I thought to take a look on this weekend.	0	0
+I am going to repurpose HIVE-538 to clean up the implementation of the getSchema call.	0	0
+These 3 crashes happen while compiling DocumentWriter.invertDocument.	0	0
+Please check it was applied as you expected.	0	0
+Trying to keep the test suite at under 24 hours :)	0	0
+Note that though how users names are represented in the derby.	0	0
+I'll ping here once this will be done.	0	0
+The idea behind this is largely the same as with our existing package structure - there is nothing technical in preventing *everything* to be in the org.apache.jspwiki -namespace (with no subpackages), but both aesthetics and experience tell us that it just makes sense to add subpackages to make class management easier.	0	0
++1 Looks goodI just committed this.	0	0
+Hello George,The fix looks fine, many thanks!	0	1
+I believe the notifications are now scheduled properly.	0	0
+Contributed by Siddharth Seth.	0	0
+{color:green}+1 core tests{color}.	0	0
+ThanksTim	0	0
+patch to add DynamicAttributesHandler and update SimpleTheme, AbstractCommonAttributesTest, and AbstractTest	0	0
+Nobody would download and use 2.0.0 release where there is 2.4.0 or better.	0	0
+Committed to master.	0	0
+I just committed this.	0	0
+The problem is that we use this draw call to also draw the thin divider.	0	0
+thanks for the explanation.	1	1
+That was a pain!	0	0
+New patch looks good (nice comment on why NODELAY).	0	0
+The applied patch does not increase the total number of release audit warnings.	0	0
+Thanks for finding this out.	1	0
+Thanks for the review, Sidd.	1	0
+Fixed TestCompositeService to not depend on test-order and thus made it pass on JDK7.	0	0
+Glad to see people are interested in this.	1	0
+I like the idea of making sure that things that should be specified should be passed as method parameters in one go, rather than through chaining, which makes it a lot harder to see what is required.	0	0
+Please review.	0	0
+Unable to apply cleanly.	0	0
+Thanks for taking this:-)	1	0
+Jan,I looked that the logic again I think your are right.	0	0
+Thanks!	0	0

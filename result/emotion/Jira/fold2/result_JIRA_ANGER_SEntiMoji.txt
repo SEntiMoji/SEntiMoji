@@ -1,0 +1,197 @@
+Is not really needed I guess.	0	0
+Submit a patch and I'll play with it.	0	0
+It may cause conflicts, but if your intent is to break system security, you probably don't care.	0	1
+stupid autoresize option doesn't resize it correctly	1	0
+Specifically the existing framework only lets us plug-in custom compress/decompress 'streams' (e.g.	0	0
+During the 10.5.1.1 test cycle this test took about 5 mins (and passed).	0	0
+Maybe ant could read the password like it does for GPG and handle this for us?	0	0
+The original replica of RUR may in finalized state.	0	0
+PreCommit-HDFS-Build is stuck.	1	1
+Ok here is a patch that works. I was stupid enough not to see it...	0	1
+Have a look here:https://en.wikipedia.org/wiki/Interval_(mathematics)#Excluding_the_endpoints	0	0
+I abbreviated the heck out of my arguments and thinking, but damn it thats what I think :)	1	1
+Pull it back in if you think different.	1	1
+I could not find any documented limits but if I missed them somewhere I will gladly put them in.	0	0
+Marcus, that sounds sensible.	0	0
+But never mind - maybe the proposed cache is all greatness.	0	0
+I am sufficiently archaic as to have only a pre-ANSI-C K&R.	0	0
+In addition, in the longterm we will all most likely be using annotations, and the "fetch group" notion does *not* work with annotations.	0	0
+Do you want to recreate every file on the whole planet?	0	0
+If so, that's a pretty bad admin experience.	1	0
+Maybe instead of overlays, try configuring maven-war-plugin {{<packagingExcludes>}}: http://maven.apache.org/plugins/maven-war-plugin/examples/skinny-wars.html	0	0
+It's named .gitignore which may be confusing.	0	0
+avro-mapred -- we might end up with avro-mapreduce as well for the newer api, so I stuck with the package name of the hadoop api. 	0	0
+Ok. Stupid user Error here.	1	1
+I'm however very interested in this feature as it is essential to me.	0	1
+> I'm confused.	1	0
+I think this is pretty close to being ready.	0	0
+), then I'm ok with that as well.	0	0
+> I hated that aspect of working for commercial companies.	1	1
+Disagree.	0	0
+Contributed by Vinay.	0	0
+Otherwise we would be storing the bytes-per-checksum field but not actually using it, which would be really confusing.	0	0
+Finally closing this bug from hell.	1	1
+Maybe something silly is going one.	0	0
+* release of the framework.	0	1
+This sucks *so much*...	1	1
+Fix bad patch	1	1
+There are just too many checks there, that Click is not using, and we can't just use them all (many don't make sense to Click at all) :).	0	0
+Someone either needs to write a custom XSD and link it to the document or we need to disable validation for those examples pending another solution.	0	0
+Pretty impressive.	0	0
+It will be taken care as part of HADOOP-7642.	0	0
+If you are stuck with solr 4.0 alpha, here's a patch which may work.	0	0
+Am I doing something stupid here?	1	1
+OK, works for me.	0	0
+What mocking framework should be used for the webui?	0	0
+The samples you gave are different.	0	1
+Damn...	1	1
+"rich:comboBox is not a select component by nature" - so what is it then if it's not used for selecting stuff?	0	0
+Of course, this only applies if someone where to finish 831 and it where accepted...	0	0
+Google was also strangely quiet.	0	0
+Damn time has flown...	1	1
+gcc 4.3.1 is out since June 2008, so the workaround is no longer needed.	0	0
+My bad...	1	1
+We are all different" Crowd"I'm not" DissenterMonty Python's Life of Brian 	0	0
+Here, we have two options :1) work with the internal value, but escape all the special chars2) work with the stored UP value.	0	0
+but there is no such limitation in the consistent algorithm behind ZK.	0	0
+But would there be other cases that the writer stuck for different reasons?	0	0
+Ah, HA!	1	0
+The more I think about the issue, the more I find it critical.	0	0
+With hampered performance of sstableloader after 1.0, its made the things very difficult for us.	0	0
+This practice in general seems really confusing to me, this bug is refed in the 1.5.0 release notes tagged in svn. 	1	0
+Back-compat Lucene-style and agile design aren't something that marries well.	0	0
+However, if the implementation of next is not capable of handling bad records, then it is most likely going to throw an exception, and, the proposal in this jira for handling bad input starts with that assumption.	0	0
+I really don't care.	1	1
+if so, can you see if you can git bisect this bad boy?	1	1
+So we convert Scanner back into an Iterator over a lazily fetched Slice subclass?	0	0
+Duplicated here TAP5-1017	0	0
+It's great to see you've gotten the ball rolling Chris.	0	0
+I didn't do that because that seems bad in hive, so I returned "null" from the operation.	0	1
+I feel the same way about JIRA.	0	0
+We described before that there are times that operators, for whatever reason, what's to restart a job with the same instance.	0	0
+My bad.	1	1
+damn this was assigned to you since months.	1	1
+Think you could make a failing test case and/or patch to show the behaviour?	0	0
+This way lies metadata hell.	1	1
+Words before action in my book - many words - hard as that can be for all of us sometimes.	0	0
+There is a single directory, ~apbackup/remotelybackedup, and anything symlinked to there gets backed up, as documented in the README.	0	0
+Someone, but I'm not sure who, owes me a public apology here.  /Larry  	0	1
+Damn !	1	1
++1 for this: my bad.	1	1
+I already have a fix for the first request, but the question is : which version will integrate this modification ?	0	0
+Of course this means that I can't compile/build the code using AxisRC3.	0	0
+In revision 1064741, the framework is functional and activated for the enhancer.	0	0
+We can borrow some design techniques etc.	0	0
+Brandon's pretty confident, but I'd rather not cram it into a minor release just in case there's something we missed.  	0	0
+This whole thing is really pretty trivial.	0	1
+I doubt that Squid is sobad at it.	0	1
+What you can do is trying this request with a different browser when the server is suppose to hang, and also try to do another request when the serveur is supposed to be hang to see if it's not a pb with the PDU length ( what I suspect is that when trying to decode this request, the decoder is waiting for more bytes so wait ad vitam aeternam ...) I gonna try to implement the decoding of this PDU as a test case just to check.	0	0
+But, even if it wasn't it would be totally worthless where it is at.	1	0
+Forget the patch for the moment.	0	1
+CFS.gRS is a pretty thin layer over RowIterator.	0	0
+Maybe first see the results of the discussion at: http://www.nabble.com/Undocumenten-constraints---consistency-of-templates-td21863067.html	0	0
+Plus, of course you don't have to hardcode the name of the jarfile.	0	0
+I forgot to resolve this bug.	0	0
+Didn't we just do this a month ago?	0	0
+2.8.0 is no longer supported so even if there is a bug, it won't be fixed in 2.x.y release series.	0	0
+I don't have a problem with a non-component directory in the framework.	0	0
+any suggestion ?	0	0
+My bad.	1	1
+My bad, this is already done.	1	1
+What exactly is your configuration ?	0	0
+Why the hell is this not a bug?	1	1
+My bad, uploaded the wrong patch.	1	1
+If I get to this first I will make the "frameworks" fix as well.	0	0
+Who made this stupid rule?	1	1
+Both equally bad.	1	1
+I think you made mistakes in ivy.xml.	0	1
+This looks reasonable to me... sucks we have to special case handling of " "...	1	1
+Hudson is stuck.	1	1
+This is not what I build a framework for.	0	1
+My bad.	1	1
+It can't have been this way always?	1	0
+As far as the query shit, i have no idea if solrdispatchfilter or whatever could/should do Thread.currentThread().setName(x) or whatever (and maybe restore after)	0	1
+Since I screwed up the commit, we voted 2.1.7 down and are working to get 2.1.8 out pretty quickly.	0	0
+And boy, hell broke loose ;)So... the biggest issue I'm facing is indeed with Random sharing across threads.	0	1
+And even if it would be, who makes sure that the context loader at the time the shell was created is the same as the context loader at the time the shell is used?	0	0
+(How bad is this?	1	1
+I don't have to ensure that the classloader knows groovy classes, *you* must do that.	0	1
+I reviewed javadoc but, right or wrong, I didn't come across this.	0	0
+I just hope it does wait forever on sockets or anything stupid like that...  but we'll see.	0	0
+That's why, I'm going to use easymock as SMSC simulator.	0	0
+Some further bug tracing shows that pdfbox' RandomAccessBuffer is responsible for the Out of Memory error.	0	0
+I disagree... and I guess I'm willing to go to bat for this.	0	1
+I'm sorry for making it confusing.	0	0
+The outer read can continue for a much longer period of time.	0	0
+Why is it unsafe to share filter in SelectStatement for NQF?	0	0
+Somehow I forget to move that from SOLR-2524, but it is in the updated patch now.	0	0
+Why on earth does createLink() need a request?	0	1
+The manual should provide sufficient insight into the important use cases.	0	0
+Ok, wow, welcome to Linux hell...	1	1
+Didn't see the selector the first time round.	0	0
+I sure as hell don't want to start attaching models for the sake of detaching them directly afterwards.	1	1
+I think this is the third one you created in the same day?	0	0
+Once all the chunks have been uploaded, the Upload Framework can returned a combined file.	0	0
+I think there is enough there to close the issue.	0	0
+This was my bad.	1	1
+Damn, it seemed it didn't work.	1	1
+I'll copy that into a LICENSE.txt file.	0	0
+2,5 hours gone.	0	0
+(In this particular case, Hoss clearly intended to use the no-no word as an intensifier, and not to stir shit.)	1	1
+My personal beef in this issue is not with that though - I simply am very offended by heavy handed reverts and such.	1	0
+A message is already logged.	0	0
+That said, I had to do something similar in configurators, and I did this by adding wrappers to the getInitParameter.	0	0
+A user looking at the set of changes won't care :)	0	0
+I'm starting to think of "DLL Hell."	1	1
+Downgrading this as it is probably user error (rather than an explicit bug in the framework).	0	0
+I looked at our distributed pom.xml and they're pretty obscure.	0	1
+This sucks badly.	1	1
+It's generally pretty straightforward, but extensibility is not quite clear.	0	0
+etc.	0	0
+Its implemented in a normal release.	0	0
+What's weird is that this class is in Cocoon's normal classpath.	1	0
+<gmcdonald> , my bad	1	1
+Then you're pretty well screwed.	1	1
+I think we all know it just sucks.	1	1
+Weird.	1	1
+* Framework for JMS, db access can be reused.	0	0
+This patch takes care of the nocommits in the previous patch.	0	0
+> Ideally we would move to NIO framework like netty, but that would much larger effort.	0	0
+Shit, there is an dependency. Please go to Preferences -> LDAP -> Entry Editor and enable the option "Show operational attributes".	1	1
+2) The ZKVersion used in the <topic,region> map is used to guard against the case different hub-server use the map at the same time (or interleaved).	0	0
+However, I'm not a lawyer.	0	0
+I did try some variations as well, and I have to say I only got confused.	0	0
+The times will be grep'ed and used for inspection in Excel.	0	0
+This is always a really bad way to design software.	1	1
+Show time since declared as dead on the deadnode web UI.	0	0
+I have tried using Snappy{Input/Output}Stream and they don't work (it just throws EOFException in the middle of the transfer) and causes stream to retry.	0	0
+fuck u	1	1
+Adding a different patch.	0	0
+Converting to a double[ ] is where the precision is lost.	0	0
+We have different disk sizes on our DNs.	0	0
+I think MINA is more of a 'server framework' rather than an 'NIO framework'.. it is so close to being both.	0	0
+I'm an idiot... there's nothing wrong with the readme.txt.	1	1
+I'm no angel, and I'm not perfect about this myself.	1	0
+Oops, had a bad comparator in the TestCLI config.	1	1
+This lack of proper documentation on the standard Ruby API drives me mad.	1	0
+oh ...geez I'm an idiot.	1	1
+Then, what's the story for code reuse for different flushers.	0	0
+The search result entry requests does not return the correct DN, because it use the internal representation (byte[]) instead of using the user provided value, which contains escaped values.	0	0
+That's weird.	1	1
+that's bad Content-Type from gSOAP.	1	1
+This just seems really evil.	1	1
+Yet, now one must care for the relative ordering in between both icons, too.	0	0
+Will still be stuck in the loop though if can't actually close regions.	0	1
+> Actually I just noticed something when trying to commit.	0	0
+The patch also removes FreqProxMergeState, because we don't have to interleave posting lists from different threads anymore of course.	0	0
+Forgot ASF grant.	0	0
+This request is unclear.	0	0
+I'm a pretty strong -0 on this.	0	1
+Bad IE.	1	1
+This is pretty trivial, just adds three asserts to TestPath#testNormalize.	0	1
+I'm assuming it's bytes since the variables are named 'buf', as opposed to the 'str' names used in the protocol APIs, but want to double-check.	0	0
+Neither is the rest of this.	0	0
+Adding sleeps solves it.	0	0
+If they do then Suse's cpio works for old ascii but the -c switch is broken.	0	1
+What is convenient for the user to download two archives to run the project (or install maven)?	0	0
+Why attach the page?	0	0

@@ -1,0 +1,986 @@
+guys... this is so stupid...	1
+I lost the whole morning cause HBase's RegionServer was dying with no logs, no nothing... how Am I supposed to debug the issue if u do not even generate a core dump?	1
+{quote}You are messing down deep below hbase in dfs.	1
+And I think if we're going to do a sweep up of shit, we should just kill root.	1
+@idiot Yeah, I was on that idiot-path for a good while but commons-lang is a hairball, at least where this hashcode making and equals is concerned.	1
+Pull it back in if you think different.	1
+i suck.	1
+Will still be stuck in the loop though if can't actually close regions.	1
+Original edited patch was messed up... stupid sed!	1
+Who made this stupid rule?	1
+Sorry but this is just stupid.	1
+But I will quit committing to Hama then, because I'm not going to support ONLY a binary format.	1
+This is not what I build a framework for.	1
+Well, damn.	1
+Blooper after blooper - I hate SVN.	1
+This looks reasonable to me... sucks we have to special case handling of " "...	1
+You may want to carefully examine your assumption about this.	1
+Ok, wow, welcome to Linux hell...	1
+If I get a chance I may even roll it into our dev environment but I am currently in the middle of mem leak hell.	1
+Both equally bad.	1
+Negative, I am against fetch groups in principle.	1
+This way lies metadata hell.	1
+Shit, there is an dependency. Please go to Preferences -> LDAP -> Entry Editor and enable the option "Show operational attributes".	1
+Damn...	1
+Damn...	1
+Damn !	1
+The evil NPE strik back !!	1
+Bloody hell !!!	1
+Damn time has flown...	1
+Damn it !	1
+This was a very bad bug, introduced by me being an idiot.	1
+I did try some variations as well, and I have to say I only got confused.	0
+I have stupidly deleted the original test dir, but judging from the suite's output files, no output was created after 3 1/2 hours.	1
+damn this was assigned to you since months.	1
+Imo all this just doesn't make sense from a pure performance aspect.	1
+Confused about this.	0
+Inserting timestamps automagically would be bad because it would limit a whole swath of use cases.	1
+If they do then Suse's cpio works for old ascii but the -c switch is broken.	1
+This is pretty embarassing!	1
+When you install a node module globally it goes into /usr/local where you don't have permissions to move shit into unless you sudo.	1
+That being said, I'm not totally opposed to making the limit configurable.	1
+My bad, I screwed up the assertion -> RuntimeException transition.	1
+Well, that sucks.	1
+No, it's not off the table, but it's moot unless we decide we want cqlsh in-tree at all.	1
+Ok here is a patch that works. I was stupid enough not to see it...	1
+It was a pretty stupid idea to use a static array of instances for QuorumOpMonitor.	1
+All I'm trying to say is that it's pretty easy to end up in propagation failure hell here or change something else that blows things up for use cases that are not foreseen.	1
+Just to clarify... you made the DTPE handle exceptions the same way as CassandraDaemon by updating it to use NBHS instead of CSLS... Did you just tell me to go fuck myself?	1
++1 (damn intellij, it's not like patch format hasn't been standard for years)	1
+Wow, it's like Thrift is going out of their way to make life suck for us this month.	1
+Here is quite bad.	1
+The samples you gave are different.	1
+I just noticed your public tweet...bq. "@wilhelmbierbaum True. Fuck the Avro C API."	1
+if so, can you see if you can git bisect this bad boy?	1
+It seems some of the wrappers in ink_hrtime.h() might no longer be used either, e.g. ink_gettimeofday() is never used, so lets get rid of that shit.	1
+Heh, that's one hell of a bug, 275 bytes exactly, eh?	1
+What a stupid name I chose for that object... )-:	1
+I think it's time to just close this issue.	1
+I'm not entering bogus reports for the hell of it ;)Matt	1
+I am currently trying to get it into AJDT dev builds but my git push is timing out (damn thing!	1
+Stupid Maven	1
+Ok. Stupid user Error here.	1
+Converted from a single FlatFileItemWriter to a database and flatfileitemwriter and didn't register the flatfile one as a stream.	0
+If using a single FlatFileItemWriter it is enough to register it as an ItemWriter however when using the composite the adding it as a stream is also needed.	0
+Why the hell do they deliver Duration, if they cannot instantiate it :-/	1
+The defect  from hell 666, be scared..	1
+This really sucks!	1
+Why the hell is this not a bug?	1
+I'm confused...	0
+What the hell are you waiting for ?	1
+you can't reopen stuff fixed in the past without upsetting JIRA.	0
+I've fixed that locally and am doing a full build, but I'm going to build a test case to duplicate the error and then verify my proposed fix corrects it.	0
+I suspect it has nothing to do with the file system connector or Infinispan connectors, and is simply a (stupid) mistake in the federated join processor.	1
+I'm an idiot.	1
+The Cenqua licensing section doesn't have a license like this, but the Clover licensing section does have a link to one.	0
+It really sucks that there is now way currently to include transitive dependencies.	1
+I'm an idiot... there's nothing wrong with the readme.txt.	1
+Crap, forgot to verify that this is inconsistant with MRI, it's not.	1
+Please close as this is just me being stupid.	1
+Holy hell, I think I found one problem with turning a bignum into anything else.	1
+This sucks *so much*...	1
+Damn, I would close this out from the fix to JBSEAM-3742, except the quartz and seampay examples use a custom XML namespace and the XML schema validator is not happy with that.	1
+*Damn*, I forgot.	1
+Also, your username was stupidly named and confusing, so I deleted it and created a new one more appropriate.	1
+Damn, it seemed it didn't work.	1
+It sucks to lose the code readability, but it seems like a reasonable price to pay.	1
+I don't have to ensure that the classloader knows groovy classes, *you* must do that.	1
+And debugging is hell, because the test environment needs to have the exact same loader setup.	1
+who the hell starts using our jira for typing lessons ?!?	1
+fuck u	1
+Hell, this is gonna take me a lot of work to raise.	1
+That irritated the hell out of me too, but I didn't realise it was configurable in the .launch file.	1
+This sucks badly.	1
+Why on earth does createLink() need a request?	1
+Finally closing this bug from hell.	1
+I sure as hell don't want to start attaching models for the sake of detaching them directly afterwards.	1
+That sucks, why isn't the escape mechanism working?	1
+I am an idiot - this was a dupe of GUVNOR-84	1
+That is really confusing.	0
+Sun RI sucks, why the hell is saveState() and restoreState() not called with with javax.faces.STATE_SAVING_METHOD = server???	1
+Swear to god, I'm not a total idiot.	1
+I don't know how the hell my diff program decided to add seemingly random CR chars, but I've removed them now.	1
+durrrh, that sucks.	1
+Im stuck with IE6 unfortunately.	1
+What the hell, I'll give this a shot.	1
+{quote}searcher.getAtomicReader().getSortedDocValues(uniqueKey);{quote}This is a performance killer.	1
+As far as the query shit, i have no idea if solrdispatchfilter or whatever could/should do Thread.currentThread().setName(x) or whatever (and maybe restore after)	1
+BTW: This is one reason why I hate this autoboxing shit since Java 5. I would love to have a way to prevent it in code (forbidden checks should detect this somehow).	1
+Hmm, that sucks.	1
+tricky shit man! I think I found the issue!	1
+Oh man ... it's a fucking precendence problem.	1
+Ugh, well that sucks.	1
+I didn't know we needed to retain backwards config capability across 3.x to 4.x  :-(  That sucks and it'll make old code stick around longer.	1
+bq. this is solr's fault by having a getter that does some heavy duty xml shit.	1
+That sounds like some serious buck passing.	1
+This whole thing is very distressing to me.	1
+I think we all know it just sucks.	1
+though I disagree with a signficant amount of statements you made,I don't think we would ever come to agreement anyway.	1
+that's some freaky shit ...	1
+i could have sworn i clicked the other radio button	0
+I think you made mistakes in ivy.xml.	1
+This is where it gets confusing.	1
+If I can give you one advice on this one, I'd say this: fuck Derby, use H2 instead as the default embedded database.	1
+What the hell?!	1
+(Do nothing): Are you serious about that?	1
+@Oleg, please accept that my "logical" is different from your "logical".	1
+So, I'm fine with your logic, but given that I don't understand it please don't get upset when I ask questions on how I have to use it.	1
+This was my bad.	1
+The rest are *totally* unrelated.	1
+Oh fuck :-) Sorry. Not my day, more beer needed!	1
+Sorry, I guess I'm against "never computing this shit"... because you guys think returning NaN is ok.	1
+ if you want to make these optimizations, fix the APIs so its intuitive, otherwise, no way.	1
+who the fuck is asking for scores, but not the max score, and why does their insanely specialized use case justify all these booleans on a central lucene class.	1
+I don't care about code duplication here.	1
+ We should not invoke the global synced fieldnumbers shit for every element, only when the setting actually changes	1
+I disagree... and I guess I'm willing to go to bat for this.	1
+HOLY SHIT!	1
+ I think the comments here are a bad sign... I sent us down an unfortunate slippery slopewe are a search engine library!don't put shit in the index directory! or we will delete your shit. dead simple.	1
+I wholeheartedly agree this API is confusing as hell.	1
+Not only it's the first one in my life I'm seeing multiple ways of closing the same thing, it also conceals programming errors.	1
+Sucks to rush a commit when an issue is under discussion.	1
+I'm against such heavy committing myself, without some consensus to do so.	1
+I'm confused.	1
+> I hated that aspect of working for commercial companies.	1
+Of course it is.	0
+My bad.	1
+My bad.	1
+Igor is an idiot, and we *do* need gmake.	1
+Shit, I missed a cast.	1
+But, even if it wasn't it would be totally worthless where it is at.	1
+This is clearly bad webserver behaviour.	1
+Forget what I made(D8067).	1
+PreCommit-HDFS-Build is stuck.	1
+I am slightly confused by the above.	0
+So, it is stuck somewhere.	1
+I don't want one-offs like this to become lost and forgotten.	1
+But now that I think about it, it may crap out when coming back to read even on a recovered file.	1
+@Matt... I'm an idiot, I used the wrong patch. Sigh.	1
+I'm however very interested in this feature as it is essential to me.	1
+bq. this is solr's fault by having a getter that does some heavy duty xml shit.	1
+Holy complicated-as-shit-algorithm, Batman!The complexity of our implementation vs the complexity of what we're actually doing is starting to worry me here.	1
+It also happens at the very startup after he has loaded only 3 sstables (hence DataTracker likely have 3 sstables, not a shit load).	1
+Shit, my bad. The posted patch is from a completely wrong branch of my git repo - I had not realized I ran the test-patch against a branch not branch-1.	1
+ (In this particular case, Hoss clearly intended to use the no-no word as an intensifier, and not to stir shit.)	1
+Maybe only one of us should play lawyer and the other one play engineer.	1
+ I used to be the latter, but then I went to law school and got a degree in this shit. 	1
+Then, to make matters worse, since the mid-1990's I've been offering pro bono advice to non-profit foundations whose members insult me regularly and assume I'm an amateur.  	1
+Someone, but I'm not sure who, owes me a public apology here.  /Larry  	1
+Shit, there is an dependency. Please go to Preferences -> LDAP -> Entry Editor and enable the option "Show operational attributes".	1
+that's bad Content-Type from gSOAP.	1
+Pull it back in if you think different.	1
+Hmm ... this is quite bad.	1
+You are messing down deep below hbase in dfs.	1
+Damn it, sry lost the orientation.	1
+Oh, my stupid:)	1
+oh ...geez I'm an idiot.	1
+@jira - I wish you didn't suck so much.	1
+Indeed that would be VERY bad design.	1
+My bad.	1
+(How bad is this?	1
+I'm confused.	1
+This is pretty trivial.	1
+Of course, it could...  :-)  DOH!	1
+Then you're pretty well screwed.	1
+Damn, Chuck is scary.	1
+This is bad.	1
+Well, that sucks.	1
+Bad memory.	1
+The state stuck at "Allocated state", It is a dup of 3788.	1
+This is a pretty awful bug.	1
+Replaced patch with fix to catch more bad variables	1
+Does this suck?	1
+Of course, StrFieldSource is a private classNo it's not.	1
+CSS is really confusing sometimes.	1
+Django is a fullstack framework, Click is not.	1
+My bad.	1
+Credit, of course, goes to Dick.	1
+It seems really confusing.	1
++1 for this: my bad.	1
+Hell or high water.	1
+-1 to jar hell.	1
+That would suck.	1
+If so, a test that succeeds with errors is confusing as hell...	1
+If the different segments are somewhat homogeneous then these stats should pretty much be very close anyway.	1
+This is pretty trivial, just adds three asserts to TestPath#testNormalize.	1
+I doubt that Squid is sobad at it.	1
+It's not too bad once CacheConfig is in.	1
+Not too bad though, since clearing out commitlog segments is easily done.	1
+ah - my bad.	1
+My bad, had a typo in the subscription e-mail.	1
+My bad.	1
+Yep, my bad.	1
+Pull it back in if you think different.	1
+Tabs are evil.	1
+I looked at our distributed pom.xml and they're pretty obscure.	1
+once per every bad disk).	1
+Hell, UnaryFunction might even be faster than all of these calls in a row.	1
+This was very bad documented.	1
+Damn.	1
+Pull it back in if you think different.	1
+Ie, both at are bad.	1
+durrrh, that sucks.	1
+My bad.	1
+I'm an idiot.	1
+Splitting an existing sub-shard gets stuck up.	1
+This is bad.	1
+Oopps, bad move !	1
+the recommendation in the wiki is bad.	1
+My bad.	1
+I'm starting to think of "DLL Hell."	1
+#NAME?	1
+Fix bad patch	1
+Logger on top of Log4J and its abstract base class for supporting other frameworks.	1
+My bad.	1
+Well, either you query the database every damn time, and your plugin/tool/code will be super slow.	1
+Damn it.	1
+Hudson seems to be stuck on this. 	1
+My bad...	1
+which is silly -- bad package encapsulation).	1
+My bad.	1
+Oops, had a bad comparator in the TestCLI config.	1
+My bad.	1
+The food is very bad.	1
+<gmcdonald> , my bad	1
+My bad.	1
+My bad.	1
+Pull it back in if you think different.	1
+Aaarrggh, how stupid of mine  to have a System.out, again!	1
+Hell, UnaryFunction might even be faster than all of these calls in a row.	1
+I always get the same stupid error.	1
+Damn maven!	1
+I don't care if everything is pretty or not, but we should at least support basic admin functionality in IE IMO (though I have not used it for years for just about anything).	1
+I've looked at what can be done within the NSIS framework we use to build the Windows installer.	1
+A feature with wrong functionality is as bad as, if not worse than, a bad performance.	1
+Doh!	1
+Doh.	1
+Sounds weird to me...Could you package a (totally!)	1
+Am I doing something stupid here?	1
+* Replaced TreeMap with an Array of final 'Segment' objects** (now very slightly faster than trunk)* Rebased for trunk* Removed the patch renaming SSTableReaderTest to SegmentedFileTestI didn't remove the builder pattern, because the alternative seems pretty ugly (copying the segments array for every append).	1
+HADOOP-2949: - If tarball is specified, HOD no longer validates for the pkgs directory in gridservice-hdfs or mapred sections as these are not going to be used anyway.	1
+It must be lost somewhere.	1
+Too bad we can't use position:fixed in IE6.	1
+I think the correct resolution is to ensure that the prefix stack mechanism gets reset each time the XMLReader is used.	1
+This is always a really bad way to design software.	1
+It may suck, but at least *I* won't be the one bringing in a dumb dependency to a logging library.	1
+How on earth is it buggy?	1
+I didn't do that because that seems bad in hive, so I returned "null" from the operation.	1
+This sucks.	1
+They don't vote, theywhine that something (or everything) sucks.	1
+Damn dyslexia!	1
+Damn it !	1
+Doing it at the hackathon you'd have a few fellas at your shoulder to give you pointers should you get stuck.	1
+Ah, that was my bad.	1
+My bad.	1
+it's my bad.	1
+My bad!	1
+Ah, too bad.	1
+Damn, Chuck is scary.	1
+Here is quite bad.	1
+This name gets confusing with all of our prenamed *Worker* and *Master* classes.	1
+* release of the framework.	1
+I'm a pretty strong -0 on this.	1
+Not pretty. 	1
+That's pretty unlikely.	1
+Pretty much everything that FSNamesystem (ie.	1
+Kind of sucks.	1
+Since this patch is so damn large already I won't be making anymore changes to this other than critical/blocker bug fixes.	1
+But please don't say that my reasoning is bad - because it is not.	1
+> We can't let fear of back-compat prevent us from making progress.	1
+I really don't care.	1
+I am planning to use this framework for some new RPCs I am adding.	1
+Don't hate me, just throwing this out there.	1
+Weird.	1
+This is weird.	1
+Gav...(Hoping I'm not teaching you how to suck eggs :) )	1
+For those of us who don't care about ivy in fact lose something - a easy to build hbase.	1
+Where on earth are you anyway?	1
+My bad.	1
+My bad, this is already done.	1
+That is bad.	1
+Filling diags.log is bad mojo, since it's never rotated.	1
+How bad is it?	1
+My bad.	1
+My bad.	1
+Bad IE.	1
+Bad.	1
+Pull it back in if you think different.	1
+Stupid user error :)	1
+Weird.	1
+That's weird.	1
+Actually I don't want to specify the encoding, because I don't care how the data is transported to me.	1
+And boy, hell broke loose ;)So... the biggest issue I'm facing is indeed with Random sharing across threads.	1
+I don't care what we do as long as we don't change the attributes in JSP significantly.	1
+The Async API in http client 4.x really sucks.	1
+Forget the patch for the moment.	1
+I'll just put fix in under this issue.	1
+Please forget last comment, it is incorrect.	1
+umm ... call me crazy, but why are we making this public?	1
+[~cmccabe]: oh, hell no!	1
+Damn...	1
+I'd say to hell with windows minority :)	1
+Because, we don't care for this in cases where we there is no node that is down.	1
+The eclipse ui was completly stuck, which was similiar to the other experinces.	1
+My bad.	1
+Juhani..my bad, i was mistaken.	1
+My Bad.	1
+That's my bad.	1
+Seeking back is pretty inefficient in DFS.	1
+Doh!	1
+Hudson is stuck.	1
+Weird.	1
+Weird.	1
+That's weird.	1
+If that would be the case, this would be bad design.	1
+This just seems really evil.	1
+It may cause conflicts, but if your intent is to break system security, you probably don't care.	1
+My bad, uploaded the wrong patch.	1
+I just hate having no clue what a file is really depending on ;)	1
+Ah, damn, I thought it was fixed :/Guillaume ?	1
+I abbreviated the heck out of my arguments and thinking, but damn it thats what I think :)	1
+A stupid bug in a patch that is already applied.	1
+In this case, data would pretty much just silently be lost.	1
+This whole thing is really pretty trivial.	1
+An output connector should also have a say in what URLs it will accept.	1
+Turning off hints is basically intended as a "oh shit, something is broken with hints, let's turn it off" switch.	1
+why on earth would it match anything, you have not even touched the Apache install.	1
+Anyway, created a patch ... 	0
+Ah, HA!	0
+or a log message?	0
+Until there is a general mechanism Hbase should do something.	0
+but there is no such limitation in the consistent algorithm behind ZK.	0
+It will be taken care as part of HADOOP-7642.	0
+The contribution archive.	0
+What is convenient for the user to download two archives to run the project (or install maven)?	0
++1 for the docs in the SRC though.	0
+Okay Edward, you haven't understood how it works.	0
+Maybe you know it better when I show you some code.	0
+If you want to have a binary sequencefile format, then do this.	0
+What if you want to change this binary format?	0
+Do you want to recreate every file on the whole planet?	0
+You must take care about versioning then, and that is because we need a proxy between the inputformat and our vertex API.	0
+Contributed by Vinay.	0
+Previously we are mainly focus on trunk failures.	0
+Yea, I think it would be worth distinguishing between the reasons.	0
+Gimme a few mins to clean this up properly.	0
+Is the -put command returning non-0 to indicate failure?	0
+Is it by mistake?	0
+We should be assigning atleast 50% of it's capacity.	0
+pread I mentioned is FSInputStrea.read(long, buf, offset, len).	0
+multiple pread invocations hitting contiguous byte ranges is quite tricky.	0
+I would have hopped that the URI(String) constructor would have decoded things properly (or encoded them as it happens to be here).	0
+Continue with stupid questions :)Who is sponsor and mentor of project?	0
+So, who should create mail lists, bug databases, etc.	0
+Fixed bug of <hr />, the siteinfo is always after the rest of the page now.	0
+batch transition to closed for remaining resolved bugs	0
+Hi Vincent,I wasn't aware of that.	0
+We are all different" Crowd"I'm not" DissenterMonty Python's Life of Brian 	0
+Turns out that Ubuntu dropped 32 bit support for 'whatever' in 12.04 and now you need to run "sudo apt-get install ia32-libs" in order to get older executables to run.	0
+I wonder why not so many people use Linux?	0
+On 2009-06-08 19:22:03.496 kjian commented:Localization data error.	0
+On 2009-06-08 19:22:40.967 kjian commented:Localization issue.	0
+Will close this as a dup.	0
+[rvollmar 3/27/07] There are two bugs that are causing backwards compatibility issues, and I think the emails we've been exchanging have confused them.	0
+First, an attempt is made to convert      * each argument.	0
+It is better to express such things in Java, or in a query language that is designed for that.	0
+Why would I want to use XML, when i can use the QBC API, or HQL (HQL can be embedded in the XML, remember), to express this stuff much more naturally?	0
+In addition, in the longterm we will all most likely be using annotations, and the "fetch group" notion does *not* work with annotations.	0
+It's generally pretty straightforward, but extensibility is not quite clear.	0
+I have changed one test to see what will happend if I set the pwdIdle to b > 0, and the test passes.	0
+What exactly is your configuration ?	0
+The more I think about the issue, the more I find it critical.	0
+If we remove an entry while someone is doing a search, the search will fail.	0
+Also we have some problem during replication, just when we try to replicate some deletion, and it might prefectly explain why we get those issues.	0
+(Ok, as expected ...)Waiting for a better log, when you will have installed a new server build from 1.0-trunks, then.	0
+What you can do is trying this request with a different browser when the server is suppose to hang, and also try to do another request when the serveur is supposed to be hang to see if it's not a pb with the PDU length ( what I suspect is that when trying to decode this request, the decoder is waiting for more bytes so wait ad vitam aeternam ...) I gonna try to implement the decoding of this PDU as a test case just to check.	0
+The search result entry requests does not return the correct DN, because it use the internal representation (byte[]) instead of using the user provided value, which contains escaped values.	0
+Here, we have two options :1) work with the internal value, but escape all the special chars2) work with the stored UP value.	0
+I think the bnest solution is (2), because the UP value is supposed to be valid - it has successfully been parsed when the first request arrived -.	0
+This will impact two parts :- searchResultEntry- all the response that contains a LdapResult and which returns a MatchedDN.	0
+I already have a fix for the first request, but the question is : which version will integrate this modification ?	0
+any suggestion ?	0
+I just applied the patch, ran tests.	0
+Then you might switch filter chains to ?	0
+However, I don't see any failures.	0
+Thanks!	0
+We need a proper JUnit test for this!	0
+I think we are very close too.	0
+Thanks for reviewing the patch Mamta!	0
+I've been trying to test a patched build with ibm 1.5. on iseries, but have run into trouble:- OOM with suites.All.	0
+I've been running with -Xmx1024M -Xms1024M before and that worked in the past...Not sure what's going on now.	0
+A second run (with 2048M) only got worse (sooner) OOM behavior and after that I had trouble getting rid of my processes- apparent hang with derbyall:lang/wisconsin.java.	0
+On rerun I let it go for 20 mins, but apart from the database getting booted (derby.log) nothing at all showed up in any of the output files (i.e.	0
+.tmp was empty).	0
+During the 10.5.1.1 test cycle this test took about 5 mins (and passed).	0
+So, the original problem appears addressed (as I said, the 3 failing tests now pass), but I will investigate these behaviors, and run on another type of machine just to be safe.	0
+I think I prefer this approach.	0
+I remember that rule for line breaking in Japanese was very different from that of English.	0
+In English sentence there exists space between words andthat space tells where the line can be breaked.	0
+However, Japanese sentence does not have such a useful space between words.	0
+As I knows, only punctuation tells where the line can *not* be breaked.	0
+This may be well known problem in i18n in typography ....	0
+Can this be closed?	0
+derbynetmats had no failures.	0
+I too am concerned about the  DRDA 255 byte character string limit.	0
+You can close this out.	0
+plz fix it properly till tomorrow Ort I'll close this for 0.4 again.	0
+What was the outcome of the discussion?	0
+Afair we settled on not implementing this as logging is hell anyway and we do not like to introduce just another logging framework.	0
+Also we would need to handle Serialisation which is _only_ implementable in a performant way if you know the underlying logging framework.	0
+I almost forgot, as I received the email notification on the weekend.	0
+Holy crap that worked!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!	0
+I'll open one now so I don't forget.	0
+Think you could make a failing test case and/or patch to show the behaviour?	0
+But I could join them.	0
+For VMware, we noticed that there are several places requiring cleanup of staging storage object, which requires a generic approach to thoroughly fix them, and cannot make it in 4.2.0.	0
+OK, this solution sucks, and since people are relying on these scripts instead of using tools like ant, we need to give them the ability to upgrade these tools without having to create a new project.	0
+Any ideas? 	0
+I think SSTableDeletingTask is a good spot, I just wasn't sure if that would be appropriate.	0
+Why is it unsafe to share filter in SelectStatement for NQF?	0
+Looks like you need to report this to the high-scale-lib project.	0
+Nice try :-)I was Mr I dont believe in magic from the very beginning.	0
+I thought that there are some common cases like tail and head caching or exclusion of columns that could be implemented.	0
+But never mind - maybe the proposed cache is all greatness.	0
+So to prevent a rude awakening for some users it might be cool to provide some means (config or whatever) that works similar as the current version.	0
+Or at least schedule this for a release which allows for a downgrade.	0
+Gotta show off the shinies first, of course.	0
+So we convert Scanner back into an Iterator over a lazily fetched Slice subclass?	0
+Disagree.	0
+For *all* this protocols/endpoints, Camel already offer consumers.	0
+Closing all 1.6.0 issues	0
+I'm very, very keen on preserving backwards compatibility.	0
+The Calculator sample now works with SimpleAxisServer.	0
+Is there any documentation how to use axis2-wsdl2code-maven-plugin, with jibx binding, and how on hell you define xmlns:tns from you binding file	0
+Do you think you can make us a minimal test case which demonstrates the problem?	0
+Please close AXIS-2271 if that patch is taken.	0
+Are we on the good path...	0
+hi Dan!!	0
+Wow, sure!	0
+This practice in general seems really confusing to me, this bug is refed in the 1.5.0 release notes tagged in svn. 	0
+I think all properties and permissions should be maintained.	0
+Well I'm not sure what was happening, but I just upgraded to Spring 1.2 final and this issue does not happen anymore.	0
+It really *did* happen in an earlier version though....	0
+I disagree.	0
+The manual should provide sufficient insight into the important use cases.	0
+People tend to review javadoc when things don't go as expected or are unclear.	0
+In my case, I wrote a custom filter, fucked around with the configuration getting it to work, which means you really have to get into it.	0
+etc.	0
+2,5 hours gone.	0
+I reviewed javadoc but, right or wrong, I didn't come across this.	0
+Google was also strangely quiet.	0
+I'm new to Spring Integration, so forgive me for the stupid things I might say.	0
+stupid autoresize option doesn't resize it correctly	0
+) - it should be in AJDT in a couple of days.	0
+I am sufficiently archaic as to have only a pre-ANSI-C K&R.	0
+You can put *expressions* separated by commas in a for, even back then:   for (i=1, j=100; i<j; i++, j--) But I guess that the tweak to allow *declarations* there only has one.	0
+I was surprised to see this issue still getting so much commentary.	0
+I'm going to jump back to Robert's initial pushback here:"1.	0
+I understand job execution creation needs to be atomic, but I don't think it implies the whole logic around creating job execution must be handled by repository.	0
+Using technical tricks like automatically appending parameters to create unique JobInstance makes alarm bell ring - we should not be trying to do clever arbitrary things in classes that form the foundation of the framework.	0
+If job instance has a lifecycle that ends with first successful execution we should refuse to start the same job instance ever after.	0
+We described before that there are times that operators, for whatever reason, what's to restart a job with the same instance.	0
+It could be something as stupid as accidentally deleting the output file.	0
+So it's like getting a new copy.	0
+My bad.	0
+My apologies for the confusion.	0
+Same goes for fontSize and fontWeight and other font styles.	0
+But on the other hand I also think, if the processor has to do this initialization activity (i.e.	0
+Yeah it helps, though I was more questioning whether there's not already aboolean that keeps track of this, but apparently not.	0
+Seems a bit restrictive to me that using rich:comboBox with s:convertEntity only displays entity IDs in the combo.	0
+"rich:comboBox is not a select component by nature" - so what is it then if it's not used for selecting stuff?	0
+Guys this defect is 5 years old now.	0
+If it's a regression, please open a new ticket.	0
+Yeah, I didn't mean to imply that setting a null value was the problem, which is why I changed my comment to denote the problem was actually in the federated connector.	0
+It appears to be a simple cast to the wrong type (from a copy/paste error during coding).	0
+I'll copy that into a LICENSE.txt file.	0
+Thanks.	0
+Sorry...	0
+The instructions are fine.	0
+Not sure how I got that all wrong.	0
+Sorry again.	0
+Note to self: Always check for platform-dependent behavior!	0
+I've tested with Ruby 1.8, Ruby 1.9, JRuby, and even Rubinius, but all on Linux.	0
+This lack of proper documentation on the standard Ruby API drives me mad.	0
+Should this be raised to Ruby core folks to get the clarification?	0
+Someone either needs to write a custom XSD and link it to the document or we need to disable validation for those examples pending another solution.	0
+This request is unclear.	0
+Why are you asking us for samples?	0
+I'm reopening the issue, and Graeme will attach a new key which should be an OpenSSH SSH2-DSA key hopefully.	0
+Crossing fingers...	0
+Looking forward to your patch.	0
+Nobody is able to tell what will happen here if something does not work.	0
+Additionally... GroovyShell doesn't care about threading.	0
+And even if it would be, who makes sure that the context loader at the time the shell was created is the same as the context loader at the time the shell is used?	0
+Can we even be sure that the thread is the same?	0
+Logic like that has nothing to do with GroovyShell in my eyes.	0
+If a threaded management is needed, then a new class should be used, that ensures the conditions are fulfilled.... that is at last that the context loader is unchanged.	0
+I know, in your webapp this condition might be fulfilled, but GroovyShell is not special to web applications. 	0
+GroovyClassLoader does not know Groovy classes, the parent *must* know them.	0
+Because of that the default parent is the same loader as the loader that loaded the class GroovyShell - this loader knows the groovy classes.	0
+Setting the context class loader would require a test if the context loader knows Groovy classes and if this class is the same as the expected loader... what do we do if that is not the case?	0
+Throw an exception?	0
+I don't want to put too much magic in the classloader structure, because it becomes messy as hell in an instant.	0
+Maybe first see the results of the discussion at: http://www.nabble.com/Undocumenten-constraints---consistency-of-templates-td21863067.html	0
+Thanks for the info David.	0
+I'll make that change and close the issue.	0
+Woo hoo!	0
+Why attach the page?	0
+In other words, using the setGenerateImportedSchemas() setter or not obviously makes a difference, and given the fact that your main XML schema imports/includes the other one, I'd suggest that you change your code generation strategy.	0
+That's basically all I am saying.	0
+I know this is a closed issue but here goes anyway.	0
+First, there are some backwards compatibility concerns.	0
+Clearly you don't understand the goals of Velocity or this is one hell of ahumor piece.	0
+Is this according to the spec?	0
+Do I miss something there?	0
+Of course, in the end, I'm not the one you need to convince, as I'm not a maintainer :)	0
+The ci server does not close issue only comments on them, I closed this issue.	0
+This is a really cool idea, but I don't think this is going to make it into TRUNK before the 0.4 branch gets cut.	0
+Forgot ASF grant.	0
+Duplicated here TAP5-1017	0
+It was my mistake.	0
+I'm sorry for making it confusing.	0
+Fixed in nightly build 20020623.	0
+The reason the tests weren't failing is because i was an idiot and hadn't configured the queryResultCache properly in the test configs.	0
+now that i've made the tests fail, i can finally start trying to figure out why the tests fail.	0
+SOLR-5232: SolrCloud should distribute updates via streaming rather than buffering.	0
+Maybe instead of overlays, try configuring maven-war-plugin {{<packagingExcludes>}}: http://maven.apache.org/plugins/maven-war-plugin/examples/skinny-wars.html	0
+I wonder if we could do some sort of auto-detectI'll poke -- getStream().mark()/reset() can probably work for XML/JSON but it may break things for javabin	0
+Erick,  First of all, anyone upgrading should examine CHANGES.txt which would certainly have a note on this explicitly in the upgrading section of that document.	0
+Secondly, most point-release upgrades people do are ones in which the config stays the same.	0
+Thirdly, the scenario you present in which someone copies a subset of their 3.5 schema would only error if that person ALSO chose to omit the defaultSearchField declaration -- but why would they do that?	0
+Besides, I don't think there should be any expectation of "it'll just work" if you copy some arbitrary subset of an old schema into a new example config.	0
+If that's true, it'd be nice if we had a standard way to annotate such code so we can methodically remove the old stuff.	0
+"@deprecated" isn't enough because it's just at the method/class level, not an internal if branch.	0
+{quote}you lost me there ... they can use the exact same configs 鈥 that's kind of the point: testing the exact example configs as we ship them (with <lib/> declarations that point at dirs which may or may not contain jars depending on what contribs are built; and request handler / response writer declarations configured that use lazyloading to dynamic load things as needed.	0
+Ah - i jumped the gun on you.	0
+This has been the history of Lucene and the thing about the project that I admired most - heavy hands where checked at the door.	0
+I'm no angel, and I'm not perfect about this myself.	0
+But I still try and police it because I think its important.	0
+That is useful advice (call me biased if you'd like).	0
+Honestly, there is no way around this issue - of course we must discuss and come to some solution regarding Lucene/Solr at this point.	0
+In the past, I have enjoyed working with everyone here.	0
+My personal beef in this issue is not with that though - I simply am very offended by heavy handed reverts and such.	0
+I feel the same way about JIRA.	0
+Words before action in my book - many words - hard as that can be for all of us sometimes.	0
+explanation on SM-623	0
+Should this issue be closed?	0
+Didn't we just do this a month ago?	0
+Thus, the case is closed as non-reproducible.	0
+The included things (usually chars or tokens) in the span are represented here as an interval and the end point is excluded.	0
+Have a look here:https://en.wikipedia.org/wiki/Interval_(mathematics)#Excluding_the_endpoints	0
+If the dictionary were created with the flag to true, then all entries would use a case sensitive comparison.	0
+This JIRA will be closed.	0
+I think this is the third one you created in the same day?	0
+HI Anahita,Your patch tested successfully.	0
+Hi Amardeep,Are we sure that this does not introduce any side effects, regressions?	0
+Hi Jacques,The http*.jar are Release 4.0.	0
+So now I have convert again all the head3 to h3 and now seams to me better.	0
+hi charlie,if you request this feature for myfaces-core (the jsf impl itself), you have to file the issue at https://issues.apache.org/jira/browse/MYFACESregards,gerhard	0
+A message is already logged.	0
+Continue processing is the right way i think.	0
+@ 1.	0
+It's a feature which seems to be enabled by default.	0
+Its implemented in a normal release.	0
+@2.	0
+That would be a improvement in trinidad, but that doesn't solve the core problem in MyFaces.	0
+@3.	0
+I will make the change for 2.2.	0
+That's why I need to ask questions now when I want to understand the current logic (as it is not logical for me).	0
+If I put my hands in the code to fix stuff myself I will probably introduce something that is illogical for you (e.g.	0
+the logical solution to me was to add the methods to the interface) so I guess I did the right thing opening this bug and asking for your opinion and I can't accept your "for the sake of sweet Jesus" in reply.	0
+In many ways, I think that the support for 3rd part performance and health monitoring is already there.	0
+My misunderstanding.	0
+5% seems pretty low.	0
+We can use a BlockingQueue to make the patch simpler	0
+I think we should distinguish between the two	0
+I think this is pretty close to being ready.	0
+{quote}viewColumn v.s.	0
+{quote}Neither of these produce a copy.	0
+it's not a merge setting and I think it's rather confusing today since we take the merge setting and use it for indexing.	0
+More tomorrow.	0
+Same for the settings.xml with cleartext password (this caused my initial 401 problem, no way in hell im leaving such a thing around on my computer).	0
+Maybe ant could read the password like it does for GPG and handle this for us?	0
+Thats why I think its good to keep them (of course as short and minimal as possible).	0
+I think if you use either LogDoc/ByteSizeMergePolicy, forceMerge alsodoes what it says.	0
+It's great to see you've gotten the ball rolling Chris.	0
+{quote}I fail to see why that is a bad thing if we're looking at the rare scenario of having to postpone the sorting decision to search time.	0
+If we're so bent on backcompat, I suggest deprecating one of these methods now and removing it in next major release.	0
+The patch also removes FreqProxMergeState, because we don't have to interleave posting lists from different threads anymore of course.	0
+The patch also removes FreqProxMergeState, because we don't have to interleave posting lists from different threads anymore of course.	0
+Easy to say we can come back to this, easy not to.	0
+ConstantScoreQuery and FilterQuery need to AND the filters  together.	0
+It uses a parallel benchmark that roughly models what our real-life benchmark is like.	0
+I'll be happy to edit the wiki when I get thisresolved!	0
+Too bad we don't have the power to do that... ;-)Here's what I think should be happening:Internally, absolutely everything should be handled UTF-8 for consistency's sake.	0
+Nobody has any permissions unless explicitly granted.	0
+While I am not a spokesperson for my employer, by myassessment their interests are aligned with mine -- they sponsor my work, andas a consumer of the products that I contribute to, it would be bad for themif their investment were to be harmed.	0
+and close this issue ?	0
+How should integer division work for decimals and floating point?	0
+e.g.	0
+should the following be true?	0
+4.5 quotient 1.5 => 35.9 quotient 1.5 => 3	0
+OFFSET X LIMIT N(slice X _  (top (N ...)    (...)  ))that is, put a slice over the "top" and apply the top to N+X.	0
+I will make the change.	0
+I think I would be happy with a process where a weinre build is kicked off for every commit to master.	0
+Hi,Could u please change the moderator of this list to,Davanum Srinivas : dims@apache.orgChamikara	0
+Okay, "unfortunately" nothing  abnormal there.	0
+Hi John,I would agree, using object notification is probably a cleaner way to do this.	0
+Otherwise, the constant will be converted  to DOUBLE.	0
+{quote}Dear Azuryy Yu,This message acknowledges receipt of your ICLA, which has been filed in the Apache Software Foundation records.	0
+Contributed by Ashish Singhi.	0
+It will be taken care as part of HADOOP-7642.	0
+I think the rename should follow the same pattern.	0
+If so, make the formatting same as it is for rest of codebase on commit?	0
+Which API at the thrift client you are referring?	0
+Neither is the rest of this.	0
+I'll make an updated patch.	0
+I think this is what caught me the first time I tried this	0
+I'm going to close this out.	0
+Marvin, I've clogged these lists too often today, so I'll just say this to you.	0
+ Under copyright law there are several potential kinds of damages one can obtain for infringement.  	0
+The only forms of damage that make practical litigation sense in the FOSS world are *statutory damages* and *attorney's fees*. 	0
+To obtain those kinds of damages, a copyright notice is required. 	0
+(There are other requirements for these types of damages also, all described in 17 USC 401 et seq.) OTOH, if you want to waste your time proving *actual infringement damages* for free software, don't bother with a notice, but also don't bother trying to find an attorney to argue your case.  	0
+Forgot to close	0
+I forgot to resolve this bug.	0
+I think there is enough there to close the issue.	0
+sigh.	0
+CASE_SENSITIVE boolean=> TRUE   9.	0
+Ummm, did you forget to annex the patch Toby?	0
+You cannot load classes from a bundle after the framework shuts down.	0
+Of course, none that should really matter .	0
+Of course this means that I can't compile/build the code using AxisRC3.	0
+Clearly, one Visitor interface just can't satisfy everyone.	0
+This is going to be a big performance hit.	0
+Committing shortly.	0
+Any objections to committing the security.rb part from the trunk patch to the 0.95 branch now?	0
+Like skip.jar.loading= trueonce ---> Proposed behaviour.	0
+Is not really needed I guess.	0
+Then, what's the story for code reuse for different flushers.	0
+"else { this.services.getAssignmentManager().assign(e.getKey(), true); }" is called for another assignment.	0
+OK.	0
+It is ok for goog.requires to be missing.	0
+It is not ok for the interface reference not be fully qualified.	0
+OK, done, added some more javadocs as well.	0
+), then I'm ok with that as well.	0
+Ok.	0
+OK to commit to 1.4.4	0
+Also, I find the name "stillGoodJournals" confusing, because when a journal was found to be bad, in the "// do the sync" block, it isn't removed from the "stillGoodJournals" list.	0
+With balancer initialy at true:{code}hbase@node3:~/hbase-0.94.3$ bin/graceful_stop.sh --restart --reload --debug node6Disabling balancer!	0
+I just hope it does wait forever on sockets or anything stupid like that...  but we'll see.	0
+Unrelated, should the PBImpls be moved from yarn-api to yarn-common (They're private anyway).	0
+Unrelated, should ApplcaitionTokenIdentifer be renamed to something like AMTokenIdentifier ?	0
+This also seems pretty reproducible.	0
+if (!jj_semLA || jj_3R_60()) return true;    if (jj_3R_61()) return true;    return false;  }The simple fix could be to wrap the lookingAhead assignment  after the call within finally block.	0
+The true  usages are found in calls to executeSubstatement now.	0
+But, even if it wasn't it would be totally worthless where it is at.	0
+@filipe I forgot the case where includes are in include/js (or mozjs).	0
+audit warning seems to be due to "hadoop-hdfs-project/hadoop-hdfs-httpfs/dev-support/findbugsExcludeFile.xml" javadoc warnings also seem to be unrelated. 	0
+But, if the expression isgraph(wctob(wc)) evaluates to true(which cannot occur for wc == L' ' of course), then either iswgraph(wc) or iswprint(wc)&& iswspace(wc) is true, but not both.	0
+If that's not true, then you can prettymuch ignore everything in this particular comment...	0
+It just depends upon how smart the plug in framework and the actual plug in is.	0
+Plus, of course you don't have to hardcode the name of the jarfile.	0
+Currently, we just assume it might be a laggard and thus isSlowTracker() will return true.	0
+Rajith: This is actually not true.	0
+@ ThomasYour framework is available?	0
+The latest  patch for SimpleURIResolver and resolver framework.	0
+Matt, what's the cut-off date for providing a patch?	0
+br,Matt	0
+*.. info.ftl might have confused you :)Divesh	0
+> I'm confused.	0
+Pretty fancy.	0
+Though it is still a possibility, it is pretty corner-case.	0
+I think there were a mistake.	0
+Of course this is debatable.	0
+Of course, I have en_US for my locale.	0
+For testing purposes of course...  	0
+True enough....	0
+This is also true for "ACCT", "MLSD", "OPTS" and "REIN"	0
+That is not true.	0
+Default is true.	0
+Therefore Visa.matches() will nowreturn "true" for Mastercards, too.	0
+Yes, that's true.	0
+True.	0
+Definitely true!	0
+Pull it back in if you think different.	0
+But that's of course completely unrelated to your patch.	0
+duplication of such a small amount of trivial code is far less evil than yetanother dependency.	0
+This might be a stupid comment but shouldn't "keyDerivationeterceptor" be "keyDerivationInterceptor"?	0
+HttpClient stock code is JDK 1.2compatible (hell 1.2 is old).	0
+The first step is of course selling us through our site.	0
+Brandon's pretty confident, but I'd rather not cram it into a minor release just in case there's something we missed.  	0
+I encounter the same NullPointerException in the 4.1.0 source code release, but currently I don't have a git 4.1 environment to verify it.	0
+Matt, are you still working on this?	0
+But in any case, please keep things simple and stupid :)	0
+James, I think it is time to do some of the tasks that you have outlined and I'm willing to do the work.	0
+I'm fairly convinced that signing is the only way to go without turning the knobs so far up that the AM is pretty useless (no images!	0
+Start an app with all network connections off and try to do a console.log(navigator.onLine) and it will return true.	0
+Please do not forget about adding the ASL header to all new classes.	0
+Matt	0
+Matt	0
+I will take this into account of course.	0
+Ah of course.	0
+Are there other parts of your app thatinteract with or manipulate the "course" bean or its "labKits" collection?	0
+The name for all of them was thus pretty obvious, except for engine.evaluate(...) and #evaluate(...).	0
+Must have been confused.	0
+Of course, that would be a separate bug...	0
+Of course, I meant 2.1.8 beta, not 2.1.8 dev.	0
+This seems backward to me (but of course I'm no expert in this area).	0
+Specially the framework.	0
+This may fit for Pregel, but not for our Framework, since our communication is much more expensive.	0
+Patch is pretty trivial, but gives +15% on MT/SerialBench on 2-core Core2.	0
+OK, works for me.	0
+Please re-open if I'm confused.	0
+I must admit I'm a little confused by this one.	0
+You mixing fd and HostComparator confused me.	0
+Otherwise the HTable and the HConnection will get very confused.	0
+Of course, there is no NotNullException.	0
+of course, it could be built on the fly...	0
+Of course, this only applies if someone where to finish 831 and it where accepted...	0
+Of course if you're writing your own serializer, it's your responsiblity to deal with this appropriately.	0
+After a while that .api package will get pretty crowded too.	0
+I will post a new patch pretty soon.	0
+Framework translations in rev 701679.	0
+How about a slightly different take?	0
+Damn copy/paste programming.	0
+Pretty impressive.	0
+If so, that's a pretty bad admin experience.	0
+It seems pretty reliable.	0
+I think the ability to hotswap a valve or even an entire pipeline, real-time is pretty damn kewl!	0
+Well, your static analysis seems pretty persuasive to me.	0
+What mocking framework should be used for the webui?	0
+The framework is incomplete without it.	0
+In revision 1064741, the framework is functional and activated for the enhancer.	0
+At least it was intuitive for me, and I am pretty new to all this.	0
+Is there a way to stop the hbase with the regionserver dead?	0
+If I am not wrong, the follower that is stuck never accepts the leadership of the Leader in the ensemble, because it is an established ensemble and it sees no quorum in it.	0
+The 0.95 branch is dead and defunct.	0
+I'm assuming it's bytes since the variables are named 'buf', as opposed to the 'str' names used in the protocol APIs, but want to double-check.	0
+But I didn't get any memory errors.	0
+It was confusing for me too.	0
+Hmmm... confusing.	0
+Doing things based on an organizationPartyId associated with the user is BAD BAD BAD, and basically kills the multi-organization support in OFBiz.	0
+I deleted the original attached files because they contain company informations that I'm not allowed to disclose.	0
+So I'm totally +1 for the HBASE-8723 patch.	0
+The verification of state over in timeout monitor before acting is another aspect?	0
+The number of failed tests is pretty high compared to last time's performance (67 bad vs 3 last time).	0
+Too late I'm away to bed and have lost concentration.	0
+Converting to a double[ ] is where the precision is lost.	0
+And PayloadTermQuery lost an "if (includeSpanScore)"?	0
+I'll have to bisect the revision since when it is broken and this could take some time.	0
+The CDE is using the base UIMA framework to get the metadata.	0
+However I'd be interested if later, this functionality can also be used by ServiceMix, i.e.	0
+It's named .gitignore which may be confusing.	0
+The original replica of RUR may in finalized state.	0
+I just noticed that!)	0
+volatile prevents the variables from being cached in the registers and creates a memory barrier, so that's not that surprising to see an impact on the performances.	0
+The Felix framework does not support exporting/importing the default package.	0
+Yep my bad too - I didn't look and was just guessing at what the problem was.	0
+- the computedHashCode() didn't use the a single "qualifier", now it does.	0
+Even during the full-blown "validation" of the descriptors (done just before "saving"), the CDE is invoking the base UIMA framework in  special mode to prevent instantiation.	0
+Move startTime from DecommingStatus to DatanodeDescriptor so startTime could be used to represent either decommissioning or dead start time;2.	0
+once this error occurs, the route cannot be used any more.	0
+However controller passing live brokers minus shutting down brokers as live leaders in the LeaderAndIsrRequest sounds like a premature optimization and a bug.	0
+The memory stream transformation core-dump was the same case (rb_tree - erase).	0
+However, the statement still performs a full scan of SUMMA_RECORDS, which sounds sub-optimal.	0
+> Actually I just noticed something when trying to commit.	0
+Wicket 6 now features an experimental module that integrates the Atmosphere framework (wicket-atmosphere).	0
+Then the algorithm gets lost as it did not expect this discontinuity.	0
+A single table could be made up of many thousands even hundreds of thousands of regions?	0
+bq.In order to maintain different states at which we are in while creating table should we go for a special node under the table znode or can we add new states to the existing table states like (DISABLING, ENABLING, DISABLED etc)IMO go with separate node.	0
+Some further bug tracing shows that pdfbox' RandomAccessBuffer is responsible for the Out of Memory error.	0
+#2 wontbe so bad... filters are pretty deep and will be just as efficient ashacking scan query Matcher I think.	0
+Maybe you want to do shuffle in this way: Firstly, copying remote map outputs and store the shuffled segments into memory as usual.	0
+The outer read can continue for a much longer period of time.	0
+The fix is only disabled on releases prior to 10.8.2, on the assumption that the fix gets into the upcoming 10.8.2 release.	0
+Note that I wouldn't be totally opposed on adding additional support for the dot notation on inserts (provided all fields are indeed given) for symmetry/convenience.	0
+I don't know that there's an alternative that would be less invasive than reverse logical time.	0
+I don't quite see why the attached implementation would do more heap operations, but I agree that it could be slower due to lengthier/more complex loops, a few more if statements etc.	0
+So what this patch does is totally revamps the makefiles for erlang.	0
+If I get to this first I will make the "frameworks" fix as well.	0
+Show time since declared as dead on the deadnode web UI.	0
+justafter the event) is the opposite of the sign just before the event.	0
+The times will be grep'ed and used for inspection in Excel.	0
+Unfortunately, the xml parser in use is event based, in the wrong direction(push instead of pull), so the bulk of the change is flipping that around.	0
+2) The ZKVersion used in the <topic,region> map is used to guard against the case different hub-server use the map at the same time (or interleaved).	0
+html/ext/HtmlInputHiddenTag.java is pretty simple, all of the functionality is in its base class. 	0
+Do you have a different desired text change, or is it dead?	0
+gcc 4.3.1 is out since June 2008, so the workaround is no longer needed.	0
+The KahaDBStore.getDestinations() method looks as though it would be pretty heavy, performance wise.	0
+Tag is documented and demo'd, but does need a Facelets tag.	0
+I would rather state that most Java libraries *do* care about Maven.	0
+Shouldn't it have looked at fstime across the directories, seen dir2's higher fstime, and used that one?	0
+> The modified test (below) gets stuck in an infinite loopYour test is buggy.	0
+I have tried using Snappy{Input/Output}Stream and they don't work (it just throws EOFException in the middle of the transfer) and causes stream to retry.	0
+this is IMO a regression since i am pretty sure it used to throw an InvalidItemStateException in the past.	0
+I'll take a look at where the framework should call it.	0
+Similarly, one can use theoverview of FD:OCA below and the introductory section of its respective volume and only ** referto the details of the FD:OCA constructs as needed during implementation."	0
+Didn't see the selector the first time round.	0
+This is pretty interesting.	0
+Doh!	0
+We do not use a framework.	0
+doh fixed braces	0
+I will appreciate if anyone knows of a way of doing that in junit framework.	0
+If you are stuck with solr 4.0 alpha, here's a patch which may work.	0
+This patch also adds the new resource emulation framework to GridMix.	0
+We need verify all the links and buttons in console to ensure the fix.	0
+avro-mapred -- we might end up with avro-mapreduce as well for the newer api, so I stuck with the package name of the hadoop api. 	0
+Sounds reasonable.	0
+This sounds reasonable to me.	0
+Content-wise the only part that stuck out to me was the inclusion of the many exceptions that users will never see.	0
+It's unfortunate that there's a lot of code duplication, but it might be best that way.	0
+Sounds reasonable to me given it's a standalone (debug) utility.	0
+It is a little weird since the multi-core aspect would only be usable programatically, but that will make it possible to easily bat around a 'core manager' and http design.	0
+Can't be avoided though given what is going on here.	0
+Pretty much the same stack trace.	0
+I don't want to pull the whole patch though.	0
+However, the NPE in the framework is still an issue even if it happens when there is a "user error".	0
+Moreover, there must be something going wrong in relation to the SPO index, an exception is thrown:ERROR **** Not the root: 11264com.hp.hpl.jena.tdb.index.bplustree.BPTreeExceptionat com.hp.hpl.jena.tdb.index.bplustree.BPlusTreeRewriter.packIntoBPlusTree(BPlusTreeRewriter.java:78)at com.hp.hpl.jena.tdb.store.bulkloader2.CmdTDBLoader2.createBPlusTreeIndex(CmdTDBLoader2.java:224)at com.hp.hpl.jena.tdb.store.bulkloader2.CmdTDBLoader2.exec(CmdTDBLoader2.java:166)at arq.cmdline.CmdMain.mainMethod(CmdMain.java:85)at arq.cmdline.CmdMain.mainRun(CmdMain.java:47)at arq.cmdline.CmdMain.mainRun(CmdMain.java:34)at com.hp.hpl.jena.tdb.store.bulkloader2.CmdTDBLoader2.main(CmdTDBLoader2.java:95)I don't see why, at the moment.	0
+Back-compat Lucene-style and agile design aren't something that marries well.	0
+We are currently stuck with this issue?	0
+Specifically the existing framework only lets us plug-in custom compress/decompress 'streams' (e.g.	0
+If you really don't want such a link, you could always hide it with CSS.	0
+DROP INDEX <INDEX_NAME>making this the only option right now would suck because we don't auto-generate an index name when none is provided.	0
+There are just too many checks there, that Click is not using, and we can't just use them all (many don't make sense to Click at all) :).	0
+I'm not against fixing the CS, I just want to ensure we do the 'right' fix.	0
+That's why, I'm going to use easymock as SMSC simulator.	0
+Downgrading this as it is probably user error (rather than an explicit bug in the framework).	0
+This was fixed Cassandra-side for 2.0 in CASSANDRA-5702 but the fix was pretty heavyweight and backporting to 1.2.x is not an option.	0
+#NAME?	0
+Nothing stops a slightly evil user to use a NoLock to wreak havoc in the index.	0
+I pretty much have this working.	0
+Please use git diff to generate patch, because I can't easily apply git patch on a svn tree.	0
+Does that sound like a reasonable plan going forward?	0
+I won't intrude on the design discussion, sounds good.	0
+It can't have been this way always?	0
+Fixed using the new injection framework and xwork configuration design.	0
+Patrick,I can't manage to reproduce this error.	0
+Otherwise we would be storing the bytes-per-checksum field but not actually using it, which would be really confusing.	0
+if it gets started at all.	0
+[~jbellis] The weird thing is that although *newSSTables.size() != newSSTablesSize* the assertion doesn't actually cause an error, so no stack trace, but swapping the assertion (as shown below) yields the stack trace below.	0
+J-D gave my patch a review and said fine except for some line-lengths which I've fixed.	0
+To be quite blunt guys, your log4net logger methods smell bad.	0
+We've been passing builds pretty regular now so if this a problem it should start showing prominently.	0
+You just need to remember to put the expected first in the assertion or it gets confusing	0
+That can't be expressed with a static suffix, but it's easily expressed with a regex.	0
+I'm not sure this can't be achieved without messing with IR/W guts so much.	0
+2.8.0 is no longer supported so even if there is a bug, it won't be fixed in 2.x.y release series.	0
+In TestCliDriver, create_view.q and udaf_percentile_approx.q are two weird queries.	0
+By passing in the section name {{null}} the content of the global section can be retrieved.	0
+I would have checked it in directly, but there were some aspects  that I didn't care for but couldn't seem to get around.	0
+Submit a patch and I'll play with it.	0
+Please play around with it.	0
+But I'd have to play with it some to see for certain.	0
+This is to say, that we've a pretty good coverage of IDC "keyref" use cases.	0
+After moving it to a local disk I can't reproduce it anymore.	0
+click the subversion commits tab.	0
+I just realized I never really explained the original problem that led me to making these fixes.	0
+So this is by design.	0
+We can borrow some design techniques etc.	0
++1 For this new design.	0
+I don't know what Lucene'sposition is on Maven, but am interested pursuing whatever makessense.	0
+Marcus, that sounds sensible.	0
+I think MINA is more of a 'server framework' rather than an 'NIO framework'.. it is so close to being both.	0
+Perhaps this should be item #0, decide whether we want to work with Maven or Gradle.	0
+All other log frameworks do this)	0
+Is there a way to fetch a pull request?	0
+Please pull it up to the release branch.Thank you!	0
+Will pull that into the 2.0.4-alpha branch.	0
+Maybe something silly is going one.	0
+For the first part, I got stuck on two points.	0
+You really shouldn't call one without the other.	0
+filtering hooked up through Solr already and it would be dead simple to bring in here, too, but it would fit nicely in this framework.	0
+Every framework will benefit from that!	0
+* Framework for JMS, db access can be reused.	0
+:org.osgi.compendium-1.0.1artifact and felix-1.0.4 framework	0
+CFS.gRS is a pretty thin layer over RowIterator.	0
+this pretty much explains the three imports.	0
+It is pretty close to what you are proposing.	0
+Oh and not to forget.	0
+Jerermy is the sole subscriber/moderator and can take care of adding other subs.	0
+Pretty much every deserialization error shows up as an IOException.	0
+Are you planning on doing this (or already have done this), or would you like me to do it?  	0
+Doug, you defined:+public interface NamenodeProtocols+  extends ClientProtocol,+          DatanodeProtocol,+          NamenodeProtocol,+          RefreshAuthorizationPolicyProtocol,+          RefreshUserToGroupMappingsProtocol { ...}Will this prevent us from putting the DatanodeProtocol in a different port?	0
+But would there be other cases that the writer stuck for different reasons?	0
+However, given the factored out code is pretty trivial I decided to duplicate it in favour of not adding another set of classes along with the additional complexity introduced (e.g.	0
+There is a single directory, ~apbackup/remotelybackedup, and anything symlinked to there gets backed up, as documented in the README.	0
+Jeremy, are you still planning to take a stab at this?	0
+Nothing gets broken, but we have one more step towards framework independence.	0
+We won't find the same group in a different segment.	0
+Will commit in a few days (to the heavy committing branch) if no one objects.	0
+This patch takes care of the nocommits in the previous patch.	0
+I'll take care of this.	0
+is anybody taking care of this?	0
+There's a TODO which I'll take care of before merging to 4x (there are other renames too).	0
+That would take care of most cases.	0
+Yet, now one must care for the relative ordering in between both icons, too.	0
+And it also will add a lot of complexity to the framework development/maintenance. 	0
+Adding a different patch.	0
+However, if the implementation of next is not capable of handling bad records, then it is most likely going to throw an exception, and, the proposal in this jira for handling bad input starts with that assumption.	0
+I imagine that if 7-Zip can do this decryption then the encryption mechanism I seek is not forbidden by licensing restrictions.	0
+Also, I won't give you a patch next time, but just the whole new TestTransSystem.	0
+That said, I had to do something similar in configurators, and I did this by adding wrappers to the getInitParameter.	0
+Therefore, it can no longer be used.	0
+We have different disk sizes on our DNs.	0
+I don't have a problem with a non-component directory in the framework.	0
+Patch that changes progress computation to use position in input stream.	0
+I do have a patch, but unfortunately I am not a position to sign the CLA.	0
+The same exception happens the I forget to sign my jars.	0
+The squeeky wheel gets oiled!	0
+This is where the bus gets over lapped.	0
+OKThe problem is that the o.a.f.bundlerepository doesn't cares about R3 or R4 bundles.	0
+Somehow I forget to move that from SOLR-2524, but it is in the updated patch now.	0
+Closest example that I can recall were questions about "The Software shall be used for Good, not Evil" clause from the JSON License.	0
+I am planning on doing a round-robin assignment for each partition.	0
+all the key and column name comparisons should be case insensitive (and we force keyAlias to be ascii, so you don't need to worry about it being some weird bytes stuff).	0
+@PaulForget the previous patch, it added unneeded complexity for parsing and dealing with multivalue (line) ini file  config parameters.	0
+Fixed by updating to the new frameworks bridge 1.0.1-dev.	0
+{noformat}set-net-2.0-framework-configuration: [property] Target framework changed to "Microsoft .NET Framework 2.0".	0
+USE WITH CARE!	0
+Beware all ye who venture here: the sea of XSLT is deep and wide and unforgiving.	0
+:)> except at much worse performance.	0
+What's weird is that this class is in Cocoon's normal classpath.	0
+* This is needed since the MappingTool fails if it gets non-persistent capable classes.	0
+This might fix broken hudson on trunk	0
+Adding directories to removedStorageDirs in original patch is already in branch-1.	0
+The source of this problem is master and slave allowing frameworks to register with IDs already used by completed frameworks.	0
+This is introduced by API performance refactoring, the intent is to generate the same response object for both listxxx api and other apis related to the same entity.	0
+There may perhaps be some way to use Windows file-locking as a signalling mechanism here.	0
+Alternatively, we could build a variation avro-ipc.jar that shades in avro.jar that could be the smallest unit for OSGi.	0
+Actually, let's just fix the issue you discovered here.	0
+we don't have an agreement that it should be active	0
+I'm just throwing it out there.	0
+I agree with Sami that this should be contributed to Tika and that we delegate the language identification handling in Nutch to Tika, just as we are doing or planning to for the MimeType and the parsing 	0
+Also I looked at first corrupted database that I posted  and found the corruption in the  index TEST1_IDX_INDCOL2.	0
+I could not find any documented limits but if I missed them somewhere I will gladly put them in.	0
+However, I doubt that the same is true for MapContext because it is just a wrapper around a HashMap.	0
+There is no RPC stuck but a lot of "Connection reset by peer".	0
+With hampered performance of sstableloader after 1.0, its made the things very difficult for us.	0
+I have retested it and I figured out that I have posted the wrong parameters in the bug description.	0
+I fixed some bad markup in r1392857 but I can see the error afterwards on the neko stuff.	0
+The thing about backwards-compatibility hacks is you tend to get stuck with them.	0
+This is part of making Oak OSGi-friendly	0
+However, I'm not a lawyer.	0
+It seems to be adding new 'functionality' to coprocessors.	0
+Adding sleeps solves it.	0
+We're adding endpoint as a new datatype?	0
+Not ideal, but not too bad ;)	0
+Trunk for patch, pretty much.	0
+That'll be pretty awesome to have for 0.6.0	0
++/**+ * This class is a refactoring wrapper around the shared+ * JDBC40Translation class.	0
+Also I'm slightly confused by your description because in section 5.8 of the spec it says that members of code_handler_class_RCN can be null.	0
+Since I screwed up the commit, we voted 2.1.7 down and are working to get 2.1.8 out pretty quickly.	0
+A user looking at the set of changes won't care :)	0
+Or did you see some other errors or bad weinre behaviour?	0
+Typical POST then DOH moment.	0
+I'll see if I can find a way; our systems are pretty constrained in that dimension.	0
+I think that would be the cleanest solution to prevent bad behaviour with wrong codecs?	0
+Perhaps it would be easier to make ClobLocatorInputStream a wrapper around ClobLocatorReader, and ClobLocatorOutputStream a wrapper around ClobLocatorWriter?	0
+I like having consistent indenting, but now it is really hard to see the diffs, and it gets confusing.	0
+> Ideally we would move to NIO framework like netty, but that would much larger effort.	0
+Once all the chunks have been uploaded, the Upload Framework can returned a combined file.	0
+You don't see '>' replaced because that's not required in this case (though some frameworks do it anyway).	0
+Making a blocker.	0
+I've reverted this for the moment.	0
+and at the moment we dont have that yet.	0
+Maybe we're stuck with it until log4j fixes its dependencies?	0

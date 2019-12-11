@@ -1,0 +1,200 @@
+You should check out and build revision 693 of the trunk.	0	0
+It was applied with minor changes in 2.1.10-dev and 2.2-dev.	0	0
+There's a note on the main page about these scripts, but you're right: nothing obvious in some of hte "sub pages"I'll take a stab at clarifying.	0	0
+Yup instruction are not correct.	0	0
+I did a change to BULIDING.txt adding ${j14lib}/security.jar to java14compile.classpath in the description of how to build with IBM JDK.	0	0
+Fixed for exclusion: http://svn.apache.org/viewvc?view=revision&revision=1539249	0	0
+I haven't fully grok'd the entire issue yet but have a quick comment: 2.0 was released several months ago...it's not 2.0-alpha-5-SNAPSHOT.	0	0
+I think we should apply it.	0	0
+CheersChristian	0	0
+#NAME?	0	0
+The changes in this patch aren't a complete solution but they're free-standing give basic service visualisation and shared configuration support.	0	0
+Closing as dupe.	0	0
+The attached patch fixes two problems:  * the first one which happen when the class is loaded from the boot classloader (in which case, we now use the system classloader to load the enclosing class)  * the second one which is the fact that all kind of linkage errors can happen when loading the class and this would really disturb the classloader correct behavior	0	0
+<danielsh> dns done (thanks for the hostname), tb build underway	0	0
+v2 Looks good to me.	1	1
+I am wondering when this patch can be accepted?	0	0
+Thanks for the answer Mohammad wrk.	0	0
+Perhaps 'acknowledgement slip' would be the most commonly used term in English?	0	0
+Bulk close for Solr 1.4	0	0
+o Once you do that, you can get rid of the getUUID(), setUUID(), and getObjectID() methods in this class.	0	0
+reviewed and committed patch.	0	0
+Does it solve your issue ?	0	0
+I think you are right to follow the existing patterns.	0	0
+Thanks once again.	0	1
+v3 rewritten to be lots more explicit and save the vendor, arch, and version numbers for later code to use.	0	0
+I showed my interest on this idea, in the dev-mailing list,and currently started to explore the requirements and a design.	0	0
+I ran it on current trunk.	0	0
+Sangwon Seo, Thanks for your review.	0	0
+QA test result is recorded above.	0	0
+Closing this issue, Jacopo fixed it at r1345528.	0	0
+Same in problem in SQLServer, solved with catalog=null and schema="%"	0	0
+Closing all issues created in 2005 and before which are marked resolved	0	0
+HadoopQA uses -p0 to apply patches.	0	0
+I made a preliminary patch to share the idea how this can be fixed.	0	0
+Awesome stuff Stephen! 	1	1
+Committed revision 1341814.	0	0
+I've started to work towards support for visualising services and cascading configuration.	0	0
+See the following link for more info:https://javaserverfaces.dev.java.net/issues/show_bug.cgi?id=612Thanks,Ian	0	0
+Do the same tests work fine on 1.5.0dev?	0	0
+I've tested them out and everything is fine.	0	1
+However, I also run into the opposite problem.	0	0
+Sanjay, your patch is missing the AuthenticationFilterInitializer.java file	0	0
+Hi Matt,Thank you for fixing this issue.	0	0
+Resolving the issue as the patch was applied to Airavata trunk.	0	0
+DataDictionaryImplo The header comments on getUncachedPermDescriptor() getPermDescriptor(), and dropAllPermDescriptors() look like they were copied from pre-existing methods, so they should be revised to describe the new methods.	0	0
+{{TrivariateRealFunction}} renamed in r1236932.	0	0
+Just a note, there was a long conversation about this here: https://reviews.apache.org/r/4655/ and this is a dup of FLUME-1089.	0	0
+Please review this for me!	0	0
+I've committed this.	0	0
+Thanks for the patch.	0	0
+Integrated in Cassandra #63 (See [http://hudson.zones.apache.org/hudson/job/Cassandra/63/])    	0	0
+Thank you very much Les.	0	0
+Looks quite perfect after solving PDFBOX-490.	0	1
+I have throuroughly documented this in the XWorkConverterTest, see testStringToInt, testStringToInteger, testStringToPrimitiveDouble and testStringToDouble.	0	0
+Thanks for the feedback and thanks for taking a stab at this.	0	0
+cheers,./alex--.w( the_mindstorm )p.	0	0
+That would really help a lot.	0	0
+Logically this is also fine.	0	0
+Koji Noguchi, I think this was fixed.	0	0
+Thanks.	0	0
+Thanks for the help BJ!	1	1
+I like the elegant parser!  	0	1
+This looks like it might be a blocker for release.	0	0
+RB at https://reviews.apache.org/r/15607/	0	0
+1: The skipBloomFilters gets called on the index file in RowIndexEntry line 104.	0	0
+Leo, thanks for the patch - applied at r488522.	0	0
+Or did you introduce these concepts?	0	0
+2: In 2.0, the skipBloomFilters will be called on a 1.2 sstable; also, the skipBloomFilters currently is called against any sstable when scrubbing.	0	0
+I switched to using the JavaSourceLoader and this appears to work fine.	0	0
+Can this be closed Martijn?	0	0
+are enough for this, rather than full blown regexp.	0	0
+Applied patch.	0	0
+Thanks for reporting.	0	0
+Moved to GA.	0	0
+Thanks for the report !	0	0
+Thanks.	0	0
+I move it into 2.1-M1.	0	0
+This is actually the case in 2.0.5 already.	0	0
+Handling of services which aren't consumed and services which are consumed by multiple bundles is pretty weak.	0	0
+I committed patch _c with revision 697897.	0	0
+Don't worry, that's another project and not part of the sequence generator work.	0	0
+But it may not be appropriate to add this in NativeFileSystem classes.	0	0
+Supported by external project	0	0
+Thanks Hari!	0	0
+NativeFileSystemView represents the underlying OS file system view - no more no less.	0	0
+I'll take a broader look tomorrow.	0	0
+Hi Sergey, thanks for the patch.	0	0
+IMHO, Configuration should be the first or the the last arguments.	0	0
+Closing	0	0
+On 2008-04-03 15:57:26.514 laupark commented:Opened.	0	0
+A new issue (https://issues.apache.org/jira/browse/RAMPARTC-140) is created for implementing SupportingToken assertion.	0	0
+I don't remember why right now though.	0	0
+Great! Awesome!thanks,Dims	1	1
+committed to TRUNK (m3)	0	0
+you seem knowledgeable,what not submit a patch.	0	0
+We'll take a look for 1.21.	0	0
+Thanks!	0	1
+dead branch, no sure which code generator it's talking about	0	0
+Thanks, Ashish!	0	1
+won't fix.	0	0
+Tests pass, but there is some weirdness going on with rat failing on licenses because it tries to examine the surefire reports...	0	0
+Thanks	0	0
+Thanks for testing, but please don't close it yet.	0	0
+Attaching patch which incorporates Hemanth's comments.	0	0
+A unit test case doesn't work; -Dkey=value is not parsed in ToolRunner but passed through to SparseVectorsFromSequenceFiles, resulting in a parse error.	0	0
+Do we want to reconsider this?I kinda like the feature.	0	0
+Alright, I'll put this and HBASE-8453 in through trunk today.	0	0
+I integrated the submitted patch in the new JBW, but did not really test it.	0	0
+:D	1	1
+It could be that this has been resolved already (elsewhere).	0	0
+Please open using the JIra workflow and fill in the details.	0	0
+Tested with both JBoss EAP 5.x and Geronimo 2.2.x	0	0
+Fixed in trunk -r746186.	0	0
+These are all svn file deletions which will need to be done by hand when applying the hand.	0	0
+I committed {{BasicFunctionalityTest.testHTMLStrip()}} to branch_3x - it succeeds for me with no changes required.	0	0
+I am transfering my issues so I want to know the current status.	0	0
+Sonar does not use JavaNCSS at all !	0	0
+I'm not sure if this is actually a bug, we had it fixed, but then had to revert it.	0	0
+Extra javadoc added	0	0
+I saw 'acusament de recepci贸' in the GDLC but I wasn't certain what it was in English.	0	0
+ThriftServer.java and Hbase.thrift patched manually, the other files generated using thrift-0.2.0	0	0
+Took me a few seconds to get it, but then I realized how awesome it is.  	1	1
+Interesting that you decided not to detect the error based on finding two similarly-named operations.	0	1
+great. awesome job sergey!	1	1
+fixed in 1.8. checking in javadoc fixes momentarily	0	0
+Thanks Amit,Your patch is in trunk at r832776, R9.04 r832779	0	0
+Many thanks, Neeme.	0	1
+I've only switched the ComponentColorElement (which was the ComponentColorProperty) over to use the new configuration so far, but I'll switch the other elements over to using the new configuration next.	0	0
+What are the disadvantages to adding -fPIC (a) for amd64 only, (b) for all platforms?	0	0
+In few words, onchange event is not published until the checkbox lost focus.	0	0
+I will re-work and submit another patch.	0	0
+Postponed to 2.0.0-RC1	0	0
+cool, no worries.	1	1
+It successfully gets the expected exception, but then fails to close FSNamesystem with NPE.	0	0
+And in that case, the first argument could also be changed from OpenBitSetDISI to OpenBitSet.	0	0
+Applied patch.	0	0
+We decided not to support jdk13 jvms with 10.3, so there's no point in attempting to change anything at this point.	0	0
+Got it, thanks for the explanation.	0	1
+What's the operation?	0	0
+I filed bug # 42715 with ASF Bugzilla about the ant.version issue.	0	0
+So this is ready for merging?	0	0
+Attribute 'width' works fine.	0	0
+The fix for test_no_extension was merged in PIG-2505.	0	0
+Sebastian, as Sonar calls the cobertura maven plugin there is not much we can do.	0	0
+It's working like a charm.	0	0
+Will setup mirroring to Brno QA lab.	0	0
+Please apply the attached patch by doing the following:1.	0	0
+#NAME?	0	0
+I'm kinda dissapointed.	0	0
+Thank you, guys!	0	1
+Closing as fixed in trunk.	0	0
+no POM provided here	0	0
+Thanks Amar!	0	0
+Shelly use JBAS-5873 for the matrix tests :)	0	0
+Fix race conditions in Balancer.	0	0
+It will be available in 1.2_05.	0	0
+Spoke too soon!	0	0
+Patch committed.	0	0
+and your comments are very welcome..	0	0
+Thanks.	0	0
+I tested HBASE-9609 and it does seem to make a huge difference!	0	0
+Thanks Arpit!	0	0
+(Things weren't as clear at 2am ;))  Yes, we should probably definitely be removing the ThreadLocal entirely.	0	0
+The per invocation timeout facility has been added for the rmi and sslrmi transports.	0	0
+Cool, thanks Daniel, we're actually cool with either updating it to e9ff8c4928 or flipping the write bit and we'll push the delta ourselves - whatever's the fastest to get to writeable:)Thanks,--tim	1	1
+Committed to trunk with revision 447502.	0	0
+This is awesome!	1	1
+We pretty much already had the interface we wanted for this (IFixedLocationResourceStream).	0	0
+btw, MCLEAN-18-maven-clean-plugin.patch also applied the maven-clean-plugin-dcabasson-MCLEAN17.txt fix.	0	0
+Applied Andrew's patch at r676866.	0	0
+Thanks Charitha.	0	0
+This patch has been around for a while.	0	0
+Maybe because a JUnit doesn't really mimic a real hadoop env?	0	0
+Closing issue as per Luis.	0	0
+Hi Christian, Jacopo,Not sure if adding "-Duser.language=en" is the better way to go, sounds like a camouflage to me.	0	0
+Fixed on the master (0d43528e) and the 1.6 (9affb57a).	0	0
+seems this is a CDK issue	0	0
+When the order of methods change, so the rendering of fragments is bellow the definition, then it works fine.	0	0
+I'm happy to use it as the standard logo (i.e. website, etc.).	0	1
+My testing turns up not issues, so , once again, thanks for finding this Rick, I'd gone blind to the problem and it was driving me mad!	0	0
+Hey very cool. 	1	1
+Really it is a side effect of the browser (IE 7 and IE 8).	0	0
+Thanks.	0	0
+Resolving as fixed.	0	0
+Fixed for both 2.0 M4 and 1.2.8.	0	0
+Pretty sure this was fixed by the time we released JRuby 1.6.	0	1
+It would help considerably if you could explain what the problem was/is with finite sized pools and the current implementation.	0	0
+Thank you!	0	0
+Thanks Alexei, the patch is fine.	0	1
+Andrzej, I'd be happy if you reassigned to you, however, I will have some time on Tuesday to look at this if you don't until then.	0	0
+i kinda like the black acctually .. but that may largely be due to my prefering the "fire" solr logo over the futuristic magnifying glass (the red/orange contrasts nicely with the black/grey.to my mind, the "Solr" "Sun" connection has allways been really cool ... 	0	1
+But, in the meanwhile, can I upload a patch which reverts this ?	0	0
+Committed to trunk 1384014	0	0
+Looks pretty cool. Fresh and minimalist. Love it :-)Good work.	1	1
+"That said, check out setReadLength in TBinaryProtocol."	0	0
+This is now resolved in ActiveMQ 4.0 as we have a DemandBasedForwardingBridge which only forwards messages to another broker when there is a consumer for it	0	0
+So any of your suggestions do not help.	0	0
+Cool, that's all good news too! Thanks guys. One less on my radar.	1	1
+I just committed this.	0	0
+Two git commits included.	0	0

@@ -1,0 +1,200 @@
+Stopping' gets us closer to classic Lifecycle.	0	0
+Oh, signed shift!	1	1
+Um sorry, i thought this ticket was about something else - patch attached, David would you give a try?	1	1
+The problem here was simply that an EJBs class may not be one of its BeanTypes.	0	0
+Mine is not thourougly thought, it's just a suspenders AND belt solution.	0	0
+Sorry for the wild goose chase!	1	1
+Tried some more stuff and realized I was doing it wrong.	0	1
+Sorry ;-)	1	1
+Marking as dup of HBASE-5861 (You saw it first Andrew but Jon is going to work on this over in 5861..)	0	0
+1	0	0
+This can require 1MB or larger buffers, so isn't always practical.	0	0
+(HDFS-2438)- throw FileNotFoundException if getFileStatus on non-existing file.	0	0
+To upgrade to a recent version of Jackrabbit, see http://wiki.apache.org/jackrabbit/BackupAndMigrationI'm afraid I can't say much about the risk.	0	1
+I'll add a README	0	0
+Reviews appreciated.	0	0
+Please let me know if you need something else.	0	0
+sling6.thread_dump.02.txt was taken a couple minutes later.	0	0
+Hi Marco,I changed the name of patch because it was made in Java earliar, sorry for inconvenience.	1	1
+if I were to write a MyQuery class and implemen the toString method a certain way, how would QueryParser know about MyQuery?	0	0
+This blocker/ critcal was created before July please review and resolve, we are approaching 4.2 code freeze in 7 days 	0	0
+I'm starting the 2nd version of DerbyTest from Eclipse as well.	0	0
+Sorry, should have commented on this much sooner.	1	1
+My error.	1	1
+Can this ticket me marked as resolved as implementation done for portabl IP	0	0
+We used to do 'stopping'.	0	0
+Will take a look at it.	0	0
+Fixed the crash in this bug; let's open a new one for the SPDY connection issues.	0	0
+Sample client, server and broker configuration.	0	0
+Resolving again....	0	1
+More like can't fix.	0	0
+Is there any particular reason on using an _ in front of the following variables?	0	0
+Sorry for a mess in uploaded files, my connection got broken during first upload.	1	1
+Is it possible to extend QueryParser?	0	0
+If you know of a way, please describe it.	0	1
+If you do take hold of it, do not hesitate to share :) The original paper and C++ code likewise melt my brain, and I needed the algo in some other place.	0	0
+Second question: Why adding DFSTestUtil.abortStream(..)?	0	0
+Watch out for "Got InvalidDestinationException" messages.	0	0
+Anoop reminded me about this.	0	0
+Sorry, should ask first.	1	1
+[~ashutoshc] Yeah you are right.	0	0
+So, if you make another request to read 1k shortly thereafter you'll get it from the buffer cache and the incremental cost will be that of making a system call.	0	0
+I am checking out the dojo fixes and patching them in, sorry for the delay, it has been a long time	1	1
+For some reason, I couldn't upload the straight patch.	0	1
+Here's another whack at splitting the patch.	0	0
+Another option is to create a new type for HdfsLocatedFileStatus as{code}HdfsLocatedFileStatusProto {  HdfsFileStatusProto fs = 1;  LocatedBlocksProto locations = 2;}{code}  	0	0
+Here's what got renamed: .../{hadoop-hbase.postinst => hadoop.postinst}  .../deb/hbase/{hadoop-hbase-doc.dirs => hbase-doc.dirs}.../deb/hbase/{hadoop-hbase-doc.install => hbase-doc.install} .../deb/hbase/{hadoop-hbase.dirs => hbase.dirs}     .../hbase/{hadoop-hbase.install => hbase.install}   .../{hadoop-hbase.manpages => hbase.manpages}       .../hbase/{hadoop-hbase.preinst => hbase.preinst}   .../hbase/SOURCES/{hadoop-hbase.sh => hbase.sh}     .../{hadoop-hbase.sh.suse => hbase.sh.suse}   	0	0
+Thanks, Aaron!	0	0
+Some file were missing in the last patch, sorry.	1	1
+scheduleAtFixedRate "Creates and executes a periodic action that becomes enabled first after the given initial delay, and subsequently with the given period; that is executions will commence after initialDelay then initialDelay+period, then initialDelay + 2 * period, and so on.	0	0
+You have the ability to add users to the mina group in svn, not to the group on people.a.o.	0	0
+<danielsh> Yes, any23.zones.apache.org is the jail's hostname, so use the IP it resolves to.	0	0
+Unfortunately, in these days where everyone that can put a CDthe right way up in a drive is a Linux/Unix/Windows/Internet Expert, this has become pretty common.	0	1
+Thanks.	0	0
+Aaron, sorry about this.	1	1
+Sorry [~svenkat], I just committed this.	1	1
+The reason for null pointer exception was that database context was not loaded yet during database recovery.	0	0
+Another backport (for a different jira) of mine is failing and I want to see if I can figure out what might be wrong there before doing a new backport.	0	1
+How to handle the problem with LUCENE_29 setting and the posIncr of stopwords together with QueryParser that has a default setting of ignoring posIncr?	0	0
+Will commit a bit later unless somebody beats me to it.	0	0
+But may is better to have no test method than the one with 10 aspects.	0	0
+I refereed to the [^v1-enable-wall-werror.patch] which contains {{-Wall -Werror}} and I thought it sould be {{-Wall -Wextra}}However, just add {{-Wall}}  to that patch makes absolutely sense and could be committed.	0	0
+Oh, I didn't consider one flow like after the edit log conversion, immediately #store failed.	1	1
+I did not have time to do it yesterday.	0	1
+Let's clean up all these issues in the incremental cache report JIRA (HDFS-5092); if this sounds good, I'll edit the JIRA description with these todo items.	0	0
+It is not yet tested - I ran into strange build problems with APR.	0	1
+To grant new users commit access, check out https://svn.apache.org/repos/asf/infrastructure/trunk/subversion/authorization and add the appropriate usernames to the mina= line in the [groups] section of the asf-authorization file.	0	0
+Sorry,I haven't tried you patch.	1	1
+ReplicaManager:22.1 recordLeaderLogUpdate(): Could we rename it to recordLeaderLogEndOffset()?	0	0
+Nice work [~stepinto] !	0	0
+I did it wrong this time.	0	1
+Marking this for 0.18.4 and above since it's a deadlock.	0	0
+The responder seemed to be a bottleneck.	0	1
+Bug in existing testDelegationTokenRestoredOnRMrestart().	0	1
+The failure of GdiplusStartup happened to because this function was called from a native method with RSP not aligned to 16 bytes.	0	0
+I addressed Shravan's request to add in the MRStreaming stuff into LocalLauncher, and put in the jc.stop() calls after failed jobs in both Local and MapReduceLauncher.	0	0
+Sorry for the spam - but which test method - can't find any related to the SnapPuller on trunk.	0	1
+Incidentally if we all nag Joe Walnes enough we might be able to persuade him to release a new qdox which can ignore annotations etc (though it will still struggle with generics I think)	0	1
+the underlying protobuf handles the null properly.	0	0
+32 bit ubuntu 12.10	0	0
+IntIdentity, ShortIdentity, LongIdentity, CharIdentity, ByteIdentity, StringIdentity provide implementation of compareTo() allowing comparison with other identity *of the same type*.	0	0
+HighwaterMarkCheckpoint: Is it better to name the file ".highwaterMark" so that it's hidden?	0	0
+Sorry about that...http://bit.ly/12UiaS	1	1
+Thanks to Mathias Werlitz - sorry for the delay.	1	1
+In general, one should thus rely on the buffer cache and read-ahead, and make input buffers only big enough so that system call overhead is insignificant.	0	0
+(sorry if that was confusing)	1	1
+I was somehow under the impression you were writing an Eclipse plugin.	0	0
+huh ... i thought i did resolve this.	0	1
+That's a good point; we should make sure that it doesn't decrease performance for one of the database types, even if it increases it for Oracle (in which case, making it configurable in oozie-site.xml would be a good idea too).  	0	0
++1 great job pat.	0	0
+We'll have plenty of time to go through the bundles later.	0	0
+Sorry, on holiday last week and just catching up.	1	1
+Seems to work reliably now.	0	0
+It would be *highly* preferable instead to *not* include the BoostMonitor.cpp change, as both are inter-dependent.	0	0
+Fixed then :)	0	0
+With your patch, the cursor might still be at the end of the grunt window after 14 new lines.	0	0
+Any word on whether it will be fixed?	0	1
+Inferring that it might make a difference, based on your comment, I tried using 'console.log()' and the unexpected behavior was no longer present.	0	0
+In the wiki next to each one of these parameters it explicitly says that reducing this parameter will decrease memory usage, this is why we reduced these parameters (it did not mention the filterCache at all).	0	0
+(HDFS-2426)- fixed bugs in getBlockLocations.	0	0
+I can see leaning toward to selects from the FLUSHER table with explicit checkpoints is a good balance for this case.	0	0
+I like this title.	0	0
+I was talking that the first three months of becoming a TLP we have to report monthly.	0	0
+sorry, should have been getDataModel not getDataTable.	1	1
+i modified the test class from HADOOP-6148 (bigger is better)the result is:||bytes||PureJava MB/sec||Native MB/sec||Random PureJava MB/sec||Native MB/sec||| 1|40.525 |12.118 || 2|151.706 |23.046 || 4|202.082 |46.778 || 8|309.846 |88.030 || 16|330.308 |152.373 || 32|384.488 |247.181 || 64|413.354 |350.407 || PureJava|0-64|260.692 MB/sec|| Native|0-64|198.142 MB/sec|| 128|429.670 |450.514 || PureJava|0-128|323.232 MB/sec|| Native|0-128|299.766 MB/sec|| 256|437.959 |521.985 || PureJava|0-256|376.471 MB/sec|| Native|0-256|405.063 MB/sec|| 512|439.036 |564.909 || PureJava|0-512|410.257 MB/sec|| Native|0-512|490.422 MB/sec|| 1024|441.101 |587.137 || PureJava|0-1024|426.669 MB/sec|| Native|0-1024|549.357 MB/sec|| 2048|443.893 |601.072 || PureJava|0-2048|436.865 MB/sec|| Native|0-2048|579.190 MB/sec|| 4096|444.964 |608.434 || PureJava|0-4096|441.389 MB/sec|| Native|0-4096|600.953 MB/sec|| 8192|445.737 |610.422 || PureJava|0-8192|444.453 MB/sec|| Native|0-8192|609.527 MB/sec|| 16384|447.157 |615.396 || PureJava|0-16384|447.575 MB/sec|| Native|0-16384|615.407 MB/sec|| 32768|446.494 |615.482 || PureJava|0-32768|446.071 MB/sec|| Native|0-32768|615.393 MB/sec|| 65536|446.550 |616.318 || PureJava|0-65536|446.011 MB/sec|| Native|0-65536|615.462 MB/sec|| 131072|446.603 |616.220 || PureJava|0-131072|446.256 MB/sec|| Native|0-131072|615.432 MB/sec|| 262144|445.461 |613.127 || PureJava|0-262144|446.049 MB/sec|| Native|0-262144|616.090 MB/sec|| 524288|445.208 |612.968 || PureJava|0-524288|445.257 MB/sec|| Native|0-524288|610.429 MB/sec|| 1048576|438.190 |607.029 || PureJava|0-1048576|434.039 MB/sec|| Native|0-1048576|603.446 MB/sec|| 2097152|428.816 |603.694 || PureJava|0-2097152|423.804 MB/sec|| Native|0-2097152|607.624 MB/sec|| 4194304|421.485 |606.262 || PureJava|0-4194304|439.061 MB/sec|| Native|0-4194304|609.371 MB/sec|| 8388608|424.566 |598.640 || PureJava|0-8388608|426.544 MB/sec|| Native|0-8388608|608.484 MB/sec|| 16777216|433.218 |602.733 || PureJava|0-16777216|434.810 MB/sec|| Native|0-16777216|601.179 MB/sec|	0	0
+Example, for case: Preconditions.checkArgument(size >= 0, "size must be at least 0"); we can do like Preconditions.checkArgument(size >= 0, "Wrong size: " + size + ".	0	0
+I guess I could have cleaned this up rather than just changing the default cache report period like Colin asked.	0	0
+And with a network thattolerates almost everything to get a mail somehow in the right place, it is only seldom noticed (or when it is, it is blamed onMicrosoft.	0	1
+SnappyCodec check for Hadoop native lib is wrong.	0	1
+Is that what you meant?	0	0
+fully agree Christian!	0	0
+in an OSGi container as a separate bundle.	0	0
+Here is a fixed patch.	0	0
+Sorry for the delay, was away.	1	1
+Patch does the following1.	0	0
+First guess: something's getting confused about reversed-ness.	0	1
+Need it to test the fix.	0	0
+v5 uses a small batch size and eagerly sends out "incomplete" batches if the reducer falls behind	0	0
+I should have been very careful before doing this.	0	1
+sorry about this.	1	1
+> I don't see where this is limited to user-facing pages.	0	0
+[~thejas], could you please have a look at this patch?	0	0
+marking Fixed in 1.3(I believe Ryan left this open to track any potential issues ...  if nothing else this way we'll remember to resolve it before releasing)	0	0
+Sorry about that, fixed now.	1	1
+I was originally suggesting you might sacrifice speed with the caches for RAM - but, its always best to use the best settings and have the necessary RAM.	0	0
+> now this is really kewl ;) Very 'kewl'.	0	0
+But if we go with PayloadMergeProcessor, we'll need PayloadMergeProcessorProvider and they become quite long names :).	0	0
+Some amount of searching later...	0	0
+Missed 2 new files - sorry !	1	1
+Here are two thread dumps:sling6.thread_dump.01.txt was taken about 10 seconds after a shutdown of Sling was attempted.	0	0
+Sorry for the trouble Vikram!	1	1
+Marking this an incompatible change, so that it gets attention.	0	0
+Well it's me that didn't get the whole point, now i got more, sorry for the noise.	1	1
+In pom.xml of tajo root, you forget to change the tajo version to 0.8 at Line 76.	0	0
+Sorry for the noise.	1	1
+No unit tests either yet.	1	0
+Cheers,Mick	0	0
+I guess will be better not catch since until now was not being catched and will be good to propagate upwards.	0	0
+by the way, the only open impl of this algorithm i could find is at http://rrette.com/moman.html (ZSpell) in python.	0	0
+It's not a major one, but it would be a "nice to have" especially with the popularity of web services growing like it is.	0	0
+Sorry.	1	1
+I have uploaded the modified patch "PartyCommunication.patch" and it is ready for testing.	0	0
+This is the bridge code minus the redundant bit.	0	0
+Robin is fixing some other things w/ NB, so he's going to take this.	0	0
+Must be: size >= 0!	0	0
+If you do, you'd stand a better chance of making a proper fix...	0	0
+Will try and do so within the next couple of days unless [~bikassaha] or [~sseth] beat me to it.	0	0
+Done, sorry for all the mess on a simple patch.	1	1
+[~shazron]Sorry, that was weird.	1	1
+Please check it now.	0	0
+No sorry.	1	1
+Have you tried the standard maven untangling tricks like deleting ~/.m2?	0	0
+If any execution of the task encounters an exception, subsequent executions are suppressed..."so get() shouldn't be causing a cancel, but if an exception is found then we need to re-schedule it manually.	0	0
+Maybe you can paste a SOAP query example request and explain the wrong behavior and what it is you are expecting?	0	0
+Yeah, seems safe.	0	0
+api_key and secret_key are not required.	0	0
+Could we remove the setProperty() implementation in HierarchicalConfigurationand use the default implementation in AbstractConfiguration ?	0	0
+My filterCache stats are great- you know it's set to 64K but right now, with almost all the RAM used up (we're at 71.9% now), but it's only using 36290 entries at the moment and it's holding pretty steady there(even as RAM usage increased by 10%).	0	0
+that it's a huge patch is exactly why I don't want to take a "let's just commit it and clean it up later" approach.	0	0
+I knew they were missing and just forgot to do it before I committed it.	0	0
+The biggest problem is that we've had too many committers over the years and we'd have to get all of their permission to change it.	0	1
+Commit cf6045f1aa37674f0225144ae0a1f662f955f153 in branch refs/heads/pvlan from [~jessicawang][ https://git-wip-us.apache.org/repos/asf?p=cloudstack.git;h=cf6045f ]CLOUDSTACK-747: internalLb in VPC - UI - create network offering - system offering dropdown is for router only.	0	0
+Add the time of last heartbeat to dead server Web UI.	0	0
+Could we keep this DataOutputBuffer for reuse?	0	0
+Some functions don't require it, but some do.	0	0
+2) Dns lookup in token selector would be invoked for every connection using token authentication.	0	0
+populated, see r2083	0	0
+*, regular business exceptions work.	0	0
+setting  set hive.script.auto.progress=true;seems to have no effect.	0	0
+The implementation and test and BreakIterator is attached.	0	0
+It's uploaded here and on review board.	0	0
+Pushed to master.	0	0
+Wouldn't it make sense if getFile() always checked whether the passed in fileName is an absolute file, no matter of the protocol?	0	0
+gora-cassandra is patched to work with this prove of concept (It's just a one-liner in CassandraStore).	0	0
+I misread.	1	1
+And it's somehow connected to https://issues.apache.org/jira/browse/DIRAPI-137	0	0
+Regards,Leon	0	0
+It does not look very useful.	0	1
+Sorry, Thiru, I hope you haven't already started working on this!	1	1
+Seems to be failing for a different reason nowtestContainerLaunch(org.apache.hadoop.yarn.server.nodemanager.TestLinuxContainerExecutorWithMocks)  Time elapsed: 0.523 sec  <<< FAILURE!	0	1
+sync'ed to trunk	0	0
+I'm not sure what the problem is, but the behavior (at least in 0.1.4) is that the _isClosed AtomicBoolean is not being set to closed in a timely manner.	0	1
+It does incur extra system calls, but uses less memory, which is a tradeoff.	0	0
+Sorry for the huge delay Fabio.	1	1
+great idea, those are lost to the ages but I'll try to reproduce.	0	0
+The assert check should be made for rm1 and also for rm2.	0	0
+Yes, sorry.	1	1
+Because this neither-here-nor-there code-reuse seems not much useful.	0	0
+They met the same bug with us.	0	0
+I will upload another patch (V5) in a couple minutes.	0	0
+Thank you Babak!	0	0
+3) If you do opt-in, then you get the SQL standard behavior:   3a) Jar ids are mandatory.	0	0
+I change the way to draw the bacground with code like this one :ui = new UIComponent();bmpBackgroundClass = new backgroundClass().bitmapData;bmpd = new BitmapData(bmpBackgroundClass.width, bmpBackgroundClass.height,true,null); bmpd.draw(bmpBackgroundClass);ui.graphics.beginBitmapFill(bmpd);ui.graphics.drawRect(0,0, this.width, this.height);ui.graphics.endFill();addChildAt(ui, 0 ); wtih a gif image of 4x4 pixels i'm able to achieve the same goal, without eating 16Mg in memory.	0	0
+[~lhofhansl] Yea....	0	0
+The problems I was talking about are mostly fixed by [HADOOP-3575] and [HADOOP-3480].	0	1
+Sorry, I see that you say the same, Mike :)	1	1
+data sync is external to cloudstack	0	0
+If I see more occurrence of Lookup or search for find forms then shortly upload the patch for this fixes .	0	0
+This code is generated.	0	0
+# Methods deprecation.	0	0
+Sorry about that.	1	1

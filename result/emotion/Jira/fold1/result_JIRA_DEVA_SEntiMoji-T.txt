@@ -1,0 +1,359 @@
+It's up and running for your pleasure.	Excited	Relax
+How did you configure AppMaster's heap memory(yarn.app.mapreduce.am.command-opts)?	Neutral	Neutral
+Great.  I'm glad it's working for you now, Erin.	Relax	Relax
+Fixed for 6.0.0.CR4. Thanks for reporting, Reinis! :)	Excited	Excited
+No problem... glad to help.	Relax	Relax
+Sorry, I was confused. :-$	Depression	Depression
+Demonstrates the behaviour	Neutral	Neutral
+Grr -- the bug is real.  I'll fix.	Stress	Stress
+Patch to change dependency to test scope.	Neutral	Neutral
+Sorry folks! I got too used to seeing mapreduce code in YARN :)	Depression	Depression
+Thanks Mridul, Done at r787726. -- Ashish	Relax	Relax
+I was looking at trunk. Doesn't this need fixing for trunk too?	Neutral	Neutral
+Is there any workaround to use Highlight and Facet components along with grouping?	Neutral	Neutral
+upgraded clover on hadoop build machines.	Neutral	Neutral
+Reopening as this fix prevents LiveReload server startup :-/	Stress	Stress
+actually, why shouldn't it be possible to use only @Id deprecating @EmbeddableId ?	Neutral	Neutral
+Looks like some of the tests are commented out as well (eg testUniformSizeDistCp). 	Neutral	Neutral
+done, don't lose it again ;)	Relax	Relax
+spoke to aron....not for m5.... :-(	Depression	Depression
+Updated the patch by removing TaskAttemptStatus.diagnosticInfo and added tests.	Neutral	Neutral
+[~thiruvel] Interesting that you asked me today, I am working on it right now! :) 	Excited	Excited
+Wow, this would be a fantastic improvement for this plugin. 	Excited	Excited
+reopen for correct the fix version	Neutral	Neutral
+Ross, I'm glad you found a workaround. I think we also have fixed this in 2.2.	Relax	Relax
+<pctony> done, enjoy, etc ;) 	Relax	Relax
+Updated patch sets NullWritable as the output value in IdentifierResolver for keyonlytext	Neutral	Neutral
+bq. Woa! ^^^ :) 0.94 has been stable, so it shouldn't be a total surprise :)	Excited	Excited
+done - please test ;)	Relax	Relax
+Nm. I see. I got confused by the Crucible notes.	Depression	Depression
+this is a improvement comes with 3.5	Neutral	Neutral
+Thank you Heath Kesler for the manual updates! :)	Excited	Excited
+Committed trivial test fix to trunk and 0.98. 	Neutral	Neutral
+These failing tests are unrelated to the changes introduced by the patch.	Neutral	Neutral
+too trivial to not fix. done ;)	Relax	Relax
+This method is no longer present in the signature of EMF	Neutral	Neutral
+I doubt it.	Depression	Stress
+This patch weakens security, so it has been reverted by MAPREDUCE-5202.	Neutral	Neutral
+Submitting for QA. 	Neutral	Neutral
+Ok, i will try it out and let you know. thanks! :)	Excited	Excited
+Thank you very much :) Very nice!	Excited	Excited
+I can also see this would get screwed up in Zookeeper mode if the elevate file didn't exist.	Stress	Stress
+patch to fix javac warnings in MRAppMaster.	Neutral	Neutral
+Looks like the HowToRelease wiki needs to have the branching section updated.	Neutral	Neutral
+Quite right. was looking at WordCountCounters :-/	Stress	Stress
+Thanks for catching this Firepica, and thanks for providing the patch John! :)	Excited	Excited
+Forgot to svn add a file...	Stress	Neutral
+I will write a fucking man page.	Neutral	Stress
+The file beans.xml was missing at META-INF, terrible sorry for this mistake	Depression	Depression
+My pleasure. Should be {{mapred.job.queue.name}} in branch 20.	Neutral	Excited
+I committed the patch to trunk and branch-2.	Neutral	Neutral
+Added TEMP_DIR_NAME back to FileOutputCommitter of mapreduce and annotated it deprecated.	Neutral	Neutral
+@Henrik thanks! If it's good, I 'll merge it :)	Excited	Excited
+Oh, I think I get it... um... well... not much I can do about that :-(	Depression	Depression
+My apologies, it's not committed yet. Issue Re-opened	Depression	Depression
+Thank you [~mgrigorov]  ! :)	Excited	Excited
+You're right. Poorly designed. We'll get a new version out...	Stress	Depression
++1 on mockito. I've used it a couple of times and so far it's been a pleasure to work with.	Neutral	Relax
+Defer, this is easy to do as an extension	Neutral	Relax
+Oops! Wrong branch! :)	Stress	Depression
+Fixed with revision 354954.  Finally!  :)	Excited	Excited
+As this is really trivial and nobody seems to be annoyed I close for now 	Stress	Relax
+Same patch but rooted in the correct directory this time.	Neutral	Neutral
+Lets stop cluttering up this issue with discussions that are not pertinent to it... See HHH-6911	Neutral	Neutral
+Updated patch with explicit version numbers in the child POMs.	Neutral	Neutral
+Fixed except for header value encoding which is just madness. Create another issue if you need that.	Stress	Stress
+> This issue is related to XSLT, not to FOP. My apologies.	Depression	Depression
+Last I looked, I think ProcessBuilder did do that.. no?	Neutral	Neutral
+Superseded by HHH-7527	Neutral	Neutral
+I'm afraid this will be a bit difficult to fix for 2.0.  We have to think about it for 3.0, IMO.	Stress	Stress
+section 9.5 Note the value returned is never null.	Neutral	Neutral
+I feel ridiculous nagging people to review this, so applied.	Neutral	Stress
+I reproduced it again :-(	Depression	Depression
+done using the new features ;) will thus only work with next version of entitymanager.	Relax	Relax
+Committed as part of HHH-4022	Neutral	Neutral
+You're right, Stefan! It's fixed now. :) Thanks	Excited	Excited
+I am confused the patch has - not +. It looks like it is removing the feature.	Depression	Depression
+I hate blaming other projects, but it seems that json version is simply not compatible	Neutral	Depression
++1 Both of these patches lgtm.	Neutral	Neutral
+Does trunk need a patch?	Neutral	Neutral
+Nice work! :)	Excited	Excited
+Closing. Please re-open if I'm confused.	Depression	Depression
+Uploaded a refresh patch for branch-1	Neutral	Neutral
+The pleasure is all mine, Doug.	Excited	Relax
+Gah, ignore that last, it was supposed to be on COUCHDB-954.	Depression	Depression
+We tried 1.0.2 and had a miserable time there. 1.2.0 fixed all major issues with Hadoop.	Stress	Depression
+Thanks for the status update.  I'm excited to get this working.	Excited	Excited
+Juca, why was this not applied to the 3.2 branch?	Neutral	Neutral
+Upgrading it to be blocker. It is a terrible user experience when AMs don't start as they are expected. Should be an easy fix.	Stress	Stress
+for 3.6, we should backport the test improvement (only). 	Neutral	Neutral
+Ugh! That's really nasty!	Stress	Stress
+yes,you are right, apologize for my poor english.	Depression	Depression
+Great! Welcome to Tajo, Min. :)	Excited	Excited
+I think Arun forgot to resolve this. This has been committed to the security branch.	Neutral	Neutral
+Trivial patch for this option.	Neutral	Neutral
+I checked Solr Trunk and see the admin-extra.html already there.	Neutral	Neutral
+that would be fantastic.	Excited	Excited
+Thanks Brandon, sounds very promising, excited to try it out.	Excited	Excited
+Committing shortly as this is a trivial docfix.	Neutral	Neutral
+Committed! Thanks Wojciech!  (still trying to figure out how to assign this task to Wojciech :) )	Excited	Excited
+I'll backport to branch_3x.	Neutral	Neutral
+fix some unit tests.	Neutral	Neutral
+Added Alejandro because he did HADOOP-8167	Neutral	Neutral
+Reopened and uploaded a patch for trunk	Neutral	Neutral
+attached a patch for branch-1. Also removed unused imports.	Neutral	Neutral
++1, the new patch looks good.	Relax	Relax
+bq. OK w/ the latest patch all tests pass for me! Great  awesome! :)	Excited	Excited
+Ok, should be fixed now :) Thanks!	Excited	Excited
+Hello Robert, in attachment you can find an archive containing all lib/*.jar files	Neutral	Neutral
+Unfortunately still no joy in getting this to build.	Depression	Depression
+On closure look, checkPermissions need not be corrected.	Neutral	Neutral
+committed in ... trunk r1495826 branch_4x r1495827	Neutral	Neutral
+Copying changes over from MAPREDUCE-4782. The test passes after the changes.	Neutral	Neutral
+The default table name should be the entityname_propertyname 	Neutral	Neutral
+a patch to use hl.maxAlternateFieldLength parameter from solr-ruby	Neutral	Neutral
+again with the ASF flag :-/	Stress	Stress
+Forgot an equal sign in the comparison. Looped TestFSHDFSUtils 8 times locally which all passed.	Stress	Stress
+Ugh, we will need some sort of parameter mapping since the parameter names are different	Stress	Stress
+Yeah :) Thank you Alan! 	Excited	Excited
+Isn't this fully resolved for 4.0 (and alpha/beta as well)?	Neutral	Neutral
+I'm going to try and review this again today.	Neutral	Neutral
+Great! My first commit to the project! :)	Excited	Excited
+Verified with latest build. Works fine.	Relax	Relax
+For your pleasure	Excited	Neutral
+Uh, I've heard this problem from someone at Solr meet up in Japan last week.	Depression	Neutral
+I just filed MAPREDUCE-2723 as a subtask to port these changes to MRV2.	Neutral	Neutral
+Nop ! I guess that's it ! Thanks for the information, these version conflicts drive me crazy ! :)	Excited	Stress
+apologies error	Depression	Depression
+I vote +1 ! :)	Excited	Excited
++1 Patch looks good.  Sweet. Passes patches locally.  Moving it on to hudson.	Relax	Relax
+Fixing also "mapred.{map|reduce}.java.opts" to be "mapreduce...."	Neutral	Neutral
+I'm confused about what's the most up-2-date branch for this...	Depression	Depression
+:-(	Depression	Depression
+OK, nasty warnings will be fixed	Stress	Stress
+Hey Martijn, Have you made any progress on making field collapsing distributed? Oleg	Neutral	Neutral
+Could not find these test classes in trunk. so looks like it only impacts branch-1	Neutral	Neutral
+Nice!  LGTM (with spaces around operators, please :).	Excited	Excited
+yes, sorry. then you have it already - got confused with 4.2.0.CR2	Depression	Depression
+modifying checkFile based on Matt's comments.	Neutral	Neutral
+OK new patches look good Uwe!  Thanks for fixing this :)	Excited	Excited
+Max, do you still need that?	Neutral	Neutral
+It's a pleasure, Knut. I have finished it. Please check the patch.	Neutral	Relax
++1 for the new define    Yea the int cast was a terrible mistake, I corrected it in the svn.	Stress	Relax
+Hold it - I forgot the equals overload for setters. It was 3am :-/	Stress	Stress
+done; and thanks for reporting the valid usecase ;)	Relax	Relax
+Please ignore me....I am confused this morning. *sigh*	Depression	Depression
+Hadoop 0.20.204.0 was just released.	Neutral	Neutral
+EXCELLENT, kudos!!! :) very well done!	Excited	Excited
+Simple patch with test case.	Neutral	Neutral
+My apologies. Didn't see that 3.12 was already released.	Depression	Depression
+commit 7dbea68b8728e4b3a5b727a4fd69712cd8a1c468	Neutral	Neutral
+The test is added to 1.5.x to protect from regressions.	Neutral	Neutral
+persistence.xml is now properly parsed.	Neutral	Neutral
+Thanks for the patch Clint ! I didn't knew it was that easy to find the root of the pattern :)	Excited	Excited
+Thanks again Rolf for this great contribution! You should soon be able to see them used :) 	Excited	Excited
+Heh, just have to wait long enough. :) Seriously, thanks Demai!	Excited	Excited
+I'm realy quiet for the moment, but i am still alive ;-) So i wish a happy jump into 2010!	Excited	Excited
+I'd say this should be no longer needed, after SOLR-4943 is done.	Relax	Neutral
+Attached is a patch, which seems to work.  Let me know if you have any suggestions for changes.	Neutral	Neutral
+That library is already written! congratulations! 	Excited	Excited
+Taking in Ted's comments.	Neutral	Neutral
+Unfortunately hardcoded in eXo Kernel	Depression	Depression
+0.5 was a nightmare on Ubuntu and I gave up with it. So many errors. Hardy was too old for it and Lucid too new. 0.6 is much better.	Stress	Stress
+I have just committed this to 0.21 and trunk.	Neutral	Neutral
+Its not a bug, its a feature? :) I like the .error example! You should implement this. 	Excited	Excited
+Committed to trunk and branch_4x.	Neutral	Neutral
+I vote that we pull this into 0.21 as well.	Neutral	Neutral
+Patch created against the 1.2 branch - apologies for not mentioning that.	Depression	Depression
+Should HHH-4204 be folded in here?	Neutral	Neutral
+We will need YARN-445 for an MR2 equivalent of this.	Neutral	Neutral
+Confirmed this working in a {{branch_3x}} build. Thanks, Mike and Robert! :)	Excited	Excited
+Oh sorry, I must have missed this. I'll look into your project asap.	Stress	Stress
+Oh ! Thanks Ashish, it should be INV_DEFECTIVE . :)	Excited	Excited
+The prettyluke stylesheet used together with an example data index.	Neutral	Neutral
+Ugh, I swear I put it under Embedding, but it says None now. :-/  	Stress	Stress
+Thanks!  I was able to fix the template :) 	Excited	Excited
+Patch looks good.	Relax	Relax
+Everything seems done. Thanks, ASF Infra team.	Relax	Relax
+First of all, welcome aboard! :)	Excited	Excited
+Finding the wrong findbugs is boring (I need to move forward on the zero findbugs). Will do that before committing. For the line > 100, one is new, I will fix it, the others are in  EventHandler and it's because we comment on the same line as the declaration. I plan to keep this.	Depression	Stress
+Linking to MAPREDUCE-3811.  I have a patch in progress that will look very similar to that one.	Neutral	Neutral
+great news ! keeping my fingers crossed and waiting for the fix :)	Excited	Excited
+Done.   Thanks.   Committed revision 1031275. 	Relax	Relax
+Wow, thank you Jean-Baptiste ! :)	Excited	Excited
+Seeing this too often. Will upload a fix soon.	Neutral	Neutral
+I will commit this patch when the release is done ;)	Relax	Relax
+Negative :-(	Depression	Depression
+Thanks! :)	Excited	Excited
+Added sychronized on logs list in the UpdateLog class.	Neutral	Neutral
+Emmanuel, afaik, this is out of date, but reopen otherwise.	Neutral	Neutral
+please provide a quickstart project or a failing unit test.	Neutral	Neutral
+pushed to master. Ready for QE ;) 	Relax	Relax
+doh forgot it is a quarterly objective :-/	Stress	Stress
+I'm starting to review this patch.	Neutral	Neutral
+trivial patch for removing dependency in jdk tools.jar.	Neutral	Neutral
+I'm glad they fixed it. I thought that was really strange behavior. Thanks Hiro.	Relax	Relax
+Re-uploading a ditto patch as it looks like the QA bot didn't pick it up yet.	Neutral	Neutral
+This is really epic, congratulations! Wish you never beat 2000 .	Excited	Excited
+no worries. i'll do merge. we need to cherry-pick it. 	Relax	Relax
+Oh yes I'm stupid -  I'm sorry for the noise. 	Depression	Depression
+Cannot reproduce in the trunk	Neutral	Neutral
+Bernard, You are right. The annotation in UserResourceImpl is just ignored :-(	Depression	Depression
+Changing bug title to read SHA256 - suggesting we're using SHA1 scares me. :)	Stress	Stress
+Sorry Aaron - I searched for "Elvis" and did not find the open issue:) Thanks for the hard work!	Depression	Excited
+Stupid browser	Depression	Depression
+My pleasure. Thanks you guys for your guidance.	Relax	Relax
+Committed revision 547455. 	Neutral	Neutral
+This patch seems to be working in my case. I'd recommend including it in the trunk and .23 branch.	Neutral	Neutral
+This worked for me.  Can someone please review the attached?	Neutral	Neutral
+My apologies - original patch was malformed.	Depression	Depression
+Moving out though I think it a shame we don't have it.  It is not being worked on.	Depression	Depression
+And that closing '-->' is a typo .... when pasting. Sorry .. :-(	Depression	Depression
+You provided insufficient data to re-produce. (shame on you)	Depression	Depression
+Sorry, didn't see that Alessadro had committed 528, had to rebase ;) 	Stress	Stress
+No problem, glad you worked it out.	Relax	Relax
+It works! Thanks! Wonderful! Dziękujemy!	Excited	Excited
+Still not ok.... hpux compiler creates .sl files :-(	Depression	Depression
+Stupid, non-confluence-wiki-markup-supporting issue tracker!  :)	Excited	Excited
+Thanks Ivan for the comments. That is of great help! I will check my code:)	Excited	Excited
+Yes, that's correct.	Excited	Neutral
+Note that this = mail to root@ (I think you know, but it might confuse others).	Depression	Depression
+Here is a patch. Please apply this.	Neutral	Neutral
+Rado, isn't this done? Give yourself some credit for a job well done. ;)	Relax	Relax
+Thanks Luciano for fixing this! :)	Excited	Excited
+grhh windauze :-(	Depression	Depression
+I think this is "by design"...	Neutral	Neutral
+Done unless proven otherwise! :)	Excited	Excited
+This stuff scares me. How do you manually recover from this?	Stress	Stress
+its all yours do whatever you think needs to be done. have fun ;)	Relax	Relax
+solr-84-source-files.zip contains Adobe Illustrator and SVG versions of the proposed logo.	Neutral	Neutral
+Given the feature of different heap sizes per task type, this does not make sense to have anymore.	Neutral	Neutral
+I don't get the problem.  Generics are just syntactic sugar anyway; underneath the covers they're all just plain old boring Lists.	Depression	Depression
+more general solution - seems ok to me :) Thanks!	Excited	Excited
+No worries Nicolas, there is no hurry. Thanks 	Relax	Relax
+My bad, it's "pauls" instead of "kpauls".	Depression	Stress
+We gladly accept patches.	Neutral	Relax
+Also uploaded a refresh patch for trunk	Neutral	Neutral
+Terrible sorry Toby. I'll update the documents	Stress	Stress
+That was fast :)  Thanks so much, Arne!	Excited	Excited
+Fixed - on the ConsumeJmsBytesMessageTest - thanks! :)	Excited	Excited
+Thanks, Mikhail! Would you submit a patch for that? Any contribution is really appreciated! :) TIA!	Excited	Excited
+We would need a complete review :-/	Stress	Stress
+pulls in correct env properties	Neutral	Neutral
+Hi Stan, I did so and I'm still facing same problem. :-(	Depression	Depression
+This is resolved with SVN revision 661404. Thanks for the contribution Poorna.	Relax	Depression
+Patch applied Rob - thanks again! :)	Excited	Excited
+The separate task wasn't really necessary, but thanks!  :)	Excited	Neutral
+Closing -- no test case, no votes.	Neutral	Neutral
+forgot facet.limit=-1 	Depression	Neutral
+This is probably still a problem, our exception handling sucks.	Stress	Stress
+Bah, thanks, now my trunk block too! :)	Excited	Excited
+Apparently I was wrong, got confused with ODE-192. Reopening.	Depression	Depression
+Unfortunately impossible, same for Guice libraries :-/	Stress	Stress
+I'm fine with either, or shift it to CR1 with no worries. 	Relax	Relax
+Works perfect :) Thanks!	Excited	Excited
+JUnit 4 test case demonstrating the problem.	Neutral	Neutral
+Thanks, the patch looks good. 	Relax	Relax
+Fix to deal with signature change.	Neutral	Neutral
+Pays to be lazy I guess :) Of course it looks good, thanks!	Excited	Excited
+Thank you Oleg ! Much appreciated :)	Excited	Excited
+Done at rev 960997 960999 961001. Thanks Deepak	Relax	Relax
+Also affects Maven 3.x unfortunately :-(	Depression	Depression
+Revisions 15689 and 15690.	Neutral	Neutral
+this also throws an exception for invalid version	Neutral	Neutral
+Do you have any PDF example to attach to this ticket Antonio ? I'm too much excited :-)	Excited	Excited
+Gotcha. Let's resolve as not-a-problem then for now, and if someone disagrees, we can re-open.	Neutral	Neutral
+It's done Sascha... ;)	Relax	Relax
+Wow :)  This is wonderful!  +1	Excited	Excited
+fix has been committed ;) 	Relax	Relax
+I've checked and applied your patch; please close if delighted.	Neutral	Excited
+I think this should be a blocker for 0.21.	Neutral	Neutral
+Please excuse my poor English.	Depression	Depression
+Maksim, congratulations with your first contribution! it is really awesome	Excited	Excited
+THis was our own shitty code ...	Neutral	Depression
+Here's the patch I used.  As before, it's just David's with the extra changes omitted.	Neutral	Neutral
+This flaw has been around for years. Can someone look into this please?	Neutral	Stress
+Argh! The rename broke test-tag again :) in new and innovative ways. New patches attached.	Stress	Stress
+I agree with Paul. !(not) makes me sad. :)	Excited	Relax
+I'm testing deleting the temp dir in SRW.close finally...	Neutral	Neutral
+Stupid Maven	Depression	Depression
+Attaching patch fixing the documentation.	Neutral	Neutral
+bq. -1 tests included No tests since it just changes log levels.	Neutral	Neutral
+add fix version	Neutral	Neutral
++1 from me. Can not believe that we finally close issue-285, we must really celebrate that!!! :)	Excited	Excited
+The workaround using cli.xconf has been working nicely.	Relax	Relax
+What limitation of FSTs is causing us to discretize the term frequencies?	Neutral	Neutral
+Great thanks! :)	Excited	Excited
+That's great news.  It was my pleasure.	Excited	Relax
+Added fix-version.	Neutral	Neutral
+Thanks Mark - I'm  disappointed that this didn't get into 1.4, but will try the patch.	Depression	Depression
+Very glad to close it.	Relax	Relax
+My pleasure. I will try to do it.	Excited	Relax
+A patch for trunk.	Neutral	Neutral
+I'm afraid you have provided too few details	Stress	Stress
+Not tests needed. Just moving a print statement from one file to another.	Neutral	Neutral
+pointing to luke 0.9.9	Neutral	Neutral
+Updated patch (the deep clone in the attribute was not needed)	Neutral	Neutral
+my bad, wrong web service	Depression	Depression
+Updated patch fixing the test failures reported by Hudson.	Neutral	Neutral
+Not targeting this for 0.23.2.	Neutral	Neutral
+oh, sorry for that, I will resolve it asap.	Stress	Stress
+still not available for 3.0.4.RELEASE :-((	Neutral	Depression
+Hi Thomas, I don't get it - the bridge is already done by richfaces isn't it ;)	Relax	Stress
+duh. me stupid. thanks	Depression	Depression
+Yeah, that's stupid. +1	Depression	Depression
+BTW, I know that I can get it working to a certain degree unsing profiles, but the resulting pom just looks terrible.	Stress	Stress
+Also need to implement pessimistic read lock support (currently using pessimistic write lock)	Neutral	Neutral
+Thank you [~dch]! :)	Excited	Excited
+Hi Hoss, will do , all three	Neutral	Neutral
+This patch has fallen out of date, can you please regenerate it?	Neutral	Neutral
+we should try to get this into 1.4.1 if we can get consensus on the fix.	Neutral	Neutral
+No problem, I'm not annoyed. Glad it's working for you now.	Relax	Relax
+It seems to be fine :) Thanks for the explanation!	Excited	Excited
+Oh i forgot, give me a few minutes, i've got a whole lot of url's with terrible language id i'm desperate to test with this neat improvement.	Stress	Stress
+this can be reproduced by org.hibernate.test.annotations.lob.LobTest.testBlob()	Neutral	Neutral
+Oh, agreed! It's a good spot on your part. I was just providing some context for your comment. :)	Excited	Excited
+Initial patch, built from trunk	Neutral	Neutral
+I'm concerned, let's spend time on this one. JT locking is one of my worst nightmares.	Stress	Stress
+Unfortunately, I don't think this will make it into 0.7.	Depression	Depression
+Grrr, both Linux _and_ Windows. Removed platform tag from Summary.	Stress	Stress
+My fault. The default is not an object, so it's impossible to get null back. A shame.	Depression	Depression
+Yup, I've been bitten by this bug too.	Depression	Stress
+Please modify the quickstart and reopen the ticket.	Neutral	Neutral
+Fixed. PS: I added a test case, although the test case interactes with the user (which is bad :-(. 	Depression	Depression
+great work!  These tests were very effective at finding problems in these formulas :)	Excited	Excited
+I had confused ISPN-1704 and ISPN-1754.	Depression	Depression
+Fix COUCHDB-1473, and you get COUCHDB-1472 fixed for free! :)	Excited	Excited
+This is the schema file that we are using.	Neutral	Neutral
+Javac warning cleanup patch for the hadoop-yarn-server-nodemanager project.	Neutral	Neutral
+<Humbedooh> Closing as fixed then, happy hacking! :) 	Excited	Excited
+This patch also fixes 2 tests that depended on the incorrect parameter name.	Neutral	Neutral
+Hey Peter, Nicely done!  Keep up the great work :) Ross	Excited	Excited
+fix formatting of description	Neutral	Neutral
+It's unconfused now.	Neutral	Relax
+My averseness to null-checks is vindicated :) Arun, can you please provide a patch? Thanks!	Excited	Excited
+I began to track the first one but I don't yet succeed to find where it comes from :-(	Depression	Depression
+Jep i know :) That will be the next step. I will provide a patch in the next days! Cheers	Excited	Stress
+Thanks Cheolsoo, with your help, we finally made it ! :)	Excited	Excited
+Moving to open while comments are addressed.	Neutral	Neutral
+Submit apatch! :) Robert	Excited	Excited
+The problem is back :-(	Depression	Depression
+@Uma: My pleasure! and Thanks for reviewing :)	Excited	Excited
+Ah, man. You got me all excited.	Excited	Excited
+Thank you Tomaz!  That makes a LOT more sense! So noted :)	Excited	Excited
+Poor guy is going to get sick of hearing from me, but I'll try :)	Depression	Depression
+hey that cleared it right up! thanks alot :) Goes to show you you should always rtfm ;)	Excited	Excited
+I have verified the fix on my end as well. Wonderful ! 	Excited	Excited
+Is there a snapshot so that I could test it with my application?	Neutral	Neutral
+The attached patch has some fixes. I ran 'ant test' and test-patch locally and they both passed.	Neutral	Neutral
+I just have to workaround a code yesterday cause of this bug.	Neutral	Neutral
+argh... I missed svn add... here is the right patch	Stress	Stress
+Thanks for taking the time and reporting though! :)	Excited	Excited
+I forgot second file(  last I hope). I am really ashamed	Stress	Depression
+Or perhaps I'm confused.  Will update shortly.	Depression	Depression
+LGTM, so I submitted your patch.	Neutral	Neutral
+I think that should be it. That would also lead to non-wastage of slots.	Neutral	Neutral
+Due to poor selection of state generator node for a given key	Stress	Depression
+Updated title and description	Neutral	Neutral
+That's great Mike, thanks!  And thanks for sprucing up the patch as   well. :) dave 	Excited	Excited
+That's it!  Thanks :)	Excited	Excited

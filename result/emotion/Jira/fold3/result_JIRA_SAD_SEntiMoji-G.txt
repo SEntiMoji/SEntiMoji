@@ -1,0 +1,200 @@
+Here I am removing the subscription list impl and implementing it using ConcurrentLinkedQueue while keeping the interface intact as much as possible.	0	0
+A patch was made to the interpreter to fix this in assembly code, so if a native method has an odd number of arguments, additional 8 bytes are skilled by RSP to align it to 16 bytes.	0	0
+Might simply be best to track all directories and close them on shutdown.	0	0
+Patch in gzipped form.	0	0
+Is the bug really in NGramTokenFilter?	1	0
+IncomingStreamReader does clean the tmp file when there is an expection (there's an enclosing 'try catch').	0	0
+I'm very busy for the moment so I didn't know when I 'd be able to the change myself, so if you can, your contribution would be one more time really appreciated.	0	1
+I'll focus my efforts on the compile targets then.	1	0
+Sorry Chris,I missed it, done !	1	1
+A quick and simple fix.	0	0
+This is only a problem with exceptions from java.	0	1
+I've rework almost all needed messages in Preconditions.checkArgument.	0	0
+31.195.231.63.in-addr.arpa domain name pointer mpls-pop.inet.qwest.net.	0	0
+My assumption is that, when you make a request to read 1k from a disk file, that the OS reads substantially more than 1k from the disk and places it in the buffer cache.	0	0
+This is a silly one.	0	1
+Also, the savings are largely index side - not likely a huge part of your RAM concerns, which are search side.	0	0
+Committed v2 patch to trunk with revision 508383.	0	0
+Updated patch with new file.	0	0
+Resubmitting and making it a blocker for 0.22	0	0
+Thanks so much, sorry that this isn't in the appropriate place.	1	1
+Similar to all other plugins, the life cycle hook should be pluggable in a sense that you can deploy them e.g.	0	0
+Also adding some extra tests for newline splitting - currently this coverage is lacking.	0	0
+Kind of odd behavior, although I guess it's technically within-spec.)	0	0
+The demo looks like it will be very useful.	0	0
+I am new to Mina and the whole environment.	0	1
+Sorry I missed some of this the first time.	1	1
+I'd like to get them cleaned up because there are now so many that other more important and/or meaningful warnings are likely to be ignored.	0	0
+The new patch is the whirr-168-3.patch file.	0	0
+Make sure to use the hsync api for persistency guarantees.	0	0
+Leonard" BR, Bill Fausser 	0	0
+Sorry, db name is TPCDB, user name TPC, pwd whatever...	1	1
+Anyway, I am creating a project that began with 2.0.0-M3 and is now using 2.0.0-M4.	0	0
+qmail chose the secondary MX (which is the mpls-pop.inet.qwest.net), probably because it could not reach the primary MX.	0	0
+Make scheduler heartbeat interval configurable (bikas)	0	0
+It would be good if folks can use standard Java i/o idioms with Hadoop.	0	0
+It is specific to what it is describing.	0	0
+I added a rm -rf /tmp/h* to hadoopqa... and ran this again.... seems to be working:https://builds.apache.org/view/H-L/view/HBase/job/PreCommit-HBASE-Build/7253/consoleWe'll see.	0	0
+HADOOP-5679 changed this function to return int instead of void.	0	0
+Sorry I've been MIA on this issue.	1	1
+the java concurrent implementation of the queue.	0	0
+sorry, unassigning myself from this backport.	1	1
+Some folks on the mailing list had something like this happening to them.	0	0
+Sorry for the delay and thanks for the good work, works like a charm!	0	1
+(I could not get what KEYWORD means.)	0	1
+Committed to trunk.	0	0
+Sorry, I thought issue (and provided patch) were about cocoon-servlet-service-impl, used by either C2.2 and C3 but only now I see that instead they are related to cocoon-servlet-service-components (C2.2 only).	0	1
+Sorry I missed the "overwrite" keyword.	1	1
+With the client, you can connect to the same database many times.	0	0
+Hi Carl, I've made the changes JAVA_HOME and README.txt suggested by you.	0	0
+It's kind of annoying to have to use 4GB of temporary spaceNope, it only writes the compressed file to disk; {{gzip -1}} compresses 4GB of zeros to 18 MiB.	0	0
+It's the ObjectMessage that could alternatively be sent as an XStream message, right?	0	0
+Sorry [~fiberlijun] - havent had a chance to look at it yet.	1	1
+Sorry about that.	1	1
+Sorry GavDONECommitted @revision 2487.	1	1
+This might be a bug indeed.	0	1
+Oh, I'm sorry, I was unclear.	1	1
+That's why I have posted my last patch.	1	0
+The precommit failures are unrelated to the issue at hand.	0	0
+The sizes may be higher than you need then.	0	0
+Sorry about that.	1	1
+*sorry*	1	1
+thx to Cristi Toth  for his patch	0	0
+The guy on our team that was going to do this was swamped, so I re-assigned this to you.	0	1
+Otherwise, hopefully someone else will improve this code when they've got some time.	0	0
+Looks like there's a code freeze for 2.1.8 happening right about now, but thisstill hasn't been committed.	0	0
+According to https://issues.apache.org/jira/browse/INFRA-6336 we can't use git for websites.	0	0
+Fixed a typo in the oritinal patch.	1	0
+I changed the code to use that collator object rather than look into database context.	0	0
+And, it will be a good test to have in turn of code coverage point of view. 	0	0
+Thanks Willem.	0	0
+Sorry I didn't use your patch, but I think you'll like the end result.	1	1
+Thanks Ashish,For committing the patch.	0	0
+Excuse me for stolen assignement.	0	1
+Thanks for the patch.	0	0
+We have done pretty intensive testing and believe this fixes the problem.	0	0
+What is the exact problem?	1	0
+xerces.apache.org has been added to DNS.	0	0
+If you want to work on it or assign it to someone else, please do.	0	0
+I will work on merging this into 10.3 codeline and writing a test case.	0	0
+Is the null check necessary?	0	0
+Verified this with trunk.	0	0
+Sorry, this affects 0.9.3 version too.	1	1
+Eventually I decided to include just one patch file (instead of code and test) since it was simpler after all.	0	0
+:)Sorry about that.	1	1
+I would prefer to write it asSELECT intersect(employee,this.employees).manager.lastname FROM org.apache.jdo.tck.pc.company.Department VARIABLES Employee employee Now it's up to up to clearify 	0	0
+Patch applied, Thank to Clay Leeds.	0	0
+I did not write it in a way that fits in with the rest of the implementations though.	0	0
+Sorry to have not spotted this one, and thanks for your care.	0	1
+Pull out the RopeTransport stuff, fix the bug, and add in the graceful degradation and I'm happy to see it pushed :)	0	0
+I might be on the trail of a java impl - get out the hounds!	0	0
+Sorry, here's the test that reproduces the issue.	1	1
+Claus, I think I'm busy the next two weeks with [CAMEL-3468|https://issues.apache.org/jira/browse/CAMEL-3468], [CAMEL-3472|https://issues.apache.org/jira/browse/CAMEL-3472], [CAMEL-3471|https://issues.apache.org/jira/browse/CAMEL-3471], [CAMEL-3470|https://issues.apache.org/jira/browse/CAMEL-3470] and [CAMEL-3311|https://issues.apache.org/activemq/browse/CAMEL-3311].	0	0
+Some comments:The new method added to Namesystem is better to# pass BlockInfoUnderConstruction,# call it as isInSnapshot, and# do not throw IOException.	0	0
+Obviously I was testing artifacts:sources as well.	0	0
+Integrated in Hadoop-Mapreduce-0.23-Build #9 (See [https://builds.apache.org/job/Hadoop-Mapreduce-0.23-Build/9/])    HADOOP-7608.	0	0
+You could programatically set this before getting your filesystems, and when set true, the shutdown hook would not be added.	0	0
+Now again in the next trip of finalization, it will throw NodeExistsException, here it is really required to do the #store.	0	0
+The patch should be licensed to ASF for inclusion in ASF works.	0	0
+(BTW - The Idea to retrieve the Document Title is the best solution on my opinion.)	0	0
+Sorry about the report.	1	1
+anyway, if someone is brave enough to fix the "attempt one" script, i wish them well ;)	0	0
+[1] https://svn.apache.org/viewvc?view=revision&revision=733924	0	0
+Sorry about that.	1	1
+I guess the gen stamp is unnecessary, but the DN isn't going to automatically mlock newly appended data, so the NN needs to somehow realize that the cached length is shorter than the new length and ask the DN to recache at the new length.	0	0
+the refactoring involved (r982520).	0	0
+Log.truncateTo(): The following code seems to be used just for getting the first segment.	0	0
+This seems to be what is causing the problem.	0	0
+Hi,I have changed the rsync to rsync.eu.apache.org.	0	0
+comments on phabricator	0	0
+If there's a problem with items being in the cache when they shouldn't be, adding a check around the Add method isn't a solution to that problem.	0	0
+I don't know what just happened.	0	1
+Unable to reproduce issue.	1	1
+Smile.	0	0
+Hi Guillaume,I did not have an answer right away, so I sent you question to Leonard Rosenthol.	0	1
+Last try.	0	1
+Sorry; I hit close by accident.	1	1
+I'm good with the last version of the patch of just adding a dclocal read repair chance.	0	0
+Sorry about the error guys.	1	1
+There are a few considerations to be careful about:1) The hostname in service could be a vip name.	0	0
+Could you attach a test case (Junit preferrably) that shows the unexpected behaviour?	0	0
+[~appodictic] Sounds good and thanks!	0	0
+Sorry, missed that select-box.	1	1
+Yes exactly -- sorry to be so unclear.	1	1
+Though, we have to review that usage in general.	0	0
+So I also changed a test to test a non-ascii stopword :)	0	1
+Sorry, I was trying to get to the wiki but it's been a busy week.	1	1
+See the below exampleEmployee1Employee2Employee3Dept1.employess=Employee1Dept1.employess=Employee3Dept2.employess=Employee2Intersection Employee1 x Dept1.employess=Employee1Employee3 x Dept1.employess=Employee3Employee2 x Dept2.employess=Employee2I don't like this sintax since it changes an obvious behaviour, IMO.	0	0
+That seems to work for me - thanks!	0	0
+Nothing out of the ordinary here:% host -t mx laguna-industries.comlaguna-industries.com mail is handled by 20 mail.phnx.uswest.net.	0	0
+Is there a chance to get it in?	0	0
+Kevin, we already have that -- the jobs are named after the file (if you run pig myfile.pig), but you can override the name with "set job.name myname"With this ticket, that job name would essentially become a prefix.	0	0
+Sorry, patch is attached 	1	1
+Sorry for the noise..	1	1
+Sorry for the confusion :)	1	1
+I also agree that jittering doesn't matter as much if it's ticking on such a short time scale.	0	0
+Alternatively, I guess the DN could automatically mlock appended data, but there are quota implications there.	0	0
+I think it's a borderline class - architectuallygood for Lang, but the Math guys are going to have a better idea about thecomplexities to be found.	0	0
+yup sorry just fixed.	1	1
+Thanks.	0	0
+Thanks, Graham	0	0
+if someone wants to work on this please go ahead, I still plan to, just no time yet.	0	1
+Vinay, thanks for working on this.	0	0
+This may only be related to the BlurIndexReader and may not be an issue in the BlurIndexNRT.	0	0
+(HDFS-2468)- throw IllegalArgumentException if setOwner with both owner and group empty.	0	0
+Sorry, grabbed the wrong ticket.	1	1
+I can see why, the test case just checks that the error string includes the exception text "foo".	0	0
++1, let's rip it out and redo it if we need it.	0	0
+A slow hash algorithm makes offline cracking harder.	0	0
+Did you forget to commit {{InvertibleRealLinearOperator}} ?	0	0
+if get is causing the cancel even w/o any exceptions being involved then I guess you'll need to source dive in ScheduledThreadPoolExecutor to see what is going on.	0	0
+Hi Sebb,In these cases 'this' and 'connectionPool' refer to the same object.	0	0
+I'm fine w/ not naming it Consumer - I agree it does not really consume it.	0	0
+Sorry, I took Martin's comment to mean the patch was committed and issue closed, which certainly discarded all the patches the first time around.	1	1
+Sorry [~kumarr], let's just do this in 0.96.	1	1
+This patch fixes bug for ia32.	0	0
+(HDFS-2508)- changed file checksum json response root from "MD5MD5CRC32FileChecksum" to "FileChecksum".	0	0
+This problen is there in the tests below as wellIHeaderBlockTest1IHeaderBlockTest2IHeaderBlockTest3IHeaderBlockTest4IHeaderBlockTest5IHeaderBlockTest6IHeaderBlockTest7IHeaderBlockTest8INamespaceTest1 	0	0
+[~egli] - can you reproduce?	0	0
+I was in too much of a hurry, sorry hold on a sec.	1	1
+Whoops, sorry.	1	1
+However, the newer scoring and indexing frameworks do work around this issue.	0	0
+Unless we switch to Antlr 3.0 ( and even though, I'm not sure this would fix the problem), there is nothing we can do.	0	1
+The only thing that the convention plugin does at request time, happens in org.apache.struts2.convention.ConventionUnknownHandler, the rest is just configuration loading on start up, you might want to put a breakpoint in handleUnknownAction, and see what is going on.	0	0
+I hope the first approach as the more general solution will work though :)	0	0
+port/src/lil/em64t/pim/m2n_em64t_internal.h:#ifdef _WIN64const unsigned m2n_sizeof_m2n_frame = 120;#elseconst unsigned m2n_sizeof_m2n_frame = 104;#endifvmcore/src/util/em64t/base/compile_em64t.cpp:// Stack size should be (% 8 == 0) but shouldn't be (% 16 == 0)const int ALIGNMENT = 0;Doesn't it worth to let compiler calculate such values? 	0	0
+RMAppAttemptImpl.recoverAppAttemptTokens()Looks like all changes in RMAppImpl are unnecessary.	0	1
+23	0	0
+Removed version-infomation znode.	0	0
+Form#maxSize is ignored now too.	0	0
+Yes it is a dup, thanks Mike for taking care of this (I planned to do this yesterday but didn't make it)	0	1
+Aside from the job succeeding (it doesn't), what effect should I be able to measure (in order to see if this is doing anything)?	0	1
+Patch providing Comparable for "api2" project.	0	0
+Maybe we should purge the Reader+queuing step and just have Handlers do the read (Nicolas Liochon what you think?)	0	0
+The on-disk version is only useful on broker startup when we populate the in-memory HW using the on disk version.	0	0
+Sorry that I think I missed some discussion in the mailing list.	1	1
+Thanks for patch v2.	0	0
+However, the goal of the test was very good.	0	0
+I will update the docs (probably this weekend when I find some time)	0	0
+Uploaded new patch with no compilation errors.	0	0
+Switched to @GeneratedValue(strategy = GenerationType.TABLE) for all entitiesrave-portal was using GenerationType.SEQUENCE (incompatible with MySQL) while rave-shindig was using GenerationType.IDENTITY (incompatible with Oracle)	0	0
+It was meant to be "super.initialize(context); line in its initialize(UimaContext)" :) 	0	0
+Sorry for the misspelling ;)	1	1
+dc36d49eb3e240b3d8fd8b89ab178a7b1ec17d8b TS-1513: SPDY plugin crashes on connection closeThanks for testing!	0	0
+22	0	0
+Thanks.	0	0
+Contributed by Alejandro Abdelnur.	0	0
+Would a new configuration boolean 'fs.manual.shutdown' be adequate for your needs?	0	0
+I fixed the build failures on 4.1 this morning.	0	0
+The patch should work on all fair scheduler versions.	0	0
+Sorry for the noise.	1	1
+lifecycle management up to a separate containerAgreed, and my patch also contains a TODO for that.	0	0
+Is that part of the test in question?	0	0
+The problem is that it builds awt, and that requires some dependencies.	0	1
+Uploading another patch for fixing the maven pattern to add the classifier.	0	0
+Uploaded a patch that fixes the comments and includes the test	0	0
+I didn't 'svn up' before I looked at the code :).	0	0
+#NAME?	0	0
+That is a bit too lax I think.	0	1
+Tom, no problem, please see WHIRR-634 and WHIRR-635.	0	0
+Sorry guys... :(I was the reason for this trouble.	1	1

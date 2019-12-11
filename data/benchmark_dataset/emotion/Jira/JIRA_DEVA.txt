@@ -1,0 +1,1795 @@
+It's a cabal! :)	Excited
+That was fast. Thanks a lot! :)	Excited
+Oh sorry, I must have missed this. I'll look into your project asap.	Stress
+Ok you're faster than me. But I'm glad we found the same solution	Relax
+Hi! The fix version is 4.1.0.Beta1 ? Not 4.2.0.Beta1 ? Just asking :)	Excited
+Go code features, nobody cares about petty package names! :)	Excited
+My mistake, sorry	Depression
+Test done on class Restaurant embedding Position. and its working ;)	Relax
+Glad to see it is already done. Thanks! :)	Excited
+No. Unless it is a nightmare to implement. Let's try and bring usage afterwards.	Stress
+thanks for fixing it. If there is something I could help, I'd be glad to assist.	Relax
+Hmm... but in two stages, unfortunately.	Depression
+That forum is full of spam :-/	Stress
+Challenge accepted! :)	Excited
+okay, thanks ! :)	Excited
+Argh, good catch.  Following up with HHH-8738	Stress
+No problem.  It was my pleasure, and thanks for all the help. 	Relax
+I will write a fucking man page.	Stress
+I, too, am anxiously awaiting a fix for this issue.	Stress
+Is there a snapshot so that I could test it with my application?	Neutral
+Are you using Envers 1.2.2.GA?	Neutral
+Yes, that's correct.	Neutral
+this can be reproduced by org.hibernate.test.annotations.lob.LobTest.testBlob()	Neutral
+As suggested, focusing on HHH-7610 and duplicating the rest.	Neutral
+if you have a patch, i'd like apply it to trunk, thx	Neutral
+Can you attach the PrcontraPK class?	Neutral
+PK of Prcontra	Neutral
+with setting hibernate.ejb.metamodel.generation=disabled i can deploy the ear	Neutral
+see comments relate to this issue from HHH-4614	Neutral
+see pull request https://github.com/hibernate/hibernate-orm/pull/536	Neutral
+is this related to HHH-3940?	Neutral
+Ugh, we will need some sort of parameter mapping since the parameter names are different	Stress
+Attached is a patch, which seems to work.  Let me know if you have any suggestions for changes.	Neutral
+Oops, that is not an @ElementCollection	Depression
+section 11.1.33	Neutral
+Section 11.1.30	Neutral
+a test in annotations is enough.	Neutral
+@Enumerated works with @ElementCollection as shown in the unit test case.	Neutral
+Section 11.1.8	Neutral
+The default table name should be the entityname_propertyname 	Neutral
+issue with the default table name is reported hhh-4753. 	Neutral
+should be done, need to move tests though	Neutral
+tests are moved.	Neutral
+section 9.5 Note the value returned is never null.	Neutral
+Needs to be applied to 3.3 branch as well	Neutral
+And again... org.jboss.javaee:jboss-jacc-api_JDK4	Neutral
+persistence.xml is now properly parsed.	Neutral
+This method is no longer present in the signature of EMF	Neutral
+Here is the simple, short-term solution of simply returning everything	Neutral
+So in your example, I would say that a and a.friends are locked	Neutral
+Still need tests	Neutral
+There may or may not still be work to do here in regards to 'lockScope'	Neutral
+another one bites the dust	Neutral
+not yet used though.	Neutral
+My pleasure. Thank you	Relax
+Patch attached with updated property names. Please review.	Neutral
+Columns should all be accounted for now too	Neutral
+This issue can be closed as it in meantime duplicated and fixed by HHH-5210	Neutral
+Specifically, add a note/important callout in 19.4 The Query Cache	Neutral
+Closing this.  No votes, no interest in maintaining it.	Neutral
+For future reference : http://wiki.java.net/bin/view/Projects/GlassFishCodeDependencies	Neutral
+You may want to comment on this then: http://jira.codehaus.org/browse/MNG-4391	Neutral
+work in progress	Neutral
+Also need to implement pessimistic read lock support (currently using pessimistic write lock)	Neutral
+In ORM 4, this is still the case -- hibernate.c3p0.* properties are all that is needed.	Neutral
+reopen for correct the fix version	Neutral
+Should HHH-4204 be folded in here?	Neutral
+Galder, the fix version was changed to 3.x. I assume you meant 3.5.x...	Neutral
+maybe it's related to HHH-4449?	Neutral
+The commented line is not solution to resolve the issue,	Neutral
+add fix version	Neutral
+This issue is still present in 3.4.0.GA.	Neutral
+actually, why shouldn't it be possible to use only @Id deprecating @EmbeddableId ?	Neutral
+note that @id @Type ComplexObject is a valid approach	Neutral
+Or the spec section being violated like I asked for 5 months ago...	Neutral
+Lets stop cluttering up this issue with discussions that are not pertinent to it... See HHH-6911	Neutral
+with @OneToMany dont work to Hibernate version 3.6	Neutral
+> I'm concerned about the verbosity. Agree.	Stress
+Here you are.	Neutral
+Just got hit with this one and was disappointed to see that it's been sitting for 4 years...	Depression
+Committed as part of HHH-4022	Neutral
+fix version	Neutral
+The google one, we need a WeakHasMap concurrent	Neutral
+Added as an EJB project issue for proper tracking	Neutral
+Up to date as of the 2009.08.31 snapshot of the spec	Neutral
+Adding eclipse rcp project that reproduces the bundleresource protocol issue.	Neutral
+Superseded by HHH-7527	Neutral
+Max, do you still need that?	Neutral
+will use a property instead	Neutral
+Emmanuel, afaik, this is out of date, but reopen otherwise.	Neutral
+For annotation based tasks, please use HHH-4325	Neutral
+HibernateEntityManager	Neutral
+Has this been resolved?  I'm experiencing the same issue.	Neutral
+So then your answer is that it does not...	Neutral
+can you attach a runnable test case please.	Neutral
+Closing.  No test case or additional details provided.	Neutral
+Anyone have a test case to attach?	Neutral
+There is no "as" keyword in HQL/EJB-QL. Use the forum next time.	Neutral
+Simply closing -- no testcase, no votes.	Neutral
+Closing -- no test case, no votes.	Neutral
+Has there been any updates on this issue?	Neutral
+Any news on this?	Neutral
+This seems to work in the 4.x branch (build on 14/08/2011).	Neutral
+Anyone have a test case to attach?	Neutral
+I'm facing this problem too. Core 3.3.1 + EntityManager 3.4.0 + Tomcat 6.0.18 + Spring 2.5.6	Neutral
+I've tried last suggestion , but I don't obtain any change	Neutral
+Anyone have a test case to attach?	Neutral
+I just have to workaround a code yesterday cause of this bug.	Neutral
+Is this still an issue in 3.6.0?	Neutral
+Yes, it is still an issue in 3.6.1-Final.	Neutral
+Please attach a test case. (note to self, requalify as Core issue when test is here)	Neutral
+Please attach a runnable test case (Java + mapping) that reproduces this issue.	Neutral
+No, no test anywhere.  Scavenged the attached in container tests 	Neutral
+Closing.  No test case or additional details provided.	Neutral
+If this is still an issue, anyone have a test case to attach?	Neutral
+Closing.  No test case or additional details provided.	Neutral
+If this is still an issue, anyone have a test case to attach?	Neutral
+Hi, I have noticed the same problem in my application. Regards Jarek	Neutral
+If this is still an issue, anyone have a test case to attach?	Neutral
+The following is the enclosed project with sample code. Run the SubmissiondetailsDAO.java	Neutral
+yeah, I'd think so	Neutral
+Demonstrates the behaviour	Neutral
+The bug still exists in 3.6.6 with MySQL 5.5.	Neutral
+Closing -- no test case, no votes.	Neutral
+If this is still an issue, anyone have a test case to attach?	Neutral
+If this is still an issue, anyone have a test case to attach?	Neutral
+Linked to: https://jira.jboss.org/jira/browse/ISPN-6	Neutral
+I can reproduce on MySQL, Hibernate 3.3.2 GA and Envers 1.2.1 revision 17830	Neutral
+If this is still an issue, anyone have a test case to attach?	Neutral
+Applied to trunk.	Neutral
+is this also affect the Branch_3_3_2_GA_CP? should I create a JBPAPP issue for this one?	Neutral
+If this is still an issue, anyone have a test case to attach?	Neutral
+Closing -- no test case, no votes.	Neutral
+Please attach a runnable test case (Java + mapping) that reproduces this issue.	Neutral
+Threads waiting for the ReadWriteCache monitor	Neutral
+can you give us a working unit test case we can start our investigation from?	Neutral
+No test case provided 	Neutral
+Does this only happen on HQL queries in your experience?	Neutral
+Agreed.  I've been caught out by the same thing.  It seems counter-intuitive to me. --  Adam	Neutral
+If this is still an issue, anyone have a test case to attach?	Neutral
+Closing -- no test case, no votes.	Neutral
+Please fix this! The working code seems to be posted as a comment, so what is the problem?	Neutral
+If it's of interest: http://developer.postgresql.org/pgdocs/postgres/queries-with.html	Neutral
+Steve,       Can you please answer my query.. i think this feature is required in hibernate.	Neutral
+attached patch	Neutral
+Added org.hibernate.Version#getVersionString()	Neutral
+this is a improvement comes with 3.5	Neutral
+Closing -- no test case, no votes.	Neutral
+Please try this out and report any issues back against HHH-4905.	Neutral
+Revisions 15689 and 15690.	Neutral
+Added fix-version.	Neutral
+Juca, why was this not applied to the 3.2 branch?	Neutral
+great.  thanks.  i'll be done before apr. 6.  	Relax
+This flaw has been around for years. Can someone look into this please?	Stress
+I think it's ridiculous that this hasn't been fixed.  It's obvious.	Stress
+why should i explain your code to you?	Stress
+Yup, I've been bitten by this bug too.	Stress
+Gah, wont let me remove the fix version since it is archived.	Depression
+fix looks trivial; lets include it for the next version.	Relax
+FYI, I have tested this with 3.2.0.cr5 and continues to be an issue.	Stress
+It also happened in MySql. I am using MySql 5.0.  It's terrible. Any body know how we can sneak around this issue?	Stress
+The problem is still present in version 3.2.0rc4 and we are also badly annoyed with this one.	Stress
+I remain confused by this.	Depression
+Damn acronyms :) Can you please elaborate on what does PIA mean? Thanks!	Stress
+Some days, I find these kind of bogus "bug reports" very difficult to deal with.	Stress
+I'm afraid it isn't it is "shortened". Did you check ?	Stress
+done using the new features ;) will thus only work with next version of entitymanager.	Relax
+Don't worry. I can keep my improvements for myself. 	Relax
+done; and thanks for reporting the valid usecase ;)	Relax
+for your viewing pleasure - first version of the view	Neutral
+Go Hibernate! :)	Excited
+users happy with existing functionality! ;)	Excited
+Unfortunately, we show SQL *before* trying it out.	Depression
+I find this incredibly difficult to believe. User bug.	Stress
+duh. me stupid. thanks	Depression
+Ah, okay, so most likely just once again the web-cvs is not up to date - shame on me :)	Depression
+Negative. This is a terrible data model, and not at all common.	Stress
+linking to H3 SchemaUpdate jira issue for your viewing pleasure	Neutral
+done after emmanuels blessing ;) 	Relax
+Pretty sweet tests. I think this looks good on trunk, will check it in.	Relax
+I just hate the way review board updates the comments. Looking at the patch now.	Depression
+Unfortunately the patch needs refreshing. fails to apply	Depression
+No worries. Thanks for the patch. 	Relax
+Sweet! Git, I love git! :)	Excited
+No worries Vishal. Resolving the issue as wont fix.  	Relax
+Of course! That was just a keepalive message :)	Excited
+Yes, I'll get on it.	Neutral
+I'll look into this, I have a very similar environment.	Neutral
+Don't worry, Pat. I have a patch almost ready for the test. 	Relax
+I am afraid this is getting confusing.	Stress
+[~atm]: Nice catch! Of course :)	Excited
+Oops! Wrong branch! :)	Depression
+I just committed this to trunk and branch-2. Thanks Kenji! And congratulations on your first patch!	Excited
+Dependent on how you look at it, it's massive; I take the blame :) Good find!	Excited
+Grr.., trunk seems to have moved since, the patch isn't applying again, can you please update? Tx.	Stress
+Thanks for your useful comments, Robert! :)	Excited
+Sorry folks! I got too used to seeing mapreduce code in YARN :)	Depression
+Grr.. Missed a local commit addressing the CS changes.	Stress
+Upgrading it to be blocker. It is a terrible user experience when AMs don't start as they are expected. Should be an easy fix.	Stress
+Grr.. missed the variable rename comment.	Stress
+Hemanth - yes, agreed. Btw, great to see you around! :)	Excited
+grr.. Correct patch this time..	Stress
+I'm glad to see that Kohsuke is working on this one. - Brian 	Relax
+Xerces had a bug. I've download a "newest" version and it worked fine! :)	Excited
+Patches always welcome!  :)	Excited
+Thank you for everybody. I am very glad for this excellent library to become furthermore good. 	Excited
+My sincerest apologies.	Depression
+My apologies. Didn't see that 3.12 was already released.	Depression
+Date parsing has always been a nightmare ... The patch is fine for me and if nobody objects you sould just commit it ;-)	Relax
+Stupid, non-confluence-wiki-markup-supporting issue tracker!  :)	Excited
+This task was done before the 2.7.1 branch was created. This task is now resolved.	Neutral
+This really sucks!	Stress
+Tried the patch unfortunately it made no difference.	Depression
+Reverted changes in getTurnOffTip(). That madness needs to be fixed in another JIRA.	Stress
+It's unconfused now.	Relax
+I would be glad to see this changes ASAP	Stress
+Done updated, thanks for your support Lukasz.	Relax
+This problem confused me several days and I'm sure it's not ognl's bug.	Depression
+Unbelievably fast solved (before I had a chance to wonder how to solve this :), thanks mate!	Excited
+great news ! keeping my fingers crossed and waiting for the fix :)	Excited
+It works! Thanks! Wonderful! Dziękujemy!	Excited
+Not different at all - I was too lame, sorry guys	Depression
+Now remote forms work fine :) Thanks !	Excited
+Ups... very good catch :) Fixed in CVS HEAD, thanks for the proper implementation!	Relax
+Ross, I'm glad you found a workaround. I think we also have fixed this in 2.2.	Relax
+Richard, can you tell me if this 'patch' is correct? I'm scared it might break other stuff.	Stress
+Sweet! I was thinking of trying that on Monday so good to know it works. Thanks mate :)	Excited
+Thanks Again! :) -- dims	Relax
+I probably got confused. Best reject this & fix it properly.	Depression
+Okay, I'll create a new ticket for it - seems a shame not to use it if we have the code there.	Depression
+Waow awesome ! Thanks [~mgrigorov] ! :) New JIRA too.. yay :)	Excited
+Thank you [~mgrigorov]  ! :)	Excited
+And this makes the decision whether to bind the session not so easy :-/	Stress
+formatting removed, not working :-/	Stress
+quickstart to reproduce the problem	Neutral
+please provide a quickstart project or a failing unit test.	Neutral
+Next time sends us the stacktrace.	Neutral
+fix committed to 1.5-trunk	Neutral
+The test is added to 1.5.x to protect from regressions.	Neutral
++1 to apply	Neutral
+Should be working now, please test and confirm.	Neutral
+I can't reproduce the problem. Please attach a demo application.	Neutral
+Improved with r1096795.	Neutral
+Methods to escape cookies	Neutral
+Works wonderfully, thanks! Closing issue	Excited
+Cannot reproduce in the trunk	Neutral
+I'd rather we deprecate the usage of frames altogether. They're not part of HTML5 as well.	Neutral
+Please modify the quickstart and reopen the ticket.	Neutral
+Can you try also : prolog | doctype | apache header | html ?	Neutral
+Same problem in SignInPage http://markmail.org/message/r72oy7la2pnqmvuo	Neutral
+send a quickstart showing the problem please and reopen the ticket	Neutral
+please reopen when final 3.0 is out.	Neutral
+well, unfortunately there is no git in apache.	Depression
+i couldve sworn ive done that already...thanks	Relax
+damn near impossible to reproduce without a quickstart.	Stress
+THis was our own shitty code ...	Depression
+USE CRITICAL ONLY FOR ABSOLUTE BLOCKERS!	Stress
+Cheers. Unfortunately, the patch doesn't work.	Depression
+Ugh. This is actually an issue with a script decorator. Ignore me. :-/	Stress
+how bout you fix somethin! :)	Excited
+Nice & easy. 	Relax
+grr, I don't know how I always manage to include the yaml file in my patches.	Stress
+Awesome! A patch against the current trunk would be great :) 	Excited
+ahh apologies.  the patch needs to be recut slightly. stand by.	Depression
+I'm glad to see this working. I will review the code tonight. 	Excited
+Bad news. The bug persist after commenting this line... :-/	Stress
+Nice! :)	Excited
+Thanks, Niall!  Once again, you are my hero. :) http://svn.apache.org/viewcvs?rev=327082&view=rev	Excited
+thanks! you're my hero! :)	Excited
+Sorry, my browser did'nt show me your example when I leave my comment :-/	Stress
+Thanks again, Byron! :)	Excited
+It appears to be the fault of Xwork.  Grr. 	Stress
+Perfect! Thanks, Will.  :)	Excited
+btw, this should have already worked, but the "type coercion" of those expression failed pitifully.	Depression
+Thanks Luciano for fixing this! :)	Excited
+Thanks Ant for committing it! :)	Excited
+Thanks for the feedback, and glad this is working now.	Relax
+Fixed stupid buffer size bugs.	Relax
+Henri has done this already - Thanks.	Relax
+Oh yeah, worked for me too, copied the context in wrong path :) Thanks!	Excited
+NotEnoughSleepException :)  Fixed!	Excited
+Really great idea, Leonardo :) :) No objections on my side!	Excited
+Great!  Thanks.   One less thing on my todo list, then.   I'll let you take care of it :) 	Excited
+I am afraid the PdfBox developers can't do anything and will advice me to OCR the d*** file instead.	Stress
+You guys are awesome! Such as fast response time :) Way to go!	Excited
+Erik - I am afraid I have not received it. What email did you send it to?	Stress
+Thanks Nick!  That actually sounds promising...	Excited
+Thanks! and good catch with the missing "n" :)	Excited
+but yeah, async await is awesome! :)	Excited
+you're welcome, it's a pleasure to give back to such a fine project.	Relax
+Swear to god, I'm not a total idiot.	Stress
+Seems good to me. Committed.	Relax
+I am way +1 on this patch. I hate negative field ids.	Depression
+All the better! :)	Excited
+[~hitesh] Thanks! very excited. About not deleting the old patch - I will keep that in mind.	Excited
+Hmm. That is unfortunate. Closing this.	Depression
+[#Hitesh Shah] understood, no rush :) 	Relax
+Awesome sauce! :)	Excited
+Ok, I'm just stupid.	Depression
+No problem :) I'm glad that I could help! Regards, Norbi	Relax
+Hooray! I love invalid tickets..less work for me to try and re-produce :)	Excited
+Any estimate as to when T5.3.7 will be released?  I'm anxiously awaiting this fix! :) 	Excited
+Barry, I'm also very against the idea of a fallback. I hate silent failures, and that would be one.	Depression
+more general solution - seems ok to me :) Thanks!	Excited
+Damned autoconnect.	Stress
+Great! Welcome to Tajo, Min. :)	Excited
+Thanks [~jihoonson]. I'm glad to finish this issue. 	Relax
+Great!! Thank you for your kind review, Jihoon :)	Excited
+Thanks, Hyunsik and Min! I am excited to work with all of you on Tajo!	Excited
+Great! Welcome David! I'm glad to work with you on Tajo, too. :)	Excited
+Great work! Thank you for your sharing :)	Excited
+First of all, welcome aboard! :)	Excited
++1 from me. Can not believe that we finally close issue-285, we must really celebrate that!!! :)	Excited
+How to resolve a URL to an Action?  Wildcards!    Let's reopen it. :) 	Excited
+Patch created against the 1.2 branch - apologies for not mentioning that.	Depression
+Thanks for catching this Firepica, and thanks for providing the patch John! :)	Excited
+Yes, I don't why I said that. My brain has fucked up. Nervermind.	Stress
+hey that cleared it right up! thanks alot :) Goes to show you you should always rtfm ;)	Excited
+Wow, nice turn-around time! Thanks. :)	Excited
+Grrr, both Linux _and_ Windows. Removed platform tag from Summary.	Stress
+This ticket seems fucked after the JIRA migrating. I will have to created a new ticket.	Stress
+Here's another one for ya, Brad! :)	Excited
+Unfortunately, this did not fix the problem :(	Depression
+Unfortunately, this has to be deferred until 4.2.1.	Depression
+Damn browser created two issues	Stress
+Oozie 3.2.0 is -fucked- screwed. Need to wait until next working/stable release is out.	Stress
+Thank you guys! I promise next time it will go smoother :)	Excited
+Here's a simple patch.	Neutral
+Initial patch, built from trunk	Neutral
+No, I don't have a patch although I can hopefully create one sometime next week.	Neutral
+Attaching patch against Solr 4.3.	Neutral
+Attached patch to SnapPuller class adding the mentioned log message.	Neutral
+I added an {{@Ignore}} to the always failing test, to stop Jenkins complaining.	Neutral
+I have attached a patch.	Neutral
+gonna take a spin with ibm j9... see whats going on..	Neutral
+Related with this feature we can add a notification panel in the UI.	Neutral
+Ok Erick I apologise. Now I have raised that ques on users list. also.  	Depression
+Added sychronized on logs list in the UpdateLog class.	Neutral
+Here's a test case with Joel's fix merged in too.	Neutral
+Couple of test cases added	Neutral
+Committed to trunk and branch_4x.	Neutral
+Yikes, looks like this bug has been around a while.  I'll take it.	Stress
+Patch fixing ivy.xml, build.xml, pom.xml.template, and README.txt. Committing shortly.	Neutral
+Please assign to Erick Erickson.	Neutral
+single-valued docvalues fields no longer require 'default' or 'required'.	Neutral
+Can you comment what value/profit you pursue?	Neutral
+The patch is finally attached. I'll attach a patch with unit tests ASAP. 	Neutral
+This error exists too in Solr 4.2. 	Neutral
+Here is a patch.	Neutral
+committed in ... trunk r1495848 branch_4x r1495849	Neutral
+I'd say this should be no longer needed, after SOLR-4943 is done.	Neutral
+Attaching patch against trunk (@1491309) . Im working on test cases	Neutral
+Could you post the response of above query?	Neutral
+NP, I had a boring plane ride home and got most of the structure in place. I have another plane ride tomorrow and bak on Friday, looks like I might have something ready to at least look at by Monday. 	Depression
+Patch and unit test.	Neutral
+Wow :)  This is wonderful!  +1	Excited
+committed in ... trunk r1495826 branch_4x r1495827	Neutral
+Simple check and returning an error message.	Neutral
+happy to hear this :) thx!	Excited
+It seems that it was reported before by James in SOLR-3857	Neutral
+Here is a failing unit test.	Neutral
+Grr.... Maven POMS are out of sync	Stress
+Committed revision 1439536. Committed revision 1439544. 	Neutral
+This is the patch from my description.	Neutral
+simple patch with fix	Neutral
+Here is a patch. Please apply this.	Neutral
+I dont think we should do this. We are using asm 4.0 elsewhere. we cannot also depend on 3.1	Neutral
+example patch with test for CurrencyFieldTest	Neutral
+I will commit this and update the wiki shortly.	Neutral
+forgot facet.limit=-1 	Neutral
+Here are the test documents that make Solr bork.	Neutral
+change host name to host address	Neutral
+JUnit 4 test case demonstrating the problem.	Neutral
+Nice, 170KB patch there Lance! :) I see lots of classes don't have ASL btw.	Excited
+Updated patch to include some test cases	Neutral
+This was a deliberate decision, see SOLR-3843	Neutral
+Patch for Solr 3.6.1	Neutral
+Looking at history, this appears to have snuck in via LUCENE-4362	Neutral
+I'm looking at it now... think the fix is easy.	Relax
+Unfortunately doc values are not updateable.	Depression
+I plan to commit this to trunk, 4.x & 3.x shortly.	Neutral
+This patch also fixes 2 tests that depended on the incorrect parameter name.	Neutral
+Adding a patch with the fix and a test case	Neutral
+I checked Solr Trunk and see the admin-extra.html already there.	Neutral
+Trivial patch that should fix the problem.	Neutral
+fix formatting of description	Neutral
+Add commons-beanutils.jar dependency to UIMA contrib	Neutral
+it's also including everything from solr/build and solr/lib/	Neutral
+create patch. But no test implement.	Neutral
+this is what things look like for me on a 1024(ish) screen	Neutral
+The attached patch fixes the NPE.	Neutral
+Is this still a problem now that zookeeper has been upgraded?	Neutral
+Bulk close for 3.6.1	Neutral
+Any feedback on this?	Neutral
+patch against 4.0 trunk	Neutral
+Looks great,please go ahead.	Excited
+added &defType=edismax&qt=dismax to urls	Neutral
+{quote} especially as 3.x "ant test" is taking 50+ minutes {quote} Erick do you have a 386?	Neutral
++1 I think this should be a big priority for 4.0, so we don't release the code again.	Neutral
+bq. It's a terrible name at this point. Why are we stuck with terrible?    I don't agree it's a terrible name I guess.	Stress
+Fix 3_x-backport to work with 3_6 oh, well.. Doesn't actually compile :-/	Stress
+patch to move check if name is null above accessing it	Neutral
+Yonik, Thanks and Congratulations!	Excited
+second upload of patch, this time 'granted inclusion'	Neutral
+In trunk and branch_3x, wiki page updated.	Neutral
+for 3.6, we should backport the test improvement (only). 	Neutral
+This also affects 3.5	Neutral
+Some modifications to SOLR-2894.patch that I made while trying to get it to patch on rev 1297102.	Neutral
+I have created a unit test that causes an NPE on a 3 pivot request, I am taking a look now.	Neutral
+Shawn, don't worry we can iterate over you patches! I am optimistic! Welcome to solr & lucene :)	Excited
+What limitation of FSTs is causing us to discretize the term frequencies?	Neutral
+Committed revision 1153844 on trunk and 1153848 on branch_3x.	Neutral
+I mistook 3.1.1 for 3.3.1.	Stress
+you can add the pk attribute and it will work strait away	Neutral
+Patch by Frank Wesemann given in SOLR-2186	Neutral
+runnable test with mvn test 	Neutral
+Bulk close after 3.4 is released	Neutral
+Patch for XsltUpdateRequestHandler, along with a test case for it	Neutral
+I'll backport to branch_3x.	Neutral
+Bulk close for 3.3	Neutral
+Committed revisions 1129413 (trunk), 1129414 (branch3x) 1129415 (branch32)	Neutral
+Bulk close for 3.2	Neutral
+attaching 3x patch too. DIH tests are passed at both branches	Neutral
+Here's the patch I used.  As before, it's just David's with the extra changes omitted.	Neutral
+Can you add the number of matches to the log? SOLR-2337 	Neutral
+Ah I didn't read the rest of the issue.  Fair enough.  I'm glad its now fixed.	Relax
+removed in #1098905 and added deprecation notice in 3.x	Neutral
+Trunk requires java 6.	Neutral
+adding test and patch from SOLR-1553	Neutral
+Updated patch (the deep clone in the attribute was not needed)	Neutral
+Have you tested this under threading?	Neutral
+Hi,I shall take a look	Neutral
+I have verified use case using attached files.	Neutral
+The attached patch implements the desired functionality.  It depends on LUCENE-5118 being applied first.    This hack wasn't too terrible after all.	Neutral
+patch with test to verify and a fix. still testing this	Neutral
+Patch Attached - makeQueryable made public.	Neutral
+Updated test to avoid deprecated version of cluster method.	Neutral
+Forgot to svn add a file...	Neutral
+This one had been resolved at the part of SOLR-2046.	Neutral
+Can we PLEASE commit this?  What else do we need to add?	Neutral
+SOLR 4.0 TRUNK version.	Neutral
+Is this still a problem in 3.6, 4.0 or the trunk?	Neutral
++1   Can you assign it to yourself?	Neutral
+Patch to support multiple result sets in JdbcDataSource	Neutral
+Committed in rev. 1023802.	Neutral
+Hello Robert, in attachment you can find an archive containing all lib/*.jar files	Neutral
+isn't this the same as SOLR-2042?	Neutral
+Just assigning a component	Neutral
+I believe it is resolved in SOLR-2233	Neutral
+Uh, I've heard this problem from someone at Solr meet up in Japan last week.	Neutral
+Added a constructor to ModifiableSolrParams(NamedList) 	Neutral
+Isn't this fully resolved for 4.0 (and alpha/beta as well)?	Neutral
+we should try to get this into 1.4.1 if we can get consensus on the fix.	Neutral
+can't see any reason why this was cloned	Neutral
+is pre-warming done in this patch?	Neutral
+we are also seeing this behavior. it makes us very sad.	Depression
+I can also see this would get screwed up in Zookeeper mode if the elevate file didn't exist.	Stress
+Trivial patch for this option.	Neutral
+Stupid mistake. Used delQ instead of del :(	Depression
+In addition to "matches" for total # docs, do we have a way to get the total # of groups?	Neutral
+Is there any workaround to use Highlight and Facet components along with grouping?	Neutral
+reopening to backport to solr 1.4.x branch.	Neutral
+I plan to commit this soon	Neutral
+I plan to commit this shortly.	Neutral
+Any progress to report or does anyone have a patch that is updated for trunk?	Neutral
+The thread local still scares me ... need to look closer at that.	Stress
+There isn't any patch here yet, can we move out to 3.2?	Neutral
+patch that fixes the problem	Neutral
+That was quick! :)	Excited
+Patch updated to the current trunk.	Neutral
+Committed revision 949884. merged to branch-1.4 for Solr 1.4.1	Neutral
+pointing to luke 0.9.9	Neutral
+does this same file work with all versions of weblogic. we have no means of verifying this	Neutral
+why we use this patch	Neutral
+Readme for the patch.	Neutral
+I'm testing deleting the temp dir in SRW.close finally...	Neutral
+Committed revision 763032. 	Neutral
+go for it koji	Neutral
+Why not leave the <indexDefaults> in the config and say they're deprecated (as I said before)?	Neutral
+Patch removing casting in JSP.	Neutral
+Thanks Mark - I'm  disappointed that this didn't get into 1.4, but will try the patch.	Depression
+Hi Hoss, will do , all three	Neutral
+this also throws an exception for invalid version	Neutral
+What is gained by making NamedListCodec a generic?	Neutral
+This is the schema file that we are using.	Neutral
+instead of changing VariableResolverImpl we can just put in a Map itself	Neutral
+Updating patch to trunk. I'll commit this shortly.	Neutral
+Patch sets last index time before doing a full-import	Neutral
+Henri - this is very big of you!  It's good to see this flexibility. :) 	Excited
+a patch to use hl.maxAlternateFieldLength parameter from solr-ruby	Neutral
+Something like SOLR-1687 would definitely be needed if this was added.	Neutral
+Committed revision 980604. - merged to 3x branch	Neutral
+That's great Mike, thanks!  And thanks for sprucing up the patch as   well. :) dave 	Excited
+Patch to bundle junit with solr.	Neutral
+actually added a while ago (#577394)	Neutral
+The prettyluke stylesheet used together with an example data index.	Neutral
+this patch is extracted from SOLR-139	Neutral
+commited option+test in  r553023	Neutral
+Patch of the forrest skinconf.xml	Neutral
+Hey Martijn, Have you made any progress on making field collapsing distributed? Oleg	Neutral
+applies to /trunk added a simple test	Neutral
+solr.py intended to work with Solr 1.2	Neutral
++1 on including this in the 1.2 release	Neutral
+> I think find -maxdepth is not supported on Solaris Sigh... back to ls then.	Neutral
+Includes updates to SOLR-304.  Replaces solrsharp-1.2-07082007.zip	Neutral
+commited patch along with some documentation additions and test cases.	Neutral
+Diff of current Rakefile with my changes.	Neutral
+Committed revision 547455. 	Neutral
+will be included in solr1.2	Neutral
+extra patch committed in r505114	Neutral
+Passes all tests, etc.	Neutral
+solr-84-source-files.zip contains Adobe Illustrator and SVG versions of the proposed logo.	Neutral
+I think this is resolved in SOLR-2178	Neutral
+The patch (also includes changes from SOLR-49)	Neutral
+Here is the patch.	Neutral
+I'm going to try and review this again today.	Neutral
+Here is the patch.	Neutral
+I'm dieing... which files should I download?	Stress
+Here is the pom.xml.	Neutral
+patch commited as is, plus some additional test cases and example schema usages.	Neutral
+I apologise, something must have gone wrong during issue creation. 	Depression
+committed in rev 813068 (I think, svn got confused)	Depression
+Cool, thanks Dan! :) Best Dave	Excited
+Works perfect :) Thanks!	Excited
+- patch committed in r1373468. Thanks Martin! Let the flood gates open! :)	Excited
+Hey Peter, Nicely done!  Keep up the great work :) Ross	Excited
+oha, terrible sorry for the noise; I've used the github-sync at github.com/apache... btw, did you know that this sync is 4 month old? :)	Stress
+Pays to be lazy I guess :) Of course it looks good, thanks!	Excited
+My pleasure, Henry ^_^	Excited
+Thank you Chris! Sure, I'm working on supporting it on Partuza now. :) - Jacky	Excited
+I'll try to work this in soon...  apologies for the delay.. 	Depression
+Good catch, that does make a lot of sense :) Thanks for the patch!	Excited
+Thanks Paul! :) I'm reading your code now~ =)	Excited
+applied, my apologies for the breakage. 	Depression
+Nice catch! Patch's been committed ps, nice to have you back in action :)	Excited
+Right you are, that wasn't the prettiest way to deal with that :) Applied & committed, thanks!	Excited
+That's it!  Thanks :)	Excited
+grr, second time it happens, eclipse fault changing patch path	Stress
+patch applied, see revision 1364578 thanks once again, machinegun!!! :)	Excited
+EXCELLENT, kudos!!! :) very well done!	Excited
+Thank you Thomas, and welcome to the brotherhood! :)	Excited
+Let's give it a try :) Patch applied - thanks!	Excited
+Argh! Of course ...it was too late last night - you are right :) 	Stress
+Not a problem; thanks!  :)	Excited
+Seems to manifest again on vmgump :-/	Stress
+I'm glad to tell everyone that Roller5.1-snapshot works fine with MSSQL database,Thx.	Relax
+It works ! Thx for your great work :) 	Excited
+Really cool!!. can't wait to see the code and styles :)	Excited
+Thanks for the patch! The sudoku widget now stays inside its box :)	Excited
+Thanks again Rolf for this great contribution! You should soon be able to see them used :) 	Excited
+Great news. Know I understand the problem :) Thanks for the help!! Regards! Jochen	Excited
+Thanks! :)	Excited
+Thanks David!  I'm now able to reproduce the segfault... I'll investigate further :) Paul.	Excited
+0.5 was a nightmare on Ubuntu and I gave up with it. So many errors. Hardy was too old for it and Lucid too new. 0.6 is much better.	Stress
+Nice work! :)	Excited
+grr, Changed state before SVN succeeded. will send it back when svn lets the code in :(	Stress
+This is probably still a problem, our exception handling sucks.	Stress
+This is probably still a problem. Also, i hate our URLs.	Depression
+fixed. now it can compile ! :)	Excited
+Great! Hope it comes out soon:)	Excited
+That was a pain! :) But it's done.  Thanks! svn rev 503448	Excited
+This needs a lot more thought.  The simple "solution" looks terrible.	Stress
+Committed to trunk. Thanks for reviewing [~cheolsoo]! :)	Excited
+Thanks for the review, [~xuefuz]! :) Committed to trunk.. 	Excited
+Nevermind, I was confused. This is ready to be reviewed.	Depression
+bq. incomplete/incorrect output  I mean, this can result in missing records or redundant records.  (support nightmare for me.)	Stress
+Looks good. Committed to trunk.	Relax
++1 but i really wish we could just speed up the tests :-/	Stress
+It builds! :) Ok now I test.	Excited
+Sorry, created the bug on wrong product! :) 	Stress
+Thanks Cheolsoo, with your help, we finally made it ! :)	Excited
+I probably get confused with PIG-2665. The patch looks good, +1.	Depression
+Prashant: it's in. Thanks for your patience! Looking forward to seeing more contribution :)	Excited
+I think this is fantastic.	Excited
+It is related to viewfs. It works without viewfs setting.	Neutral
+Daniel, any updates?	Neutral
+that would be fantastic.	Excited
+Oops! Forgot to attach the changes to jobControlCompiler :)	Stress
+agreed! I would love to pull in PigServer etc from a maven repository :) +1!	Excited
++1 to that! :)	Excited
+The funny thing is I thought pasting in the patch would be better :) enjoy! Earl	Excited
++1  Those IOException things has been irritating my eyes for quite a while.	Stress
+Yeah :) Thank you Alan! 	Excited
+Very glad to close it.	Relax
+That library is already written! congratulations! 	Excited
+Andreas, I'm afraid I don't have an example either.  Sorry!	Stress
+Damn it, sry lost the orientation.	Stress
+Corrected stupid spelling error	Stress
+That was fast :)  Thanks so much, Arne!	Excited
+Hi Arne! Please try to test/patch against the new 1.1.0. We changed a LOT of things in this area :)	Excited
+This creates tons of problems and sadly this IS a bug that way...	Depression
+Commited in revision 881953 Thanks you robert! We eventually fixed the SVN issue :)	Excited
+done!! :)	Excited
+Thanx a lot! Could you tell me, how can I download source or binary of OM 2.2? :)	Excited
+Thank you! :)	Excited
+Thanks a lot, man! :)	Excited
+I'm afraid you have provided too few details	Stress
+Thanks Andun! I have modified and commited your patch :)	Excited
+Great :) I'll try to update our svn in the nearest time :) Thanks once again!	Excited
+Good Sebastian! And would be enough to just write: Tutorials :) Alvaro 	Excited
+Hi Rick. No problem, I'm glad I could help. Good catch with "cls.isAssignableFrom(...)". 	Relax
+You are welcome.  I'm glad things are working for you now.	Relax
+Fixed except for header value encoding which is just madness. Create another issue if you need that.	Stress
+It seems to be fine :) Thanks for the explanation!	Excited
+ Also changed the date format to display the date. Without that debugging pig is difficult.	Stress
+We reached 1000! :)	Excited
+Thanks Chris & Rishi! I've committed the changes in r1511518. Ross :)	Excited
++1 commit away! :)	Excited
+Great thanks! :)	Excited
+Thanks Chris, much appreciated! :)	Excited
+Good catch! :) I didn't know about the tool before.. Thanks!	Excited
+Thanks for all the help Andrew. This is so easy to use!! :)	Excited
+can we get this checked in as a branch project... cuz merging across patches is going to be a nightmare	Stress
+- patch applied in r1091582. You rox Mr. Google! :)	Excited
+boo! Just kiddin'! :) +1	Excited
+very good, congrats [~ash2k]! :)	Excited
+ONAMI-44 and ONAMI-45 have been resolved - lookin' forward for your next contribution! :)	Excited
+Thanks, Mikhail! Would you submit a patch for that? Any contribution is really appreciated! :) TIA!	Excited
+Thanks again, Mikhail! If you provide a patch I'm more than pleased to apply it :) TIA!	Excited
+Cool, thanks a lot for the effort Mau and congrats for your new house! :)	Excited
+ouch, you risked you own skin! :)	Stress
+Thanks Rene for your kind help, the logo has been interated in the current /trunk! :)	Excited
+Hooray for jira emails. ! :)	Excited
+You provided insufficient data to re-produce. (shame on you)	Depression
+I committed a typo fix at revision 1506504. Another reason to follow the normal way for patches ;)	Relax
+better patch now :-/	Stress
+Thanks Anil! I think it's quite clear now :)	Relax
+Ah, yes, I think that one slipped my eye. Looks good! :)	Excited
+That paragraph from the wiki is terrible advice. As I mentioned already, it will not work on all databases.  	Stress
+Thanks Sumit for the attention!:)  I am little busy at this time will upload a patch soon.	Excited
+done at rev 1339122 Thanks Wai for reporting	Relax
+No worries Jacques........;) Thanks  	Relax
+It's done Sascha... ;)	Relax
+Jep Jacques,  here is the patch :) Have a good day off!! ;) Cheers Sascha	Excited
+No worries Nicolas, there is no hurry. Thanks 	Relax
+Jep i know :) That will be the next step. I will provide a patch in the next days! Cheers	Stress
+created from root now (apologies).	Depression
+Done at rev 960997 960999 961001. Thanks Deepak	Relax
+ha, thanks guys! Its nice to have appreciative users. :)	Excited
+Done at revs 946315 and 946313 Thanks Blas,	Relax
+Oh ! Thanks Ashish, it should be INV_DEFECTIVE . :)	Excited
+Adrian, I think we all agree, but it's much work and a bit boring :(	Depression
+BTW Sascha, Don't worry I will have a look at it. 	Relax
+Done at rev. 915045 Thanks Olivier for the patch	Relax
+Thats great guys! Cheers :)	Excited
+Thanks Arpit - Done at r889592. -- Ashish	Relax
+Thanks Parimal - Done at r885403. -- Ashish	Relax
+Oh sorry, i don't know... i will fix it immediately!	Stress
+Thanks Sumit - Done at r836129. -- Ashish	Relax
+Hi Sascha, What I think ? Rather a big one ! :)	Excited
+This looks promising indeed... Thanks Bruno for your continued effort in this area!	Excited
+Thanks Bruno, Your patch is in trunk at r826513  Woow, it was quickly and well done ;) 	Relax
+Thanks Mridul, Done at r787726. -- Ashish	Relax
+Thanks Awdesh. Done at r787971. -- Ashish	Relax
+I'm a bit confused. Have never seen or heard of a "VirtualProduct" entity.	Depression
+Jacopo, thanks for the reminder. Done OFBIZ-3207	Relax
+How this is described to work looks great. It's wonderful to finally have support for this OOTB!	Excited
+As this is really trivial and nobody seems to be annoyed I close for now 	Relax
+Hi Arun, I will close this issue once the above said issues are resolved :). Thanks!	Excited
+No worries Mridul, Just keep up your good work ;o) 	Relax
+No worries, I'll have a look at it 	Relax
+Dohh forgot the attachment, shame you can't do it on the first jira creation page.	Depression
+no problem it was a proposal only I'm glad that it works now	Relax
+OK, nasty warnings will be fixed	Stress
+confirmed. Especially loosing the ns2 prefix scares me.	Stress
+Awesome! Thanks Rafal :)	Excited
+Its not a bug, its a feature? :) I like the .error example! You should implement this. 	Excited
+Apparently I was wrong, got confused with ODE-192. Reopening.	Depression
+The patch looks good, just applied on the 1.1 branch and trunk. Thanks a lot, keep them coming! :)	Excited
+Yes, why not ;) but only if it can be done with little effort...	Relax
+that's nice! The patch looks good Emanuele :)	Excited
+:) thanks! fixed with rev 1461662.	Excited
+We tried 1.0.2 and had a miserable time there. 1.2.0 fixed all major issues with Hadoop.	Depression
+Right! Looks good to me:) 	Excited
+Bah, thanks, now my trunk block too! :)	Excited
+No worries I'll have a look 	Relax
+Excellent! I'll remember next time! Thanks :)	Excited
+Push it in Lewis! I'll fix whatever breaks here :) cheers	Excited
+Oh i forgot, give me a few minutes, i've got a whole lot of url's with terrible language id i'm desperate to test with this neat improvement.	Stress
+Lovely! We're getting a working site again :) great!	Excited
+haha not your fault! I blame Junit! :)	Excited
+Boo! :) ...fan of JDK logging...	Excited
+afraid not, its happened several hours into a crawl, so i'm not sure   where it was 	Stress
+This is obviously correct. Can't believe I missed that :) Committed in rev. 738970. Thanks!	Stress
+Sorry .., new people here :) Thanks G�_ney ! 	Depression
+Sure is. Not to worry. Thanks 	Relax
+A perfect plan, I will do that so and commit a new patch. :)  THANKS!	Excited
+I don't know public rumpus server. :-/	Stress
+I don't know myself unfortunately.	Depression
+Thanks, works fine now! :)	Excited
+Great! Yes of course, you're right. I did not think of that. Now we can close the issue :)	Excited
+Thanks Bernd for check it and commit that one. I'm glad that solution works.	Relax
+I'm afraid that it doesn't work as it seems that you've mixed up underscore and hyphen.	Stress
+That's Ok, we'll keep the "return true" for a while :) Thank' you for the fix !	Excited
+Thank you! :)	Excited
+Stupid off by one error in the example.	Depression
+I like the idea ! Go ahead :)	Excited
+Ops, I'm probably blind... :-/ Applied! Thank you!	Stress
+yep, already done ;)	Relax
+Good. Just checking that this was the intended meaning of LIBPROCESS_IP. :) Thanks!	Excited
+It was not my intention to not include tests! :)	Excited
+fuck u	Stress
+Thanks a lot! you guys rock :)	Excited
+Basically it looks all web resources from marmotta-users are missing in the webapp... :-S	Depression
+Can you confirm this isn't the same as YARN-1463?	Neutral
+JobImpl#jobCounters should be volatile, because it can be accessed from MRClientService#getCounters.	Neutral
+Linking to MAPREDUCE-3811.  I have a patch in progress that will look very similar to that one.	Neutral
+Verified with the LinuxTaskController as well.	Neutral
+We will need YARN-445 for an MR2 equivalent of this.	Neutral
+LGTM, so I submitted your patch.	Neutral
+Attach the test output.	Neutral
+Attaching a patch that was implemented by Aniket Mokashi.	Neutral
+Updated patch sets NullWritable as the output value in IdentifierResolver for keyonlytext	Neutral
+Patch that compiles based on branch-1	Neutral
+Hi, Christopher.  Is this a duplicate of MAPREDUCE-5109?	Neutral
+Updated JobHistoryServer to fetch these attributes from events.	Neutral
+How did you configure AppMaster's heap memory(yarn.app.mapreduce.am.command-opts)?	Neutral
++1. Checking this in..	Neutral
+Hi [~devaraj.k] and [~jira.shegalov], we can close this JIRA if this is resolved in MAPREDUCE-4457.	Neutral
+I was looking at trunk. Doesn't this need fixing for trunk too?	Neutral
++1 for the patch.  I verified tests on Mac and Windows.  I'll commit this.	Neutral
+Reviewed and committed this together with YARN-748 to trunk and branch-2. Closing this.	Neutral
+Moved to MAPREDUCE-5294, subtask of MAPREDUCE-5221.	Neutral
+I gave +1 for this a while ago.  I'm planning on committing it shortly.	Neutral
+[~sseth], what's going on about this ticket?	Neutral
+Added TEMP_DIR_NAME back to FileOutputCommitter of mapreduce and annotated it deprecated.	Neutral
+Thanks Ivan for the comments. That is of great help! I will check my code:)	Excited
++1 Deployed a cluster with this patch and i no longer saw same job repeated in retired jobs.	Neutral
++1 from me too.  I'll commit this later today.	Neutral
+Uploaded a patch for branch-1	Neutral
+I committed this to trunk and branch-2 as part of YARN-444.	Neutral
+Add a test case for compressed input file.	Neutral
+MR part of the patch from YARN-112.	Neutral
+This appears to be in branch-2, but not trunk	Neutral
+we might want to pick a different default since oozie console also uses port 11000	Neutral
+Branch 0.23 patch uploaded.	Neutral
+Patch to fix plugin. setConf calls super.setConf, and checks for null	Neutral
+Copying changes over from MAPREDUCE-4782. The test passes after the changes.	Neutral
+HashPartitioner do not have unit tests either.	Neutral
+It looks like MAPREDUCE-4723 already checked in an update to fix this.	Neutral
+I think this can be dupes to MAPREDUCE-4266.  It removed all of the ant code.	Neutral
+The change looks simple enough and does fix the failing test.  I am +1 p[ending Jenkins approval.	Neutral
+here is the patch i will run test patch, unit tests and try to validate the fix on my cluster	Neutral
++1, lgtm.  I'll commit this shortly.	Neutral
+bq. Seems like we could eliminate that sleep if we got a maximum-sized response? +1.	Neutral
+Verified that the latest patch fixes the failed tests	Neutral
+Gotcha. Let's resolve as not-a-problem then for now, and if someone disagrees, we can re-open.	Neutral
+Patch to fix scanOldDirsForJob to use a proper key for the serial number index lookup.	Neutral
+Fix to deal with signature change.	Neutral
+Makes sense.  +1, will commit this later today.	Neutral
++1  lgtm  (no test necessary since we're just fixing a typo)	Neutral
+attached a patch for branch-1. Also removed unused imports.	Neutral
+ran the tests for both the classes and tests passed.	Neutral
+Could not find these test classes in trunk. so looks like it only impacts branch-1	Neutral
++1. simple change that works for me.	Neutral
+Looks like some of the tests are commented out as well (eg testUniformSizeDistCp). 	Neutral
+We should add that, as well as end to end tests for delete, overwrite etc.  	Neutral
+(the testcase has been overloaded as a tool).	Neutral
+Resolving since we've reverted HADOOP-8738.	Neutral
+I uploaded a patch that makes that revision.	Neutral
+uploaded refresh patch that includes test	Neutral
+Changed AMContainerMap to extend AbstractService.	Neutral
+This changes MapReduce to only put the quotes in if the platform is not Windows.	Neutral
+Clients can already query contents of DC...	Neutral
+Resolving as Dupe as noted by Rahul above.	Neutral
+Reopened and uploaded a patch for trunk	Neutral
+I think you have extra code in your patch from MAPREDUCE-4456.  Can you upmerge and repost.	Neutral
+I'm concerned, let's spend time on this one. JT locking is one of my worst nightmares.	Stress
+Patch attached to update the warning message	Neutral
+Upmerged patch to trunk since MAPREDUCE-4751 was integrated.	Neutral
+Updated patch to fix extra warnings.	Neutral
+Looks like this is duplicated/resolved by MAPREDUCE-4451.	Neutral
+This patch weakens security, so it has been reverted by MAPREDUCE-5202.	Neutral
+Does trunk need a patch?	Neutral
+Submitting patch, please review.	Neutral
+test failures are unrelated to this patch.	Neutral
+test failures are unrelated to this patch.	Neutral
+I merged into branch-0.23	Neutral
+The change looks simple enough. +1	Neutral
+It seems very similar to MAPREDUCE-4031.	Neutral
+Uh! Wrong patch, fixed now. :)	Excited
+Changing description to reflect the problem and the corresponding code changes.	Neutral
+Javac warning cleanup patch for the hadoop-yarn-server-nodemanager project.	Neutral
+Re-uploading a ditto patch as it looks like the QA bot didn't pick it up yet.	Neutral
+Cancelled patch to address Tom and Nicholas' comments.	Neutral
+These failing tests are unrelated to the changes introduced by the patch.	Neutral
+I just committed this back to 1.0.3 and moved the log in the branch-1/CHANGES.txt.	Neutral
+Patch to change dependency to test scope.	Neutral
++1 if you want me to commit this tom just let me know.	Neutral
+I agree with Jon, +1.  I merged this into trunk, branch-2, and branch-0.23	Neutral
++1 the patch is simple and the test passes.  I merged this into trunk and branch-2.	Neutral
+Attached patch and a screenshot of the rendered docs.	Neutral
+@Alejandro, it does to branch-0.23  Which branch do you want me to cut a patch for?	Neutral
+I pulled this into 0.23.3	Neutral
+Committed to trunk and branch-0.23. Thanks for your contribution xieguiming! Hoping to see more :)	Excited
+I have attached patch to fix these compilation errors.	Neutral
+Please review the patch	Neutral
+Pls review this patch	Neutral
+Verified the fix manually,  and with this fix, browser displays *hostname* rather than *IP Address*.	Neutral
+Patch to set app ACLs in the AM registration response.	Neutral
+Attached an patch to the capacity scheduler web services tests that demonstrates the problem.	Neutral
+This was already filed about an hour ago.	Neutral
+Added Alejandro because he did HADOOP-8167	Neutral
+I pulled this into branch-0.23	Neutral
+As this is an examples related patch, I *think* testcase is not required. Please review it.	Neutral
+attached patch for the 0.20 branch.	Neutral
+Committing shortly as this is a trivial docfix.	Neutral
+Committed to branch-0.23 and trunk.	Neutral
+Committed revision 1343247 to trunk.	Neutral
+Not an issue. I got confused between AttemptKilledTransition and KillTransition.	Depression
+I thought I did do an RM on it.  Trying again...	Neutral
+These tests are not related to the patch.	Neutral
+Not targeting this for 0.23.2.	Neutral
+Cancelling the patch to address the comment	Neutral
+Any further comments? If not, can this be checked in?	Neutral
+-1 Forcing people to build 32bit on 64 bit machines is a no go.	Neutral
+Committed to branch-2 and trunk. Thank you for your contributions Eugene! :)	Excited
+Changes to support launching MR tasks on Windows	Neutral
+This is mostly related to DT in History Server. Will update in a bit.	Neutral
+I have attached patch to disable this. Please review it.	Neutral
+Updated title and description	Neutral
+Looking for final review/commit.	Neutral
+fix some unit tests.	Neutral
+I ran it on a 1.0 cluster and a 0.23 cluster and watched a job move between buckets as it ran.	Neutral
+Here's a test that exposes the problem.	Neutral
+Same patch but rooted in the correct directory this time.	Neutral
+Gah, wrong patch	Depression
+This patch seems to be working in my case. I'd recommend including it in the trunk and .23 branch.	Neutral
+This is blocking gridmix..	Neutral
+bq. -1 tests included No tests since it just changes log levels.	Neutral
+I'll open a separate jira, to change back some of the logging.	Neutral
+I am not Anty Rao, but I can't find him on the list of asignees, so I will assign this back to you.	Neutral
+I also verified that this patch resolves the problem.	Relax
+Findbugs caught the 'usedCapacity=0' problem... integral division! :)	Excited
+Yup, just go ahead and add an exception for that.	Neutral
+Correcting the assignment. 	Neutral
+Not tests needed. Just moving a print statement from one file to another.	Neutral
+Sid,  Want to take a crack at this?	Neutral
+trivial patch for removing dependency in jdk tools.jar.	Neutral
+Thanks for taking the time and reporting though! :)	Excited
+@Alejandro,  Which files are not in 0.23? Can we port those back in 0.23 as well? 	Neutral
+I've just committed this.	Neutral
+Simple patch with test case.	Neutral
+What's the test/benchmark used for this result?	Neutral
+Simply adds in the check, and fails if it finds too many arguments.	Neutral
+The fix is for JobClient to pass the Cluster object to the Job.	Neutral
+Hi Vitaly, The minResources (and also maxResources) are to be set as megabytes.	Neutral
+I've just committed this (including the change Alejandro suggested).	Neutral
+This fixes all three failing tests.	Depression
+This worked for me.  Can someone please review the attached?	Neutral
++1. Awaiting build bot response. Testcase is not required as this is a documentation change.	Neutral
+Committed as revision 1199059. Thanks you for your contribution Sho! :)	Excited
+Damn! didnt read Sid's comments :).	Stress
+Provided the patch for this. Please review it.	Neutral
+It's my pleasure. Thanks to all of you.	Excited
+Creating subtasks for the two items so that we can work on them independently	Neutral
+patch to fix javac warnings in MRAppMaster.	Neutral
+Patch needs HADOOP-7764 to compile. Will post test results from my box. 	Neutral
+Seeing this too often. Will upload a fix soon.	Neutral
++1, looks like an improvement.	Neutral
+This patch depends on MR-3161	Neutral
+Damn, wrong JIRA.	Stress
+Cancelling patch for progress.	Neutral
+Don't see this... please reopen if you do.	Neutral
+John, have you had a chance to look at this? 	Neutral
+It seems duplicate of MAPREDUCE-2982.	Neutral
+Updated the patch by removing TaskAttemptStatus.diagnosticInfo and added tests.	Neutral
+I will upload the patch now as soon as possible.	Neutral
+What's the method to re-trigger a check, eg if the disk is onlined again? Restart the TT, I guess?	Neutral
+My averseness to null-checks is vindicated :) Arun, can you please provide a patch? Thanks!	Excited
+Updated patch with explicit version numbers in the child POMs.	Neutral
+Gah, forgot that Jenkins won't pick up the same patch again. Reattaching the same one.	Depression
+Yeah you're right, I only just scanned over that -- Please do as necessary! :)	Excited
+Thanks Vinod! :) Yes! Quite a few ;-)	Excited
+I just pushed this! Yes I wrote a script to add headers to *.java, *.proto, pom.xml's :).	Excited
+Good point, sorry I missed it. I'll commit this asap. Thanks.	Stress
+My pleasure. Should be {{mapred.job.queue.name}} in branch 20.	Excited
+I just committed this.	Neutral
+Hadoop 0.20.204.0 was just released.	Neutral
+I think Arun forgot to resolve this. This has been committed to the security branch.	Neutral
+I think this is "by design"...	Neutral
+updated patch for fixing some errors.	Neutral
++1 Both of these patches lgtm.	Neutral
+Patch that updates Job's javadocs to reflect the difference.	Neutral
+Last I looked, I think ProcessBuilder did do that.. no?	Neutral
+Canceling this patch as it needs to be upmerged to apply to trunk.	Stress
+This patch allows any filesystem to be specified for the completed.location property.	Neutral
+Patch is provided for 0.20 version.	Neutral
+I just filed MAPREDUCE-2723 as a subtask to port these changes to MRV2.	Neutral
+Hi Nicholas, I have updated the patch and also provided patch as per above comments.	Neutral
+Uploaded a refresh patch for branch-1	Neutral
+Also uploaded a refresh patch for trunk	Neutral
+Uploaded a patch that adds a test for the calculation when data is not compressed.	Neutral
+Filed MAPREDUCE-4965 to fix this.	Neutral
++1 for the patch, pending Hudson.	Neutral
+This patch fixes pom template's dependencies and optimizes the regexp for set-version ant target.	Neutral
+in the ExpireLaunchingTasks,run() may calls the JobTracker.killTask(). that can implement it.	Neutral
+I think this needs to go on branch-0.22 as well - the 22 build is failing with the same error.	Neutral
+Looks like the HowToRelease wiki needs to have the branching section updated.	Neutral
+upgraded clover on hadoop build machines.	Neutral
+I have just committed this to 0.21 and trunk.	Neutral
++1 on the 20s patch	Neutral
+MR part of the fix	Neutral
+A patch for trunk.	Neutral
+Rebased patches for 0.22, 0.23 and Trunk.	Neutral
+Can you confirm the specific version this is on?	Neutral
+re-submiting to hudson 	Neutral
+I think this is related to HADOOP-6938. I've upload a patch for it.	Neutral
+ -1 Compiler specific flags should get added after compiler detection.  	Neutral
+This patch is only for the 0.21 branch.	Neutral
+Trivial patch that fixes the misleading doc-text.	Neutral
+Please have patch for the trunk as well.	Neutral
++1 for the patch.	Neutral
+update to current trunk.	Neutral
+This patch has fallen out of date, can you please regenerate it?	Neutral
+It is easier to just pkill -9 java tasks at regular intervals than fix this.	Neutral
+resubmit to try hudson	Neutral
+Any volunteers to look at this for 0.22?  If not, I'd suggest punting this as a blocker to 0.23.	Neutral
+doc changes for hadoop archives.	Neutral
+Submitting to Hudson anyways to see if tests are passing or not..	Neutral
++1 for the patch. 	Neutral
+fucking weirdo lmao	Stress
+Attaching the correct patch..	Neutral
+Patch addressing Owen's comments.	Neutral
+What's the mechanism for preventing bitrot of these tests?	Neutral
+The patch on MAPREDUCE-1280 covers this. 	Neutral
+I vote that we pull this into 0.21 as well.	Neutral
+bq. MAPREDUCE-1245? Yes, it is.	Neutral
+We need to  apply this fix to 0.21 also.	Neutral
+I committed this to 0.21 also.	Neutral
+I'm starting to review this patch.	Neutral
+Seems to be related cases.	Neutral
+I'm afraid this has gone stale again - could you regenerate it please?	Stress
+are the fixes for this problem already checked into the Yahoo 0.20 release?	Neutral
+I will commit this in a short while.	Neutral
+This should use the API to be added in HADOOP-6323.	Neutral
+This is duplicated by HADOOP-6404.	Neutral
++1 on mockito. I've used it a couple of times and so far it's been a pleasure to work with.	Relax
+I think that should be it. That would also lead to non-wastage of slots.	Neutral
+I think this should be a blocker for 0.21.	Neutral
+The trivial change is committed.	Neutral
+this patch adds tests for HADOOP-6097.  	Neutral
+Attaching patch fixing the documentation.	Neutral
+Uploading patch that addresses Rahul's review comments.	Neutral
+I just committed this.	Neutral
+Patch adding jackson and paranamer jars.	Neutral
+Retriggering hudson now that HADOOP-6346 was committed.	Neutral
+The offending line is LinuxTaskController.java +173.	Neutral
+Will be incorporated by MAPREDUCE-1100.	Neutral
+Kevin/Aaron, have you manually verified that this fixes the problem?	Neutral
++1 to addressing the points I raised in a follow-on JIRA.	Neutral
+Submitting for QA. 	Neutral
+Simple doc suggesting to use cp/distcp for unarchiving.	Neutral
+Fixing also "mapred.{map|reduce}.java.opts" to be "mapreduce...."	Neutral
+Updated patch fixing the test failures reported by Hudson.	Neutral
+Nope, i meant MAPREDUCE-805 only.	Neutral
+Updated patch changing the forrest documentation to reflect the changes.	Neutral
+The attached patch has some fixes. I ran 'ant test' and test-patch locally and they both passed.	Neutral
+I just committed this.	Neutral
+Sounds good! :)	Excited
+Another option might be to increase its replication, no?	Neutral
+BandwidthMonitor in distcp uses these counters (Succeeded Maps) to get the number of running maps.	Neutral
++1 for closing this JIRA then.	Neutral
+Does HADOOP-5170 address the requirements?	Neutral
+Please mark it as a blocker for 0.19 if required	Neutral
+bq. Should the configuration be job-level or cluster-level? I vote for cluster-level. 	Neutral
+Here's an updated patch which includes a unit test. It also addresses Amar's feedback.	Neutral
+Since Record extends Writable, will WritableSerialization not work here?	Neutral
+test failures are unrelated	Neutral
+I agree with Arun. We should fix this patch.	Neutral
+Moving to open while comments are addressed.	Neutral
+Marking it for 0.17. 	Neutral
+Removing from queue while discussion continues.	Neutral
+I added HADOOP-2573 for the approach I propose above.	Neutral
+Closing out as a result of MAPREDUCE-279	Neutral
+HADOOP-4041 has a (currently incomplete) test for IsolationRunner.	Neutral
+Some level of this can be achieved with the OutputCommitters today. Closing out.	Neutral
+Quite close i think.	Neutral
+Yeah, I too think purging all jobs keeps things simpler rather than relying on GC. +1	Neutral
+Not a problem with current release schedulers.	Neutral
+This can be explained by looking at the task logs and the sort outputs.	Neutral
+Does not occur in task launches anymore.	Neutral
+Hasn't been seen in a while now.	Neutral
+Not a problem anymore with the current versions.	Neutral
+This doesn't seem to be a problem with current versions anymore.	Neutral
+It is recorded in current releases.	Neutral
+Given the feature of different heap sizes per task type, this does not make sense to have anymore.	Neutral
+We attempt a proper rename now, and only fall back to copy+delete otherwise.	Neutral
+I'm encountering this same situation on AWS's mapreduce instance using v1.0.3.	Neutral
+done. If anyone don't like this change just tell me now ;)	Relax
+very excited to see this, I think this is a great direction to look into	Excited
+It is a grand idea for you guys to work together. 	Relax
+:) All right, I try to deploy hadoop 0.20.205. Thanks!	Excited
+Here's a patch.  It isn't correct yet for running the test, as it gives terrible results, but I am hoping a second set of eyes will help.	Stress
+again with the ASF flag :-/	Stress
+There it is! :)	Excited
+Thanks Hudson! :)	Excited
+My pleasure. Thank you for committing it 	Excited
+Very glad to see this request finally goes into release in a month.	Relax
+Wow, +1 to commit :) I wish we used Python as our build tool!	Excited
+Thanks Rob! Yeah, I just hit another failure around TestSortDocValues. :)	Excited
+Stroooong ++++++1 I wanted to do that long time, but some tests were made me afraid.	Stress
+I just took a quick glance and this looks fantastic	Excited
+good to see you around karl! :)	Excited
+argh, I guess that was my fault. I will add a test and dig	Stress
+argh... I missed svn add... here is the right patch	Stress
++1! How silly :)	Stress
+Committed to trunk and 4x. Let's see if it makes nightly happy! :)	Excited
+Beasting ran many iterations with that change w/o any failures!  I think it's a keeper :)	Excited
+Thanks Uwe!  Keeps testing :)	Excited
+Patch removing Apache snapshot repo from the grandparent POM	Relax
+I don't know why I thought it would be trickier than that :) commit it!	Excited
+patch removes 8,600 lines of code :) +1!	Excited
+Very cool graphs!  Somehow you should turn them into a blog post :)	Excited
+I still see one omitted :)  Otherwise this looks great: +1 to commit!	Excited
+Thanks a lot, Kazu. This is a good idea to add.  Patches are of course also very welcome! :)	Excited
+I will commit this patch: please let us know if you have more problems from china! :)	Excited
+Horrible!!! I just say: die, die, die	Stress
+Argh, I forgot to svn add files ... i'll make a branch and commit there.	Stress
+Oops. Please ignore the bit about stemming above. Poor copy/paste on my behalf.	Depression
+Confirmed this working in a {{branch_3x}} build. Thanks, Mike and Robert! :)	Excited
++1, this is a nice cleanup!  SegmentInfo.files is awesome now :)	Excited
+I hate the whole thing, sorry. Please remove it,... completely.	Depression
++1 it looks great!  Good work :)	Excited
+Nice!  You removed swapSearcher's sync too.  Thanks :)	Excited
+File corruptions really scare me,  +1	Stress
+great work!  These tests were very effective at finding problems in these formulas :)	Excited
+Agreed! No problem about commit access, I'll send patches :)	Excited
+its all yours do whatever you think needs to be done. have fun ;)	Relax
+Looks great!  I love the LTC.rarely, usually, atLeast methods :)	Excited
+Patch looks great!  Nice to have MDW catch un-released locks too :)	Excited
+Looks great Shai!  Nice catch :)	Excited
+I know! can you speed up the rest of the skipping too :) 	Excited
+Awesome results robert!! :)	Excited
+The attached patch is required. (Got trapped by 2 issues + caching madness)	Stress
+OK w/ the latest patch all tests pass for me!  Great :)	Excited
+bq. OK w/ the latest patch all tests pass for me! Great  awesome! :)	Excited
++1 looks good (as far as I can tell!), even SegmentMerger starts making sense now :)	Excited
+Hmm but the above infoStream output shows no exception... I'm confused.	Depression
+I won't have any time to take this any time soon :)  So if anyone has the itch, jump!	Excited
+Cool, will do!  Thanks for the review and good questions... and the whole idea! :)	Excited
+YES! Indeed a big milestone, finally :) So now merging back?	Excited
+OK new patches look good Uwe!  Thanks for fixing this :)	Excited
+Yeah, that sounds great! I will need to learn how to write .alg files :)	Excited
+bq. And we are back to 831 Yes :)  But maybe the fresh perspective will get us through it!	Excited
+Slowly, nervously, I again mark this one fixed...	Stress
+Thanks for rounding off, Michael. It's been a pleasure.	Excited
+Yahoo! I was going to create the same issue :)	Excited
+Argh! The rename broke test-tag again :) in new and innovative ways. New patches attached.	Stress
+Did you seriously ask that? :) Of course !	Excited
+I see that we both missed the CHANGES entry? :) Other than that, patch looks good. +1 to commit !	Stress
+Grr -- the bug is real.  I'll fix.	Stress
+Please, by all means ! :)	Excited
+Uwe, you are right, I got confused... Sorry.	Depression
+My powerful IDE (XEmacs + eyes) confirms this ;) Thanks, committed to CVS. 	Relax
+Good! I'm off for this year. See you next. Have fun. :)	Excited
+Thanks for the KUDOS, I'm glad you got the issue resolved.	Relax
+Fixed! :)	Excited
+My bad, I got it wrong: my MarkerFactory was poorly instantiated...	Depression
+@Bruno: Yes, do it! :) @Michele: Nice sketch, got more? :)	Excited
+Patches welcome! :)	Excited
+-1: Let's not make it a nightmare of a 1000 jars for people who do not live in the OSGi world. please.	Stress
+Thank you Tomaz!  That makes a LOT more sense! So noted :)	Excited
+Awesome! Will review it today :)	Excited
+Patches welcome! :)	Excited
+Patches welcome! :)	Excited
+Patch applied in slightly different fashion. Thank you! :)	Excited
+Agreed that this is confused. I think we should roll back the generics changes.	Depression
+How very lame - Appendable throws IOException.	Depression
+My fault. The default is not an object, so it's impossible to get null back. A shame.	Depression
+I agree with Paul. !(not) makes me sad. :)	Relax
+I'm just worried that we haven't heard the last of the issues with the Knox name.	Stress
+HA! Not "Greed" - *Agreed*. :)	Excited
+Thank you [~jbonofre] ! :)	Excited
+Thank you Jean-Baptiste! :)	Excited
+Thank you Heath Kesler for the manual updates! :)	Excited
+Thank you Uwe Barthel for the patch! :)	Excited
+Thanks a ton Markos!! was struggling with this for a long time. osgi:install works for me too :)	Excited
+Batch mode for client. It works! :)	Excited
+Thank YOU Guillaume ! :)	Excited
+Wow, thank you Jean-Baptiste ! :)	Excited
+I would so love to see this happen! :)	Excited
+unfortunately switching to 2.2.1 didn't do the trick :(	Depression
+Apache Karaf 2.2.1 is now released! :)	Excited
+Thank you for the patches Heath Kesler! :)	Excited
+Thanks Adrian for the set of patches! :)	Excited
+Thanks Adrian Trenaman for the original patch! :)	Excited
+great! :)	Excited
+Done, thank you Michael :)!	Excited
+Many thanks Andrii!  (We're trusting you that you're not giving us Ukrainian...  :) 	Excited
+Should be easy to do.	Relax
+Duh.  How stupid of me.	Depression
+Patch applied and tested. Now this is a really nice, eh, Groovy, demo :) Thanks Woonsan! 	Excited
+damn, i was on the wrong issue, too many tabs in my browser, meant to resolveJS2-669	Stress
+I'm sorry for the horrible typos...	Stress
+Feature committed. Also working on Fusion ;)	Relax
+Lukas -- awesome! Can you commit it? :)	Excited
+Very impressive indeed ! Thanks for answering so fast :) Best Regards,   Serge Huber	Excited
+Excellent! Glad to be of help :)	Excited
+Thanks, as far as I can tell, this fixed our issues ! :)	Excited
+Oh yes I'm stupid -  I'm sorry for the noise. 	Depression
+Thanks for the merge ! :)	Excited
+Thanks Jukka! I'm on vacations right now, so I can't do much work :)	Relax
+I'm afraid there's no documentation yet. I'll try to add it soon.	Stress
+applied the provided patch (thanks!:)  fixed in svn rev. 467674 	Excited
+My first comment assumes to be posted in JCR-273 not in this issue :-/ 	Stress
+Ok, i will try it out and let you know. thanks! :)	Excited
+Unfortunately too late :-(	Stress
+Sorry, but I don't have that last line :-/	Stress
++1 I need this kind of stuff in trunk as well :) Thanks Obi and Norman!	Excited
+Thanks for the patch Clint ! I didn't knew it was that easy to find the root of the pattern :)	Excited
+No, I'm afraid there isn't at the moment ... :(	Stress
+overwriteMode added due to this issue, but poor default chosen	Stress
+I vote +1 ! :)	Excited
+Feel free to provide a patch! :)	Excited
+YW.  BTW, feel free to contribute patches and to improve the test coverage too! :)	Excited
+:) No worries, I'm just surprised someone didn't catch this earlier.  Thanks!	Excited
+Hi - any update on this :) thanks!	Excited
+Yes, 'cordova-plugins'. Thank you! :)	Excited
+Wrong project! My bad! :)	Stress
+Thanks Gav, tomorrow is fine and no worries. Thanks bud. 	Relax
+<Humbedooh> Closing the ticket then :) Enjoy! 	Excited
+<Humbedooh> Closing as fixed then, happy hacking! :) 	Excited
+Hi Heiko, ok  ; done ; thanks ; regards. HPP	Relax
+This has been done, the site is now live vis pubsub.  Enjoy. ;) 	Relax
+Thanks! Our current release is already pushed, and now available :).	Excited
+Much obliged! Thank you! :)	Excited
+<pctony> done, enjoy, etc ;) 	Relax
+sorry, this somehow wasn't picked up on my filter. I'll do this asap.	Stress
+No worries David, we can wait, thx. 	Relax
+<pctony> all done with you thanks.  Good boy. 	Relax
+Igor is an idiot, and we *do* need gmake.	Stress
+Thanks Joe, much appreciated! :)	Excited
+Google :-/ 	Stress
+Everything seems done. Thanks, ASF Infra team.	Relax
+The separate task wasn't really necessary, but thanks!  :)	Neutral
+Wo told you this?   We dont just hand out admin access to everyone who requests it I'm afraid.  	Stress
+My bad, it's "pauls" instead of "kpauls".	Stress
+My bad. Sorry for being stupid. Oleg	Depression
+Engage! :)	Excited
+Thanks!  I was able to fix the template :) 	Excited
+Thanks!  I was able to fix the template :) 	Excited
+Unfortunately, no change with the latest instructions.	Depression
+done. (except for the bit mentioning isis ;) )	Relax
+Done.   Thanks.   Committed revision 1031275. 	Relax
+Easily fixed, no worries. 	Relax
+Wow, wonderful! Thanks a bunch!	Excited
+done, don't lose it again ;)	Relax
+Unfortunately, I am still seeing old documentation	Depression
+Definitely no hurry.  Thank you for working on it. 	Relax
+Note that this = mail to root@ (I think you know, but it might confuse others).	Depression
+Sorry, didn't know the right URLs :). They look to the there now thanks!	Depression
+I'm an idiot. Duplicate of #INFRA-333.	Depression
+Good catch! Thx for the fix :)	Excited
+This is an IMAP bug but I can't edit the component now :-/	Stress
+We may also have to release 4.0.1 because of this bug, as it is quite severe. Oleg	Stress
+Unfortunately, the 3.x series is EOL. 	Depression
+Thank you Oleg ! :)	Excited
+Thank you Oleg ! Much appreciated :)	Excited
+Great to hear from you! I was hoping for that answer :). It sounds like a good proposal to me.	Excited
+apologies error	Depression
+Just finished cleaning up HttpMethodBase. Changes applied to 2.0 breanch & HEAD.  What a terrible way to spend the weekend.    Oleg	Stress
+Odi, I am afraid chunk-encoded content unfortunately spoils this kind of  scheme.  Oleg	Stress
+No problem. Thanks for a very cool library! :)	Excited
+Committed to branch.	Neutral
+Ah, man. You got me all excited.	Excited
+Nice, I love to see new unit test coverage! :)	Excited
+No worries! :)	Excited
+[~thiruvel] Interesting that you asked me today, I am working on it right now! :) 	Excited
+I am somewhat scared to let people drop by non-quality. It seems like potential 'rm -rf' situation.	Stress
++1 will commit. Yikes just crazy to see something like this.	Stress
+My apologies - original patch was malformed.	Depression
+I am confused the patch has - not +. It looks like it is removing the feature.	Depression
+Committed! Thanks Wojciech!  (still trying to figure out how to assign this task to Wojciech :) )	Excited
+Here is a tarball of the poorly documented/tested udfs.	Stress
+histogram_numeric is fine.	Relax
+Gah, can't edit, but of course I meant "objections", not "objects".	Depression
+ Shamefully made four spelling/grammatical errors in less then two paragraphs of text. Very sad. 	Depression
+I forgot second file(  last I hope). I am really ashamed	Depression
+No problem.  I am glad that you pick this up.  Assigning to you.	Relax
+Thanks for review, Luke! :)	Excited
+Glad to see that was useful! :)	Excited
+It's a shame that read ahead is a boolean instead of a size.	Depression
+Update the patch to make it compact.	Neutral
+On the other hand, it is a shame to lose that apparently useful debug info.	Depression
+This is a regression w.r.t Hadoop 1.0 which does let you create >1 MiniDFSCluster in the same JVM	Neutral
+Sorry for the spam, my browser confused me badly. I will commit shortly.	Depression
++1 for the patch.	Neutral
+I committed this patch to trunk and branch-2. 	Neutral
+I committed the patch to trunk and branch-2.	Neutral
+May be a dupe of HDFS-3048.	Neutral
+The typo in the JIRA summary scared me - thought you meant some sort of GUID. :)	Relax
++1, thanks for the cleanup, glad to be rid of that code.	Relax
+@Uma: My pleasure! and Thanks for reviewing :)	Excited
+bq. 0.23.1 doesn't have protobufs in place yet, right? Whoops! Of course you're right. :)	Depression
+Doh! "inconsistent" not "consistent". :)	Depression
+Sorry for so late design document and my poor English.And patch will be commit latter.  	Depression
+It is done already ;)	Relax
+Trivial patch, verified in some unit test logs that the exception wasn't logged anymore	Neutral
+Thank you Steve! :)	Excited
+Thanks for the review Aaron! :) 	Excited
+Rebased to current head. Can someone please commit / reject this?	Neutral
+Updating JIRA attributes based on current versions	Neutral
+Can someone please review this patch?	Neutral
+modifying checkFile based on Matt's comments.	Neutral
+My pleasure. I will try to do it.	Relax
+Added RemoteEditLogManifest stuff to allow it to take segments from different journals.	Neutral
+FederationClusterSummary page screen shot.	Neutral
+agreed. NONMAPREDUCE seems fine (or you can use MAHADEV, just kidding!!  :) )	Relax
+Changing to improvement and removing 0.22 fix version.	Neutral
+This patch got rid of the occasional spurious failures on my hudson.	Neutral
+@Todd - Marked :) @Dhruba - Yes that's the idea! I'll post a patch soon.	Excited
+Log level change - No TCase required.	Neutral
+@Todd, Thanks! We're using 0.21 :)	Excited
+Thanks for the reviews Hitesh and Mahadev! :) Committed to trunk and branch-0.23.	Excited
+Please do! Sorry I didn't mean to snatch your bug away :) Feel free to send me the review.	Depression
++1 This looks good. Ship it! :)	Excited
+Committed trivial test fix to trunk and 0.98. 	Neutral
+so [~tedyu@apache.org] your idea is ?	Neutral
+Forgot an equal sign in the comparison. Looped TestFSHDFSUtils 8 times locally which all passed.	Stress
+That's a very promising idea ! Will take a closer look.  Nice work [~stepinto] !	Excited
+this starts to be boring :-). May be I'm going to split this in smaller pieces.	Stress
+Thats dumb (my mistake).  Thanks [~enis]  +1	Depression
+Code looks good.  Though the test failures seem related :-/	Stress
+My pleasure. I'll get something soon.	Stress
+Heh, just have to wait long enough. :) Seriously, thanks Demai!	Excited
+I understand, and I think it's very unfortunate...	Depression
+Doc change.  Critical!	Stress
+TableExistsException contains the table name. Maybe let TableExistsException bubble up ?	Neutral
+Sorry by mistake its assigned to me. Unassigned.	Depression
+Closing. Please re-open if I'm confused.	Depression
+No occurrence since I install the patch. +1 from me.	Neutral
+bq. Woa! ^^^ :) 0.94 has been stable, so it shouldn't be a total surprise :)	Excited
+Taking in Ted's comments.	Neutral
+Yes, one file missing in the patch. Sorry for the mistake	Depression
+Adding the version solved the prob:).  Crazy!!!! I was trying  out something else :(	Stress
+Finding the wrong findbugs is boring (I need to move forward on the zero findbugs). Will do that before committing. For the line > 100, one is new, I will fix it, the others are in  EventHandler and it's because we comment on the same line as the declaration. I plan to keep this.	Stress
+Moving out though I think it a shame we don't have it.  It is not being worked on.	Depression
+Whoa, green precommit build! I thought they were a myth? :)	Excited
+That is a sweet change.  	Relax
+Attaching updated doc. 	Neutral
+Thanks Jesse and Lars for your helps with committing it!:)	Excited
+oh, sorry for that, I will resolve it asap.	Stress
+No worries Michal.  I'll forward-port. 	Relax
+@stack yeah, I'll take a look. This is getting really frustrating :-/	Stress
+Attached! LarsH is lightening fast :)	Excited
+No worries.  Thanks. 	Relax
+Yeah, that's stupid. +1	Depression
+nope hadoop qa is what I meant.  Sorry for the poor wording.	Depression
+I am confused as well. +1 on the 0.94 patch.	Depression
+On closure look, checkPermissions need not be corrected.	Neutral
+* Attached HBASE-6038.patch *	Neutral
+@Alex Sweet, looking forward to it.	Relax
+My apologies, I found it elsewhere HBASE-4709	Depression
+Yeah, I'm worried about the performance slow down as well. 	Depression
+No worries Jimmy.  That'll do.  Thanks. Let me commit. 	Relax
+You are right I confused the two. I don't have an opinion on HBASE-4908.	Depression
+This stuff scares me. How do you manually recover from this?	Stress
+Patch v3 applies same change to TestOfflineMetaRebuildHole and TestOfflineMetaRebuildOverlap.	Neutral
+@Jon Yes.  sorry for that ..will correct that immediately.	Stress
+HBASE-3130 can be removed too :) The rest looks good! +1	Excited
+Thanks Ram. I shall modify that. I would be glad to incorporate if there are any other comments.	Neutral
+Awesome! Thanks for picking up one of my favorite jiras... :)	Excited
+awesome trivial fixes are the best! :)	Excited
+That is looking kinda sweet ncanis.	Relax
+Looks grand to me Nicolas.  Answer Pranav above and then I'll commit.	Relax
+Nice! Thanks Alexey. And take are of your back :)	Excited
+Simple patch that adds a new interface, used in HLog while rolling and archiving. Also adds a very boring unit test. Currently it's not possible to add listeners by configuration, must be called in the code.	Depression
+This time again with --no-prefix	Neutral
+@ Nicolas -- Sweet.  Patch looks good.	Relax
+Sounds grand.	Relax
+No worries Clint.  I'll take care of that in migration. 	Relax
+Now I am confused. 	Depression
+Ugh! That's really nasty!	Stress
++1 Patch looks good.  Sweet. Passes patches locally.  Moving it on to hudson.	Relax
+Maksim, congratulations with your first contribution! it is really awesome	Excited
+Thanks for understanding the point guys! :) Tim, the patch is applied just fine.	Excited
+Very nice improvement.	Relax
+Thanks Leo. It works:) And another patch for DialogCallbackHandler is avaliable now. Best Regards!	Excited
+My bad, have confused NULL assignment. Please commit.	Depression
+And I'm happy for you! :) Closed.	Excited
+Yay! I like deleting code - thank you :) Applied at r488609	Excited
+no, I'm probably being an idiot... 	Depression
+Seems to be I've confused with modules, it should be [awt] and not [swing]	Depression
+Hi,       will somebody try this?   :) Good luck!	Excited
+nice! Looking forward to it :)	Excited
+I'm excited about the results ;D	Excited
+wow! congratulation! good pains.	Excited
+OK. I'm confused as to why this works, but thanks for testing.	Depression
++1, looks good to me. Nice cleanup.	Relax
++1 This has annoyed me too for a long time!	Stress
+Emergency bug-fix to yahoo hadoop20 distribution - I'll upload one for trunk shortly.	Stress
+So glad that it finally works. Java5 stuff is removed, please have another try.	Relax
+The patch works!  Thank you Arun. :)	Excited
+Luca pointed out the problem and gave the patch. Redirecting the gratuities to him :) Thanks Luca!	Excited
+The pleasure is all mine, Doug.	Relax
+I like this proposal too :) Much cleaner that my hacky patch !	Excited
+Great! My first commit to the project! :)	Excited
+Project accepted in GSoc! Let's go!!! :)	Excited
+Seems all right :) Thanks!! Hope it works with Nutch.	Excited
+Thank you very much! :)	Excited
+Thanks Maja! Come write a book with us sometime, will you? :)	Excited
+Looks good to me, go for it Claudio.  Thanks Yazan for this wonderful guide!	Excited
+My bad, I was not choosing the right master compute class.	Depression
+No more dealing with snapshot changes! :). Also I updated Hive to 0.10.0	Excited
+Good catch Maja, my apologies. Here's proposed fix.	Depression
+As a bit of unsolicited feedback -- I'd encourage you guys not to be afraid of 1.0 version. 	Stress
+Option 2 is fine with me.	Relax
+Brian, could you make it a single patch for us to take a look at?  I'm excited to see this work.	Excited
+No, no, it's bound to the package phase, don't worry :-) 	Relax
++1, looks fine to me.	Relax
+biggest news is we reached 100! :)	Excited
+Thanks for the status update.  I'm excited to get this working.	Excited
+Sorry, didn't see that Alessadro had committed 528, had to rebase ;) 	Stress
+My apologies, it's not committed yet. Issue Re-opened	Depression
+Committed revision 603540. Very nice set of additions.  Thank you for the contribution Sangjin. 	Relax
+Yes, there is absolutely no emergency for me.	Relax
+Thx Kevin always a pleasure to apply your patches	Excited
+You must be confused. This message still exists.	Depression
+Thanks  Cyriaque, that is applied now. Your patches are a pleasure to work with.	Excited
+The workaround using cli.xconf has been working nicely.	Relax
+> This issue is related to XSLT, not to FOP. My apologies.	Depression
+I apologize, but I'm still confused about what the problem is that you want to solve.	Depression
+No worries. I was Excited too. Thought I could make my code a little cleaner... alas, its back to the ugly way	Stress
+Thank you very much :) Very nice!	Excited
+No worry ;-) 	Relax
+Latest ist 1.2.4, actually  --- sorry I confused version numbers.	Depression
+I am a little confused about the patch, so i'll reopen this issue for now.	Depression
+I totally agree :) Looking forward to next Discovery release, I'll let you know!	Excited
+Better late than never: fixed on trunk, see r1088177 :) Thanks for your contribution!	Excited
+You're right, Stefan! It's fixed now. :) Thanks	Excited
+Thanks Stefan! It's working now... :) Very quick fix	Excited
+This works very well. Thanks a lot Stefan! :)	Excited
+Just perfect ! We are waiting for tye confluence page :) Thanks Stefan	Excited
+Cool... :) Thanks for testing out ! I'm resolving and closing the issue, then.	Excited
+Thank you Emmanuel ! :)	Excited
+Damn, you fixed it before I did :) Good catch Stefan !	Excited
+Agreed and just committed. ;)	Relax
+I confirm this is fixed. It now works like a charm... :) Thanks Emmanuel!	Excited
+OK, I will fix this issue tomorrow. No worries. 	Relax
+Renamed the issue, and discared the problem of visibility, it deserves another issue	Neutral
+Can you go a little bit farther? I'm afraid I don't get what you really want.	Stress
+I'm afraid this will be a bit difficult to fix for 2.0.  We have to think about it for 3.0, IMO.	Stress
+Fixed.  Thanks for the patch! :)	Excited
+Sorry, I was confused. :-$	Depression
+Very very odd when I try to build again it all works this time.  I'm confused.  	Depression
+Thanks for the heads up! :)	Relax
+Submit apatch! :) Robert	Excited
+How disappointing. I'll apply your patch and see if I can see those deadlocks also.	Depression
+It's a pleasure, Knut. I have finished it. Please check the patch.	Relax
+I see ... I am relieved to read it.	Relax
+A little too eager with this one - better leave the issue open until the patch has been committed ;)	Stress
+OK, I'll do a patch; next week, I'm afraid.	Stress
+Thank you! :)	Excited
+The wsdl was invalid, but the diagnoses was lame. Diagnosis repaired. 	Depression
+my bad, wrong web service	Depression
+For your pleasure	Neutral
+I have verified the fix on my end as well. Wonderful ! 	Excited
+It makes me a bit nervous to copy PathUtils. I suggest a comment that this was copied and why.	Stress
+Nop ! I guess that's it ! Thanks for the information, these version conflicts drive me crazy ! :)	Stress
+Ridiculously huge patch that just renames things-- no code changes. Will commit shortly.	Stress
+Thank you [~dch]! :)	Excited
+Fix COUCHDB-1473, and you get COUCHDB-1472 fixed for free! :)	Excited
+Thank you guys, I wanted this to happen since forever! :)	Excited
+Ah! Gotcha. :) Yeah, that crossed over into CSRF territory for me.	Excited
++1 on this, currently its a nightmare to replicate to databases that dont exist	Stress
+Gah, ignore that last, it was supposed to be on COUCHDB-954.	Depression
+Super excited about this.	Excited
+Well I'm mostly confused by the suggestion to map 0 to true.	Depression
+Please close this bug as incorrect.  My sincere apologies for being too hasty. 	Depression
+Already done ;)	Relax
+Sure, submit a patch! :)	Excited
+Ok, should be fixed now :) Thanks!	Excited
+I checked it, it works! :)	Excited
+Sorry to be a PITA, but I need a diff -u format :-/	Stress
+Thanks! Works now :)	Excited
+Patch applied, Thanks! :) Please cross check and close.	Excited
+Won't fix - we already have XMLForm 0.81 in the scratchpad! :)	Excited
+Agreed. And it's an easy change.	Relax
+Verified with latest build. Works fine.	Relax
+Network working fine now. attaching the logs	Relax
+last 5000 lines of SMlog file for your viewing pleasure.	Neutral
+Changing bug title to read SHA256 - suggesting we're using SHA1 scares me. :)	Stress
+commit 7dbea68b8728e4b3a5b727a4fd69712cd8a1c468	Neutral
+Closing this record, since 4.1.0 is now released.	Neutral
+Patch looks good. I'd merge it into master.	Relax
+no worry Jessica, I checked it looks like a server side bug 	Relax
+modified wrong bug - apologies	Depression
+I don't trust myself to answer that. :-/	Stress
++1, the new patch looks good.	Relax
+I just tried that several times. Still cannot reproduce :-/	Stress
+hey, turn that frown upside down, [~agrieve] no worries :) 	Relax
+So disappointed that, its arched for i386, but when set to armv7, the error pop up again.	Depression
+Excellent, glad this is resolved.	Relax
+I don't use and IDE and I don't use hard tabs :-/	Stress
+Yes, that should reproduce it.  The connectivity in Vancouver was terrible enough that we didn't have to do this.	Neutral
+Nice!  LGTM (with spaces around operators, please :).	Excited
+I'm confused as to why we need negative tokens.	Depression
+This actually is severe.  Since they hang, it blocks all schema changes	Stress
+This will be a big win, I'm excited.	Excited
+Sam, I'd be willing to help out on this - we're getting excited for vnodes here (in ec2!).	Excited
+Tried both of those as well with no luck.  You can see why I'm confused =)	Depression
+Thanks Brandon, sounds very promising, excited to try it out.	Excited
+actually it's not quite the same, got confused by merge conflicts	Depression
+Usually that just means ant got confused.  Try "ant realclean" first.	Depression
+Quite right. was looking at WordCountCounters :-/	Stress
+ok, thats my folly. i confused rowkey with column name, i am so sory for that.	Depression
+pulls in correct env properties	Neutral
+I tried to find a list of changes from 1.1.1 to 1.1.2 but sourceforge defeated me. What a terrible site. Any pointers?	Stress
+> When a CF or KS is dropped, the data is deleted. That scares me.  Safety nets are good.	Stress
+I doubt it.	Stress
+The patch looks good then.	Relax
+I feel ridiculous nagging people to review this, so applied.	Stress
+This patch adds the notices	Neutral
+Patch looks good to me. 	Relax
+Don't worry, I will take care of it. 	Relax
+Patch looks good.	Relax
+Did update the 2.10.0 release notes as well. Though 5100 is not as sexy as 5000 :-(	Depression
+No :-( Let me quickly check the osgi blueprint as well.	Depression
+Hi, glad seeing my suggestion is adopted, thanks.	Relax
+Okay that is fine. A shame JEE servers can play tricks on you.	Depression
+I am pleased to see some progress here. :-)	Relax
+Thanks Roland. Yeah unfortunately the XML API in the JDK is pretty well terrible.    Let me look into what we can do in Camel	Stress
+agreed! :)	Excited
+I will commit this patch when the release is done ;)	Relax
+Patch applied with thanks! :)	Excited
+Fixed - on the ConsumeJmsBytesMessageTest - thanks! :)	Excited
+I tried to apply the patch this morning, but CVS was down for maintenance :-( 	Depression
+That's really stupid :-/	Stress
+bumped - outoftime (again :(	Depression
+new patch looks good. running tests now.	Relax
+Patch looks good Ivan, +1.	Relax
+Patch looks good to me. +1	Relax
+Thanks Ivan. Latest patch looks good.	Relax
+patch looks good. +1 thanks Ivan.	Relax
+oh, :-( . Do you think, we need to inform to INFRA?  I am not sure, who can take a look on this.	Depression
+Committed as r1357264. Good work Jiannan	Relax
+@Ben,  Nice one. I like it. Flavio, are you trying to scare people with black background ppts? :)	Relax
+Oh my, that's a big bug.  :-/  That's a blocker for 0.2.1.	Stress
+Nobody notices an old dusty guy in the corner :-(	Depression
+No worries -- just close it as not a bug ;-) 	Relax
+I've spend enough time trying to bend Puppet to my will. For now, please review the boring stupid textual rename. I will deal with a bigger issue in a separate JIRA:  BIGTOP-326	Depression
+Unfortunate, but I see no other way to work around it. +1	Depression
+This is resolved with SVN revision 661404. Thanks for the contribution Poorna.	Depression
+Fixed with revision 354954.  Finally!  :)	Excited
+Fixed with revision 164957.  Very glad you caught this.	Relax
+ignore atlassian.txt mozilla file-picker seems to be behaving poorly. thanks rich.	Depression
+Actually I was using the latest development version. :-/ 	Stress
+Sorry, poor choice of words on my part.  The Java server of which I speak is the Axis 1.4 server. 	Depression
+Fixed and samples are working fine.	Relax
+Sorry, wanted to clone and add to different project but this is not possible :-(	Depression
++1 for the new define    Yea the int cast was a terrible mistake, I corrected it in the svn.	Relax
+This patch is too old to apply :(	Depression
+YUP... now I am getting different error :-(. I have appended the above thread for details.	Depression
+Unfortunately, no updates :(  -- dims	Depression
+Yes, someone should have a look at this. I just ran it again and it is still failing.	Depression
+My pleasure. Thanks you guys for your guidance.	Relax
+TestWordCountTether times out.  I suspect the wrong version of Java is used for subprocess.	Depression
+This is a wonderful tool. Am late here, but thanks again Miki!	Excited
+Gah, missed datafile.py. Cleaned up in revision 951585, merged to branch-1.3 in 951587.	Depression
+BTW, I'm annoyed at talking about it, so I'm writing the "avrocat" tool right now.	Depression
+Whoops, got my JIRA numbers confused.  Here's hopefully the updated version.	Depression
+Now with granting license :-/	Stress
+Thats fantastic, thanks a ton. Patch applied.	Excited
+ok... try the correct patch :-(	Depression
+?This sucks, lemme dig into it.	Depression
+Sigh; I can't read properly :-/	Stress
+Nod, I got confused.	Depression
+Sure, always! Post a patch please :)	Excited
+We should file an associated bug about how this is handled poorly by the state machine.	Depression
+This is invalid, it's because my "test origin" caches the damn 40x's.	Stress
+Oh, agreed! It's a good spot on your part. I was just providing some context for your comment. :)	Excited
+Fix committed - the date format was just plain wrong :-/	Stress
++1, absolutely!!! :)	Excited
+Thanks for the suggestion Andy! It is usually a boring stuff bot nothing challenging :) 	Excited
+Patch applied Rob - thanks again! :)	Excited
+We gladly accept patches.	Relax
+Checked it out, does the trick :) Thanks!	Excited
+Awesome!  :)	Excited
+That's what I get for rushing, thanks, fixed now. 	Relax
+Wow, that was fast, thank you very much!  :)	Excited
+Patch against 5.7.0 tag with testcase that reproduces the issue and poor fix.	Depression
+Presto !!! Works like a charm for me :) Thanks Tim. We should let Buchi also confirm this.	Excited
+No worries David - gonna mark this one as resolved 	Relax
+Subin,  Very excited to see all this! 	Excited
+Great.  I'm glad it's working for you now, Erin.	Relax
+Please excuse my poor English.	Depression
+All done - a bunch of refactoring needed, but it all works nicely now.	Relax
+I've checked and applied your patch; please close if delighted.	Excited
+yes, I'm delighted. Thank you so much for the prompt response!	Excited
+No worries, I'll get on that. 	Relax
+I'm an idiot... this already exists.	Depression
+I'm dumb and just misread it.	Depression
+Any future issues with this should be a new ticket, not reopening this one. Too many nightmares already.	Stress
+Unfortunately I cannot attach a screenshot :(	Depression
+No worries James, I'm glad it's really fixed. Cheers	Relax
+and same problem with 5.3.SNAPSHOT I'm afraid	Stress
+That is unfortunate, we will try and fix this for 1.5.9.	Depression
+Ah right, sorry I misunderstood. I reopened the issue, and will fix asap.	Stress
+In case people get confused, this now means #{expressions}	Depression
+Thanks Rossen, pleased to help such a great project.  :) My CLA # is 60220130724065302.	Relax
+Great!  I'm excited to see how spring-boot looks. Mike	Excited
+No rush; thanks for taking the time. 	Relax
+No problem, glad you worked it out.	Relax
+Agreed. This isn't fixed by 3.1GA I'm afraid.	Stress
+I'm running in this issue as well. This is very annoyed for production environment. 	Stress
+Nasty implementation.	Stress
+Thanks for the link! Tried searching but couldn't find anything relevant :-/	Stress
+Thanks Juergen -- this is fantastic.	Excited
+I'm afraid this workaround will just bypass the isolation level setting... Juergen	Stress
+The first zip-archive seems to be broken :-/	Stress
+Sorry, I got confused with the source trees and was looking in the wrong tree.	Depression
+My pleasure. Thank you for the detailed documentation and the Spring Integration project.	Relax
+No worries. Thank you for clarifying that so quickly.  	Relax
+No problem, glad we found the problem.	Relax
+Forget it, dumb idea and out of scope	Depression
+Stupid Maven	Depression
+done yesterday.  update source tree ;) 	Relax
+This isn't going to be done by Alpha3. ;)	Relax
+no worries. i'll do merge. we need to cherry-pick it. 	Relax
+Why the hell do they deliver Duration, if they cannot instantiate it :-/	Stress
+Unfortunately this is another issue with Jettison itself ... :-/	Stress
+Or maybe not, I was confused.	Depression
+Of course it did not. I do feel ashamed now yet very thankful for quick and helpful reply. Thanks.	Depression
+Wow, I feel stupid. A fix is coming your way soon.	Depression
+I'm glad you liked it and approved it.	Relax
+The file beans.xml was missing at META-INF, terrible sorry for this mistake	Depression
+Terrible sorry Toby. I'll update the documents	Stress
+I apparently suck at finding pre-existing issues...	Stress
+I suck at JIRA.	Stress
+Or perhaps I'm confused.  Will update shortly.	Depression
+Grrr that bug.  Ok I'll need to find time to examine that bug.  It is a strange one.  	Stress
+The defect  from hell 666, be scared..	Stress
+BTW, I know that I can get it working to a certain degree unsing profiles, but the resulting pom just looks terrible.	Stress
+The testng community is feeling very sad from not having maven 2. :'(	Depression
+Grrrr, why can I not set the component when creating new issues...	Stress
+I am confirming this. And this effectivelly disables using Sonar for php 5.4. Which is terrible, as PHP 5.3 is on end of it's life.	Stress
+Do you have any PDF example to attach to this ticket Antonio ? I'm too much excited :-)	Excited
+Yep well spotted, it's really a nightmare to implement this kind of checks, the AST is slightly different for every possible syntax.	Stress
+Unfortunately, I don't think this will make it into 0.7.	Depression
+Actually I almost done work on this ;)	Relax
+Sorry, I was confused by the picture, this is still missing in ER2	Depression
+Oh of course. It was a stupid question.	Depression
+Nothing to do in french plugin. Translation of checkstyle is not done yet ;)	Stress
+Page 45, Figure 10.1 is useless because the texts in the image can't be read. It has poor quality.	Depression
+committed, review would be appreciated ;)	Relax
+My bad. I had an alpha-7 snapshot on that moment.	Stress
+codehaus is insanely slow, making my browser very unhappy :-/	Stress
+Sorry Dave :-/ This is a stupid MMTk restriction.	Stress
+The patch looks good. We can apply it.	Relax
+Created a pull request. How strange and ugly that git is, uh... :( Poor Linux developers.	Depression
+It worked the second time I tried it. Now I'm confused.	Depression
+Yeah, I guess...I'm pretty disappointed, too.	Depression
+You're right. Poorly designed. We'll get a new version out...	Depression
+my bad, wrong deployment.properties	Stress
+Stupidity. I was looking at the 'work' directory.	Depression
+This is not a bug...just poor reading of the documentation on my part :)	Depression
+Duplicate of parent jira :-(	Depression
+There're 4 files in the. Zip is a pleasure to contribute.	Neutral
+Feel free to assign it to me to mitigate developers from such boring stuff. I can do it as my opensource effort during free time.	Depression
+I tried it and unfortunately it is the same with FF 19.	Depression
+My pleasure Brian -- BTW the fix seems to be working for me.	Relax
+grhh windauze :-(	Depression
+I doubt I have the old database.	Depression
+I can test this only in two weeks, unfortunately. 	Depression
+I see your point. I confused the repository poms with pom.xml.	Depression
+Negative :-(	Depression
+This is blocker issue for me :-(	Depression
+The problem is still present with version 2.2.1 :-(  Is there a workaround ?	Depression
+THis was just stupid.	Depression
+Seems not to work :-(	Depression
+Same error if the url isn't defined in the repository, but I remember to have already fixed it :-(	Depression
+Ok, no worries, I'll look at it again. 	Relax
+so attached the project .. sorry for the delay ... had a terrible flu   If you need anything more , let me know 	Stress
+I began to track the first one but I don't yet succeed to find where it comes from :-(	Depression
+The fix for MPSITE-28 created this problem :-/	Stress
+I would have voted for this.  Seems a shame to shut it down so quickly.	Depression
+:-(	Depression
+Wow, this would be a fantastic improvement for this plugin. 	Excited
+Fixed. PS: I added a test case, although the test case interactes with the user (which is bad :-(. 	Depression
+still not available for 3.0.4.RELEASE :-((	Depression
+Hm, now Bamboo fails :-(, see https://bamboo-ci.codehaus.org/browse/MOJO-MEXTRAENFORCERRULES-52/log	Depression
+unfortunatelly still can't reproduce	Stress
+Rats; that didn't work.  :-(	Depression
+I don't have this problem :-(	Depression
+No worries, the one you submitted will do. Thanks. 	Relax
+Argh.  Proxy configuration issue...	Stress
+:-( The problem still exists in 3.2.1-SNAPSHOT (version 17.4.2008)	Depression
+Anybody got chance to apply this to trunk? This bug is extremely irritating	Stress
+Same behaviour with 0.0.8. Not even the preferences window can be opened. Quite disappointing.	Depression
+error in my demo :(	Depression
+Hi Thomas, I don't get it - the bridge is already done by richfaces isn't it ;)	Stress
+Also affects Maven 3.x unfortunately :-(	Depression
+Bernard, You are right. The annotation in UserResourceImpl is just ignored :-(	Depression
+This is probably actually a mac bug, trying to trace through the maze of symlinks is a nightmare	Stress
+:-( I'm sad to hear it. I hope maven 2.1 will be available quickly. 	Depression
+Tried to test it this weekend, but 015 is still on dev :-(	Depression
+Yikes...this one got past me...sorry.  Thanks for committing the change...looks good to me.	Stress
+Stupid, stupid, stupid....	Depression
+Unfortunately, the plugin currently only allows one taglet.	Depression
+really stupid error in my pom.  sorry.	Depression
+Fixed for 6.0.0.CR4. Thanks for reporting, Reinis! :)	Excited
+@Henrik thanks! If it's good, I 'll merge it :)	Excited
+I don't get the problem.  Generics are just syntactic sugar anyway; underneath the covers they're all just plain old boring Lists.	Depression
+Fixed and pushed to SVN (this time with proper log message ;)	Relax
+2.3.0 is around now :)  Thx!	Excited
+Hm, not resolved in 4.5.6.1 :-/	Stress
+you just build before I committed all my changes ;)	Relax
+Vlastimil, where is this report? I'm excited to use it for the Seam 3 release.	Excited
+The problem is back :-(	Depression
+There was some confusion at the beginning but the issue is coming from Maven 2, not linux (probably some plexus dependency chain nightmare). 	Stress
+The patch looks good to me.	Relax
+Still not ok.... hpux compiler creates .sl files :-(	Depression
+No worries.  Will release a new version just for maven. 	Relax
+Sorry! There you go :) 	Stress
+:-( It's annoying I'll try to reproduce it and I'll prepare a testcase. 	Depression
+I reproduced it again :-(	Depression
+Hmm, OOB messages (which are unordered) might kill the above plan... :-(	Depression
+I'm sorry, but now my project classes are doubled in the right place in package hierarchy :-(	Depression
+I'm really anxious for this fix. Is it available as a snapshot anywhere?	Stress
+IMHO those binaries are based on wrapper which is not anymore ASF license compatible. so bad :-(	Depression
+[~rafabene] I can't actually see it, which is probably a bad sign :-/	Stress
+out of date, stupid idea	Depression
+And that closing '-->' is a typo .... when pasting. Sorry .. :-(	Depression
+Way outside my expertise, unfortunately.	Depression
+I'm glad they fixed it. I thought that was really strange behavior. Thanks Hiro.	Relax
+Unfortunately yes :-(	Depression
+Nice, that sounds good. Is it already in master? I'm excited to see the improvements in action :)	Excited
+It is always peculiar when we perform more poorly than 1.9. I'll poke around a bit.	Depression
+Ugh, I swear I put it under Embedding, but it says None now. :-/  	Stress
+Oops, that's horrible. This is now fixed.	Stress
+Nice softball fix :) Stu will be pleased as well, I'm sure. Resolved in dad8d42.	Relax
+Fixed in 6263a41 on master branch, patch by Joseph LaFata, thanks! :)	Excited
+Please ignore me....I am confused this morning. *sigh*	Depression
+ok stupid me. Please close the bug then.	Depression
+Eric, glad to hear it and happy to help in any small way. 	Relax
+I'm stupid. Will fix momentarily.	Stress
+Postponing, again :-(	Depression
+JIRA is a bit stupid sometimes.	Stress
+Man, I've grown to hate windows.	Depression
+Hold it - I forgot the equals overload for setters. It was 3am :-/	Stress
+Unfortunately this won't make 1.0.2.	Depression
+Good, simple fix. Committed in 4447.	Relax
+I really need this. I'm anxious!	Stress
+I'm confused about where the JAR is.  I don't see it anywhere in Seam.	Depression
+Yes, well JSF exception handling is very poor. Dan, do you have a proposed solution for seam-gen?	Stress
+yes,you are right, apologize for my poor english.	Depression
+Yup, you are right, I got confused about when I did the changes.	Depression
+Unfortunately still no joy in getting this to build.	Depression
+Eugh, this is really nasty	Stress
+Thanks Damian! No, just the 2.0 version is good :)	Excited
+Yes, this is exactly what we were talking about all along.  I'm glad you agree.	Relax
+:) Glad I was helpful! Let's wait and see if that get merged.	Excited
+yew, what a horrible behavior...	Stress
+no worries, done 	Relax
+Stupid browser	Depression
+Yeah, that's a nasty bug we've got.  The error message is still terrible - but it's on my particularly long TODO list.  Cheers,  Ben	Stress
+Partly done. The stackability is still a pipe-dream ;)	Relax
+I see it fixed already. Excellent turnover, guys, way to keep! :)	Excited
+Ran test case attached to JIRA entry using trunk and error still occurs. Sorry :-(	Depression
+Cool. Thanks for all your help. I'm glad you were able to figure it out so quickly.	Relax
+first cut at a boring decision table example.  topic is car insurance policy evaluation.	Depression
+lyle: added a first cut boring example for michael's review.  	Depression
+Thanks, Ben.  I'm glad it's fixed, one way or another.	Relax
+Neither did I! :) Thanks Ron!	Excited
+I hate blaming other projects, but it seems that json version is simply not compatible	Depression
+My pleasure.	Excited
+Sorry. Wasn't trying to irritate you ;-)	Depression
+the patch looks good 	Relax
+Works for me too :-/	Stress
+Might be buggy :-/	Stress
+Done unless proven otherwise! :)	Excited
+Sorry Aaron - I searched for "Elvis" and did not find the open issue:) Thanks for the hard work!	Excited
+stupid idea.	Stress
+Very pleased to note that is starting to move forward. Thanks a lot.	Relax
+Looks like the work's been done, thanks Danno.	Relax
+Argh I am on OSX and have the same problem. I don't recall having these problems before with JSR-05 	Stress
+Aaaargh.  The formatting is terrible.	Stress
+I am confused as to what is required of me.	Depression
+I got confused, this is documented in the Release Notes	Depression
+That's great news.  It was my pleasure.	Relax
+I upgraded this to critical b/c it confuses customers and wastes resources.	Depression
+That's fine; no rush. 	Relax
+Shame on me, I had forgotten the import in my gwt.xml... :-$ Sorry for that....	Depression
+That is fantastic. Thanks, Graham.	Excited
+I can confirm this bug. Seems to be a super critical blocker!	Stress
+spoke to aron....not for m5.... :-(	Depression
+doh forgot it is a quarterly objective :-/	Stress
+I was confused about the issue	Depression
+Argh. Bumped the silly enter key before completing the issue. 	Stress
+I got the same error after upgrading to 0.6 :(	Depression
+The zipped bug report doesn't contain test cases :-(	Depression
+This is not deterministically reproducible :-(	Depression
+Oops, formatting is b0rk3n, too. :-(	Depression
+Ugh, wonderful... no clue yet as to why this happens :-(	Depression
+Oh, I think I get it... um... well... not much I can do about that :-(	Depression
+No worries. Thanks for the update Juergen. 	Relax
+No worries, Justin. Happy to help. 	Relax
+Nice! Glad this will be fixed :)	Excited
+sorry for the poor review; I was getting confused with the ComplexTypes utility class.	Depression
+Another WMS lib fix for Jody's reviewing pleasure	Excited
+Reopening as this fix prevents LiveReload server startup :-/	Stress
+pushed to master. Ready for QE ;) 	Relax
+oh a patch for the test case ... my above commit is probably terrible then.	Stress
+pushed to master and also externalized the string. double trouble. ;)	Relax
+This is fine in master. No worries there.  	Relax
+Because this issue deserves its right patch :-/	Stress
+It's up and running for your pleasure.	Relax
+I've committed my fix. Up to you to verify ;) 	Relax
+Thanks, Rini. I'll try to not get too overexcited.  ;-)	Excited
+Patch looks good	Relax
+Patch looks good. +1	Relax
+Patch looks good. +1.	Relax
+Patch looks good	Relax
+Patch looks good. I've committed it. 	Relax
+Moving back to 1.7.1, this bug is a nightmare to diagnose and the fix should be easy.	Stress
+The problem is in the request, thought I agree setting it up properly is a nightmare...	Stress
+Almost four years passed... sad.	Depression
+Should be an easy fix.	Relax
+Ok, I'm closing this then, glad it worked out.	Relax
+My pleasure. Thanks for the great software.	Excited
+My bad.... sorry.... will fix asap	Stress
+if for later then mark as later ;) (done now)	Relax
+Awesome! Thanks a lot Uli! :) Cheers, -Alex	Excited
+fix has been committed ;) 	Relax
+Thank you. It was my pleasure to find and solve that kind of bug.	Relax
+much to my disappointment, jax-ws doesn't support this yet. I'll have to push this off.	Depression
+I've done an attempt for this one - let me know what you think ;)	Relax
+ah ok - just that I was told it was done for beta1 ;)	Relax
+argh ...any luck finding an issue in eclipse bugsystem?	Stress
+Sorry .... i cant remember the filename :-/	Stress
+vitaly has done the seperation so code completion is no longer dependent on VPE? nice ;)	Relax
+too trivial to not fix. done ;)	Relax
+done - please test ;)	Relax
+The JBoss IDE Cookbook was poorly defined and is no longer being updated. 	Depression
+And, in BrE at least, "mutt" = 'idiota'.	Depression
+So why not drop one installation method? It is just an overhead. Inconsistencies just look poor.	Depression
+No worries.  1 second fix.  :) 	Relax
+No worries, it is one less thing to check :) 	Relax
+GIve me a chance to check out what has been done ;)	Relax
+I'm realy quiet for the moment, but i am still alive ;-) So i wish a happy jump into 2010!	Excited
+Unfortunately impossible, same for Guice libraries :-/	Stress
+No worries. Always glad to help if things are so easy. 	Relax
+Sorry, this is a duplicate of issue #1378. Has to be deleted. :-(	Depression
+Poor guy is going to get sick of hearing from me, but I'll try :)	Depression
+Drat - this should be a minor issue at most.  It was significant in my brain-damaged test case, but only because the test was so terrible.	Stress
+Now it works fantastic.	Excited
+Oops, some bugs just never show up on any lists output by BugZilla .. :-(.	Depression
+No problem, I'm not annoyed. Glad it's working for you now.	Relax
+Closing as incomplete as the patch has vanished during our migration from BugZilla to Jira .. :-(	Depression
+Thanks, the patch looks good. 	Relax
+Ok, I was confused. {x|x} doesn't work, though {x|return x} and {x|x + 1} do.	Depression
+Hi Stan, I did so and I'm still facing same problem. :-(	Depression
+no worries I will push the first simple implementation  	Relax
+... and LdapExtLoginModule is not documented in the JBoss AS Guide :-/	Stress
+Tried to attach JConsole screenshot, but "Attach sceenshot" did not work :-(	Depression
+I had confused ISPN-1704 and ISPN-1754.	Depression
+Err, not done yet ;). Pull request sent status...	Stress
+Due to poor selection of state generator node for a given key	Depression
+Galder, can we get that into a snapshot since its a blocker? :-(	Depression
+yes, sorry. then you have it already - got confused with 4.2.0.CR2	Depression
+I'm confused about what's the most up-2-date branch for this...	Depression
+I am an idiot - this was a dupe of GUVNOR-84	Depression
+(sorry reassigning to previous owner, made a mistake)	Depression
+new JIRA confuses me, I missed fix version	Depression
+Sorry my mistake, it works fine on GateIn	Depression
+Unfortunately hardcoded in eXo Kernel	Depression
+We would need a complete review :-/	Stress
+Still happening on Tomcat :-/	Stress
+Probably won't have the time to look at it for 3.0 Final :-/	Stress
+I personally like the serif versions more as it gives the forge a little more pop.  Yes the sans version is consistent with the main site, but then again that's what makes it more boring.	Depression
+Nm. I see. I got confused by the Crucible notes.	Depression
+Merged! You got it right :)	Excited
+This would be horrible in EL without caching ;)	Relax
+I got confused	Depression
+Very good news!! Congratulations Alex!! This one was really heavy.	Excited
+Unfortunately, it still does not work with the patch.	Depression
+Rado, isn't this done? Give yourself some credit for a job well done. ;)	Relax
+Yes, It is a terrible bug . I injected JMS ConnectionFactory and JMS queue by @Resource, the problem occur too..	Stress
+This was my stupiduser problem.	Depression
+My pleasure ~c	Excited
+Damn, OK, we'll wait.	Stress
+No problem... glad to help.	Relax
+My pleasure.	Excited
+Defer, this is easy to do as an extension	Relax
+Sorry, the problem was not in jboss. My mistake.	Depression
+Thank you Stuart ! :)	Excited
+This issue unfortunately got to Beta1 release.	Depression
+sorry, my mistake	Depression
+This is really epic, congratulations! Wish you never beat 2000 .	Excited
+Unfortunately, I've seen this again even after the patch	Depression
+sorry about this, cloned issue created by mistake	Depression
+any news on that? Runtime performance is poor with every testcase making his own deployment.	Depression
+Emergency fix has been done for the 0.2.0 release, fix has been retrofit on 0.2.1-SNAPSHOT 	Stress
+I'm fine with either, or shift it to CR1 with no worries. 	Relax

@@ -1,0 +1,200 @@
+So, sorry I can't be more obliging.	1	1
+Bringing into 0.90.0.	0	0
+You would need to implement session resume; thats a whole new can of worms.	0	1
+Incomplete example.	0	0
+I don't think there is any sense in this, who cares?	1	0
+Patch that adds the fix to WebResponse	0	0
+(If you cast the Runnable in afterExecute to ScheduledFutureTask you can get access to the scheduling info.)	0	0
+Attaching patch file AVRO-957.patch:We (Hitwise Pty Ltd) hereby assign all rights to the code contained within this patch over to the Apache Software Foundation (ASF) under the Apache Licence.	0	0
+I found the (sad) attempt at a script you asked about and uploaded it to MAPREDUCE-4282.	1	1
+I'm leaving this issue open for further discussion.	0	0
+Integrated in Cassandra #446 (See [http://hudson.zones.apache.org/hudson/job/Cassandra/446/])    use cfid instead of name in CBL.	0	0
+I am going to wait until it propagates before continuing.	0	0
+Note that without this patch, there is an infinite loop that will hold a socket open forever (and consume cpu, though very few probably in that case).	0	0
+Oh, ok.	1	1
+Sorry, I had attached an older version... let's try this one.	1	1
+I dumped the txnlog from zookeeper2, here is the section of interest.	0	0
+And it will break ugly, everything seems to work, but data is never streamed to cassandra.	1	0
+Yeah we can do it in 0.8.1 which should happen fairly quickly after 0.8 but we are really trying to lock down 0.8 to critical fixes and this is more of a new feature (though obviously desirable).	0	0
+Sorry for the missing class src/java/org/apache/jdo/tck/lifecycle/StateTransitionsReturnedObjects.java.	1	1
+I've tried something similar (I removed the handlers and kept the readers), but the performance was not visible.	0	1
+Thank you for the patch Shawn, can you also tell us what behavior you are seeing that is wrong?	0	0
+But it seems like clients have to know which protocol they are talking to.	1	0
+Thanks Cyriaque.	0	0
+If we need to specify a different minSize later, we can add a {{setMinSize}} function.	0	0
+An alternate strategy is to not trust the buffer cache and read-ahead, but rather to make your buffers large enough so that transfer time dominates seeks.	0	0
+Hi Zeid,I'll go ahead and commit your changes, but this one doesn't look right...I think it's a hold over from the Mac files.	0	0
+This is the reverse side of ARIES 399, which dealt with a deadlock in ServiceRecipe.	0	0
+Committed to HDFS-3042 branch.	0	0
+Killed it with fire.	0	0
+But that state is only in the class not in the object	0	0
+Sorry for the delay, I'm recreating the mirror now.	1	1
+I'll try to test out the patch this weekend and let you know how it goes.	0	0
+Here is the new file.	0	0
+Sorry for that.	1	1
+When debugging it in Eclipse you can see the number of daemons grow very fast.	0	0
+well sorry, i didn't upload the right files	1	1
+No unit test, sorry (but there's not much deltaQuery coverage anyway).	1	1
+3c) The search order for customer-written routines is SQL standard: First we look in the jar file where the routine lives.	0	0
+I'm sorry Mark,I came back here to remove my comment as after building the app from scratch I have found that by default it used WhenExhaustedAction = GROW and not BLOCK!	1	1
+s/[~apurtell]/[~lhofhansl]/Sorry guys.	0	1
+In the case I mentioned in my above comment, we would not lose datanode heartbeats if we implement HDFS-1392.	0	0
+Aaron,Go ahead.	0	0
+ThusfetchInsertIterator could be made private.	0	0
+GenericData.getSchemaName instead throws an AvroRuntimeException so the special handling of UnresolvedUnionException in Responder.respond is skipped and the nested exception text is the result.	0	0
+sorry.	1	1
+Note that I was seeing the dreaded "Delta source ended unexpectedly" error at around revision 733924 [1], so I had to set the mirror to start the mirrored version history from after that.	0	0
+So I went ahead and made the change.	0	0
+Not sure I want the transient inability to clean up some local log or other trivial task to kill a whole pig job?	0	1
+It was attached to the wrong bug.	1	1
+> Stage 2, btw, will involve documentation.	0	0
+Do you mean you checked your proposition or mine?	0	0
+Santiago and I  have removed the readExternal(), writeExternal() methods (frominterfaceExternizable) and instead rely on readObject(), writeObject().	0	0
+I applied an addendum for HBASE-3904 v6 to TRUNK.	0	0
+I don't have resources to hand to test this at mo.	0	1
+I think it will be useful to standardize all the messages.	0	0
+You misunderstood the response: StopFilter indeed did not change.	0	1
+Adds a new class of Exception.	0	0
+sorry.. redeploy patch	1	1
+% host  mail.phnx.uswest.net.	0	0
+NPE is fixed.	0	0
+I haven't had any time to try re-upgrading after having to back out 2.0.8, but I will be sure to let you know how it works out as soon as I get the opportunity.	0	1
+Note also that an implementation goal is to not spawn threads to do writes to the underlying transport (like TFileTransport does now).	0	0
+I think WordDelimiterFilter has special code that might avoid the problem (line 352), so it mightbe ok.Is there any better way we could solve this: for example maybe instead of the tokenizer callingcorrectOffset() it gets called somewhere else?	0	0
+Sorry if this spam's things, however it's unlikely that I'll work on these.	1	1
+Sorry for the trouble.	1	1
+Sorry.	1	1
+Here is a JAXP program that I wrote that shows how this fix was tested:import javax.xml.transform.stream.StreamSource;import javax.xml.transform.stream.StreamResult;import javax.xml.transform.Transformer;import javax.xml.transform.Templates;import javax.xml.transform.TransformerFactory;import java.io.FileOutputStream;import java.io.ObjectOutput;import java.io.ObjectOutputStream;import java.io.FileInputStream;import java.io.ObjectInput;import java.io.ObjectInputStream;import org.apache.xalan.xsltc.trax.TemplatesImpl;public class ProtoTemplates {   public static void main(String[] args){        ProtoTemplates app = new ProtoTemplates();        app.run(args);   }   public void run(String[] args){        if (args.length != 2) {            usage();        }        String inputFilename    = args[0];        String stylesheet       = args[1];        Transformer transformer;        TransformerFactory factory = TransformerFactory.newInstance();        try {            FileOutputStream fout = new FileOutputStream("MyTemplates.ser");            ObjectOutput out = new ObjectOutputStream(fout);            Templates templates = factory.newTemplates(                new StreamSource(stylesheet));            out.writeObject(templates);            out.flush();            out.close();            // try to use the serialized  templates object, this will            // create a new Transformer Factory, see TemplatesImpl.java,            // readObject(...) method.	0	0
+@Joy: I agree that not losing heartbeats is the best scenario.	0	0
+Thanks Mathias.	0	0
+Patch framework src/java and src/test to include JNDI adapters and unit tests.	0	0
+In meantime I will see what I can do with respect to the context injection into subresources... Perhaps in some cases modifying the subresource classes with extra methods might not be an option.	0	0
+Only the first of these is a failure.	0	0
+You are going to kill me when I say this, but it seems like we should just commit your first patch.	0	1
+The token selector is used in ipc.Client, which has InetSocketAddress of the remote server.	0	0
+sorry for delay	1	1
+The patch should be relatively trivial, but like I said, I have no idea if there is other important stuff going on there or not.	0	1
+Now TestBatchUpdate takes 50 sec instead of 250.	0	0
+HTML is quite uncomfortable to work with.	0	1
+There will probably be some additional file checks, so you'll need to patch the projects yet again.	0	0
+Will take a closer look.	0	0
+I meet the same problem on Eclipse recently but haven't figured out how to get through.	0	1
+Just really wondering/hoping you'd be interested in working on these ??	0	0
+Sorry I thought submit patch was the way to attach a patch.	1	1
+You're right, looks like this is already the desired behavior.	0	0
+i committed GIRAPH-90 with wrong reference in commit message.	0	0
+Looks great Todd.	0	0
+(@ddlatham: thats kinda funny that you wrote the linked-to article -- it was a random google search)	0	0
+For example: EdgeNGramTokenFilter, ThaiWordFilter, SmartChineseAnalyzer's WordTokenFilter, etc?	0	0
+Thanks.	0	0
+Tests no longer sleep	0	1
+In that case, the NN should delay creating a replication-storm in the hope that the network partition gets resolved soon.	0	0
+They will save RAM to a certain extent for certain situations.	0	0
+However, I figured it was better to get it in the public domain sooner and let the iterative process do it's work.	0	1
+Sample implementation of CREATE DATABASE and DROP DATABASE for MySQL 5.0.2+.	0	0
+Patch uploaded.	0	0
+But I'm probably not an JMX expert... ;-)	1	0
+sorry, last patch was missing new files	1	1
+MR's fix (similar to HDFS one).	0	0
+And I did it according the style of each class.	0	0
+Thanks Doug.	0	0
+I need to list out all the jsp/servlet paths and check whether they are user facing or not.	0	0
+As for the OutputIntent, that is not necessary if all colors in the PDF are in a device independent colorspace (ISO 19005-1:2005, 6.2.3.1).	0	0
+Where is the 'Grant license to ASF for inclusion in ASF works' for the patch	0	0
+sorry, this bug is *not* fixed.	1	1
+Forget git add, get sad...	1	0
+I saw this behavior in a stress test just now as well on tip of 20.	0	0
+Trove's licensing won't be changing.	0	0
+3.x does not have a mechanism to pass state across core reloads, and that's a change I'd rather leave to 4.x.	0	0
+Currently the user passwords are too insecure.	0	0
+I'll attach a zip with a small test project where you can reproduce the problem.	0	0
+Sorry for the super-slow uptake on this, the new job is using up all of my limited brain resources. 	1	1
+Sigh, I don't like this overall if can't reuse everywhere.	1	1
+Sorry, missed this.	1	1
+Sorry again!	1	1
+Do you mind rebasing Vijay?	0	0
+Sorry typo:  "our part" in place of  "one part" above.	1	1
+Turns out that upgrading git (from 1.6.4 to 1.8.1) fixed this.	0	0
+Supplemental patch committed.	0	0
+Sorry for my poor review, didn't notice try/catch :(	1	1
+This jira is unassigned but contains a patch that needs to be reviewed for inclusion in 1.1.1.	0	0
+It is not well documented in MSDN, but it looks like RSP has to be always aligned to 16 bytes.	0	0
+Sorry about that...	1	1
+At some moments it could be upgraded to do IDEA 8 format, but it's not important for now.	0	0
+Regards,Softaculous Team	0	0
+One of my earlier patches had the log.info3.	0	0
+Creating Payment Application for outstanding amount [0.0] instead.	0	0
+But it does as a consequence of correctly raising an exception when should be.	0	0
+[~shwethags], Can you please fix this right away ?	0	0
+Thanks Thomas, committed to 3.4.0.	0	0
+Sounds good Claudio.	0	0
+What platform?	1	0
+@JonThanks for committing it.	0	0
+After applied patch, the output format just like this :[root@infra1 bin]# ./hdfs dfs -count -header /DIR_COUNT FILE_COUNT CONTENT_SIZE FILE_NAME           7        10002           10292583 /[root@infra1 bin]# ./hdfs dfs -count -q -header /QUOTA REMAINING_QUATA SPACE_QUOTA REMAINING_SPACE_QUOTA DIR_COUNT FILE_COUNT CONTENT_SIZE FILE_NAME  2147483647      2147473638            none             inf            7        10002           10292583 /	0	0
+ant tests passed on my box.	0	0
+Thanks Mark for taking care of this issue!	0	0
+i found the class - so there is no bug - sorry	1	1
+ill upload a patch for 3.1 and 3.2 branch as soon as ZOOKEEPER-597 gets committed to those branches.	0	0
+<joes4> lists will be available in 1 hour from now.	0	0
+2) To get secure behavior for java routines, the customer has to explicitly opt-in.	0	0
+Sorry guys, I've been pretty busy @ work but I have been watching this.	1	1
+Another error is that the class Functions.NEGATE is misspelled as Function.NEGATE.	0	0
+This symbol is not used for the Windows Netaccessor.	0	0
+The patch in FOP-1099 fixes it, though.	0	0
+Will nudge to see what people think.	0	0
+Git is tricky that way.	0	1
+Removed a printPlan use in TestLogicalPlanBuilder.javaThe unit tests that still fail are:    [junit] Running org.apache.pig.test.TestEvalPipeline    [junit] Tests run: 8, Failures: 0, Errors: 1, Time elapsed: 141.926 sec    [junit] Test org.apache.pig.test.TestEvalPipeline FAILED    [junit] Running org.apache.pig.test.TestFilterOpNumeric    [junit] Tests run: 8, Failures: 0, Errors: 1, Time elapsed: 56.446 sec    [junit] Test org.apache.pig.test.TestFilterOpNumeric FAILED    [junit] Running org.apache.pig.test.TestStoreOld    [junit] Tests run: 3, Failures: 0, Errors: 2, Time elapsed: 39.782 sec    [junit] Test org.apache.pig.test.TestStoreOld FAILED	0	0
+The unit test code is for a sleep job where splits need not be different since they are empty.	0	0
+The two issues mentioned by Tom has been fixed.	0	0
+Sorry, that should beFileChannel inputChannel = input.getChannel();FileChannel outputChannel = output.getChannel();in the try block.	1	1
++1 for making test behaves predictable.	0	0
+Subject.doAs tricksGood point.	0	0
+1	0	0
+> we have to do it for each call.	0	0
+#NAME?	0	0
+1	0	0
+Stroooong ++++++1I wanted to do that long time, but some tests were made me afraid.	1	0
+Thanks for looking into this Allan.	0	0
+ThanksChandan Khandelwal	0	0
+So either new-style hints are being written without versionColumn by RowMutation.hintFor, or old style hints did not get cleaned out properly by SystemTable.purgeIncompatibleHints.	0	0
+I guessed UIMA_HOME/config but could be /lib	0	0
+We can go back to something like that if we want to manage that subset more intelligently (2).	0	0
+Secondly reading this code I can see why this bug is happening, after completing stage 2 above when adding the new item the code does "ordered - cancelled = quantity" which equates to "1 - 1 = 0".	0	1
+{code}+      DataOutputBuffer buf = new DataOutputBuffer(size);{code}	0	0
+but both IDEA 7 and IDEA 8 seem to handle them just fine.	0	0
+Ignore comment.	1	1
+I've filed them in this JIRA: HDFS-2875.	0	0
+<joes4> This is a bug in FreeBSD's ldap support- sorry there's nothing we can do about it.	1	0
+16-byte BigInteger is overkill, all we need is a reasonable distribution (now that Tokens don't need to be unique) and 64 or even 32 bits is plenty for that.	0	0
+Here are 2 patches ... one for adjustExamplePaths.bat & .shand the other a new file holding 2 User Libraries ... UIMA_LIB & UIMA_AS_LIBNot sure where this should go ...	0	1
+Checked in with revision 388211.	0	0
+The insert_between.patch fixes the following:1.	0	0
+Sorry everyone.	1	1
+Sorry, in rushing to commit I forgot to add author during the commit.	1	1
+Sorry I'm wrong about #2.	1	1
+Thanks for the reference, I'll look into it.	0	0
+Sorry for that.	1	1
+(Also: have you verified that the channel will actually infinite-loop returning 0?	0	0
+I don't have very much experience on branch-1, would you like to take a shot at the port?	0	1
+afaict things are working properly, at least on the ZK side of things.	0	0
+This seems to be a larger problem that would affect all tokenfilters that break larger tokensinto smaller ones and recalculate offsets, right?	0	0
+Sorry  about that, tiredness.	1	1
+I include it because quite a few of the threads from the first dump have stopped by this point.	0	0
+Sorry, no longer working on this	1	1
+I'll get it right this time :)	0	0
+While creating the DerbyTest I did notice that this problem is caused by the Database pool because it tries to connect to the database in the background.	0	1
+I presume either that statement can now be removed or the original intention of the statement needs reimplementing?	0	0
+Sorry, that should have said fixed via HADOOP-4980, not 6980.	1	1
+Sorry for the noise.	1	1
+I used to have the subset of in-memory partitions maintained as a sliding window (i.e.	0	0
+Sorry, for all the issue mails, I forgot to mention the second:2) There is commented source in the test, should it be enabled or removed?	1	1
+Uploading rebased patch for sathish	0	0
++1 on intent from looking at what the patch fixes.	0	0
+I have a really bad habit of not reading thru all the bug comments before asking questions.	1	1
+Sorry folks, the full fix was committed in rather a messy manner due to some platform specific issues.	0	1
+2	0	0
+Everything timed out.	0	0
+I was not aware of being required to call that method.	0	1
+Go ahead commit Nitay.	0	0
+This test pukes all over the place when the first test fails.	0	0
+They should be adjusted to the best settings based on the wiki info.	0	0

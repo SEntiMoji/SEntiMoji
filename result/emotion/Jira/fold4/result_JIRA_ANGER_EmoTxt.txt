@@ -1,0 +1,197 @@
+Crap, forgot to verify that this is inconsistant with MRI, it's not.	0	1
+Also, I won't give you a patch next time, but just the whole new TestTransSystem.	0	0
+Well, that sucks.	1	1
+I'll make that change and close the issue.	0	0
+Why are you asking us for samples?	0	0
+I don't want one-offs like this to become lost and forgotten.	0	1
+OK to commit to 1.4.4	0	0
+Damn, Chuck is scary.	0	1
+This is pretty embarassing!	0	1
+5% seems pretty low.	1	0
+the recommendation in the wiki is bad.	1	1
+Damn it.	1	1
+Im stuck with IE6 unfortunately.	0	1
+I think all properties and permissions should be maintained.	0	0
+I encounter the same NullPointerException in the 4.1.0 source code release, but currently I don't have a git 4.1 environment to verify it.	0	0
+Sorry...	1	0
+This is introduced by API performance refactoring, the intent is to generate the same response object for both listxxx api and other apis related to the same entity.	0	0
+It is not ok for the interface reference not be fully qualified.	0	0
+So, the original problem appears addressed (as I said, the 3 failing tests now pass), but I will investigate these behaviors, and run on another type of machine just to be safe.	0	0
+Seeking back is pretty inefficient in DFS.	0	1
+Weird.	1	1
+If that's true, it'd be nice if we had a standard way to annotate such code so we can methodically remove the old stuff.	0	0
+You just need to remember to put the expected first in the assertion or it gets confusing	0	0
+I was surprised to see this issue still getting so much commentary.	0	0
+i could have sworn i clicked the other radio button	0	0
+Yeah, I didn't mean to imply that setting a null value was the problem, which is why I changed my comment to denote the problem was actually in the federated connector.	0	0
+{quote}Dear Azuryy Yu,This message acknowledges receipt of your ICLA, which has been filed in the Apache Software Foundation records.	0	0
+I think the bnest solution is (2), because the UP value is supposed to be valid - it has successfully been parsed when the first request arrived -.	0	0
+Is it by mistake?	0	0
+What a stupid name I chose for that object... )-:	0	1
+This JIRA will be closed.	0	0
+I would have hopped that the URI(String) constructor would have decoded things properly (or encoded them as it happens to be here).	0	0
+{quote}Neither of these produce a copy.	0	0
+Are we on the good path...	0	0
+If we remove an entry while someone is doing a search, the search will fail.	0	0
+GroovyClassLoader does not know Groovy classes, the parent *must* know them.	0	0
+Okay Edward, you haven't understood how it works.	0	0
+Marvin, I've clogged these lists too often today, so I'll just say this to you.	0	0
+I'm confused...	1	0
+That irritated the hell out of me too, but I didn't realise it was configurable in the .launch file.	0	1
+An output connector should also have a say in what URLs it will accept.	0	1
+Damn copy/paste programming.	0	0
+The number of failed tests is pretty high compared to last time's performance (67 bad vs 3 last time).	1	0
+For VMware, we noticed that there are several places requiring cleanup of staging storage object, which requires a generic approach to thoroughly fix them, and cannot make it in 4.2.0.	0	0
+Fixed in nightly build 20020623.	0	0
+I am currently trying to get it into AJDT dev builds but my git push is timing out (damn thing!	0	1
+For *all* this protocols/endpoints, Camel already offer consumers.	0	0
+Oh fuck :-) Sorry. Not my day, more beer needed!	1	1
+The only forms of damage that make practical litigation sense in the FOSS world are *statutory damages* and *attorney's fees*. 	0	0
+Making a blocker.	0	0
+This is a really cool idea, but I don't think this is going to make it into TRUNK before the 0.4 branch gets cut.	0	0
+Then, to make matters worse, since the mid-1990's I've been offering pro bono advice to non-profit foundations whose members insult me regularly and assume I'm an amateur.  	0	1
+I've looked at what can be done within the NSIS framework we use to build the Windows installer.	0	1
+Shit, there is an dependency. Please go to Preferences -> LDAP -> Entry Editor and enable the option "Show operational attributes".	0	1
+OFFSET X LIMIT N(slice X _  (top (N ...)    (...)  ))that is, put a slice over the "top" and apply the top to N+X.	0	0
+If a threaded management is needed, then a new class should be used, that ensures the conditions are fulfilled.... that is at last that the context loader is unchanged.	0	0
+Original edited patch was messed up... stupid sed!	0	1
+@2.	0	0
+Jerermy is the sole subscriber/moderator and can take care of adding other subs.	0	0
+I just applied the patch, ran tests.	0	0
+Note to self: Always check for platform-dependent behavior!	0	0
+Honestly, there is no way around this issue - of course we must discuss and come to some solution regarding Lucene/Solr at this point.	0	0
+First, an attempt is made to convert      * each argument.	0	0
+I remember that rule for line breaking in Japanese was very different from that of English.	0	0
+Hell or high water.	0	1
+We need a proper JUnit test for this!	0	0
+Typical POST then DOH moment.	0	0
+My bad.	1	1
+I agree with Sami that this should be contributed to Tika and that we delegate the language identification handling in Nutch to Tika, just as we are doing or planning to for the MimeType and the parsing 	0	0
+:org.osgi.compendium-1.0.1artifact and felix-1.0.4 framework	0	0
+Pull it back in if you think different.	1	0
+Fixed using the new injection framework and xwork configuration design.	0	0
+There is no RPC stuck but a lot of "Connection reset by peer".	0	0
+Damn dyslexia!	0	1
+That sounds like some serious buck passing.	0	1
+Fixed bug of <hr />, the siteinfo is always after the rest of the page now.	0	0
+You must take care about versioning then, and that is because we need a proxy between the inputformat and our vertex API.	0	0
+I don't care if everything is pretty or not, but we should at least support basic admin functionality in IE IMO (though I have not used it for years for just about anything).	0	1
+I don't want to put too much magic in the classloader structure, because it becomes messy as hell in an instant.	0	0
+If you want to have a binary sequencefile format, then do this.	0	0
+And I think if we're going to do a sweep up of shit, we should just kill root.	0	1
+Don't hate me, just throwing this out there.	0	1
+This is where it gets confusing.	0	1
+This is to say, that we've a pretty good coverage of IDC "keyref" use cases.	0	0
+The ci server does not close issue only comments on them, I closed this issue.	0	0
+Patch is pretty trivial, but gives +15% on MT/SerialBench on 2-core Core2.	0	0
+*.. info.ftl might have confused you :)Divesh	0	0
+In this case, data would pretty much just silently be lost.	0	1
+It seems really confusing.	0	1
+I know, in your webapp this condition might be fulfilled, but GroovyShell is not special to web applications. 	0	0
+Hell, UnaryFunction might even be faster than all of these calls in a row.	0	1
+Why would I want to use XML, when i can use the QBC API, or HQL (HQL can be embedded in the XML, remember), to express this stuff much more naturally?	0	0
+Otherwise, the constant will be converted  to DOUBLE.	0	0
+@idiot Yeah, I was on that idiot-path for a good while but commons-lang is a hairball, at least where this hashcode making and equals is concerned.	0	1
+There's a TODO which I'll take care of before merging to 4x (there are other renames too).	0	0
+Easy to say we can come back to this, easy not to.	0	0
+I just noticed your public tweet...bq. "@wilhelmbierbaum True. Fuck the Avro C API."	0	1
+Swear to god, I'm not a total idiot.	0	1
+Thus, the case is closed as non-reproducible.	0	0
+I'm just throwing it out there.	0	0
+[~cmccabe]: oh, hell no!	0	1
+I think I prefer this approach.	0	0
+I think there were a mistake.	0	0
+A second run (with 2048M) only got worse (sooner) OOM behavior and after that I had trouble getting rid of my processes- apparent hang with derbyall:lang/wisconsin.java.	0	0
+if (!jj_semLA || jj_3R_60()) return true;    if (jj_3R_61()) return true;    return false;  }The simple fix could be to wrap the lookingAhead assignment  after the call within finally block.	0	0
+this is IMO a regression since i am pretty sure it used to throw an InvalidItemStateException in the past.	0	0
+) - it should be in AJDT in a couple of days.	0	0
+- the computedHashCode() didn't use the a single "qualifier", now it does.	0	0
+The eclipse ui was completly stuck, which was similiar to the other experinces.	0	1
+bq. this is solr's fault by having a getter that does some heavy duty xml shit.	1	1
+which is silly -- bad package encapsulation).	1	1
+Doh.	0	1
+[~jbellis] The weird thing is that although *newSSTables.size() != newSSTablesSize* the assertion doesn't actually cause an error, so no stack trace, but swapping the assertion (as shown below) yields the stack trace below.	0	0
+I've fixed that locally and am doing a full build, but I'm going to build a test case to duplicate the error and then verify my proposed fix corrects it.	0	0
+That is not true.	0	0
+Does that sound like a reasonable plan going forward?	0	0
+tricky shit man! I think I found the issue!	0	1
++1 (damn intellij, it's not like patch format hasn't been standard for years)	0	1
+Do I miss something there?	0	0
+pread I mentioned is FSInputStrea.read(long, buf, offset, len).	0	0
+It is ok for goog.requires to be missing.	0	0
+Can't be avoided though given what is going on here.	0	0
+Since this patch is so damn large already I won't be making anymore changes to this other than critical/blocker bug fixes.	0	1
+Sorry again.	0	0
+The 0.95 branch is dead and defunct.	0	0
+I suspect it has nothing to do with the file system connector or Infinispan connectors, and is simply a (stupid) mistake in the federated join processor.	0	1
+How bad is it?	1	1
+:)> except at much worse performance.	0	0
+Damn...	1	1
+Because, we don't care for this in cases where we there is no node that is down.	1	1
+So to prevent a rude awakening for some users it might be cool to provide some means (config or whatever) that works similar as the current version.	0	0
+I just realized I never really explained the original problem that led me to making these fixes.	0	0
+I am planning to use this framework for some new RPCs I am adding.	0	1
+Tag is documented and demo'd, but does need a Facelets tag.	0	0
+So what this patch does is totally revamps the makefiles for erlang.	0	0
+This name gets confusing with all of our prenamed *Worker* and *Master* classes.	0	1
+How on earth is it buggy?	0	1
+Or at least schedule this for a release which allows for a downgrade.	0	0
+This is pretty interesting.	0	0
+But I'd have to play with it some to see for certain.	0	0
+Besides, I don't think there should be any expectation of "it'll just work" if you copy some arbitrary subset of an old schema into a new example config.	0	0
+Pull it back in if you think different.	1	1
+Default is true.	0	0
+The contribution archive.	0	0
+Ok.	0	0
+The CDE is using the base UIMA framework to get the metadata.	0	0
+I don't know how the hell my diff program decided to add seemingly random CR chars, but I've removed them now.	0	1
+So I'm totally +1 for the HBASE-8723 patch.	0	0
+Blooper after blooper - I hate SVN.	0	1
+explanation on SM-623	0	0
+Afair we settled on not implementing this as logging is hell anyway and we do not like to introduce just another logging framework.	0	0
+But now that I think about it, it may crap out when coming back to read even on a recovered file.	0	1
+The included things (usually chars or tokens) in the span are represented here as an interval and the end point is excluded.	0	0
+My bad.	1	1
+This patch also adds the new resource emulation framework to GridMix.	0	0
+That's my bad.	1	1
+I have changed one test to see what will happend if I set the pwdIdle to b > 0, and the test passes.	0	0
+.tmp was empty).	0	0
+I understand job execution creation needs to be atomic, but I don't think it implies the whole logic around creating job execution must be handled by repository.	0	0
+I just noticed that!)	0	0
+J-D gave my patch a review and said fine except for some line-lengths which I've fixed.	0	0
+I don't care what we do as long as we don't change the attributes in JSP significantly.	0	1
+It will be taken care as part of HADOOP-7642.	0	0
+Same for the settings.xml with cleartext password (this caused my initial 401 problem, no way in hell im leaving such a thing around on my computer).	0	0
+hi charlie,if you request this feature for myfaces-core (the jsf impl itself), you have to file the issue at https://issues.apache.org/jira/browse/MYFACESregards,gerhard	0	0
+Continue with stupid questions :)Who is sponsor and mentor of project?	0	0
+Looking forward to your patch.	0	0
+{quote}viewColumn v.s.	0	0
+I'll be happy to edit the wiki when I get thisresolved!	0	0
+Confused about this.	0	0
+Every framework will benefit from that!	0	0
+Additionally... GroovyShell doesn't care about threading.	0	0
+True.	0	0
+I am slightly confused by the above.	0	0
+People tend to review javadoc when things don't go as expected or are unclear.	0	0
+What the hell, I'll give this a shot.	0	1
+This also seems pretty reproducible.	0	0
+Thanks.	0	0
+Move startTime from DecommingStatus to DatanodeDescriptor so startTime could be used to represent either decommissioning or dead start time;2.	0	0
+Logic like that has nothing to do with GroovyShell in my eyes.	0	0
+Nothing stops a slightly evil user to use a NoLock to wreak havoc in the index.	0	0
+Pull it back in if you think different.	1	1
+I will appreciate if anyone knows of a way of doing that in junit framework.	0	0
+Why the hell do they deliver Duration, if they cannot instantiate it :-/	0	1
+I think this is what caught me the first time I tried this	0	0
+Perhaps this should be item #0, decide whether we want to work with Maven or Gradle.	0	0
+So, I'm fine with your logic, but given that I don't understand it please don't get upset when I ask questions on how I have to use it.	0	1
+I'm not against fixing the CS, I just want to ensure we do the 'right' fix.	0	0
+I just hate having no clue what a file is really depending on ;)	0	1
+{quote}You are messing down deep below hbase in dfs.	1	1
+Hi Amardeep,Are we sure that this does not introduce any side effects, regressions?	0	0
+I would rather state that most Java libraries *do* care about Maven.	0	0
+Under copyright law there are several potential kinds of damages one can obtain for infringement.  	0	0
+That is really confusing.	1	0
+All I'm trying to say is that it's pretty easy to end up in propagation failure hell here or change something else that blows things up for use cases that are not foreseen.	0	1
+Specially the framework.	0	0
+Matt, what's the cut-off date for providing a patch?	0	0

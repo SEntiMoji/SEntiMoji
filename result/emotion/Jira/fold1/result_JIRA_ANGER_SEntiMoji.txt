@@ -1,0 +1,197 @@
+As I knows, only punctuation tells where the line can *not* be breaked.	0	0
+of course, it could be built on the fly...	0	0
+DROP INDEX <INDEX_NAME>making this the only option right now would suck because we don't auto-generate an index name when none is provided.	0	0
+Inserting timestamps automagically would be bad because it would limit a whole swath of use cases.	1	1
+I think the comments here are a bad sign... I sent us down an unfortunate slippery slopewe are a search engine library!don't put shit in the index directory! or we will delete your shit. dead simple.	1	1
+Sounds weird to me...Could you package a (totally!)	0	1
+Similarly, one can use theoverview of FD:OCA below and the introductory section of its respective volume and only ** referto the details of the FD:OCA constructs as needed during implementation."	0	0
+OK, this solution sucks, and since people are relying on these scripts instead of using tools like ant, we need to give them the ability to upgrade these tools without having to create a new project.	0	0
+This might be a stupid comment but shouldn't "keyDerivationeterceptor" be "keyDerivationInterceptor"?	0	0
+I like having consistent indenting, but now it is really hard to see the diffs, and it gets confusing.	0	0
+The true  usages are found in calls to executeSubstatement now.	0	0
+This sounds reasonable to me.	0	0
+That is bad.	1	1
+I wholeheartedly agree this API is confusing as hell.	1	1
+That's weird.	1	1
+The verification of state over in timeout monitor before acting is another aspect?	0	0
+I'll open one now so I don't forget.	0	0
+*Damn*, I forgot.	1	1
+It's unfortunate that there's a lot of code duplication, but it might be best that way.	0	0
+Start an app with all network connections off and try to do a console.log(navigator.onLine) and it will return true.	0	0
+Splitting an existing sub-shard gets stuck up.	1	1
+The food is very bad.	1	1
+Erick,  First of all, anyone upgrading should examine CHANGES.txt which would certainly have a note on this explicitly in the upgrading section of that document.	0	0
+plz fix it properly till tomorrow Ort I'll close this for 0.4 again.	0	0
+However, I don't see any failures.	0	0
+Kind of sucks.	1	1
+sigh.	1	0
+It sucks to lose the code readability, but it seems like a reasonable price to pay.	0	1
+Nobody has any permissions unless explicitly granted.	0	0
+Juhani..my bad, i was mistaken.	1	1
+Wicket 6 now features an experimental module that integrates the Atmosphere framework (wicket-atmosphere).	0	0
+It seems some of the wrappers in ink_hrtime.h() might no longer be used either, e.g. ink_gettimeofday() is never used, so lets get rid of that shit.	0	1
+@3.	0	0
+Matt	0	0
+Yep my bad too - I didn't look and was just guessing at what the problem was.	1	0
+Damn, Chuck is scary.	1	1
+This sucks.	1	1
+That's why I need to ask questions now when I want to understand the current logic (as it is not logical for me).	0	0
+Shit, my bad. The posted patch is from a completely wrong branch of my git repo - I had not realized I ran the test-patch against a branch not branch-1.	1	1
+Looks like you need to report this to the high-scale-lib project.	0	0
+A feature with wrong functionality is as bad as, if not worse than, a bad performance.	1	1
+Sounds reasonable to me given it's a standalone (debug) utility.	0	0
+We need verify all the links and buttons in console to ensure the fix.	0	0
+While I am not a spokesperson for my employer, by myassessment their interests are aligned with mine -- they sponsor my work, andas a consumer of the products that I contribute to, it would be bad for themif their investment were to be harmed.	0	0
+Also we have some problem during replication, just when we try to replicate some deletion, and it might prefectly explain why we get those issues.	0	0
+Please close AXIS-2271 if that patch is taken.	0	0
+Bad.	1	1
+bq.In order to maintain different states at which we are in while creating table should we go for a special node under the table znode or can we add new states to the existing table states like (DISABLING, ENABLING, DISABLED etc)IMO go with separate node.	0	0
+Well, either you query the database every damn time, and your plugin/tool/code will be super slow.	1	1
+Do you have a different desired text change, or is it dead?	0	0
+Thanks!	0	0
+* Replaced TreeMap with an Array of final 'Segment' objects** (now very slightly faster than trunk)* Rebased for trunk* Removed the patch renaming SSTableReaderTest to SegmentedFileTestI didn't remove the builder pattern, because the alternative seems pretty ugly (copying the segments array for every append).	0	1
+It is pretty close to what you are proposing.	0	0
+Tabs are evil.	1	1
+I'm fairly convinced that signing is the only way to go without turning the knobs so far up that the AM is pretty useless (no images!	0	0
+I'll make an updated patch.	0	0
+Yep, my bad.	1	1
+This really sucks!	1	1
+This is also true for "ACCT", "MLSD", "OPTS" and "REIN"	0	0
+Oh and not to forget.	0	0
+When you install a node module globally it goes into /usr/local where you don't have permissions to move shit into unless you sudo.	0	1
+Damn, I would close this out from the fix to JBSEAM-3742, except the quartz and seampay examples use a custom XML namespace and the XML schema validator is not happy with that.	1	1
+Pull it back in if you think different.	1	1
+Content-wise the only part that stuck out to me was the inclusion of the many exceptions that users will never see.	0	0
+This is going to be a big performance hit.	0	0
+Wow, sure!	0	0
+For the first part, I got stuck on two points.	0	0
+If you really don't want such a link, you could always hide it with CSS.	0	0
+In the past, I have enjoyed working with everyone here.	0	0
+Adding directories to removedStorageDirs in original patch is already in branch-1.	0	0
+I don't know that there's an alternative that would be less invasive than reverse logical time.	0	0
+I will post a new patch pretty soon.	0	0
+My bad.	1	1
+Not sure how I got that all wrong.	0	0
+Please close as this is just me being stupid.	1	1
+Patch that changes progress computation to use position in input stream.	0	0
+That'll be pretty awesome to have for 0.6.0	0	0
+Logger on top of Log4J and its abstract base class for supporting other frameworks.	0	1
+Unfortunately, the xml parser in use is event based, in the wrong direction(push instead of pull), so the bulk of the change is flipping that around.	0	0
+If the dictionary were created with the flag to true, then all entries would use a case sensitive comparison.	0	0
+That would suck.	1	1
+Even during the full-blown "validation" of the descriptors (done just before "saving"), the CDE is invoking the base UIMA framework in  special mode to prevent instantiation.	0	0
+Maybe we're stuck with it until log4j fixes its dependencies?	0	0
+All other log frameworks do this)	0	0
+Not pretty. 	1	1
+Also I'm slightly confused by your description because in section 5.8 of the spec it says that members of code_handler_class_RCN can be null.	0	0
+The same exception happens the I forget to sign my jars.	0	0
+Does this suck?	1	1
+I will take this into account of course.	0	0
+This may be well known problem in i18n in typography ....	0	0
+Bloody hell !!!	1	1
+Perhaps it would be easier to make ClobLocatorInputStream a wrapper around ClobLocatorReader, and ClobLocatorOutputStream a wrapper around ClobLocatorWriter?	0	0
+This is where the bus gets over lapped.	0	0
+I think the correct resolution is to ensure that the prefix stack mechanism gets reset each time the XMLReader is used.	0	1
+Pretty fancy.	0	0
+So this is by design.	0	0
+Damn it !	1	1
+Well, that sucks.	1	1
+However, the statement still performs a full scan of SUMMA_RECORDS, which sounds sub-optimal.	0	0
+Please play around with it.	0	0
+Jeremy, are you still planning to take a stab at this?	0	0
+SOLR-5232: SolrCloud should distribute updates via streaming rather than buffering.	0	0
+In many ways, I think that the support for 3rd part performance and health monitoring is already there.	0	0
+Igor is an idiot, and we *do* need gmake.	1	1
+should the following be true?	0	0
+They don't vote, theywhine that something (or everything) sucks.	1	1
+@Oleg, please accept that my "logical" is different from your "logical".	0	1
+So it's like getting a new copy.	0	0
+My bad!	1	1
+Sorry but this is just stupid.	1	1
+Also, your username was stupidly named and confusing, so I deleted it and created a new one more appropriate.	0	1
+I think that would be the cleanest solution to prevent bad behaviour with wrong codecs?	0	0
+who the hell starts using our jira for typing lessons ?!?	1	1
+I think SSTableDeletingTask is a good spot, I just wasn't sure if that would be appropriate.	0	0
+Wow, it's like Thrift is going out of their way to make life suck for us this month.	1	1
+I think if you use either LogDoc/ByteSizeMergePolicy, forceMerge alsodoes what it says.	0	0
+I wonder why not so many people use Linux?	0	0
+doh fixed braces	0	0
+Stupid user error :)	1	1
+We should not invoke the global synced fieldnumbers shit for every element, only when the setting actually changes	0	1
+Also I looked at first corrupted database that I posted  and found the corruption in the  index TEST1_IDX_INDCOL2.	0	0
+Must have been confused.	0	0
+If so, make the formatting same as it is for rest of codebase on commit?	0	0
+Maybe you know it better when I show you some code.	0	0
+A single table could be made up of many thousands even hundreds of thousands of regions?	0	0
+Thirdly, the scenario you present in which someone copies a subset of their 3.5 schema would only error if that person ALSO chose to omit the defaultSearchField declaration -- but why would they do that?	0	0
+I'd say to hell with windows minority :)	1	1
+#NAME?	0	0
+That sucks, why isn't the escape mechanism working?	1	1
+Oh man ... it's a fucking precendence problem.	1	1
+Hi John,I would agree, using object notification is probably a cleaner way to do this.	0	0
+Sorry, I guess I'm against "never computing this shit"... because you guys think returning NaN is ok.	0	1
+I don't quite see why the attached implementation would do more heap operations, but I agree that it could be slower due to lengthier/more complex loops, a few more if statements etc.	0	0
+Please re-open if I'm confused.	0	0
+I would have checked it in directly, but there were some aspects  that I didn't care for but couldn't seem to get around.	0	0
+This seems backward to me (but of course I'm no expert in this area).	0	0
+it's my bad.	1	1
+Of course, I have en_US for my locale.	0	0
+or a log message?	0	0
+More tomorrow.	0	0
+Same goes for fontSize and fontWeight and other font styles.	0	0
+Doing it at the hackathon you'd have a few fellas at your shoulder to give you pointers should you get stuck.	0	1
+Too bad we don't have the power to do that... ;-)Here's what I think should be happening:Internally, absolutely everything should be handled UTF-8 for consistency's sake.	1	0
+Pretty much the same stack trace.	0	0
+Damn it, sry lost the orientation.	1	1
+I won't intrude on the design discussion, sounds good.	0	0
+For testing purposes of course...  	0	0
+Pretty much everything that FSNamesystem (ie.	0	1
+It was confusing for me too.	0	0
+It was my mistake.	1	0
+If job instance has a lifecycle that ends with first successful execution we should refuse to start the same job instance ever after.	0	0
+This whole thing is very distressing to me.	1	1
+{quote}you lost me there ... they can use the exact same configs 鈥 that's kind of the point: testing the exact example configs as we ship them (with <lib/> declarations that point at dirs which may or may not contain jars depending on what contribs are built; and request handler / response writer declarations configured that use lazyloading to dynamic load things as needed.	0	0
+My bad.	1	1
+justafter the event) is the opposite of the sign just before the event.	0	0
+I will make the change for 2.2.	0	0
+I think I would be happy with a process where a weinre build is kicked off for every commit to master.	0	0
+I don't care about code duplication here.	0	1
+HADOOP-2949: - If tarball is specified, HOD no longer validates for the pkgs directory in gridservice-hdfs or mapred sections as these are not going to be used anyway.	0	1
+Turns out that Ubuntu dropped 32 bit support for 'whatever' in 12.04 and now you need to run "sudo apt-get install ia32-libs" in order to get older executables to run.	0	0
+why on earth would it match anything, you have not even touched the Apache install.	0	1
+Holy crap that worked!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!	0	0
+Rajith: This is actually not true.	1	0
+HttpClient stock code is JDK 1.2compatible (hell 1.2 is old).	0	0
+batch transition to closed for remaining resolved bugs	0	0
+This has been the history of Lucene and the thing about the project that I admired most - heavy hands where checked at the door.	0	0
+And debugging is hell, because the test environment needs to have the exact same loader setup.	1	1
+But in any case, please keep things simple and stupid :)	1	0
+HOLY SHIT!	1	1
+The memory stream transformation core-dump was the same case (rb_tree - erase).	0	0
+Holy hell, I think I found one problem with turning a bignum into anything else.	1	1
+Matt	0	0
+My bad, had a typo in the subscription e-mail.	1	1
+Holy complicated-as-shit-algorithm, Batman!The complexity of our implementation vs the complexity of what we're actually doing is starting to worry me here.	0	1
+Is there any documentation how to use axis2-wsdl2code-maven-plugin, with jibx binding, and how on hell you define xmlns:tns from you binding file	0	0
+After moving it to a local disk I can't reproduce it anymore.	0	0
+This may fit for Pregel, but not for our Framework, since our communication is much more expensive.	0	0
+Of course, it could...  :-)  DOH!	0	1
+Please do not forget about adding the ASL header to all new classes.	0	0
+Closing all 1.6.0 issues	0	0
+Hmmm... confusing.	0	0
+I deleted the original attached files because they contain company informations that I'm not allowed to disclose.	0	0
+It's not too bad once CacheConfig is in.	0	1
+I've tested with Ruby 1.8, Ruby 1.9, JRuby, and even Rubinius, but all on Linux.	0	0
+We should be assigning atleast 50% of it's capacity.	0	0
+Here is quite bad.	1	1
+My bad.	1	1
+CASE_SENSITIVE boolean=> TRUE   9.	0	0
+#2 wontbe so bad... filters are pretty deep and will be just as efficient ashacking scan query Matcher I think.	0	0
+You don't see '>' replaced because that's not required in this case (though some frameworks do it anyway).	0	0
+The fix is only disabled on releases prior to 10.8.2, on the assumption that the fix gets into the upcoming 10.8.2 release.	0	0
+Oopps, bad move !	1	1
+Ummm, did you forget to annex the patch Toby?	1	0
+On 2009-06-08 19:22:03.496 kjian commented:Localization data error.	0	0
+I think we are very close too.	0	0
+Replaced patch with fix to catch more bad variables	1	1
+it's not a merge setting and I think it's rather confusing today since we take the merge setting and use it for indexing.	0	0

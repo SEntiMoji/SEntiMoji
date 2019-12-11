@@ -1,0 +1,200 @@
+Aaron:I completely agree the parser needs to be changed, but I don't currently have the time available.	0	0
+Thanks [~bikassaha] addressed your comments.	1	0
+ok... i will change it then and keep in mind in case we run into odd issues permission wise.	0	0
+Patch applied.	0	0
+Thanks Sijie.	1	1
+Committed revision 543344 in sandbox.	0	0
+So, I added a comment out on UnInvertedField.	0	0
+Hello Ruth,The patch has been committed at revision r502513.	0	0
+Mind adding some comments explaining why this is ok to retry?	0	0
+Best regards,Andrew	1	1
+Adrian,I cannot find the listVisualThemes.ftl file in your last patch.	0	0
+Improve patch : when the flexibleString is resolved, search fields on root context and parameters map.	0	0
+I would love it in 3.3.2, will upload a patch for that version.	0	1
+Hi Uwe,I updated the patch, now it uses TermRangeQuery and does not cast anymore getAttribute	0	0
+For the authentication issue, it's recorded in JAMES-1418 (I will try to look at it this weekend).	0	0
+Thanks, Mike!	1	1
+Thanks for providing the patch.	1	1
+Submitting it for Hudson to run the tests.	0	0
+h2108_20110727b.patch: fixed DatanodeManager constructor and activate(..).	0	0
+May be i have the current PUT with me and from which i form the new PUTs to be added thro coprocessor hooks to a new region.	0	0
+Thanks Divesh,Your patch is commited at revision: 762863  	1	1
+The patch looks good.	0	0
+Thank you very much for your effort David.	1	1
+Am I missing the connection, or is this a distinct issue?	0	0
+Thanks a lot for sharing that, Josh!	1	1
+Note: the attached patch does not break the existing API	0	0
+I had a look at the rpm side and it looks ready to commit.	0	0
+What's the purpose of this line in the patch to BaseTestCase, Kristian?	0	0
+Thanks,Mayank	1	1
+thanks edgar for finding this one!	1	1
+Thanks for the quick patching Donald!	1	1
++1before committing, do you mind combining the new test with one of the existing ones?	0	0
+Committed the patch to trunk (revision 63660) and branches/2.1 (revision 636606).	0	0
+Okay.	0	0
+And new we've had two failures within a few days.	0	0
+Although as far as I see it, the bug here is that we allow the underscore after "_design/" not that we can't use filters from it.	0	0
+I send you a list of all .jars at present i use in both projects, there are many libraries but i test even with the minimal jars with the same results.	0	0
+Any objections?	0	0
+The client stubs were generated with wsdl2java command of CXF distribution.	0	0
+Thanks in advanceJens	0	1
+I just committed this.	0	0
+What would you think of just exposing incRef() & decRef() as expert public methods?	0	0
+Ok.	0	0
+The build seems to have broken on 10.9 when the test was backported.	0	0
+Excellent!	1	0
+Vote is here: http://markmail.org/thread/yg6n646zurlpdmvy	0	0
+This should (and can) be automated.	0	0
+Thanks Ivan.	1	1
+Pat and myself are taking a look at it .	0	0
+My goal here is a very small/quick change to revert how every FsShell command (except count) to how it used to work.	0	0
+Committed to trunk and flume-1.4, rev: c0c4947.	0	0
+I will apply and verify it.	0	0
+Thanks, Adrian!	1	1
+The apache vhost has been setup, but still needs some work.	0	0
+Thanks Elena.	1	1
+Patch applied in rev 586231	0	0
+Hi Sagara,Thank you very much for looking into this.	0	1
+Both the reducers (and possibly everybody else) is waiting on these.	0	0
+We are not supposed to invent stuff.	0	0
+Daryn - did you get a chance to review the latest patch for this?	0	0
+This'll probably be best.	0	0
+Committed.	0	0
+Patch was applied, analyzers can now be instantiated by writing some javascript to be executed on the server side.	0	0
+Or even better: use the maven repository to automatically attach the sources-jar to your eclipse/idea/netbeans project.	0	0
+Cheers,Ashwin...	0	1
+And I think I will do more next time.	0	0
+In fact, if you happen to know why ObserverHammerQuorumTest is failing with this latest patch, I'd love to hear.	0	1
+Yes, You are right [~jiannan], If the {{bkActiveLedgersSnapshot}} contains ledgers which are > {{lRange.end()}}, then there is no chance of being gc'ed in the current gc call.	0	0
+Hi Subramanyam,Any updates on this issue yet?	0	0
+How about following the naming from Math.min() and Math.max():public static Date min(Date date1, Date date2);public static Date max(Date date1, Date date2);Alternatively, when I read 'Returnes [sic] the least recent (oldest)", why not call the methods oldest() and newest()	0	0
+So I'm all for a more generic serialization API that can be used by MapReduce applications.	0	0
+Thanks, Ravi!	1	1
+Thank you Thejas for the patch and Ivan for the review.	1	1
+But I'm not convinced its wise to add such support to the exisiting Java-only container file formats.	0	0
+Please have a look at the latest patch FELIX-3339_threaddump-as-inventoryprinter_FIXED.patch which correctly provides an InventoryPrinter implementation of Thread Dumper, have a look at the attached Screen Shot 2013-05-23 at 3.02.24 PM.pdf to see it in action embedded in the WebConsole.	0	0
+On 2010-03-01 15:37:55.688 jchuang commented:AIR bug is fixed.	0	0
+Thanks.	0	0
+Jason, thanks for the patch.	1	0
+Thanks Ivan, I commit the code according to your suggestion.	0	0
+Thanks for the reviews everyone.	1	0
+Yeah that one (TestAtomicOperation) has me worried a bit.	0	0
+I can't apply 0002 cleanly to trunk.	0	0
+-1 overall.	0	0
+I've committed the patch.	0	0
+Fixed classpath for chukwa core jar file.	0	0
+Megan, Glad to be of service : )	0	1
++1, in my mind, the -ROOT- table is very important of routing the right RegionServer of .META.	0	0
+We should provide a clear path forward from Writable+SequenceFile to a new system that's easier to use, less fragile, and language-independent to better facilitate a rich ecosystem of tools.	0	0
+I'll commit once hudson +1s it.	0	0
+thanks	0	0
+Yup, it does the trick.	0	0
+In this case we have extremely wide spread __important__ values with only ___single_ occurrences.	0	0
+Thanks again for this really great patch, Andrew.	1	1
+This a patch submitted by Ankur Goyal.	0	0
+Hi Yuval, could you please attach a sample project showing the error?	0	0
+Hi Bruno,I like it, seems to work well at 1st glanceThanks!	0	1
+I respectfully disagree with your interpretation even though in most of thecases it corresponds to what the majority of users may expect to see (includingmyself).	0	0
+Works fine and the way i (and w3c) wants it now.	0	0
+Please check that this resolves the issue for you.	0	0
+Have you got a link regarding the classpath exception and ASL2 compatibliity?	0	0
+Found when attempting to compile Xalan-J 2 with gcj.	0	0
+In the same vein, isolating the API interfaces into a separate package makes it a lot easier to manage than having everything dispersed around - e.g.	0	0
++1 for the patch.	0	0
++1, if the test is problematic, we can always either comment out the new test, or @Ignore it, and add a note.	0	0
+Now it works as expected.	0	0
+The problem is that I changed the build script to use java14compile.classpath instead of java15compile.classpath for the new test when I backported it from 10.10.	0	0
+Please check this fully resolves your problem.	0	0
+Common has 100 or so warnings and there's a couple dozen spread out around the others.	0	0
+I expect this to take at least upto mid to late in the week in order to get a patch available for this.	0	0
+I just committed this.	0	0
+Thanks for the very clear explanation of the needed change, Dag.	0	1
+Just noticed when trying to vote for 1.3.0.	0	0
+There have been no new ones added for 2.3.	0	0
+I think allUserRegionsOffline should be declared inside{code}} else if (this.stopping) {{code}block.	0	0
++1, the latest patch looks good to me.	0	0
+If we were using scans, prewarming client cache would be near costless (as opposed to what we'll currently have to do which is first a getClosestRowBefore and then a scan from the closestrowbefore forward).	0	0
+Thanks,-Suresh 	1	0
+There are still some debugging prints that will go away in the final submission.	0	0
+Input welcome!	0	0
++1, thanks HenryCommitted revision 779716.	0	0
+Now, I can see this from the traces too.	0	0
+A test suite that shows the issue	0	0
+Best regards,Jimmy	1	0
+Thanks Dianne!	1	1
+That is correct.	0	0
+Thanks,Hari	1	0
+no	0	0
+I've checked the repository myself and everything seems fine to me.	0	0
+Thanks for your patience.	0	1
+Unless I'm missing something, your patch doesn't actually change how the version is checked, only how it's computed.	0	0
+File formats are forever.	0	0
+Committed.	0	0
+This patch fixes the issue:# Short circuits the MUST_PASS_ONE case just like it is done in the MUST_PASS_ALL case.	0	0
+Best regards,Andrew	1	1
+in a CREATE USER statement.	0	0
+Updated patch, so that the needed values from uiLabelMap can be accessible in ftls too.	0	0
+If we redid the meta tables in this format, we'd be using an access that is natural to hbase, a scan as opposed to the perverse, expensive getClosestRowBefore we currently have that has to walk backward in meta finding a containing region.	0	0
+The biggest 90% data volume comes comes from less then 10% of connections.)	0	0
+*, he knows that the classes are potentially unstable.	0	0
+I'm glad we were able to resolve this issue.	0	1
+Could you let us know if speculative execution was turned on?	0	0
+Thanks a lot for this enhancement.	1	0
+If it's OK sometimes and not others than IllegalArgumentException seems appropriate, seems like it should never be legitimate to create a FileStatus w/o a path unless using the no argument constructor. 	0	0
+The rest of the TODO has been postponed to Camel 2.0 in CAMEL-971.	0	0
+That one has not failed in a *very* long.	0	0
+I'm truly sorry for this inconvenience, but JIRA is really strict about the versions being equal when doing an import.	0	0
+Thanks, patch applied	0	0
+thanks henry!	1	1
+The comparison with 1.2.6 is not valid as we use a different setup now and ship everyting in one zip instead of a zip per project..	0	0
+I have attached DERBY-3084.diff and the corrected file, rrefsqlj31580.html.	0	0
+I'd like for Stack or Jim to take a look at it before we commit it.	0	0
+Thanks, Jing!	1	1
+Applied the patch with revision 169493 -- thanks.	0	0
+Thanks a lot, Jon for signing up this.	1	1
+The whole system could be out-of-service in case the Region of SequenceFile of the -ROOT- can NOT be opened.	0	0
+We can avoid one case of failure.	0	0
+Thanks Tom!	1	1
+Thanks Andrew, committed in rev.	1	1
+I really like what I am seeing so far.	0	1
+The zip is already large and contains all code.	0	0
+one is could be provided, isn't it?	0	0
+The patch passed contrib unit tests.	0	0
+Looks good, I'll commit.	0	0
+Committed a slightly cleaned up version of the patch in revision: 1464605Thanks for your help Todd.	0	1
+Checked in the patch (see revision 1295288).	0	0
+Hi Pepijn,Can you please take a look at r1215075 ?	0	0
+The target {{inject-system-faults}} is defined in src/test/aop/build/aop.xml	0	0
+Is it just a note in the CHANGES.txt?	0	0
++1 to what Esteban said.	0	0
++ http://tomee.apache.org/datasource-config.html explains that IgnoreDefaultValues can be used to avoid it	0	0
+Jason, I suggest you create a separate issue something like "Integrate BytesRefHash in Realtime Branch" and I will take care of it.	0	0
+1	0	0
+Thank you!	0	1
+How about patch 2?	0	0
+Frank	0	0
+Thanks Karl.	1	1
+As I know this is working , [I didnt not test with JSR 181] , but I have tested with POJOs and it worked fine for me ThanksDeepal	0	0
+There is an embedded Tomcat running in the same JVM, but according to the logs, the database is not booted twice.	0	0
+This is not new : we have the same type of behaviour when we switch languages...	0	0
+We have a guy looking into getting it in shape now, but it will require you to update your current JIRA instance to 6.1 before doing another export for us.	0	0
+Excellent work, Do臒acan - thank you.	1	1
+Thanks henry and pat... we'll have to re submit all the PA's so trigger hudson.	0	1
+Your patch was applied at 553723.	0	0
+Thanks a lot for your help!	1	1
+Best regards,Richard	1	1
+Perhaps, throwing IOException is going to prevent us from a situation where we end up with a deadlock.	0	0
+Fresh copy of the example configs?	0	0
+I committed the patch.	0	0
+Let me test it.	0	0
+Also, when do you plan to take up AMBARI-1843 for adding the unit tests?	0	0
+Adrian,thanks for the patch: rev.	1	1
+Just updated and ran through a few test runs -- haven't seen this since.	0	0
+Hello Paulex,    The fix is fine.	0	0
+I would also like us to start using WikiNames wherever useful.	0	0
+I've tried this and Can't seem to find any problem.	0	0
+If, by any chance, you have the logs for the task attempts attempt_200905051023_1155_m_000036_0 and attempt_200905051023_1155_m_000036_1, could you attach them to this Jira?	0	0
+I'm thinking of multiple concurrent mutateRows operation, trying to lock the same set of rows.	0	0
+Was the fix for one issue more responsible for the performance loss than the other?	0	0
+I like Richards update as well :) What I did was out of pure anger so it may not have been the sexiest.	0	1
+If it was not, was the attempt Id 1 killed explicitly?	0	0

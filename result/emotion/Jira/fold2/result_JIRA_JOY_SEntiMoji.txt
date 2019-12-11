@@ -1,0 +1,200 @@
+Update the pom for itest to include ws-void-args-returnThis patch fixes TUSCANY-1658 and TUSCANY-1653, and add an itest to verify the fix.	0	0
+I'll try it on our Fedora.	0	0
+The only significant code difference seems to be in getBlockLocations().	0	0
+Many thanks.	0	0
+pushed	0	0
+Thanks, Owen!	1	1
+Amila,Could you please check my fix?	0	0
+applied Marnix's patch to trunk.	0	0
+EmptyDictionaryo I think that you can remove the stub for dropSequenceDescriptor(String, TransactionController) because you have removed this method from the DataDictionary interface.	0	0
+new version of 01 "minifies" type classnames for the standard o.a.c.db.marshal types	0	0
+I will post my results when the tests finish.	0	0
+One final note, the error handling should have its own JIRA so that it is addressed one day?	0	0
+Thanks Andy.	0	0
+Since the "Approved Requirements" screen paginates the requirements, I'll end up generating multiple orders for the same (large) supplier, simply because the application operates a page at a time.	0	0
+I've just tested the shiro trunk with karaf-2.2 release and everything works fine :)	0	1
+This is something we can revisit when we collapse all of the permissions catalogs into the master catalog which you are creating.	0	0
+We wil investigate what's going on.	0	0
+(My 0.8 checkout was on the 0.8.6 tag when I reported that CliTest worked completely.)	0	0
+So yes it fails but not where you wanted it to.	0	0
+Waaaaay cool! I especially like the "upload file" option.	1	1
+Please reopen the issue if needed.	0	0
+Applied to trunk.	0	0
+A new patch including some corrected Japanese sentences and a link to Solr Wiki.	0	0
+Thanks for Paul King's advice, I tried 1.6.3 again with groovy.bat.	0	0
+Caching is a specialized function.	0	0
+I will revert tomorrow if less-hacky alternative suggested above continues unaddressed.	0	0
+Under what runtime conditions are you seeing this.?	0	0
+The SocetException is still there sporadically.	0	0
+@Andrei:Please re-attach patch using --no-prefix option.	0	0
+Bulk close for 3.1	0	0
+I'll try and test with queryIndexesRebuiltSynchronously false today.	0	0
+Applied slightly modified patch in [r18180|http://fisheye.codehaus.org/changelog/mojo/?cs=18180].	0	0
+Zdenek,Thank you for working with these components.	0	0
+Unzip ws-void-args-return under the itest directory4.	0	0
+Will re-enable assertions too.	0	0
+Thanks for supplying the patch.	0	0
+I only review as Pranay tested successfully.	0	0
+adding --rsyncable to our build system, does not seem to be a big task, I am experimenting with it.	0	0
+Looks good, thanks Laura!	1	1
+Does this applies to 0.22 trunk or 0.23 trunk?	0	0
++1, looks good.	1	0
+I wonder if there are any advantages to your way of doing it over mine, but I think yours will definitely work to detect the error cases I had in mine.	0	0
+Marc, you're re-logging your ownn issues :)	0	0
+This issue is being tracked by other JIRAs now.	0	0
+I'll take a stab at this again but could you verify this patch against the present trunk?	0	0
+The b-1.0 patch also applies to branch-1.	0	0
+Great! It's been good to be able to contribute and I hope to be able to more for this awesome project when I have the spare time.	1	1
+Add EnumSetWritable.	0	0
+Verified, patch applied as expected.	0	0
+I tested it and it works fine.	0	0
++1 the branch-1 patch looks good.	1	0
+Milinda, patch applied !	0	0
+I'm not seeing how including a dependency would alter the fundamental behavior of createLink() and createLinkTo() requiring a request object.	0	0
+Fixed with revision 164512.	0	0
+Committed to trunk and 0.21 branch.	0	0
+Resolved by changing the meaning of maxRows to be across all code tables with a default of 200000, introduced maxRowPerTable with a default of 10000 to take the place of maxRows, and upped the default for maxCount to 200.	0	0
+for example:https://github.com/hibernate/hibernate-core/commits/3.6/hibernate-testsuite/pom.xmlhttps://github.com/hibernate/hibernate-core/commits/3.6/testsuite/pom.xml	0	0
+Don't absue the ticketing system	0	0
+Bharath,Since all of this work's goal was done - can this be closed?	0	0
+Thanks to Edward and Brock for the reviews.	0	1
+Mind adding your test run results in here?	0	0
+The testcase is helpful for ArrayList.	0	0
+Thanks,Kevin	0	0
+On the recommendation of Weinan	0	0
+Thanks for reporting.	0	0
+Hello Bhumir,I think Ivan is right - can you try to test your case with the complete version of log4php, not only the files I have mentioned.	0	0
+Thanks for the clarification.	0	0
+This is a great suggestion.	0	1
+I think Jason has done this already?	0	0
+Thanks!	0	0
+When the modulus is large, which means that number of collisions is small, LightWeightGSet is much better than GSetByHashMap.	0	0
+Applied the patch to implement Workspace.move	0	0
+Hmm, it did work on monday for me; strange, I'll have a look at it right now	0	0
+I have some comments on the new patch:PermDescriptoro You should remove the permUUID field from this class since it shadows the oid field in the superclass.	0	0
+suggested for 3.1.1	0	0
+How about a slightly different take?	0	0
+It looks like there is something about the build scripts that is causing it, because hdfs.proto, where NameSpaceInfoProto is defined, is more or less identical between trunk and branch-2.	0	0
+Thank you, Ivan!	0	1
+Used the new attribute to move ObjectStoreDir from bin to server/xxx/data/tx-object-store	0	0
+Thanks Ankit!	0	0
+Hi David,This helps me understand what you were talking about - thanks!	0	0
+thanksasankha	0	0
+Committed revision 816738.	0	0
+Unsetting Fix Version on unassigned issues.	0	0
+Committed.	0	0
+I've just committed this.	0	0
+I have applied the patch and am running regression tests now.	0	0
+Thanks for the patch Glen.	0	0
+Please open with Spring Framework.	0	0
+how does your application.cfc looks like (ormsettings)?	0	0
+I committed the patch to trunk.	0	0
+But why have you added testPropertyChangePropertyChangeEvent test?	0	0
+So the action items:1. canDelete(), canRead() and canWrite() will be moved to FileSystemView from FileObject. 	0	0
+Contributed by Arpit Agarwal.	0	0
+Based on review comment, add "respBody.hasPublishResponse()" before returning respBody.getPublishResponse()	0	0
+ok, I'm looking into this.	0	0
+I'll close this issue as won't fix, but anyway I commit the fix on tomahawk examples.	0	0
+Yup, I'll get it in today.	0	0
+patch reviewed and applied by Eoghan with r502283	0	0
+I will look at those remaining references to NATIVE::LOCAL in the error messages.	0	0
+Indeed!	0	0
+ComponentAppearances will also inherit from one another when we have nested components (like a bundle inside an application).	0	0
+Cool, will do!  Thanks for the review and good questions... and the whole idea! :)	1	1
+Looks like this was fixed in HDFS-3966 (For branch-1, TestFileCreation should use JUnit4 to make assumeTrue work).	0	0
+However, I see that you are following the data dictionary patterns for the other permissions descriptors.	0	0
+After that, we can add in the Cartesian Tier indexing and the Cartesian Tier QParserPlugin (after a little re-write).	0	0
+I have open a ticket on their side:http://jira.codehaus.org/browse/MNGECLIPSE-1054	0	0
+I thought there was already a (Hibernate specific?)	0	0
+Applied patch with thanks to Oliver.	0	0
+Thanks guys for saving mankind!	0	1
+Hi Guys,I am pretty new to this site.	0	0
+Not a SWF issue.	0	0
+Fixed in 426832.	0	0
+2	0	0
+Committed to 3.4.6 and trunk.	0	0
+Ok, got it, thanks for the explanation.	0	0
+Thank you Ivan!	0	0
+using g++ (GCC) 4.1.2 20080704 (Red Hat 4.1.2-48) and cppunit 1.12.1.	0	0
+Look forward to seeing it resolved in 3.3.2.GA!	0	0
+I think nothing is absolute.	0	0
+It's OK.	0	1
+Thanks for the patch Mubarak.	0	1
+Assume closed as resolved and released	0	0
+Many CID mappings are expressed as ranges, which the code explodes into individual Integer->String pairs.	0	0
+Thanks Ashish!	0	1
+Is it possible for someone to take a look at this patch to get things moving along?	0	0
+If somebody can better formulate my above fragment and place it somewhere in wiki it would be great.	0	0
+Just for clarification, skipBloomFilters is old.	0	0
+Thanks!	0	0
+Committed as r1382016.	0	0
+patch committed in rev 942983, thanks!	0	0
+Thanks Viraj and Cheolsoo.	0	0
+Next try,r1475799 in santuario.	0	0
+Why use an ad-hoc script that's known (according Erik himself) to have false positive that require manual inspection (which is also not part of the version controlled source tree), when you we have a built-in (aspectj*.jars are already included as build/runtime dependencies) tool specifically for such tasks?	0	0
+In the new version, elements have two methods - render(), which draws them, and apply() which initialises shared properties like colour.	0	0
+You "workaround" of making it transient is the correct solution. 	0	0
+Can you show me which jira fixed this?	0	0
+Jacopo,Thanks for diving in a pointing Scott at the appropriate screens.	0	0
+Thanks!	0	0
+I looked at all the TODO's in uimaj-core and found only one Sofa-related exception that needed update.	0	0
+DataDictionaryo The header comment for getPermDescriptor() does not seem to describe the method.	0	0
+All log statements should now be surrounded by log guards.	0	0
+Enis/Ashutosh, we can try coming up with the testcase.	0	0
+Thanks Bryan!	0	1
+it is fixed by r1358 in jbossweb  2.1.x.	0	0
+Enjoy!	1	1
+Also applies to the 4.x series	0	0
+fixed in revision 478248	0	0
+I have applied it in Rev.	0	0
+Wow!	1	1
+Thanks for pointing out this (rather embarrassing) oversight!	0	0
+Just realize that.	0	0
+Looks like this is fixed :)	0	1
+Some more work towards full SAAJ 1.3 implementation.	0	0
+Pull request available here:https://github.com/SpringSource/spring-roo/pull/8The changes are minor.	0	0
+Please keep this open until reverse tests are configured, as we might have new issues coming from them.	0	0
+I discovered that it works fine with command line.	0	0
+Note, that as indicated before, JVMInfo still is part of derbyclient.jar (I assume because of the need to support sysinfo).	0	0
+Would be nice to have a batch/list functionality as well, like we have for deletes/puts.	0	0
+Thanks.	0	0
+936-2 wasn't patching correctly against the latest flume-728 so here's an updated patchfile now that 935 is available.	0	0
+This allows for a two-phase rendering.	0	0
+pushed	0	0
+Documentation is still a bit lacking	0	0
+This is a screenshot from 1.5.3 and that is how I would expect the Directory Studio to behave.	0	0
+Thanks Sid!	0	0
+Thanks for you patience - this is a nasty issue.	0	0
+Resolved in commit 5260 (patch by Vladimir Sizikov)	0	0
+Resolved, fixed!	0	0
+Thanks for spotting this, Philipp!	1	0
+This blog post speaks briefly about colocation, and how this can be achieved using AtomicMaps.	0	0
+I really appreciate your comments and I really enjoy our discussions:)	0	1
+Patch applied with thanks!	0	1
+I just committed this.	0	0
+Fixed in r544	0	0
+I guess the obvious thing to do is to go in and reconfigure the pagination so it doesn't (paginate), but if we had the ability to add items to existing POs then you could still use the pagination mechanism and build up the PO page-by-page (quite handy if your working through  your POs during less busy times of the day).	0	0
+are any changes needed to dd2spring for this?	0	0
+variables (Alexis Midon)"Sending        doc/settings_profiles.textileTransmitting file data .	0	0
+@Arnaud: My key looks exactly the same and was generated with Cygwin's ss-keygen.	0	0
+Applied patch	0	0
+See previous comments for earlier commit.	0	0
+See, for instance, the corresponding method in SYSALIASESRowFactory.	0	0
+I see FilteringTokenFilter has a similar first token pos incr fixup, so this problem is handled in at least one other filter.	0	0
+This never got into Indigo - pusihing for it to go into Juno.	0	0
+This adds testing of the RegionSplitsTracker.	0	0
+Do you think you could submit a new patch in a single file (perhaps named with the current date) based on the current SVN head ?	0	0
+Note, this used to work fine in 2.7, looking at "git blame" output it would seem the regression happened as Niels added support for 3D bboxes	0	0
+There must be some side effect in my project that circumvented this problem until 6.8.0.	0	0
+url: https://192.168.124.100/sdk/vimService, username: Administrator, password: C******	0	0
+BTW, do you know why there are four one-byte packets?	0	0
+I'm giving this up hoping someone confident in Swing would look into it. 	0	0
+Done as part of Felix resolver integration	0	0
+Sounds like a good idea.	0	1
+Pushing non-critical issues to the next CR2.	0	0
+This was found in via JBossWS CXF so once we've pulled it in to JBoss and tested I'll let you know if there's any issues.	0	0
+Joram, notify Jennifer Vennable when you completed this.	0	0
+HiThanks for your help testing this stuff.	0	0
+Harsh, will you have a chance to work on a test for this?	0	0
+Thanks Galder:)	0	1
+Thanks for the patch Andr茅!	0	0

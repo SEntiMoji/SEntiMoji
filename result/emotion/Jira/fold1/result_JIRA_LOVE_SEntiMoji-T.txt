@@ -1,0 +1,200 @@
+Updated patch to work with the latest shindig revision, that is, subversion revision 727075.	0	0
+Can I get a +1 from someone else.	0	0
+For historical reasons in some (all?)	0	0
+When I put this patch it did not have this issue,Let me update the patch.	0	0
+I think that the problems are not related.	0	0
+Patch applied at 472664.	0	0
+retrospectively setting fix version in preparation for SDO M3	0	0
+Yes, that makes perfect sense to me.	0	0
+I also verified that the bug still occurs in 10.6.1.0	0	0
+Allen, has Jon addressed all of your concerns?	0	0
+Hi Julien, please have a look on ./test/cpp/TestServer.cppIt's doing exactly what you what to do but TFramedTransport is explicitly specified there.	0	0
+Thank you	1	0
+Patch committed.	0	0
+Sweet :) You got there before me	1	1
+I will correct it and ask for commiting the patch, once I am done with this.	0	0
+New 2.0.5 and 2.1 snapshots are deployed that contain the fixes.	0	0
+Is it planned to add the atomic feature to all resolvers?	0	0
++1 (subject to hudson)	0	0
+aim to merge patches and publish for review by this coming weekend	0	0
+I'm going to commit this momentarily.	0	0
+Thanks, correctly applied the patch and updated working copy.	0	0
+Let's commit it .Thanks!	0	0
+Thanks,Mayank	1	1
+Patch applied, thanks.	0	0
+Please check that the patch was applied as you expected.	0	0
+Thanks for reminding me; I agree, I'll do it.	0	1
+From your comments I guess you changed it.	0	0
+Patch applied, thanks Nils	0	0
+I am still not able to run JSPWiki in Oracle Jdeveloper 10.1.3.3.0.	0	0
+Does it care at all?	0	0
+fixed in svn r344339.	0	0
+Can someone review the patch in the meanwhile?	0	0
+I don't know what i'm doing wrong!	0	0
+Have you run test suite ?	0	0
+If regionnames were made of tablename+endrow instead of tablename+startrow, then in the metatables, doing a search for the region that contains the wanted row, we'd just have to open a scanner using passed row and the first row found by the scan would be that of the region we need (If offlined parent, we'd have to scan to the next row).	0	0
+if this is not a good model - then we should switch it with something different altogether.	0	0
+Thanks Suresh.	1	1
+I'm no pom expert, but it seems that unqualified pom variables can cause this problem.	0	0
+Please go ahead and create it.	0	0
+Thank you.	1	0
+Thank you,+ Harit Himanshu	1	1
+Please check that the patch was applied as you expected.	0	0
+The changes look good.	0	0
+Thanks for your work on this Allen!	1	1
+With this client project i can't get connect with the webservice published in a Apache-tomcat-5.5.25.	0	0
+Thanks  Rishi Solanki  to review the patch.	1	1
+I think that Henry Zongaro should open a new defect for the local-nameproblem.	0	0
+Assume the PUT(and related things) that i created in preBatchPut is also needed while i use the preWALWrite, is there any way i can carry it in one flow?	0	0
+Committed.	0	0
+Yes, we could enable junit's fork mode.	0	0
+Thanks Suresh	1	1
+Hi Kevin - Any update on this.	0	0
+Thanks, Sravya!	1	1
+I committed it.	0	0
+Committed revision 946641.	0	0
+Hi Senaka,That is exactly what I'd like to do, i.e., automatic download of CA cert and go ahead.	0	0
+I tested this again on Ubuntu 10.04,This works with the new Tomcat instance and then when I tried the 2nd time it is not working.	0	0
+I still can't work out how to do this.	0	0
+Looks fine, thanks.	0	0
+Committing shortly.	0	0
+Patch applied to TEXT module at repo revision r450026.	0	0
+Thanks,Arvind	1	1
+I just committed this.	0	0
+On 2008-02-25 15:37:45.766 jchuang commented:This is an AIR issue, the AIR team has been notified.	0	0
+Makes sense to me.	0	0
+Contributed by Thomas Graves.	0	0
+There is no change to the default behavior.	0	0
+Thanks for the patch.	0	0
+I found the same issue about unparkSuccessor with the latest snapshot also.	0	0
+Hmm, the suggested patch is not good for DRLVM, which handles "-version" normally.	0	0
+Looking good.	0	0
+Thanks for taking a look, Jiannan	0	1
+More variations add significant, long-term compatibility burdens to the project.	0	0
+This should have been fixed already.	0	0
+Patch applied to PACK200 module at repo revision r611862.	0	0
+Hello LeoThe patch has been applied at revision r479576, thanks a lot for this enhancement, please verify that the problem is fully fixed as you expected.	0	1
+Committed revision 1298668.thanks for the suggestion Antony	0	0
+Also please list what manual steps were performed to verify this patch.	0	0
+Thanks for being patient Devaraj!	1	1
+Thank you for the patch Sergey. 	1	1
+#NAME?	0	0
+Converting to the new method, we'd have to run a migration on startup changing the content in meta.	0	0
+* property may be as a delimited identifier, e.g.	0	0
+Hi Myrna,Are you recommending that we commit this patch but that additional work be put into analyzing LocalizedDisplay.sql and LocalizedConnectionAttribute.sql?	0	0
+Fixed in rev 1137251 and 1137252.	0	0
+* packages, meaning that Xerces-J 2 is not 100% Pure Java (it depends on a specific aspect of specific versions of *Sun* JVMs).	0	0
+It is supposed to be handled as part ofhttp://issues.apache.org/jira/browse/OPENJPA-907There is a patch attached to it (I was a bit liberal with the RegEx).	0	0
+Hi Jacopo,no problem.	1	0
+Thanks Tom.	1	1
+Thanks!	0	0
+Thats sweet that you have the prior experience hacking this on top of a store already.	1	1
+What is the point to print only launcher version, after all?	0	0
+Thanks Christian.	1	1
+Thanks Tony.	1	1
+This patch adds the RelativeTest.java file which is a conversion of the jdbcapi/testRelative test, to the same package as the latter.	0	0
+Thanks Alejandro .	1	1
+This has been fixed by check in for CHUKWA-274.	0	0
+We do not have to block this jira on the unit tests but we should probably try and get that in sooner than later.	0	0
+Last Issue: I would question usage of Gaussian Kernel at all.	0	0
+I hope you'll like it!	1	0
+I think the language in snowball must be English, not en.	0	0
+Thanks	0	0
+Committed revision 1058592.thanks uwe for the review	0	0
+export x=y sets the variable.	0	0
+Anyone else want to chime in?	0	0
+We had a handful of regionservers go OOM yesterday while a MR job was doing heavy writes to a column family that doesn't usually get them.	0	0
+Hmmm... it's not collisions then, it was worth a try.	0	0
+Go for it (provided it works ;-)Will need to test XSP samples and make a note somewhere in the docs.	0	0
+The patch is horribly out-of-date.	0	0
+Not sure if it is reasonable - is it possible to use the classes from HDFS-4979 here.	0	0
+I saw this recently when using a custom built ActiveMQ (5.0.0.9-fuse) with ServiceMix (3.2.1).	0	0
+Fix applied to master (6d1d23b7d0eba4de3c4097907adc37b09191196e).	0	0
+Screens too big to attach: https://www.dropbox.com/s/p2e2gvi87vw772n/cordova_screens.psdEventually this should go on the Cordova website, and not the repo, I think.	0	0
+I don't see a direct relation between this issue and the issue of simplifying the implementation of efficient map-side joins (MAPREDUCE-1183, more or less).	0	0
+Oops, you're right, that makes sense.	0	0
+if you want to view online there is a refreshed version here: wicketstuff.org/wicket13docfor fragment see herehttp://wicketstuff.org/wicket13doc/org/apache/wicket/markup/html/panel/Fragment.html	0	0
+Thanks, Amar!	1	1
+Namit, what do you by "describe div"?	0	0
+We badly need to add support for a higher-level object serialization system than Writable.	0	0
+The patch went in a few days ago:http://svn.apache.org/viewvc?view=rev&revision=499521	0	0
+Thanks for the patch!	1	0
+The further we depart from this the harder we make it to build systems like Dremel that multiply the utility of stored data.	0	0
+Closed after release.	0	0
+i've attached a libs.zip that contains bookkeeper and zookeeper libraries.	0	0
+It should simplify things.	0	0
+Thanks, Oliver!	1	1
+Attached is a patch to support those variables.	0	0
+could we get rid of normal?	0	0
+I ran it from the base and it looks good.	0	0
+Could you verify if there is still an issue with a 5.6 snapshot.	0	0
+Forgot to mention:Thanks to Alejandro and his team for pointing this one...	0	1
++1 on the patch.	0	0
+Patch looks very good.	0	0
+ahhh sweet, i'm guessing you have an IDE that does this? If the tests pass commit, this kinda crap goes out of date too fast!	0	1
+Thank you very much, Richard.	1	1
+Reporters of these issues please verify the fixes and help close these issues	0	0
+(A 2GB memstore flush is fine when lzo is on but we want something for default).	0	0
+Doc update to correct FQCN.	0	0
+Fixed long ago.	0	0
+Wonky.	0	0
+Thanks for sweet patch Erik.	1	1
+Thanks Martina.	1	1
+Therefore we will prepare a special document with a single checkbox will shows the error.	0	0
+Marcelo, thanks for pointing out this; it is now fixed in rev.	0	1
+Patch committed to trunk.	0	0
+#NAME?	0	0
+Cleanup MR staging directory on completion.	0	0
+Cheers,   Berin	1	0
+Mailing Lists to be set up before this cab be done.	0	0
+Thanks Hari!	1	1
+Thanks Jacopo, this is in SVN rev 7808.	1	0
+Hi Areek, yes, I'm reviewing your patch.	0	0
+Thanks, Alexei!	1	1
+Thanks Bilgin,  it is working fine now.	1	1
+Right, and right after that is the section I was referring to.	0	0
+Thanks, Tom	1	1
+Thanks Doug for the change.	1	1
+When I did a quick glance last time I only saw the isolated patch and didn't see enough context to see the existing retry logic.	0	0
+I really think there is an added value with this function for Jackrabbit users, I personnally use it with every String-ordered query.	0	0
+Thanks Atul,Your patch is in trunk at r933169I just added some "mod for OFBiz layered lookups" comments around changes as suggested Sascha	0	1
+The fix looks fine at r517575.	0	0
+Cancelling patch until we get a consensus on Carl's comment.	0	0
+This said, HttpClient is a general purpose HTTP agent and as suchshould follow the letter of the specification rather than make informed guesses.	0	0
+Any help would be appreciated.	0	0
+I will try your suggestions	0	0
+I misunderstood your comments.	0	0
+Hadrian I wonder if we can add a _warning_ to the 2.0 release notes about the missing hash and sign files.	0	0
+Soundararajan, Ning - Yes I am planning on working on it starting next week.	0	0
+There is a test udf_divider.q in the patch.	0	0
+Aha,, thanks for the information. That makes sense. Glad to hear that it helped! :)	1	1
+Anyone else have any comments?	0	0
+Thanks for the patch Niall, +1	0	1
+HI Harry,I am new to JSPWIKI and based on the error I chose the Security issue.	0	0
+Is that so Ram?	0	0
+Thanks Oliver, that's fixed it. 	1	1
+You can also download them by hand and attach them manually.	0	0
+re: "should remain" - yes, I vote it should remain, but be more flexible	0	0
+These blockers and critical issues are resolved but not verified.	0	0
+I committed the patch.	0	0
+I'm often running ad-hoc analysis in grunt with snippets taken from some heavier scripts I've written and I get bitten ALL the time.	0	0
+Thanks for figuring this one out and providing the patch, Jamie!	1	1
+Attaching the patch for branch-0.23.	0	0
+Please let me know.	0	0
+See https://issues.apache.org/jira/browse/HBASE-5151?focusedCommentId=13412056&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-13412056 for one reason we need versioning in patch filenames.	0	0
+I'm going to commit this momentarily.	0	0
+OK, we'll leave it with Atlassian	0	0
+the link you point to is not our official javadocour official javadoc is in the maven repo.	0	0
+Thanks Thomas!	1	1
+Further I think the tags are not saved any ware because after redeploying I found the tags I added are missing.	0	0
+Thank you Brandon.	1	1
+This newest patch applies cleanly and tests all pass.	0	0
+The changes to LazyBoolean.java look good.	0	0
++1 @author.	0	0
+Thanks!	0	0
+The static methods have unique-enough names that this might work well.	0	0
+Applying both patches results in clean tests (jdbc4 tests and derbyall modulo wisconsin noise).	0	0
+Thanks,rev.	1	0
+Unfortunately I may not be able to look on this weekend as came out of station.	0	0
+[0] http://dojotoolkit.org/~dylan/dojo/tests/widget/demo_DatePicker.html[1] http://extjs.com/deploy/ext/examples/form/dynamic.html (3rd form)	0	0
+Can you give them a try and make sure it's all OK?	0	0

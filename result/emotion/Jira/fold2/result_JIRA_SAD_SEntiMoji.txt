@@ -1,0 +1,200 @@
+So this actually avoid the infinite loop returning 0 (and so I think answered your second question, so it wasn't very clear).	0	0
+The original reason why i asked this is so that clients can seamlessly cross over like in MR between RM and AHS.	0	0
+This is is my todo list still, but hasn't risen to the top.	0	0
+(Thanks Arpit for the suggestion.)	0	0
+Sorry Avdhesh, I forgot to add these two files to the patch, here is the new patch containing the missing files	1	1
+Can you try it on Mac and see if it works?	0	0
+I misunderstood the case and sorry for the confusion.	1	1
+Tests are meant to raise potential issues not to add variation of the issue.	0	0
+Sorry to let you lose a wild goose chase.	1	1
+However, HBASE-4087 is required for the new unit test to pass.	0	0
+But, in reviewing the patch, I've come up with a number of ideas for how LeaseManager#changeLease and FSNamesystem#unprotectedChangeLease can be improved.	0	0
+App developers never do what they should :)	1	1
+I think this was a dud.	1	0
+Sorry, yes I believe this has been resolved.	1	1
+What will happen then is the read will infinitely read 0 bytes.	0	0
+Hugo - if you couldnt reproduce it please close it	0	0
+Please be sure to review the following:# Collector class and documentation.	0	0
+QPID-3319.patch has the fix and QPID-3319.patch.2 and QPID-3319.patch.3 fix two other classes that cause a compilation error when the QPID-3319.path is applied. 	0	0
+{noformat}_harMetaCache{noformat}Also, this is meant for trunk only?	0	0
+Sorry - the above comes across as terse.	1	1
+Couldn't the NodeState implementations in question (StoreNodeAsState AFAICS) just use their id to implement hashCode()?	0	0
+Then we look in the other jar files in the order specified by SQLJ.ALTER_JAVA_PATH.	0	0
+Phabricator is being a little buggy.	0	1
+Sorry about the confusion before	1	1
+BRMaruan	0	0
+Yes, the patch is badly named - sorry!	1	1
+just uploaded.	0	0
+It would be great, if you could work on it.	0	0
+I screwed up the encoding of the stopwords file (sorry).	1	1
+ISOLatinAccentFilter.java again, now with Unicode Latin Extended B as well.	0	0
+Haven't explicitly tested it myself.	0	0
+Brain fart.	0	1
+I would like that add that the problem is highly reproducible.	0	0
+Bugs like this make me sad.	1	1
+I'm sorry.	1	1
+Please ignore attachment (id=6938).	1	1
+It is a nasty bug that I've seen in real life, though.	1	1
+In current version the same error cause different messages because there are many commiters.	0	1
+22.3 readCheckpointedHighWatermark(): We should just read the HW from memory.	0	0
+Change its variable name to be more intuitive.	0	0
+But it was not the only issue: we also want to manage priorities between the tasks, but we need to read them to get enough information to make the right priorities.	0	1
+Keep repeating this and the problem just gets worse.	0	1
+Good idea especially if you have a use case for that.	0	0
+JUnit test and Patch provided	0	0
+try the commands{code}git checkout cassandra-1.2patch -p1 < 5234-3-1.2branch.txt {code}	0	0
+no, sorry - priorities have been shifted around...	1	1
+This looks good, but I wish there was a good way to set up a test case.	0	0
+sorry :)	1	1
+(all you need to add is your derby.jar)I'm testing the DerbyTest from Eclipse.	0	0
+On 2008-03-06 08:00:48.178 bendalton commented:FLV video of the bug in question with SnitterOn 2008-03-06 08:01:57.860 bendalton commented:This bug was first discovered in an application I'm working on.	0	0
+Ill go ahead and push it.	0	0
+Sorry ;-) +1	1	1
+Seems we didn't enforce an exec for sh, but we did for fs.	0	1
+sorry for misleading attachment name.	1	1
+Especially I don't know very much about the test framework differences.	1	1
+We can file issues with it as we find them.	0	0
+getUserInSystemGraph usisng a priviledged block to access the system graph, I don't think this should be done here as the result is no of you if the caller has no access to the system graph.	0	0
+Sorry , fixed.	1	1
+Otherwise, I will try to look at it when I return to some JSF development at work later this month.	0	0
+Actually that's what this change did, sorry for the noise.	1	1
+I applied the patch at revision: 599008.	0	0
+Thanks for the report, and sorry its taken so long to fix it.	1	1
+By the way, getCanonicalPath() performs actual file access, may take long if drive is slow (e. g. Samba), may fail with exception if path is inaccessible at the moment (e. g. on network drive) etc.	0	0
+And the current behavior is irritating.	0	0
+I will try to do more research on it.	0	1
+You forgot to mention the part where I said that I have absolutely no idea if MinSize is important for some other part of the code ;)Also, it looks like if we add a check in couch_db:doc_flush_binaries/2 to see if we're not streaming an attachment of unknown length, and then pass that information to couch_stream:ensure_buffer/2 so that couch_stream can decide if it wants to allocate exactly the requested amount or some extra it'd solve the issue.	0	0
+Thanks for the reviews, Bikas and Aaron.	0	0
+Changes the implementation of insertBetween in OperatorPlan.java so that the ordering of the predecessors is not changed2.	0	0
+Hey Uma, I've elected not to revert the patch as-committed, since it does indeed fix the bug at hand.	0	0
+Changed log.info in LOForeach getSchema() to log.debug.	0	0
+(back from holidays, so a bit delayed, but) I confirm Andrzej's suggestion -- a plain-text only summarized is ideal for clustering for example.	0	1
+These file describes my change:derby1434-try2.diff (attached multiple times, should have the same content)derby1434-try2.stat	0	0
+Marking as critical.	0	0
+As expected, thanks.	0	0
+Sorry for the delay.	1	1
+Brandon, sorry.	1	1
+I've got a patch, figured I'd have someone take a quick look-see before pushing it to Apache.	0	0
+Sorry, didn't look at the code until commit...Can you test making it hash to a Long or a 8-byte ByteBuffer?	1	1
+I would keep the hasActive field in memory (in the PartitionStore).	0	0
+I don't have the cycles today.	1	0
+Ah, sorry I misunderstood you.	1	1
+If you would like to take up this work, that'd be great.	0	0
+As mentioned there to fix the issues blueprint code that calls out to any kind of client code (reference listeners, service listeners, initialiser methods) should not hold the full BlueprintRepository lock, which allows deadlocks like the two observed.	0	0
+As I explained the XSL files have nothing to do with FOP, so its impossible for FOP to tell you which file/line number in XSL stylesheet(s) the problem lies at.	0	0
+Ran for almost an hour this time.	0	0
+It works fine now!	0	0
+Commited a fix for this into trunk using revision 610846.	0	0
+Instead, to access methods in the JRE you have to include little wrapper methods in your jar files that you loaded into the database.	0	0
+How do we make sure we are matching the right hostnames?	0	0
+New patch, removing "preserve holes" option from AnalyzingCompletionLookup: you can simply tell your StopFilter whether or not holes are meaningful.	0	0
+> Another thing: is the try ... catch good or bad?	0	0
+Committed Ron's patch.	0	0
+Shouldn't we try to make this idiom work well with HDFS?	0	0
+this class, funny coincidence :)What are you thoughts about QueryParser being able to know about custom Query implementations?	0	0
+Sorry, but look at mapSubtract and further down in the source you will find plenty.	1	1
+The problem is that no exception is raised if the other side of the connection dies.	0	0
+Here's another crack at this:1) The default behavior for Derby is the current behavior with all of its security holes for java routines.	0	0
+Sorry.	1	1
+Sorry, you're right.	1	1
+FileInputStream fin  = new FileInputStream("MyTemplates.ser");            ObjectInput in = new ObjectInputStream(fin);            Templates templates2 = (Templates)in.readObject();            in.close();            transformer = templates2.newTransformer();            transformer.transform(new StreamSource(inputFilename),                                  new StreamResult(System.out));        }        catch (ClassCastException e) {            System.err.println("CAST EXC: " + e);            e.printStackTrace();        }        catch (Exception e) {            System.err.println("ERROR: " + e);            e.printStackTrace();        }        System.exit(0);   }   public void usage() {        System.err.println(            "Usage: run <xml_file> <xsl_file>");        System.exit(1);   }}	0	0
+Sorry about the noise, was trying out the precommit job.	1	1
+Hi,could you add the following lineform.getDictionary().setItem(COSName.getPDFName("NeedAppearances"),COSBoolean.TRUE);right afterPDAcroForm form = docCatalog.getAcroForm();and try again?	0	0
+One underlying cause of this issue is QPID-4731	0	0
+Sorry guys	1	1
+Will close this ticket if there are no issues.	0	0
+I love this.	0	0
+Our caller may not notice what happend right now.	0	1
+Ok, all donehttps://issues.apache.org/jira/browse/KATOI found sgoyal jira username to be shubham so hope thats right, if so good to go!	0	0
+Hey Vikram-- sorry about that, I haven't paid much attention to this issue.	1	1
+You could easily test if it is due to felix by switching to equinox, if the effects are still there blame it on pax web or dosgi.	0	0
+Sorry.	1	1
+Attached is the patch, running derbyall right now.	0	0
+Is it possible to signal from the ServiceTracker to the test that the servlet is installed?	0	0
+I'll look into it.	0	0
+Depending of the release date for Camel 2.6 and the priority of the other issues (may be I can reschedule [CAMEL-3471|https://issues.apache.org/jira/browse/CAMEL-3471] and/or other issues), I can do it in the remaining time.	0	0
+btw: maybe we should add this Jira's as subtasks to HARMONY-5277 ?	0	0
+If someone wants to take this over, that's cool - I'm unlikely to have time in the next week and a half, though.	0	1
+I don't see the connection to .tmp files.	1	0
+Nothing wrong, everything is cool.	0	0
+[~smarthi] When I apply this patch, the source code cannot be compiled.	0	0
+I'm not forgetting it :) Did you forget it, or did I miss it somewhere?	0	0
+Is it possible to do this when closing the input/outputstream aswell?	0	0
+On startup, I agree that we can skip cache reports until the cache is populated.	0	0
+I reproduced the bug using Snitter.	1	0
+Fixed by making the url absolute before passing it to the web container.	0	0
+Damn.	1	1
+Sorry, we are no longer using Xerces.	1	1
+Alternatively, I don't know what is the compiler error on Debian, but it may very well be missing the include inside BoostMutex.cpp:{code}#include <boost/thread/mutex.hpp>{code}Thanks!	0	0
+Grumble, grumble...	0	1
+Or at least the locks need to be much more fine-grained than locking the whole container.	0	0
+I have changed the title and description of this JIRA to fit our current idea.	0	0
+I appended the information to the end of the file.	0	0
+here i have read that it is because of active passive mode.i will try maybe it can solve my problem but i afraid that it will produce problem with multithread application	1	0
+@Roger: huh, this is bad, as a partial integration will seg fault, see BoostMonitor.cpp which does a cast of a boost::mutex.	0	0
+I tested a couple of projects with IDEA 7 and 8 and some more with IDEA 7, and everything is working.	0	0
+We marked the TransformerFactoryImplfield in the TemplatesImpl class as transient, to make sure it does not getserialized.	0	0
+But the Collator object is already available in the territory sensitive character classes and wedo not have to go to database context to get it.	0	0
+If it would as simple as just recreating ReplicationZookeeper or using RecoverableZookeeper J-D would have probably just done it :)	0	0
+Another alternative might be to make a little icon + onhover that displays the non-comma'ed value and change the default display to comma'ed?	0	0
+I recently stumbled upon a C++ey STLey impl -> http://code.google.com/p/patl/bq.	0	0
+Sorry, https://bugzilla.mozilla.org/show_bug.cgi?id=514760 is related but not same.	1	1
+I wasn't talking about the perment schedule.	0	0
+I believe [~bikassaha] meant to resolve YARN-1068 and not this JIRA.	0	0
+Here is addendum to fix (Sorry about build breakage)	1	1
+I would like to show new API design first.	0	0
+sorry....	1	1
+I will figure out the details and do the port later this week if you don't get to it first.	0	1
+I took care of this already.	0	0
+{code}    // start new RM    MockRM rm2 = new TestSecurityMockRM(conf, memStore);    rm2.start();    // verify tokens are properly populated back to DelegationTokenRenewer    Assert.assertEquals(tokenSet, rm1.getRMContext()      .getDelegationTokenRenewer().getDelegationTokens());{code}	0	0
+Sorry for the mistake.	1	1
+The tests ran fine on my Windows XP machine with Sun jdk1.4 The commit comments are as followsDERBY-3302 The user was running into null pointer exception at the time of database recoverybecause Derby was trying to get the Collator object through database context.	0	0
+This was my bad.	1	1
+Sorry - I just didn't read the issues carefull enough.	1	1
+patch by gdusbabek, reviewed by jbellis.	0	0
+I included the gen stamp and length in the {{cacheReport}} to handle caching newly appended data.	0	0
+I guess the best way would be to create a JobTracker and call the heartbeat method and observe the requested heartbeat interval.	0	0
+http://www.ibm.com/developerworks/java/library/j-jtp03216.html{noformat}OutputStream out = fs.open(...);try {  out.write(...);} finally {  out.close();}{noformat}When multiple files are involved the best thing is to nest the try blocks.	0	0
+The patch looks good to me.	0	0
+I'm doing an automated test as well.	0	0
+Anyway, the "-2" patches include all the changes in the first patch files.	0	0
+I will be the sponsor for your beer the next time we meet.	0	0
+I'll take a closer look.	0	0
+David,I've done a little digging and have a question around:  OrderReadHelper.getOrderItemQuantityBd()Firstly going back a while now this log:    http://svn.ofbiz.org/viewcvs/trunk/components/order/src/org/ofbiz/order/order/OrderReadHelper.java?rev=4367&r1=4281&r2=4367shows a change to the strings that seems to make the first if statement redundant?!	0	0
+I would like to close this issue.	0	0
+Please watch the source tree over the next several weeks before our next release.	0	0
+Still, why do we hardcode these numbers, e.g.	1	0
+3d) At runtime, when we invoke the routine, we make sure that it actually lives in the declared jar file.	0	0
+{code}          ByteBuffer appAttemptTokens = attemptState.getAppAttemptTokens();          if(appAttemptTokens != null){            attemptStateData.setAppAttemptTokens(appAttemptTokens);          }{code}New public method necessary?	0	0
+If I'll come across Xerces again, I'll try it.	0	0
+Which methods we talking about here?	0	0
+I tested the JAVA_HOME change in Linux and it doesn't seem to work (unset JAVA_HOME and launch Eclipse for debugging).	0	0
+On the other hand, getAbsolutePath() is purely logical and doesn't need file system access.	0	0
+Yes, I will open a new jira for this sometimes :)	0	0
+commons.net 3.0.1Thsi application is too big RMI is in Jconsole.I myself dont use.I just use ftp.listfiles.	0	0
+Sorry,I tought I could commit this patch but I did not realize that one of the files is in the framework (and I have not access to it).	1	1
+Sorry about the trouble.	1	1
+As I said on that thread, I'm in a compilers class right now and I thought I might make a more "enlightened" attempt using lex/yacc soon and see where that gets me, if no one else gets this done first.	0	0
+Mike	0	0
+there might be more hidden issues like this.	0	0
+I meant if someone eventually uses CassandraClient directly, this will break.	0	0
+The full list of commits is:http://svn.apache.org/r1477236 http://svn.apache.org/r1477366http://svn.apache.org/r1477698http://svn.apache.org/r1477771http://svn.apache.org/r1477784	0	0
+Sorry Jacques, I'll upload another file.	1	1
+Just picking a type from one of the types was a simple enough solution.	0	0
+I was thinking more of what happens on a Unix shell when you hit "clear".	0	0
+Mike, I can take this one if you want...	0	0
+Sorry once again for the wrong report,Stephane	1	1
+2000*2000*4 = 16 Megas.	0	0
+Sorry, I kind of forget about this one.	1	1
+I can't come up with a pure-CSS, in-place change for this.	1	0
+I would prefer to get rid of the sleep again though.	0	0
+I must have looked at this before my morning coffee..	0	1
+Thanks, Willem.	0	0
+Thanks Pat.	0	0
+If this is the case, this file must be returned.	0	0
+FWIW: this issue is a regression of JCR-890, i.e.	0	0
+Sorry for the hassle.	1	1
+Oh, sorry.	1	1
+Sorry if this spam's things, however it's unlikely that I'll work on these.	1	1
+To me this is intersection.	0	0
+You might also want to consider the induced latency though, depending on the checkpoint size and frequency.	0	0

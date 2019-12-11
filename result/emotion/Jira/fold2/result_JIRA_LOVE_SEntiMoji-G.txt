@@ -1,0 +1,200 @@
+> Attached is d1644_combined_v3.diff, a patch proposal which combines the two previous code change patches.	0	0
+Sweet kickstart for our new wiki!	0	1
+Thanks Tom!	1	1
+Wrong JIRA...please ignore my previous comment.	0	0
+Thanks Awdesh - Done at r821748.	1	1
+From the logs, it is clear that the reducers could not fetch the output for map attempt attempt_200905051023_1155_m_000036.	0	0
+So, i'm going to make a patch that does 1G regions and 128M flushes (with the multiplier still of x2 so we'll grow to 256M before the barrier comes down).	0	0
+I updated the indentation and doc/build.xml.	0	0
+On 2011-10-26 15:16:22.394 jsaracin commented:IRB -- opening to Chiedo, priority B, Ultra.	0	0
+Please review and comment if anything is lacking or incorrect.	0	0
+I have applied your patchhttp://svn.apache.org/viewvc?view=rev&revision=757162Thanks Pierre-Arnaud!	0	0
+I tend to doubt there's anything we can do about this if the problem is at a lower level.	0	0
+Thanks!	1	0
+Verified at r495393, thanks Tim.	0	0
+I will check-in this version...	0	0
+Alexei, this patch is quite out of date (sorry about that).	0	0
+Well, 4762 is going nowhere fast, should we push this to 2.1 as well?	0	0
+just wanted to mention it, as it's not about my personal preference, but rather what is considered most useful for everybody.	0	0
+Thanks	0	0
+I had a quick look at the ab patch, and nothing jumped at me.	0	0
+Applied patch with thanks to Dan :)	0	0
+Patch submitted.	0	0
+Hi Henry, Thanks for checking it out. 	1	1
+Fixed in SVN now.	0	0
+Does this belong to http://issues.apache.org/jira/browse/DAYTRADER too?	0	0
+Thanks to Fabrizio for the patch.	1	1
+{{PreTestTarget}} is a garbage I have missed out.	0	0
+Hi Anil,Did you get chances to review and test?	0	0
+Brilliant feedback, thanks! I'm glad you found the issue, and the solution!	1	1
+I couldn't reproduce this.	0	0
+Thanks Brock!	1	1
+It's easy, look in the scratchpad/webapp/mount how it is done.	0	0
+If you feel this can be done may be we can file an Improvement JIRA.	0	0
+Consolidate all error handling in KafkaServerStarble.	0	0
+I've attached the output of dblook as db.sql and a simplified creation script as sample.sql that includes the relevant tables and columns with sample data.	0	0
+A pleasure :>.	0	1
+Thanks for taking care of this, Alejandro.	1	1
+This script renames the files like follows:cd modules/lang-management/src/test/impl/java/org/apache/harmony/lang/managementsvn move DynamicMXBeanImplTest.java DynamicMXBeanImplTestBase.javasvn move SingleInstanceDynamicMXBeanImplTest.java SingleInstanceDynamicMXBeanImplTestBase.javasvn move MultiInstanceDynamicMXBeanImplTest.java MultiInstanceDynamicMXBeanImplTestBase.javaRun it please from classlib base directory.	0	0
+Only peerProviders and some tutorial left to do.	0	0
+Does not appear to exist in trunk.	0	0
+In this case, the first OOM occurred here during writing the checksum.	0	0
+I addressed all of them in a new version of the patch.	0	0
+Ted, can you reproduce this outside of cassidy.pl?	0	0
+Added patch to support configuration mapping	0	0
+(review board is helpful).	0	0
+reviewed, looks good.	0	0
+The patch is fine.	0	0
+There is a JIRA logged to request that 'stop' and 'terminate' be two different available actions ... see https://issues.apache.org/jira/browse/DTACLOUD-100 - also https://issues.apache.org/jira/browse/DTACLOUD-111	0	0
+So, good news is we finally have a chance of testing the exports very soon, bad news is, it will require an update on your side to be able to transfer the spark JIRA data.	0	0
+Patch looks good to me & has been committed, thanks! 	0	0
+Looks fine, Sreekanth. 	0	0
+I will try to review the latest patch sometime today...	0	0
+@Ashutosh: thanks a lot for the comments.	0	1
+Probably it is way deeper problem.	0	0
+I did some more messing around, and I was wrong about the FS stuff.	0	0
+If we had this in place, I think it would help with the migration to this new way of doing the meta because as is, the region name in fs is a hash of regionname... changing the format of the regionname would mean we generate a different hash... so we'd need hbase-2531 to be in place before we could do this change.	0	0
+Hi Jamie,I can not access the mirror, get a 404, have you moved/removed it, do you still want it adding ?	0	0
+Patch applied in revision 889133.	0	0
+larger sample) we'll get fixed values for all this bins in the long tail.	0	0
+If it's never ok to pass null for the path (ie a bug in the code) then you can assert path != null or throw an AssertionError.	0	0
+i agree,i think there is no wsdl into jms sample component.	0	0
+The Dremel paper (http://sergey.melnix.com/pub/melnik_VLDB10.pdf) argues that this is an essential enabler of their wide variety of interoperable systems.	0	0
+I learned much the issue progress of hadoop here.	0	0
+We would just add ensureOpen() to those methods and make them public.	0	0
+I committed the patch to branch-1 as well.	0	0
+Can you attach the WSDL /XSD files that created the problem ?	0	0
+Dojo [0] and Ext.js [1] take both a different approach (which i personally don't really like).	0	0
+It signifies 10% of generated values will be __fixed_ values - their respective bin means!	0	0
+It is just taking more time than I thought it would.	0	0
+No problemo, Close is fine for me.	0	0
+Thanks a lot!	1	1
+Thank you Ravi.	1	1
+Thanks!	1	0
+Thank you.	1	1
+I think the licensing on that one might be complicated.	0	0
+OK You are correct about that.	0	0
+Here are the results of testing the latest attachment   http://issues.apache.org/jira/secure/attachment/12501038/MAPREDUCE-3209.patch  against trunk revision .	0	0
+- push out to 0.5	0	0
+Please check that it was applied as you expected.	0	0
+@Stack, @Ted  Can u people have a look at the patch pls?	0	0
+Thanks for you work on this Jayachandra.	1	1
+An email snafooey caused us to update our JIRA instance to 6.1 before we had a chance to test the import on our test instance (it didn't work properly for those who tried to whack at it).	0	0
+(Both the patch and the JUnit tests).	0	0
+Thanks, JinJie!	1	1
+The only reasons for the failure I can think of were the failed network connections, the OutOfMemoryError or the 4000+ simultaneous connections together with lock timeouts.	0	0
+I just committed this.	0	0
+I attached our resolvers, sadly we have no file system resolvers, because our repository is hosted on a central server.	0	0
+How about renaming leftResults as remainingResults ?	0	0
+Patch applied.	0	0
+Also please list what manual steps were performed to verify this patch.	0	0
+On 2010-03-01 16:52:26.625 jchuang commented:Correctly resolved external	0	0
+> Eagerly awaiting faster mirroring with github.	0	0
+I would love to have it right now for storm too. If you want me to sign up as a use case I am happy to.	1	1
+So I took the liberty of updating the patch to use requiredX/optionalX methods like in your code.	0	0
+EventListeners and CacheLoaders are documented.	0	0
+I mistakenly thought 10.9 was supposed to work on Java 1.4 (in fact, the 10.9.1 release notes say it is supported, although we removed support for it after 10.8), and the build worked in my environment because I had j14lib set, and the test ran just fine on 1.4.	0	0
+Applied jackrabbit-core patch in revision: 949724	0	0
+thanks again Uwe	1	1
+Test code added as part of HDFS-2131	0	0
+Changing serialization systems or file formats is a major imposition for many applications.	0	0
+Thanks, Myrna.	1	1
+Subversion dump file.	0	0
+Hi, Corinne, did you attach the wrong patch?	0	0
+In the future, I could just get around the issue by using relative symlinks for those files (I think).	0	0
+Paulex, the original patch seems to be out-of-date.	0	0
+Who knows what evil lurks in the heart of Solr?	0	0
+how about changing to ERROR for org.apache.zookeeper.server, and leaving as it is for the rest?	0	0
+Patch adds javadoc for the newly added tests.	0	0
+Thanks Areek, patch looks good!	1	1
+HI Christian,I've applied your patches to trunk.	0	0
+See INFRA-4641 for some thoughts on how we could/should achieve that.	0	0
+Owen, thanks for the slides.	0	1
+Please check that the patch was applied as you expected.	0	0
+The spec states that an HTTP agent should avoid infinite loops,which is not the same thing as circular redirects in my opinion.	0	0
+If you have any other things you don't like about it, let me know and I can work on it tomorrow.	0	0
+I believe this will be done only when the package name has to be changed due to backward incompatibilities.	0	0
+Committed to branch.	0	0
+I am quite skeptical about this.	0	0
+How about fixing WHIRR-337 before?	0	0
+Thanks.	1	0
+I would like to see this reopened.	0	0
+In any case, why did not the framework try and re execute this map somewhere else?	0	0
+Committed.	0	0
+Thanks a lot for the reviews, Todd.	1	1
+If so, I'll go ahead and commit this patch.	0	0
+Sweet! Git, I love git! :)	1	1
+I have committed this.	0	0
+Completed: At revision: 520469  	0	0
+Or to be precise, a mostly equivalent set of APIs; JCR requires some modifications which would make it complicated to support the existing set of APIs - mainly because we need to carry state information in a WikiContext, which the old API signatures do not mostly support.	0	0
+1	0	0
+Thanks.	1	0
+Alejandro, we are in a middle of the release right now, but I'll work on that over the weekend, perhaps.	1	0
+On 2011-10-26 14:27:36.512 chiedozi commented:This would be a very simple change to make.	0	0
+Thanks for the response.	1	0
+Is this due to the deletion of write.lock	0	0
+Pareto, Tweedie, ..)Why we don't stick with triangular or uniform distribution as default for Kernel within the bean?	0	0
+But when i delete the file which was created at <tomcat-home>/bin/search-index/write.lock it works fine but I'm not sure whether this creates other implications?	0	0
+I'd say last Sun JDK 1.5 as it's still the one recommended for OFBiz (even if I guess most of us use 1.6)	0	0
+The patch also fixes a typo in StreamHandlerTest.java.	0	0
+It must be a bug in Sun's hotspot compiler.	0	0
+created: 2009-09-01 05:38:20.000resolved: 2009-09-22 18:54:05.051updated: 2011-04-15 15:06:27.000	0	0
+Bulk close for 3.1	0	0
+the new patch already put the #resolveConflict after checking ensemble.	0	0
+In addition, it makes the committer's life easier, since there is an agreement by convention that the APIs inside *.api are not to be touched without common agreement, whereas anything outside of this package can be treated with more liberties.	0	0
+I just committed this.	0	0
+* properties may or may not match how a SQL engine would store them.	0	0
+This patch really helped.	0	1
+Super, I'll commit shortly -- thanks Yonik!	0	1
+The patch doesn't appear to include any new or modified tests.	0	0
+Could you verify the fix against the next nightly snapshot?	0	0
+Alejandro Abdelnur, sorry I don't get it, what history you want to keep?	1	0
+I updated the wiki doc for the sqs component as well.	0	0
+Changed the patch as per Thejas's suggestion.	0	0
+if you like, please push this in.	0	0
+The patch looks fine .	0	0
+Thanks.	1	0
+The patch does not contain any @author tags.	0	0
+Qian, Does seem like something wrong with hudson.	0	0
+[~ikelly] are you trying the right patch?	0	0
+I would like to get some early comments on the changes I have made to the Namenode to support restarting within the same JVM.	0	0
+If tablet unloads were to use the normal compaction queue, may want to prioritize unload related compactions on the queue.  	0	0
+Patch applied to LUNI module at repo revision r494822.	0	0
+You may close this issue.	0	0
+thanks,nandana	1	1
+540843I'm leaving this issue open because a similar patch should be applied to the ecommerce/includes/language.ftl fileJacopo	0	0
+Regards,Ravi.	0	0
+Thanks to both for these usability enhancements !	1	1
+This could get many trying it and getting involved.	0	0
+Does this mean the migrate tool is busted for this version?	0	0
+Thanks Bob your patch is in trunk at r932317	1	1
+Fixed in svn revision 533916.thanks,dims	0	1
+Contributed by Siddharth Seth.	0	0
+I'll have a look at mime4j and try to use it in Tika	0	0
+Should be a quick review.	0	0
+:-)Cheers	0	0
+Thanks Karthik.	1	1
+Changes appeared in 10.8.1 documentation, so closing.	0	0
+correct build status captureecho's exit code	0	0
+It looks like what was applied to trunk.	0	0
+Thx for your investigations Chet.	0	0
+The patch looks fine.	0	0
+Please justify why no new tests are needed for this patch.	0	0
+Personally I'm more concerned with (1) than (2).	0	0
+Yea, this fixes the other tets.	0	0
+Because of this and HADOOP-4972, it may makes sense to acquire namesystem locks in getBlockLocationsInternal.	0	0
+Good verification.	0	0
+Committed revision 901901 to trunk.	0	0
+Contributed by Mahadev Konar.	0	0
+Did you intend to combine our patches, or is your patch incomplete?	0	0
+The patch appears to introduce 1 new Findbugs (version 1.3.9) warnings.	0	0
+And compatibility test also ....	0	0
+Please verify this issue is fixed as you expected.	0	0
+Thanks.	1	0
+Thanks Andrew.	1	0
+Please contact me if you need any clarifications.	0	1
+Thanks Jimmy.	0	1
+However, if that schedule does not work for you, please feel free to take this issue into your queue and go ahead.	0	0
+# filter.filterRow() is called *after* filterKeyValue in the normal flow of things.	0	0
+All the regression tests ran cleanly with client-imports.diff.	0	0
+This irritates me on a weekly basis.	0	0

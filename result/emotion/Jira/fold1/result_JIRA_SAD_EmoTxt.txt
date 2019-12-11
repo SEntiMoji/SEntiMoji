@@ -1,0 +1,200 @@
+Yeah I had a hunch it was a shutdown hook, kicking in at the same time.	0	0
+@Matthew If you can contribute a section on SPNEGO authentication to the HttpClient tutorial, I'll commit your code to the official 4.1 branch of HttpClienthttp://wiki.apache.org/HttpComponents/HttpClientTutorialOleg	0	0
+Sorry, it seems I forgot a few references to 2.0.2 in ./deps/cxf-allI'm attaching a new patch to fix these references.	1	1
+# New TestTopDocsCollector as well as test cases in TestSort.	0	0
+Abhinav, can you also attach cloud_usage db dump.	0	0
+Completely missed issue 614..	0	1
+Patch looks good to me.	0	0
+Ugh, sorry :(  Thanks!	1	1
+Also by "working" do you mean that you checked also for (undesired) side effects?	0	0
+In the 1410e patch here are test cases that have not made into the bulkpostings branch.	0	0
+but app developers should always explicitly set it based on their applicationMy guess is that a large enough group of people take the defaults that it matters.	0	1
+However, since we want to eventually have both incremental and full reports, let's just ape how block reports work; don't jitter the incremental reports, but do jitter the start time for the full reports and afterwards tick at a regular interval.	0	0
+MAPREDUCE-1813 has fixed the NPE problem.	0	0
+It works for me, both in container and in testing with WicketTester.	0	0
+Sorry, I meant to have this patch in sooner but got quite busy, I expect to have it soon.	1	1
+No idea about the issue resolution/if it's still active, but I'm afraid that by no stretch of the imagination can it be termed a "Critical" issue.	0	0
+trivial change to make the minSize be 1 byte.	0	0
+Maurice I don't have such option or maybe I don't know where it is.	0	1
+I changed the ubuntu version too.	0	0
+The change is now that in Lucene 4.0 all Analyzers are required to reuse TokenStream instances, so the StopFilter is only produced only once in your application (when the Analyzer is created).	0	0
+Redoing the before/after code below:Before:       if (!msg.isPersistent() || connection.isUseAsyncSend() || txid!=null)) {            this.connection.asyncSendPacket(msg);        } else {            this.connection.syncSendPacket(msg);        }After:      if(!msg.isResponseRequired() && (!msg.isPersistent() || connection.isUseAsyncSend() || txid!=null)) {            this.connection.asyncSendPacket(msg);        } else {            this.connection.syncSendPacket(msg);        }	0	0
+To answer your questions in order:This problem only happens with the embedded driver because the Database is created inside the JVM and locked to prevent other processes to connect to it.	0	0
+Some of the other test cases in this class failed because that constraint error occurred?	0	0
+Test case and fix.	0	0
+Thanks!	0	0
+I'll try and revive these first.	0	0
+The reason of such big number of "ByteArrayOutputStream;.write" invokes is signed ext/bcprov.jar - it's manifest is read by byte.	0	0
+I don't have strong opinions about it either way.	0	1
+sorry.	1	1
+It just depends if the code is inside the connectionPool (uses this) or inside MTHCM (uses connectionPool).	0	0
+We start with any K in-memory partitions, skip on-disk partitions that have no active vertices or incoming messages, and prioritize spilling partitions that have no active vertices.	0	0
+Stopping SQL routines accessing the privileged blocks is through DERBY-2331 and DERBY-2330	0	0
+Sorry for the delay.	1	1
+Still about 2 hours worth of work left on this.	0	0
+We need to make this configurable before we can apply this patch to the trunk (unless i have misunderstood the effect).	0	0
+sorry.	1	1
+Thanks Rashko,I have committed your patch in trunk revision 664697.	0	0
+I guess it's OK to put it in trunk.	0	0
+I'll upload example once again in 2 hours.	0	0
+Some comments:20.	0	0
+Shazron,I am using alert to visually notify myself.	0	0
+shifted as agreed during the IRC release preparation meeting	0	0
+Line 1664 (sorry, the 0.94 codeline)	1	1
+Qianshi is working on the SSL session reuse, but this buggy Bug system does not allow him assign this ticket, sigh	0	1
+I was thinking PayloadProcessor and PayloadProcessorProvider (have cool acronyms to PP and PPP), but then people might get confused that it processes all payloads (maybe before they are even written the first time), while it is actually invoked only during segment merges.I was following the *Consumer pattern I saw all over the place w/ SegmentMerger, and thought that if someone ever reads SM code, it will swallow easily another *Consumer one ...	1	0
+Sorry.	1	1
+Added Maven Remote Resources Plugin version 1.0-alpha-5.	0	0
+But not very helpful at the sizes you are working with (and not settings I would use to save RAM anyway, unless the amount I need to save was pretty small).	0	0
+My patch wouldn't compile.	0	1
+This half-reuse is more confusing for new devs who see this code for the first time.	1	1
+On 2008-10-20 11:43:52.354 woflexair commented:Joan,sorry for the noise in the bugbase but it's not a bug.	1	1
+We should be Remove()ing items from the cache...not just overwriting them.	0	0
+But I'm open for suggestions.	0	0
+I think just needed for this at mo.	0	0
+indeed, good catch!	0	0
+I have this issue, where my server and client is creating a lot of loopback threads, that I believe must be related to this issue.	0	1
+I am not aware of whether we have test to fill the page cache with new data, evicting all pages currently in the cache so the row count changes are written at a known point in time.	0	0
+Ha sorry Varun, thanks for the reminder, I will have a look at it soon...	1	1
+@Luke, Sorry for the late, attaching latest version patch	1	1
+Thank you Ole!	0	0
+Commit 7a977b5eaffb411cb3f1409336cdf42f6b46b18c in branch refs/heads/1.6.x from [~zack-s][ https://git-wip-us.apache.org/repos/asf?p=incubator-jclouds.git;h=7a977b5 ]Reauthenticate on Keystone HTTP 401 (JCLOUDS-178)The number of retries here is not the same as for 500 errors; expectedbehavior is a quick fail while retaining some robustness.	0	0
+Sorry, attached the file to the wrong issue.	1	1
+Since we know meta splitting doesn't work, can we put in some code that allows META's one region to grow without bound regardless of its size?	0	0
+Was fixed to behave as it used to.	0	0
+WOW....you are right...I'm deeply sorry to bother you guys (and I'm also a bit embarrassed).	1	1
+sorry old xml here is the used one:<?xml version="1.0" encoding="UTF-8"?><root><value>?陇?露?录 und ??????	1	1
+It would require changes to the API to have crypto only run on the server, but it might be simpler.	0	0
+{code}//Namesystem.javapublic boolean isInSnapshot(BlockInfoUnderConstruction block);{code}In the implementation in FSNamesystem, it should try-catch the UnresolvedLinkException and log it as an error since the full path obtained from a file should not have unresolved link.	0	0
+most recently computed K partitions), but I switched to the model with K-1 partitions always in memory and 1 slot for loading out-of-core partitions, because it made the logic slightly simpler.	0	0
+I think this should be fine for all of the cases I could find where we use this function.	0	0
+Yeah?	0	0
+Sorry, this should be YARN JIRA - filed YARN-350 instead	1	1
+yes, they should all be using RWLock, absolutely.	0	0
+If you have the opportunity to do it, go ahead.	0	0
+Yes, just made the same observation.	0	0
+Sorry.	1	1
+Sorry for letting you guys wait.	1	1
+I worked with this on Danushka, and the following fix worked for us.	0	0
+This has been riding in 0.94 for too long.	0	0
+FOP can only tell you which line in the single FO file the error occurred at.	0	0
+Instead of hardcoding the hooks we could introduce a LifeCycleHookProvider similar to ValidatorProvider we already have.	0	0
+We have no cache evictions, at all, but a 99% hit ratio.	0	0
+...and it seems like having 2 APIs, KV and Cell, for every method other than those that take Cell-types params...	0	0
+Looks great to me.	0	0
+Igor, sorry it took me so long to get back to this.	1	1
+Wow, that was some bad copy/paste work.	1	1
+Breakpoint handler frame is detected and processed specifically by unwinding algorithm.	0	0
+I am not really sure what does the receive payment do before the shipment, it doesn't sound as if it is doing what we expect it to do.	0	1
+Have passed all the local unit tests.	0	0
+I've just seen that you attached a patch to this issue.	0	0
+Sorry, I forgot to change the priority of this one.	1	1
+Patch looks good to me.	0	0
+Sorry if this was not clear, and yes, by <blank> I meant an empty string.	1	1
+(ie, this is an AIR bug, not a Snitter bug)	0	0
+//OdfDocument embedDoc = doc.getEmbeddedDocument("Object 7");//embedDoc.save(ResourceUtilities.newTestOutputFile(TEST_FILE_EMBEDDED_SAVE_OUT));//embedDoc = OdfDocument.loadDocument(ResourceUtilities.getTestResourceAsStream(TEST_FILE_EMBEDDED_SAVE_OUT));//Assert.assertEquals(embedDoc.getMediaType(), OdfMediaType.TEXT.toString());Svante	0	0
+So this is not just merely a fix of deleting the tmp files.	0	0
+As they're startup related.	0	0
+> then we don't save IO by limiting the buffer size to 1 KBI'm confused by this.	0	1
+If we put this jar to bootclasspath we'll have at least 5% performance boost on HWA application .	0	0
+So instead of the expected "java.lang.RuntimeException: foo" text being sent you get "org.apache.avro.AvroRuntimeException: Unknown datum type: java.lang.RuntimeException: foo".	0	0
+Here is his response:"There is no reason to change the version in the header as the version can be anything (ISO 19005-2:2005, 6.1.2).	0	0
+I opened [HADOOP-3607] to fix a wrong URL, but appart from that I don't there's still references to the old structure.	0	1
+Seems to be a faulty mailserver setup at laguna-industries.com.	0	1
+My bad, forgot to include the test file in the patch... Resubmitting in a second. 	1	1
+Sorry for being confusing.	1	1
+(The cost of randomly reading 1k is nearly the same as randomly reading 100k--both are dominated by seek.)	0	0
+One question, if you need to override the decorated service why you need it?	0	0
+[~lhofhansl], thank you so much.	0	0
+Cancelling current patch to upload new patch	0	0
+There are some changes about ServerName in the past few weeks, so v5.patch changed this one-line{code}      return ServerName.valueOf(hostname, 1234, 1L);{code}	0	0
+I just saw that you commited Code that you did not write about here....	0	0
+The preliminary patch is attached.	0	0
+Also, setting webinterface.private.actions has other effects like enabling the 'kill job' and 'kill task' links on the Job web UI.	0	0
+Sorry, misunderstood the issue!	1	1
+Forgot about these, sorry.	1	1
+The background image is a 2000x2000 gif image with transparency, and then the bitmap is very big.	0	0
+Forgot to add that I also tried this with and without HBASE-5864	0	1
+FAILURE: Integrated in Hadoop-Yarn-trunk #344 (See [https://builds.apache.org/job/Hadoop-Yarn-trunk/344/])HDFS-5041.	0	0
+yep, +1 to close.	0	0
+I'm very sorry.	1	1
+Thanks, Vijay.	0	0
+Dump looks similar to previous one.	0	0
+Sorry.	1	1
+There a list?	0	0
+I meant for each newly added/deleted ones.	0	0
+Sorry, probably a misunderstanding from my side....	1	1
+Then we defer to the system class loader.	0	0
+I said above that the earlier patches were lost, but nope, there they are.	0	0
+Working with Marek to diagnose the problem.	0	0
+So, the heuristic that I listed above to detect a network partition should still be applicable, isn't it?	0	0
+Thanks Jukka for fixing this :) (sorry)	1	1
+None of the other caches have gone up much either.	0	0
+22.2 close(): Could we rename it to shutdown to map startup()?	0	0
+The icon may be unnecessary; maybe just onhover on the text itself?	0	0
+I missed the context.	0	1
+Sorry - the federated build is still working out kinks...	1	1
+As KeywordTokenizer does the same thing, I'll close this issue.	0	0
+Redirect handling has undergone significant changes since this issue was opened and we still need to take a hard look at redirects and possibly how scores are represented.	0	0
+On the other hand, if there is a true network partition, then NN will "lose heartbeats" from datanodes, because the datanodes cannot send messages to the NN.	0	0
+Please read the README.txt in depends/libs/buildIt should work after that.	0	0
+Hi Nicholas, did you solve the issue?	0	0
+We reported this crash to Oracle in plenty of time, and the *worse* wrong-results bug has been open since May 13: http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=7044738, but Oracle decided not to fix that, too.	0	0
+I really don't know how to solve this problem.	0	1
+Hey, sorry I did not get back to you sooner.	1	1
+Sorry for the noise.	1	1
+Can you just apply this patch file over top of the other one?	0	0
+Andrew, are you familiar with this code?	0	0
+Another interesting message from the log258766 (http-0.0.0.0-8443-Processor2) [                Log.java:103:WARN ] Create Payment Application: Amount to apply [36.76] is greater than the outstanding amount [0.0] of the invoice [10030].	0	0
+Let's be vague about what that entails right now.	0	0
+laguna-industries.com mail is handled by 10 mail.laguna-industries.com.	0	0
+sorry for your time.	1	1
+mail.phnx.uswest.net has address 63.231.195.31host -t ptr 31.195.231.63.in-addr.arpa.	0	0
+Since the change is already included in HIVE-5741 I will mark this one resolved.	0	0
+But both of those look fine to me.	0	0
+toString() method added.	0	0
+The cause is that the call to SpecificResponder.writeError in Responder.respond ultimately calls GenericData.resolveUnion which in turn calls GenericData.getSchemaName before the line where the UnresolvedUnionException gets thrown.	0	1
+The patch went to the wrong bug.	0	1
+I'll try the approach you suggested.	0	0
+We overrode readObject(ObjectInputStream) so that we could create a new TransformerFactory in the case of reading in a serialized translet.	0	0
+problem - the bit to sign the source-release is being called when the source-release isn't being built because the source-release is only built at the "executionroot".  	0	1
+Sorry.	1	1
+Sorry, my code base is a little old, looks like HADOOP-9147 add some new test in TestFileStatus. 	1	1
+So between PC, PMP and PP - I prefer PP - the documentation should clarify what it does.	0	0
+In this case, they are all in ICCBased Gray.	0	0
+of course!	0	0
+:)  Will have a look.	0	0
+So, back to your statement, a 1k buffer doesn't save physical i/o, but nor should it incur extra physical i/o.	0	0
+Didn't got the time to try it yet.	0	1
+that we have an overridable method is not by accidentWe want that so that we dont keep the state in the component.	0	0
+Please review.	0	0
+Still using a connection pool is pretty common.	0	0
+One way to address it is to get the ip address from the hostname service and use that for matching, but that needs a dns lookup.	0	0
+There were most definitely 21 test case failures.	0	0
+Could you please port it to branch-1 that that we could integrate it to branch-1-winSlavik, thanks for the review!	0	0
+That's a very promising idea !	0	0
+Sorry.	1	1
+Mac, looks like the tests are failing (especially TestHarFileSystem).	0	1
+Hi Deepa, I looked at the transaction logs, afaict this is not a bug, rather the znode you mention is not deleted on session expiration because it was already explicitly deleted by another session.	0	0
+you need to create system offering for system vms (ssvm,cpvm,router vm) and then you can upgrade to new system offerings, it is only supported in vmware	0	0
+One of the error is that hiddenActivations cannot be resolved.	0	1
+So I am likely going to work on this soon.	0	0
+Sorry to nag.	1	1
+Thus assigning the issue to you.	0	0
+ObjectIdentity disallows comparison	0	0
+Thanks for the review.	0	0
+Kiran - I think this is a setup issue than anything else.	0	0
+Here is a url with a frame.	0	0
+Patch applied at 514264.	0	0
+We stillimplement the Serializable interface.	0	0
+I changed the issue title, because this issue includes the implementation of non-standard math functions.	0	0
+How about adding required Version to QP ctor?	0	0
+v2 removes some dross included by misstack.	0	0
+I've saw this after completed the issue.	0	0
+I just committed this.	0	0
+Yep i am actually using just Pax Runner/Exam to start Ace stuff.. but i am not 100% sure about what the MuliFrameworkStarter is about.. what is it good for ?	0	0
+This will always work, irrespectively of the combination of various underlying technologies and it will be a thread-safe solution :public class GroupsResource {    private UriInfo uriInfo;    private GroupResource gr1 = new GroupResource();    @Context    public void setUriInfo(UriInfo ui) {        uriInfo = ui;        gr1.setUriInfo(uriInfo);     }    @Path("group1")    public GroupResource group1() {        return gr1;    }    @Path("group2")    public GroupResource group2() {        GroupResource gr2 = new GroupResource();        gr2.setUriInfo(uriInfo);         return gr2;    }}It will also work well in cases when users try to do proxy-based client invocations, as client proxies do not support @Context parameters on resource methods.	0	0
+buildr idea still produces the "old" format files (IDEA 6 maybe?)	0	0
+The problem is not that the exception text is lost completely, it does come through, just that it is wrapped in an AvroRuntimeException("Unknown datum type: "+datum) error.	0	0
+Here is the Review Board for local.py.	0	0
+thx todd, missed the ant/ivy stuff, update patch takes care of it (hopefully mavenized gridmix goes in soon and ant/ivy will go away)	0	0
