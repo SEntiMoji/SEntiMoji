@@ -48,7 +48,7 @@ If you want to try another model or dataset, just change the arguments of the co
 
 3. In order to do classification using trained model, you can run the scripts in the ```code/SEntiMoji_script``` directory. You have to specify path of trained model, path of your test data, number of classes and the name of pretrained model you used for training. Just run command:
 `python classify.py --model_path path_of_obtained_model --test_file_path path_of_test_file --nb_classes number_of_classes 
---pretrained_model [SEntiMoji/SEntiMoji-T/SEntiMoji-G]`
+--pretrained_model {SEntiMoji,SEntiMoji-T,SEntiMoji-G}`
 
 ⚠️ Please notice that the number of classes and the name of pretrained model should be the same as the setting of training. For example, if pretrained model you used in training is SEntiMoji and train data you used is for binary classification, you should set `pretrained_model=SEntiMoji` and `nb_classes=2`.
 
