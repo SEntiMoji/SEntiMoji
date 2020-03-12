@@ -187,11 +187,14 @@ if __name__ == "__main__":
         print("*****************************************")
 
         # save predict result
-        if args.task == "sentiment":
-            save_name = "result_%s_%s_fold%d.txt" % (args.model, args.benchmark_dataset_name, fold)
-        elif args.task == "emotion":
-            save_name = "result_%s_%s_%s_fold%d.txt" % (args.model, args.benchmark_dataset_name, args.emotion_type, fold)
-            
+        if not args.use_own_dataset:
+            if args.task == "sentiment":
+                save_name = "result_%s_%s_fold%d.txt" % (args.model, args.benchmark_dataset_name, fold)
+            elif args.task == "emotion":
+                save_name = "result_%s_%s_%s_fold%d.txt" % (args.model, args.benchmark_dataset_name, args.emotion_type, fold)
+        else:
+            save_name = "result_fold%d.txt" % fold
+
         with open(save_name, "w") as f:
             for i in range(0, len(test_text)):
                 f.write("%s\t%s\t%s\r\n" % (test_text[i], index2label[pred_y[i]], test_label[i]))
