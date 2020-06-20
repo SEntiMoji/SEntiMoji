@@ -172,7 +172,7 @@ def deepmoji_architecture(nb_classes, nb_tokens, maxlen, feature_output=False, e
     return Model(inputs=[model_input], outputs=outputs, name="DeepMoji")
 
 
-def load_specific_weights(model, weight_path, nb_tokens, maxlen, exclude_names=[]):
+def load_specific_weights(model, weight_path, nb_tokens, maxlen, exclude_names=[], nb_classes=64):
     """ Loads model weights from the given file path, excluding any
         given layers.
 
@@ -190,7 +190,7 @@ def load_specific_weights(model, weight_path, nb_tokens, maxlen, exclude_names=[
                          'not exist. Refer to the README for instructions.'
                          .format(weight_path))
 
-    model_pretrain = deepmoji_architecture(nb_classes=64, nb_tokens=nb_tokens, maxlen=maxlen)
+    model_pretrain = deepmoji_architecture(nb_classes=nb_classes, nb_tokens=nb_tokens, maxlen=maxlen)
 
     model_pretrain.load_weights(weight_path)
     
