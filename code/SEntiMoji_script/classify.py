@@ -67,7 +67,7 @@ if __name__ == "__main__":
                                       nb_tokens=nb_tokens,
                                       maxlen=MAX_LEN)
 
-    load_specific_weights(model, model_path, nb_tokens, MAX_LEN)
+    load_specific_weights(model, model_path, nb_tokens, MAX_LEN, nb_classes=nb_classes)
 
     pred_y_prob = model.predict(test_X)
 
