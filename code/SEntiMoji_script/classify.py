@@ -76,7 +76,7 @@ if __name__ == "__main__":
     else:
         pred_y = np.argmax(pred_y_prob, axis=1)
     
-    with open(save_path, "w") as f:
+    with open(save_path, "w", encoding="utf-8") as f:
         for i in range(0, len(test_text)):
             f.write("{}\t{}\r\n".format(test_text[i], pred_y[i]))
     
